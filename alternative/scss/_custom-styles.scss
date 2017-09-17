@@ -9,12 +9,7 @@
 //   4. 3rd Party Integrations
 //   5. Animations
 
-
-
-
 //   1. Homepage
-
-
 
 //banner vars
 
@@ -24,7 +19,7 @@ $banner-secondary: #f7b733;
 
 .banner {
     background:url('../images/banner-10-opacity.png') no-repeat center center;
-    height:39.7rem;
+    height:38.3rem;
 
   &:before {
     content:"";
@@ -153,14 +148,6 @@ $card-user-profile-text-color: $body-font-color;
     padding:0.8rem;
   }
 }
-
-// .features .cell:nth-child(2) .card-user-profile-avatar img {
-//   background:$success-color;
-// }
-
-// .features .cell:nth-child(3) .card-user-profile-avatar img {
-//   background:$secondary-color;
-// }
 
 .card-user-profile-name {
   margin-bottom: 0;
@@ -402,13 +389,11 @@ p.scroller {
 }
 
 
-
 .faq {
   .cell p {
     margin-left:1rem;
   }
 }
-
 
 
 //   2. Inner page
