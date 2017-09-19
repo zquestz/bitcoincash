@@ -1,0 +1,438 @@
+//  Bitcoin Cash custom css
+//  -----------------------------
+//
+//  Table of Contents:
+//
+//   1. Homepage
+//   2. Inner page
+//   3. Navigation
+//   4. 3rd Party Integrations
+//   5. Animations
+
+//   1. Homepage
+
+//banner vars
+
+$banner-primary: #fc4a1a;
+$banner-secondary: #f7b733;
+
+
+.banner {
+    background:url('../images/banner-10-opacity.png') no-repeat center center;
+    height:38.3rem;
+
+  &:before {
+    content:"";
+    position:absolute;
+    left:0;
+    top:0;
+    width:100%;
+    height:100%;
+
+    background: #fc4a1a;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, $banner-primary, $banner-secondary);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, $banner-primary, $banner-secondary); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    z-index:-1;
+  }
+  h1,h2,h3,h4,h5,h6 {
+    color:$white;
+    line-height:1;
+    text-shadow: 0 1px 6px rgba(0,0,0,0.3);
+  }
+  h1 {
+    // font-size:4rem;
+    letter-spacing:2px;
+  }
+  h2 {
+    // font-size:1.2rem;
+    line-height:1.15;
+  }
+
+  img {
+    background:$white;
+    box-shadow: 0 1px 6px rgba(0,0,0,0.3);
+
+    padding:0.8rem;
+
+  }
+  
+}
+
+.section {
+  padding: 3rem 0;
+}
+
+.section-title {
+  letter-spacing:1px;
+  padding-bottom:0rem;
+  text-align:center;
+  color:$medium-gray;
+}
+
+.features {
+  padding:3rem 0;
+
+  .section-title {
+    padding-bottom:3rem;
+    padding-top:3rem;
+  }
+}
+
+
+//
+//
+//** http://foundation.zurb.com/building-blocks/blocks/card-user-profile.html
+//
+//
+
+$card-user-profile-bg: $card-background;
+$card-user-profile-text-color: $body-font-color;
+
+.card-user-profile {
+  position: relative;
+  z-index: 0;
+  @include card-container($card-user-profile-bg, $card-user-profile-text-color, 1rem, $global-radius);
+
+  &:hover {
+    .card-user-profile-img {
+      opacity: 1;
+    }
+  }
+  .button:last-child {margin-bottom:1rem;}
+}
+
+.card-user-profile-content {
+  position: relative;
+
+  &::before {
+    position: absolute;
+    content: '';
+    top: rem-calc(-54);
+    left: rem-calc(-30);
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: rem-calc(55) 0 0 rem-calc(500);
+    z-index: 0;
+    border-color: transparent transparent transparent $card-user-profile-bg;
+  }
+}
+
+.card-user-profile-actions {
+  @include card-divider;
+  background: $card-user-profile-bg;
+  display: flex;
+}
+
+.card-user-profile-img {
+  max-width: 100%;
+  opacity: 0.85;
+  -webkit-backface-visibility: hidden;
+  transition: opacity 0.25s ease;
+}
+
+.card-user-profile-avatar {
+  position: absolute;
+  bottom: 100%;
+  left: 1rem;
+  z-index: 2;
+  max-width: rem-calc(90);
+
+  img {
+    border-radius: 20%;
+    box-shadow: 0 0 15px rgba($black, 0.3);
+    background:$primary-color;
+    background: #ECE9E6;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #FFFFFF, #ECE9E6);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #FFFFFF, #ECE9E6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    padding:0.8rem;
+  }
+}
+
+.card-user-profile-name {
+  margin-bottom: 0;
+  font-weight: 300;
+  font-size: 1.5rem;
+}
+
+.card-user-profile-button {
+  margin-bottom: 0;
+  flex: 1 0 0;
+
+  + .card-user-profile-button {
+    margin-left: 1rem;
+  }
+}
+
+.card-user-profile-info {
+  font-size: 0.875rem;
+  letter-spacing: 1px;
+  opacity: 0.8;
+}
+
+
+//
+//** http://foundation.zurb.com/building-blocks/blocks/full-width-testimonial.html
+//
+
+$full-width-testimonial-quote-color: $warning-color;
+$full-width-testimonial-vertical-padding: 2rem;
+
+.full-width-testimonial {
+  background: linear-gradient(
+    rgba(0, 0, 0, 0.45), 
+    rgba(0, 0, 0, 0.1)
+  ),
+    url("../images/quote-blurry-trees.jpeg");
+  background-position: center center;
+  background-attachment:fixed;
+}
+
+.full-width-testimonial-icon {
+  .quote-path {
+    fill:none;
+    stroke: $full-width-testimonial-quote-color;
+    stroke-width:2.5192;
+    stroke-miterlimit:10;
+  }
+}
+
+.full-width-testimonial-content,
+.full-width-testimonial-icon {
+  text-align: center;
+}
+.full-width-testimonial-section {
+  padding-top: $full-width-testimonial-vertical-padding;
+  
+  .full-width-testimonial-text {
+    font-weight: 300;
+    color: #ffffff;
+    padding-left: 30px;
+    padding-right: 30px;
+    // Adjust margin-top for line spacing
+    margin-top: -5px;
+    text-shadow: 0 1px 6px rgba(0,0,0,0.2);
+    
+    @include breakpoint(small) {
+      padding-left: 50px;
+      padding-right: 50px;
+      // font-size: 1.5em;
+    }
+    
+    @include breakpoint(medium) {
+      padding-left: 100px;
+      padding-right: 100px;
+    }
+    
+    @include breakpoint(large) {
+      padding-left: 180px;
+      padding-right: 180px;
+      font-size: 1.8em;
+    }
+    
+    @include breakpoint(xlarge) {
+      padding-left: 300px;
+      padding-right: 300px;
+    }
+  }
+  
+  .full-width-testimonial-source {
+    font-size: 1.2em;
+    font-weight: 600;
+    color: #ffffff;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    padding-bottom: 0;
+    margin-bottom: 0.2em;
+    text-shadow: 0 1px 6px rgba(0,0,0,0.2);
+
+    
+    @include breakpoint(small) {
+      font-size: 1.0em;
+    }
+  }
+  
+  .full-width-testimonial-source-context {
+    display: block;
+    font-size: 0.9em;
+    font-weight: 500;
+    color: #ffffff;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    text-shadow: 0 1px 6px rgba(0,0,0,0.2);
+
+  
+    @include breakpoint(small) {
+      font-size: 0.8em;
+    }
+  }
+  
+  .slick-slider {
+    margin-bottom: 0px;
+  }
+}
+
+.full-width-testimonial-text,
+.full-width-testimonial-content,
+.full-width-testimonial-source,
+.full-width-testimonial-icon {
+  padding-bottom: $full-width-testimonial-vertical-padding;
+}
+
+.full-width-testimonial-content {
+  width: 100%;
+}
+
+
+footer {
+   background: #fc4a1a;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, $banner-primary, $banner-secondary);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, $banner-primary, $banner-secondary); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  padding:3rem;
+
+  .social-icons {
+    i {
+      font-size:2rem; margin-left:1rem;
+    }
+  }
+
+  * {
+    color:$white;
+  }
+}
+
+
+// table comparison chart
+
+.col-title {
+  background:$dark-gray;
+  color:#fff;
+  text-align:left;
+  font-size:0.75rem;
+  font-weight:800;
+
+}
+
+.col-title.bitcoin-cash {
+  background:$primary-color;
+}
+
+.comparison-chart {
+  border:0;
+  thead {
+    border:0;
+    .col-title {
+      text-align:left;
+    }
+    .blank {
+      background:white;
+    }
+    tr {
+      background:$primary-color;
+      color:#fff;
+      th {
+        font-size:0.75rem;
+        padding:0.5rem 1.5rem;
+        background:$primary-color;
+        color:#fff;
+        text-align:center;
+        line-height:1.1;
+      }
+    }
+  }
+  tbody {
+    border:0;
+    .col-title {
+      text-align:left;
+    }
+    .blank {
+      background:white;
+    }
+    tr {
+      td {
+        text-align:center;
+        i {
+          font-size:1.5rem;
+        }
+        i.fa-check-circle-o {
+          color:$success-color;
+        }
+        i.fa-times-circle-o {
+          color:$alert-color;
+        }
+        i.fa-minus-square-o {
+          color:#999;
+        }
+      }
+    }
+  }
+}
+
+p.scroller {
+  text-align:right;
+}
+
+
+// icon features
+
+.marketing-features {
+  .cell {
+    text-align:center;
+    margin-bottom:1rem;
+    i {
+      font-size: 3rem;
+      margin-bottom: 1rem;
+      color: $primary-color;
+
+    }
+  }
+}
+
+
+.faq {
+  .cell p {
+    margin-left:1rem;
+  }
+}
+
+
+//   2. Inner page
+//   3. Navigation
+
+.top-bar {
+  position:absolute;
+  top:0;
+  left:0;
+  width:100%;  
+  li {
+    padding:0 1rem;
+  }
+
+  li > a {
+    color:$white;
+    letter-spacing:1px;
+    font-size:1.2rem;
+    text-shadow: 0 1px 4px rgba(0,0,0,0.2);
+    &:hover {
+      color:$light-gray
+    }
+  }
+
+  .dropdown.menu>li.is-dropdown-submenu-parent>a::after {
+    border-color:$white transparent transparent
+  }
+
+}
+
+//   4. 3rd Party Integrations
+//   5. Animations
+
+
+
+
+
+
+
+
+
+

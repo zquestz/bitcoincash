@@ -1,0 +1,81 @@
+{
+  "name": "gulp-autoprefixer",
+  "version": "3.1.1",
+  "description": "Prefix CSS",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sindresorhus/gulp-autoprefixer.git"
+  },
+  "author": {
+    "name": "Sindre Sorhus",
+    "email": "sindresorhus@gmail.com",
+    "url": "sindresorhus.com"
+  },
+  "engines": {
+    "node": ">=0.12.0"
+  },
+  "scripts": {
+    "test": "xo && mocha"
+  },
+  "files": [
+    "index.js"
+  ],
+  "keywords": [
+    "gulpplugin",
+    "autoprefixer",
+    "postcss",
+    "css",
+    "prefix",
+    "prefixes",
+    "stylesheet",
+    "preprocess",
+    "postcss-runner"
+  ],
+  "dependencies": {
+    "autoprefixer": "^6.0.0",
+    "gulp-util": "^3.0.0",
+    "postcss": "^5.0.4",
+    "through2": "^2.0.0",
+    "vinyl-sourcemaps-apply": "^0.2.0"
+  },
+  "devDependencies": {
+    "gulp-sourcemaps": "^1.1.1",
+    "mocha": "*",
+    "xo": "*"
+  },
+  "gitHead": "a276609e9c3824f163435aaf2488f926eb1daba3",
+  "bugs": {
+    "url": "https://github.com/sindresorhus/gulp-autoprefixer/issues"
+  },
+  "homepage": "https://github.com/sindresorhus/gulp-autoprefixer#readme",
+  "_id": "gulp-autoprefixer@3.1.1",
+  "_shasum": "75230051cd0d171343d783b7e9b5d1120eeef9b0",
+  "_from": "gulp-autoprefixer@>=3.1.0 <4.0.0",
+  "_npmVersion": "2.15.5",
+  "_nodeVersion": "4.4.5",
+  "_npmUser": {
+    "name": "sindresorhus",
+    "email": "sindresorhus@gmail.com"
+  },
+  "dist": {
+    "shasum": "75230051cd0d171343d783b7e9b5d1120eeef9b0",
+    "tarball": "https://registry.npmjs.org/gulp-autoprefixer/-/gulp-autoprefixer-3.1.1.tgz"
+  },
+  "maintainers": [
+    {
+      "name": "sindresorhus",
+      "email": "sindresorhus@gmail.com"
+    },
+    {
+      "name": "battaglr",
+      "email": "lucianobattagliero+npm@gmail.com"
+    }
+  ],
+  "_npmOperationalInternal": {
+    "host": "packages-12-west.internal.npmjs.com",
+    "tmp": "tmp/gulp-autoprefixer-3.1.1.tgz_1471047423150_0.8203879201319069"
+  },
+  "directories": {},
+  "_resolved": "https://registry.npmjs.org/gulp-autoprefixer/-/gulp-autoprefixer-3.1.1.tgz"
+}
