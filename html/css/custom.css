@@ -50,17 +50,17 @@ img.nomargin {
 }
 
 .site-header {
-  background-color: black;
-  background-image: url(../img/background12.jpg);
+  background-color: white;
+  /* background-image: url(../img/background12.jpg);
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
-  background-size: cover;
+  background-size: cover; */
 }
 
 #ticker, #ticker_value {
   font-weight: 400;
-  color: white;
+  /* color: white; */
 }
 
 .ticker {
@@ -68,7 +68,7 @@ img.nomargin {
 }
 
 .lead {
-  color: white;
+  /* color: white; */
 }
 
 section.space--xxs-no-bottom {
