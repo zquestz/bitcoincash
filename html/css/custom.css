@@ -8,7 +8,7 @@
 }
 
 .wallets .row div.col-sm-6 {
-  min-height: 100px;
+  min-height: 90px;
 }
 
 .wallets .row div.col-sm-6 img {
@@ -23,11 +23,19 @@
   margin-bottom: 40px;
 }
 
-.benefits .row .col-sm-10 {
-  margin-bottom: 20px;
+.benefits .row .col-sm-4 {
+  margin-bottom: 40px;
 }
 
-.benefits .row:last-child .col-sm-10 {
+.benefits .row:last-child .col-sm-4:last-child {
+  margin-bottom: 0;
+}
+
+.fa-fw {
+  color: #f08b16;
+}
+
+.benefits p {
   margin-bottom: 0;
 }
 
@@ -38,18 +46,49 @@ img.nomargin {
 .vertical-align {
   display: flex;
   align-items: center;
+  justify-content: center;
 }
 
 .site-header {
-  background-image: url(../img/background3.jpg);
-  background-size: 100% 100%;
+  background-color: black;
+  background-image: url(../img/background12.jpg);
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 
 #ticker, #ticker_value {
   font-weight: 400;
-  color: #808080;
+  color: white;
 }
 
 .ticker {
   padding-top: 15px;
+}
+
+.lead {
+  color: white;
+}
+
+section.space--xxs-no-bottom {
+  padding-top: 1.85714286em;
+  padding-bottom: 0;
+}
+
+#menu1 a.current {
+  opacity: 1;
+}
+
+h2.banner {
+  padding-bottom: .5em;
+}
+
+p.question {
+  font-size: 1.3em;
+  font-weight: 350;
+  font-variant-ligatures: common-ligatures;
+  color: #f08b16;
+  font-family: 'Open Sans', 'Helvetica', 'Arial', sans-serif;
+  margin-bottom: 1.04em;  
 }

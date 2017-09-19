@@ -1,11 +1,12 @@
 // A comma separated list of currencies to display.
-var ticker_currencies = "USD,BTC,ETH,JPY,CNY"
+var ticker_currencies = "USD,EUR,BTC,JPY,CNY"
 
 ticker = function(currencies) {
   var symbols = {
     USD: "$",
     CNY: "¥",
-    JPY: "¥"
+    JPY: "¥",
+    EUR: "€"
   }
 
   $.ajax({
@@ -14,7 +15,7 @@ ticker = function(currencies) {
     contentType: "application/json; charset=utf-8",
     timeout: 6000,
     error: function (x, t, m) {
-      $('#ticker').html("N/A")
+      $('#ticker_value').html("N/A")
     },
     success: function (currencyRates) {
       var output = [];
