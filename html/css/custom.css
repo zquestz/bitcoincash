@@ -66,6 +66,80 @@
   margin-bottom: 0;
 }
 
+
+.col-title {
+  background:#444;
+  color:#fff;
+  text-align:left;
+  font-size:0.7em;
+  line-height:1.1;
+  /*font-weight:800;*/
+
+}
+
+.col-title.bitcoin-cash {
+  background:#F08B16;
+}
+
+.comparison-chart-wrap {
+  overflow:auto;
+}
+.comparison-chart {
+  border: 0;
+}
+.comparison-chart thead {
+  border: 0;
+}
+
+.comparison-chart tr:nth-child(even) {
+    background-color: #fafafa;
+}
+
+.comparison-chart thead .col-title {
+  text-align: left;
+}
+.comparison-chart thead .blank {
+  background: white;
+}
+.comparison-chart thead tr {
+  background: #F08B16;
+  color: #fff;
+}
+.comparison-chart thead tr th {
+  font-size: 0.7em;
+  padding: 0.5rem 1.5rem;
+  font-weight:400;
+  background: #F08B16;
+  color: #fff;
+  text-align: center;
+  line-height: 1.1;
+}
+.comparison-chart tbody {
+  border: 0;
+}
+.comparison-chart tbody .col-title {
+  text-align: left;
+}
+.comparison-chart tbody .blank {
+  background: white;
+}
+.comparison-chart tbody tr td {
+  text-align: center;
+}
+.comparison-chart tbody tr td i {
+  font-size: 1.5rem;
+}
+.comparison-chart tbody tr td i.icon-Yes {
+  color: #4ebf56;
+}
+.comparison-chart tbody tr td i.icon-Remove {
+  color: #444;
+}
+.comparison-chart tbody tr td i.icon-Close {
+  color: #e23636;
+}
+
+
 .fa-fw {
   color: #f08b16;
 }
