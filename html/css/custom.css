@@ -1,4 +1,35 @@
 /*! Place your custom styles here */
+
+.bar-1 .menu-horizontal > li > a {
+  text-transform:none;
+  letter-spacing:1px;
+}
+
+.panel {
+  background:#fafafa;
+  border:1px solid #eee;
+  border-width:1px 1px 3px;
+  padding:1em;
+}
+
+.exchanges-wrap {
+  background:#fafafa;
+}
+.exchanges div a:hover img, .exchanges div a:focus img, .wallets div a:hover img, .wallets div a:focus img, .services div a:hover img, .service div a:focus img{
+  border-bottom: 3px solid #F08B16;
+}
+.exchanges img, .wallets img, .services img {
+  border:1px solid #eee;
+  border-width:1px 1px 3px 1px;
+
+  -webkit-transition: border-color 250ms ease;
+  -moz-transition: border-color 250ms ease;
+  -o-transition: border-color 250ms ease;
+  -ms-transition: border-color 250ms ease;
+  transition: border-color 250ms ease;
+
+}
+
 .exchanges .row div.col-sm-4 {
   min-height: 100px;
 }
@@ -13,6 +44,10 @@
 
 .wallets .row div.col-sm-6 img {
   margin-bottom: 40px;
+}
+
+.services-wrap {
+  background:#fafafa;
 }
 
 .services .row div.col-sm-4 {
