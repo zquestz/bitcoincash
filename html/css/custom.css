@@ -81,7 +81,7 @@ section.space--xxs-no-bottom {
 }
 
 h2.banner {
-  padding-bottom: .5em;
+  /* padding-bottom: .5em; */
 }
 
 p.question {
