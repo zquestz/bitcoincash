@@ -33,13 +33,28 @@ img.nomargin {
   justify-content: center;
 }
 
+#menu1 {
+  max-height:0;
+  overflow:hidden;
+  padding-bottom:10px;
+  -webkit-transition: max-height .2s; 
+  -moz-transition: max-height .2s; 
+  -ms-transition: max-height .2s; 
+  -o-transition: max-height .2s; 
+  transition: max-height .2s;  
+}
+#menu1.open {
+  max-height:400px;
+  
+}
+
 
 #nav-icon {
   float:right;
   width: 35px;
   height: 27px;
   position: relative;
-  margin: 0 10px 15px;
+  margin: 0 10px 0;
   -webkit-transform: rotate(0deg);
   -moz-transform: rotate(0deg);
   -o-transform: rotate(0deg);
