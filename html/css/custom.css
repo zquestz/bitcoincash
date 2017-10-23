@@ -116,3 +116,45 @@ p.question {
   justify-content: center;
   margin-bottom: 1.5em;
 }
+
+
+.media a {
+  display:block;
+  color:#f08b16;
+  margin-bottom:0;
+  line-height:1.2;
+}
+
+.media .panel {
+  background:#fff;
+  border:1px solid #eee;
+  border-width:1px 1px 3px;
+  padding:2em;
+  height:18em;
+  overflow:auto;
+}
+
+.media .panel h4 {
+  font-weight:300;
+  margin-bottom:0;
+}
+
+.media .panel li {
+  padding:1em 0;
+  border-bottom:1px solid #eee;
+}
+
+.media .panel li:last-child {
+  border-bottom:0;
+}
+
+.media .panel.press-releases a{
+  color:#4a90e2;
+}
+
+.media .meta {
+  font-size:0.7em;
+  color:#9d9d9d;
+}
+
+
