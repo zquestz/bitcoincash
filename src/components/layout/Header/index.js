@@ -1,4 +1,5 @@
 import React from 'react'
+
 import Link from 'gatsby-link'
 
 import Content from 'components/layout/Content'
@@ -19,6 +20,7 @@ const Announcement = ({ text, link }) => (
         margin-top: -7px;
         display: block;
         padding: 10px;
+        padding-top: 13px;
         color: white;
         text-align: center;
         text-decoration: none;
@@ -96,16 +98,23 @@ class Header extends React.Component {
     return (
       <header data-solid={solid}>
 
+        {/*
         <Announcement
           text="The Bitcoin Cash network upgrade is scheduled for November 13th, 2017."
           link="https://www.bitcoinabc.org/november"
         />
+        */}
 
         <Content style={{
           display: 'flex',
           alignItems: 'center',
+          position: 'relative',
+          paddingTop: 18,
+          paddingBottom: 18,
         }}>
-          <Link to="/">
+          <Link to="/" style={{
+            flexGrow: 1,
+          }}>
             <LogotypeIcon />
           </Link>
 
@@ -146,8 +155,6 @@ class Header extends React.Component {
             top: 0;
             left: 0;
             right: 0;
-            padding-top: 7px;
-            padding-bottom: 10px;
             z-index: 10;
             transition: background-color 0.3s;
           }
@@ -232,9 +239,7 @@ class Header extends React.Component {
           }
 
           .menu-button {
-            position: absolute;
-            right: 22px;
-            top: 29px;
+            margin-right: 10px;
             display: none;
           }
 
@@ -244,7 +249,7 @@ class Header extends React.Component {
             }
             nav {
               position: absolute;
-              top: 80px;
+              top: 69px;
               background-color: white;
               left: 0;
               right: 0;
