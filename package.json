@@ -1,0 +1,33 @@
+{
+  "name": "bitcoincash",
+  "description": "Bitcoin Cash website",
+  "version": "1.0.0",
+  "author": "Tristan Edwards",
+  "keywords": [
+    "gatsby"
+  ],
+  "license": "MIT",
+  "main": "n/a",
+  "scripts": {
+    "build": "./node_modules/.bin/gatsby build",
+    "dev": "./node_modules/.bin/gatsby develop",
+    "format": "./node_modules/.bin/prettier --trailing-comma es5 --no-semi --single-quote --write \"src/**/*.js\"",
+    "deploy": "./node_modules/.bin/gatsby build --prefix-paths && ./node_modules/.bin/gh-pages -d public"
+  },
+  "devDependencies": {
+    "@jacobmischka/gatsby-plugin-react-svg": "^1.0.0",
+    "gatsby": "^1.9.73",
+    "gatsby-cli": "^1.1.20",
+    "gatsby-link": "^1.6.22",
+    "gatsby-plugin-catch-links": "^1.0.9",
+    "gatsby-plugin-google-fonts": "^0.0.3",
+    "gatsby-plugin-react-helmet": "^1.0.8",
+    "gatsby-plugin-resolve-src": "^1.0.0",
+    "gatsby-plugin-styled-jsx": "^1.0.11",
+    "gatsby-remark-images": "^1.5.31",
+    "gatsby-source-filesystem": "^1.5.7",
+    "gatsby-transformer-remark": "^1.7.19",
+    "gh-pages": "^1.0.0",
+    "prettier": "^1.7.4"
+  }
+}

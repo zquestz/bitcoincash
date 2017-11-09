@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Lato, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  background-color: #F7FBF8;
+}
+
+button {
+  border: none;
+  background: none;
+  cursor: pointer;
+}
+
+button:focus {
+  outline: none;
+}
+
+ul, ol {
+  list-style-type: none;
+  padding: 0;
+}
+
+p a {
+  color: #54ac6e;
+  text-decoration: none;
+}

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="29px" height="23px" viewBox="0 0 29 23" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 47.1 (45422) - http://www.bohemiancoding.com/sketch -->
+    <title>menu</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Generic-page" transform="translate(-339.000000, -109.000000)" fill="#56AC6F">
+            <g id="header" transform="translate(0.000000, 75.000000)">
+                <path d="M341.5,34 L365.5,34 C366.880712,34 368,35.1192881 368,36.5 L368,36.5 C368,37.8807119 366.880712,39 365.5,39 L341.5,39 C340.119288,39 339,37.8807119 339,36.5 L339,36.5 L339,36.5 C339,35.1192881 340.119288,34 341.5,34 L341.5,34 Z M341.5,43 L365.5,43 C366.880712,43 368,44.1192881 368,45.5 C368,46.8807119 366.880712,48 365.5,48 L341.5,48 C340.119288,48 339,46.8807119 339,45.5 C339,44.1192881 340.119288,43 341.5,43 L341.5,43 Z M341.5,52 L365.5,52 C366.880712,52 368,53.1192881 368,54.5 C368,55.8807119 366.880712,57 365.5,57 L341.5,57 C340.119288,57 339,55.8807119 339,54.5 C339,53.1192881 340.119288,52 341.5,52 L341.5,52 Z" id="menu"></path>
+            </g>
+        </g>
+    </g>
+</svg>
