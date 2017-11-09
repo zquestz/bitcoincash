@@ -9,7 +9,14 @@ module.exports = {
     'gatsby-plugin-styled-jsx',
     '@jacobmischka/gatsby-plugin-react-svg',
     'gatsby-plugin-catch-links',
-    'gatsby-transformer-remark',
+    {
+      resolve: 'gatsby-transformer-remark',
+      options: {
+        plugins: [
+          'gatsby-remark-images',
+        ],
+      }
+    },
     {
       resolve: `gatsby-plugin-google-fonts`,
       options: {
