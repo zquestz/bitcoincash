@@ -98,12 +98,11 @@ class Header extends React.Component {
     return (
       <header data-solid={solid}>
 
-        {/*
+        {/* This can be commented out if there's no special announcement to make */}
         <Announcement
           text="The Bitcoin Cash network upgrade is scheduled for November 13th, 2017."
           link="https://www.bitcoinabc.org/november"
         />
-        */}
 
         <Content style={{
           display: 'flex',

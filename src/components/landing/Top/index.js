@@ -113,7 +113,7 @@ class Top extends React.Component {
             position: absolute;
             top: 50px;
             left: -5px;
-            animation: coinSend 5s infinite;
+            animation: coinSend 4s infinite;
           }
           @keyframes coinSend {
             0% {
@@ -159,6 +159,10 @@ class Top extends React.Component {
           @media (max-width: ${mobileWidth}px) {
             .top {
               padding-top: 120px;
+              padding-bottom: 15px;
+            }
+            .text {
+              margin-top: 20px;
             }
             .top :global(.content) {
               flex-direction: column;
