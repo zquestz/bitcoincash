@@ -66,18 +66,18 @@
                             <mask id="mask-8" fill="white">
                                 <use xlink:href="#path-7"></use>
                             </mask>
-                            <use id="bg" fill="#56BAEE" xlink:href="#path-7"></use>
+                            <use id="bg" fill="#70BDFF" xlink:href="#path-7"></use>
                             <g id="girl" mask="url(#mask-8)">
                                 <g transform="translate(13.000000, 14.000000)">
-                                    <g id="dress" stroke-width="1" fill="none" transform="translate(0.000000, 46.910448)">
+                                    <g id="dress" stroke-width="1" fill="none" transform="translate(0.000000, 47.000000)">
                                         <mask id="mask-10" fill="white">
                                             <use xlink:href="#path-9"></use>
                                         </mask>
                                         <use id="Combined-Shape" fill="#D09D72" xlink:href="#path-9"></use>
                                         <path d="M21.0803071,0.21731733 L26.7766917,4.82700751 L32.6611176,0.3970583 C38.0552938,1.38973439 41.5351439,2.47436362 43.100668,3.65094601 C44.6661922,4.82752839 48.041511,8.94856607 53.2266246,16.014059 L33.6720262,25.6720363 L14.1174278,25.6720363 L0.326758812,16.014059 L9.81452524,4.08444182 L21.0803071,0.21731733 Z" id="Path-17" fill="#FFFFFF" mask="url(#mask-10)"></path>
                                     </g>
-                                    <polygon id="hair" fill="#343434" points="18.3631981 40.834035 12.2006649 36.7944272 10.4069362 31.8259777 9.60285466 26.0915964 8.41602315 20.3864765 10.4069362 9.37614675 18.3631981 1.28184839 35.5512694 0.286453331 42.3584554 7.55049156 44.7786231 18.2331943 43.5837146 26.0915964 43.5837146 31.8259777 41.2541875 35.6476636 39.1682971 40.2803661 34.2772437 41.8759768"></polygon>
-                                    <g id="neck" stroke-width="1" fill="none" transform="translate(21.040816, 41.970149)">
+                                    <polygon id="hair" fill="#343434" points="17.8479839 40.9477745 11.7469022 36.868297 9.97106011 31.8508103 9.17499668 26.0598323 8 20.2984046 9.97106011 9.17940605 17.8479839 1.00521932 34.8646595 0 41.6039657 7.33573217 44 18.1238701 42.8170069 26.0598323 42.8170069 31.8508103 40.5107094 35.7102152 38.445619 40.388641 33.6033381 42"></polygon>
+                                    <g id="neck" stroke-width="1" fill="none" transform="translate(21.000000, 42.000000)">
                                         <g id="face-copy" transform="translate(0.000000, -0.000000)">
                                             <mask id="mask-12" fill="white">
                                                 <use xlink:href="#path-11"></use>
@@ -86,7 +86,7 @@
                                             <rect fill-opacity="0.403277853" fill="#AD7852" mask="url(#mask-12)" x="-12.7903553" y="-43.2818401" width="39.7849659" height="47.835518" rx="19.892483"></rect>
                                         </g>
                                     </g>
-                                    <g id="face" stroke-width="1" fill="none" transform="translate(11.020408, 2.522388)">
+                                    <g id="face" stroke-width="1" fill="none" transform="translate(11.000000, 3.000000)">
                                         <g id="hair">
                                             <mask id="mask-14" fill="white">
                                                 <use xlink:href="#path-13"></use>
@@ -112,7 +112,7 @@
                             <mask id="mask-16" fill="white">
                                 <use xlink:href="#path-15"></use>
                             </mask>
-                            <use id="bg" fill="#E2B1D7" xlink:href="#path-15"></use>
+                            <use id="bg" fill="#E7DEB7" xlink:href="#path-15"></use>
                             <g mask="url(#mask-16)">
                                 <g transform="translate(13.000000, 12.000000)">
                                     <g id="dress" stroke-width="1" fill="none" transform="translate(0.000000, 49.000000)">

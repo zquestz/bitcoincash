@@ -5,7 +5,7 @@
 
 body {
   font-family: Lato, "Helvetica Neue", Helvetica, Arial, sans-serif;
-  background-color: #F7FBF8;
+  background-color: #FCFBFA;
 }
 
 button {
@@ -24,6 +24,6 @@ ul, ol {
 }
 
 p a {
-  color: #54ac6e;
+  color: #f7931a;
   text-decoration: none;
 }

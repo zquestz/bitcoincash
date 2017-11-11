@@ -8,7 +8,7 @@ import MenuIcon from './menu.svg'
 
 import { tabletWidth } from 'utils/breakpoints';
 
-const greenColor = '#56AC6F';
+const mainColor = '#f7931a';
 
 const Announcement = ({ text, link }) => (
   <a href={link} target="_blank">
@@ -16,7 +16,7 @@ const Announcement = ({ text, link }) => (
 
     <style jsx>{`
       a {
-        background-color: #7cc74d;
+        background-color: #3eda58;
         margin-top: -7px;
         display: block;
         padding: 10px;
@@ -163,7 +163,7 @@ class Header extends React.Component {
           }
           header[data-solid="true"] :global(#logomark),
           header[data-solid="true"] :global(#cash) {
-            fill: ${greenColor};
+            fill: ${mainColor};
             fill-opacity: 1;
           }
           header[data-solid="true"] :global(#bitcoin) {

@@ -9,7 +9,7 @@ import Content from 'components/layout/Content'
 const Footer = () => (
   <footer>
     <Content style={{
-      borderTop: '1px solid rgba(55,92,71,0.16)',
+      borderTop: '1px solid rgba(147,146,142,0.16)',
       boxShadow: '0 1px 0 0 rgba(255,255,255,0.40)',
     }}>
       <p>
@@ -32,7 +32,7 @@ const Footer = () => (
       }
       p {
         font-size: 15px;
-        color: rgba(128,144,132,0.86);
+        color: rgba(147,146,142,0.86);
         float: left;
         margin-top: 3px;
       }

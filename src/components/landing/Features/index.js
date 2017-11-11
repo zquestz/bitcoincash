@@ -145,23 +145,23 @@ const Features = () => (
 
     <style jsx>{`
       h3 {
-        background-color: rgba(114,202,97,0.13);
+        background-color: rgba(247,208,35,0.17);
         border-radius: 27px;
         display: inline-block;
         font-size: 19px;
-        color: rgba(96,200,77,0.85);
+        color: #F19C32;
         padding: 12px 44px;
         margin-top: 20px;
         margin-bottom: 40px;
       }
       .features :global(h4) {
         font-size: 24px;
-        color: rgba(105,123,111,0.83);
+        color: #91826A;
         margin-bottom: 40px;
       }
       .features :global(p) {
         font-size: 16px;
-        color: rgba(128,144,132,0.86);
+        color: rgba(114, 109, 101, 0.87);
         line-height: 35px;
       }
       .features :global(.global-artwork) {

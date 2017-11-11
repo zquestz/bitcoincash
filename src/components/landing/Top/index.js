@@ -72,7 +72,7 @@ class Top extends React.Component {
 
         <style jsx>{`
           .top {
-            background-color: #4CA868;
+            background-color: #f29e3c;
             background-image: url(${bgUrl});
             background-size: cover;
             background-position: center center;
@@ -121,12 +121,12 @@ class Top extends React.Component {
               left: -5px;
             }
             33% {
-              top: 192px;
-              left: 150px;
+              top: 200px;
+              left: 155px;
             }
             66% {
               top: -10px;
-              left: 189px;
+              left: 195px;
             }
             100% {
               top: 45px;
@@ -135,21 +135,21 @@ class Top extends React.Component {
           }
 
           button {
-            background-color: #FFDB60;
+            background-color: #6CAAF6;
             box-shadow: 
               0 5px 12px 0 rgba(0,0,0,0.08), 
               0 2px 5px 0 rgba(0,0,0,0.16);
             border-radius: 32px;
             font-size: 15px;
             font-weight: 500;
-            color: #667D6D;
+            color: white;
             text-transform: uppercase;
             padding: 14px 34px;
             margin-top: 35px;
             transition: background-color 0.1s, box-shadow 0.1s, transform 0.2s;
           }
           button:hover {
-            background-color: #fddc6c;
+            background-color: #79B2F9;
             box-shadow: 
               0 8px 19px 0 rgba(0,0,0,0.08), 
               0 4px 9px 0 rgba(0,0,0,0.16);

@@ -65,7 +65,7 @@ const Why = () => (
 
     <style jsx>{`
       .bg {
-        background-color: #DCECE1;
+        background-color: #fcf6ec;
         padding-bottom: 70px;
         -webkit-clip-path: url("#why-bg-mask");
         clip-path: url("#why-bg-mask");
@@ -73,7 +73,7 @@ const Why = () => (
       }
       h3 {
         font-size: 22px;
-        color: rgba(105,123,111,0.83);
+        color: rgba(139,109,80,0.83);
         padding: 30px 0;
         text-align: center;
       }
@@ -91,12 +91,12 @@ const Why = () => (
       }
       h4 {
         font-size: 18px;
-        color: #6A9176;
+        color: #91826A;
         margin: 15px 0;
       }
       p {
         font-size: 15px;
-        color: rgba(103,124,109,0.63);
+        color: rgba(88,83,78,0.63);
         line-height: 24px;
       }
 

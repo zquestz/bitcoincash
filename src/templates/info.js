@@ -35,11 +35,11 @@ export default ({ data }) => {
           text-align: center;
           font-size: 22px;
           font-style: italic;
-          color: #56AC6F;
+          color: #F7931A;
         }
         p {
           font-size: 16px;
-          color: rgba(95,118,102,0.83);
+          color: rgba(43,36,28,0.66);
           margin: 20px 0;
         }
         .content {
