@@ -62,9 +62,9 @@ de:
         - |
           <strong>Neue Transaktionssignaturen</strong> - Ein neuer SigHash-Typ bietet Replay Protection, verbesserte Walletsicherheit und Eliminierung des Quadratic-Hashing-Problems.
         - |
-          <strong>Neuer Difficulty Adjustment Algorithmus</strong> - Der neue Algorithmus erlaubt eine schnelle Anpassung der Difficulty, schützt vor Hashrateschwankungen und erlaubt Minern fließend von Legacy Bitcoin Blockchain auf Bitcoin Cash umzusteigen.
+          <strong>Neuer Difficulty Adjustment Algorithmus</strong> - Der neue Algorithmus erlaubt eine schnelle Anpassung der Difficulty, schützt vor Hashrateschwankungen und erlaubt Minern fließend von der Legacy Bitcoin Blockchain auf Bitcoin Cash umzusteigen.
         - |
-          <strong>Dezentralisierte Entwicklung</strong> -  Mit mehreren unabhängigen Entwicklungsteams, die Softwareimplementierungen bieten, ist die Zukunft gesichert. Bitcoin Cash ist resistent gegen politische oder soziale Attacken auf die ENtwicklung des Protokolls. Keine einzelne Gruppe oder einzelnes Projekt kann es kontrollieren. Die<a href="https://lists.linuxfoundation.org/mailman/listinfo/bitcoin-ml" target="_blank">bitcoin-ml Mailingliste</a> ist eine gute Plattform um Vorschläge für Änderungen anzubringen, die Koordination und Zusammenarbeit von mehreren Entwicklungsteams benötigt.
+          <strong>Dezentralisierte Entwicklung</strong> -  Mit mehreren unabhängigen Entwicklerteams, die Softwareimplementierungen bieten, ist die Zukunft gesichert. Bitcoin Cash ist resistent gegen politische oder soziale Attacken auf die ENtwicklung des Protokolls. Keine einzelne Gruppe oder einzelnes Projekt kann es kontrollieren. Die<a href="https://lists.linuxfoundation.org/mailman/listinfo/bitcoin-ml" target="_blank">bitcoin-ml Mailingliste</a> ist eine gute Plattform um Vorschläge für Änderungen anzubringen, die Koordination und Zusammenarbeit von mehreren Entwicklungsteams benötigt.
       faq:
         - question: "Was ist Bitcoin Cash?"
           answer:
@@ -77,9 +77,9 @@ de:
         - question: "Besitze ich auch Bitcoin Cash, falls ich bereits Bitcoin besitze?"
           answer:
             - |
-              Jeder, der Bitcoin zum Zeitpunkt der Erstellung von Bitcoin Cash besessen hat, wurde automatisch zu einem Bitcoin Cash Besitzer. Das heißt, dass bei Block 478558 (1. August, ca. 13:16 UTC) Bitcoinbesitzer die gleiche Menge wie Bitcoin an Bitcoin Cash erhalten haben. Falls Ihre Bitcoins zu diesem Zeitpunkt bei einer Drittpartei, wie z.B. einer Börse war müssen Sie sich bei dieser nach ihren Bitcoin Cash erkundigen.
+              Jeder, der Bitcoin zum Zeitpunkt der Erstellung von Bitcoin Cash besessen hat, wurde automatisch zu einem Bitcoin Cash Besitzer. Das heißt, dass bei Block 478558 (1. August, ca. 13:16 UTC) Bitcoinbesitzer die gleiche Menge wie Bitcoin an Bitcoin Cash erhalten haben. Falls Ihre Bitcoins zu diesem Zeitpunkt bei einer Drittpartei, wie z.B. einer Börse waren müssen Sie sich bei dieser nach ihren Bitcoin Cash erkundigen.
             - |
-              Jede Transaktion nach dem 1. August wird von Bitcoin und Bitcoin Cash seperat verarbeitet. Dies bedeutet, dass Bitcoin, die danach erworben wurden, keine Bitcoin Cash enthalten und Bitcoin Cash, die dnaach erworben wurden keine Bitcoin enthalten.
+              Jede Transaktion nach dem 1. August wird von Bitcoin und Bitcoin Cash seperat verarbeitet. Dies bedeutet, dass Bitcoin, die danach erworben wurden, keine Bitcoin Cash enthalten und Bitcoin Cash, die danach erworben wurden keine Bitcoin enthalten.
         - question: "Wie wird die Wiederholung von Transaktionen zwischen der alten und der neuen Blockchain gehandhabt?"
           answer:
             - |
