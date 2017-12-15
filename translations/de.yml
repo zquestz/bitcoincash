@@ -60,7 +60,7 @@ de:
         - |
           <strong>On-Chain-Skalierung</strong> - Bitcoin Cash folgt dem Leitplan von Satoshi Nakamoto für globale Akzeptanz durch On-Chan-Skalierung. Als erster Schritt wurde das Blocksizelimit anpassbar festgelegt. Ebenso wurde das Standardlimit auf 8MB erhöht. <a href="https://github.com/BitcoinUnlimited/BUIP/blob/master/065.mediawiki" target="_blank">Forschung wird betrieben, um zukünftige Blocksize-Erhöhungen zu ermöglichen.</a>.
         - |
-          <strong>New Transaktionssignaturen</strong> - Ein neuer SigHash-Typ bietet Replay Protection, verbesserte Walletsicherheit und Eliminierung des Quadratic-Hashing-Problems.
+          <strong>Neue Transaktionssignaturen</strong> - Ein neuer SigHash-Typ bietet Replay Protection, verbesserte Walletsicherheit und Eliminierung des Quadratic-Hashing-Problems.
         - |
           <strong>Neuer Difficulty Adjustment Algorithmus</strong> - Der neue Algorithmus erlaubt eine schnelle Anpassung der Difficulty, schützt vor Hashrateschwankungen und erlaubt Minern fließend von Legacy Bitcoin Blockchain auf Bitcoin Cash umzusteigen.
         - |
@@ -107,7 +107,7 @@ de:
             - |
               Viele Miner und Nutzer vertrauten diesen Entwicklern, während wiederum andere erkannten, dass diese die Community auf einen anderen Weg als versprochen führten.
             - |
-              Diesie zwei Visionen sind größtenteils inkompatibel, weswegen die Community gespalten wurde.
+              Diese zwei Visionen sind größtenteils inkompatibel, weswegen die Community gespalten wurde.
         - question: "Hat SegWit die Kapazität von Bitcoinblöcken erhöht? Wird Bitcoin Cash jemals SegWit bekommen?"
           answer:
             - |
