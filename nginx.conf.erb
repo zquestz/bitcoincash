@@ -1,0 +1,82 @@
+map $http_accept_language $lang {
+    default en;
+    ~^cs cs;
+    ~^de-ch de-CH;
+    ~^de-CH de-CH;
+    ~^de de;
+    ~^el el;
+    ~^en en;
+    ~^es es;
+    ~^fr fr;
+    ~^hi hi;
+    ~^in in;
+    ~^it it;
+    ~^ja ja;
+    ~^ko ko;
+    ~^ms ms;
+    ~^nl nl;
+    ~^pl pl;
+    ~^pt-br pt-BR;
+    ~^pt-BR pt-BR;
+    ~^pt-pt pt-PT;
+    ~^pt-PT pt-PT;
+    ~^pt pt-BR;
+    ~^tr tr;
+    ~^vi vi;
+    ~^zh-cn zh-CN;
+    ~^zh-CN zh-CN;
+    ~^zh-tw zh-TW;
+    ~^zh-TW zh-TW;
+    ~^zh zh-CN;
+}
+
+server {
+    listen       80;
+    server_name  bitcoincash.org;
+
+    if ( $http_host = 'bitcoincash.org' ){
+        return 301 https://www.bitcoincash.org$request_uri;
+    }
+
+    if ( $http_x_forwarded_proto = 'http' ) {
+        return 301 https://$host$request_uri;
+    }
+
+    rewrite ^/letter-from-the-ceo.pdf$ https://falkvinge.net/wp-content/uploads/2017/11/letter-from-the-ceo.pdf permanent;
+    
+    root   /usr/share/nginx/html;
+
+    location / {
+        index index.$lang.html;
+    }
+<% I18n.available_locales.sort.each do |locale| %>
+    location /<%= locale.to_s.downcase %>/ {
+        index index.html;
+    }
+<% end %>
+    location ~*  \.(jpg|jpeg|png|gif|ico)$ {
+        expires 30d;
+    }
+
+    location ~*  \.(css|js)$ {
+        expires 1d;
+    }
+
+    error_page   500 502 503 504  /50x.html;
+    location = /50x.html {
+        root   /usr/share/nginx/html;
+    }
+}
+
+## Compression.
+gzip on;
+gzip_buffers 16 8k;
+gzip_comp_level 1;
+gzip_http_version 1.1;
+gzip_min_length 10;
+gzip_types text/plain text/css application/json application/javascript text/xml application/xml application/xml+rss text/javascript image/x-icon application/vnd.ms-fontobject font/opentype application/x-font-ttf;
+gzip_vary on;
+gzip_proxied any; # Compression for all requests.
+## No need for regexps. See
+## http://wiki.nginx.org/NginxHttpGzipModule#gzip_disable
+gzip_disable msie6;

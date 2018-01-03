@@ -1,0 +1,140 @@
+/*! Place your custom styles here */
+.benefits .row .col-sm-4 {
+  margin-bottom: 40px;
+}
+
+p.release {
+  color: white;
+  padding-top: .5em;
+  font-size: 1.2em;
+}
+
+.release a, .release a:visited {
+  color: white;
+  font-weight: 700;
+  text-decoration: none;
+}
+.release a:hover {
+  color: white;
+  text-decoration: underline;
+}
+
+.benefits p {
+  margin-bottom: 0;
+}
+
+.fa-fw {
+  color: #f08b16;
+}
+
+.vertical-align {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.site-header {
+  background-color: black;
+  background-image: url(../img/background13.jpg);
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+@media only screen and (max-device-width: 1024px) {
+  .site-header {
+      background-attachment: scroll;
+  }
+}
+
+@media (max-width: 767px) {
+  .dropdown .dropdown__content {
+      padding: 0 1.2em .3em;
+  }
+}
+
+.dropdown .dropdown__content {
+  min-width: 200px;
+  border:1px solid #eee;
+  border-radius: 0;
+  border-width:1px 1px 3px 1px;
+  box-shadow: none;
+  --webkit-box-shadow: none;
+}
+
+@media (min-width: 991px)  {
+  .dropdown .dropdown__container:before {
+    height: 0px;
+  }
+}
+
+#ticker, #ticker_value {
+  font-weight: 400;
+  color: white;
+}
+
+.ticker {
+  padding-top: 15px;
+}
+
+.lead {
+  color: white;
+}
+
+section.no-bottom {
+  padding-bottom: 0;
+}
+
+section.no-top {
+  padding-top: 0;
+}
+
+section.gray {
+  background-color: #FAFAFA;
+}
+
+section.border-bottom {
+  border-bottom: 1px solid #EAEAEA;
+}
+
+p.question {
+  font-size: 1.3em;
+  font-weight: 350;
+  font-variant-ligatures: common-ligatures;
+  color: #f08b16;
+  font-family: 'Open Sans', 'Helvetica', 'Arial', sans-serif;
+  margin-bottom: 1.04em;
+}
+
+.nodes div a:hover, .wallets div a:hover, .services div a:hover, .exchanges div a:hover{
+  border-bottom: 3px solid #F08B16;
+}
+
+.nodes div a, .wallets div a, .services div a, .exchanges div a{
+  padding: 2em;
+  width: 100%;
+  height: 120px;
+  display: block;
+  background: white;
+  border:1px solid #eee;
+  border-width:1px 1px 3px 1px;
+
+  -webkit-transition: border-color 250ms ease;
+  -moz-transition: border-color 250ms ease;
+  -o-transition: border-color 250ms ease;
+  -ms-transition: border-color 250ms ease;
+  transition: border-color 250ms ease;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 1.5em;
+}
+
+@media all and (min-width: 990px) {
+  .menu-vertical li {
+    white-space: normal;
+  }
+}
