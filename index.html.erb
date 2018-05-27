@@ -54,11 +54,6 @@ gtag('config', 'UA-17656782-2');
                                 </a>
                             </li>
                             <li>
-                                <a href="#features" data-nav-section="features" class="inner-link">
-                                    <span><%= I18n.t(:'sections.features').strip %></span>
-                                </a>
-                            </li>
-                            <li>
                                 <a href="#nodes" data-nav-section="nodes" class="inner-link">
                                     <span><%= I18n.t(:'sections.nodes').strip %></span>
                                 </a>
@@ -102,8 +97,8 @@ gtag('config', 'UA-17656782-2');
                                 </div>
                             </li>
                             <li>
-                                <a href="#faq" data-nav-section="faq" class="inner-link">
-                                    <span><%= I18n.t(:'sections.faq').strip %></span>
+                                <a href="#why" data-nav-section="why" class="inner-link">
+                                    <span><%= I18n.t(:'sections.benefits').strip %></span>
                                 </a>
                             </li>
                             <li class="dropdown">
@@ -207,36 +202,6 @@ gtag('config', 'UA-17656782-2');
                     <div class="row to-animate">
                         <div class="col-sm-12 col-md-12">
                             <%= I18n.t(:'content.about').map { |c| "<p>#{c.strip}</p>" }.join("\n#{' ' * 28}") %>
-                        </div>
-                    </div>
-                </div>
-            </section>
-            <a id="announcement"></a>
-            <section class="space--xxs" id="announcement-section"  data-section="announcement">
-                <div class="container">
-                    <div class="row text-center to-animate">
-                      <div class='col-sm-12 section-heading '>
-                        <h2><%= I18n.t(:'headings.announcement').strip %></h2>
-                      </div>
-                    </div>
-                    <div class="row to-animate">
-                        <div class="col-sm-12 col-md-12">
-                            <%= I18n.t(:'content.announcement').map { |c| "<p>#{c.strip}</p>" }.join("\n#{' ' * 28}") %>
-                        </div>
-                    </div>
-                </div>
-            </section>
-            <a id="features"></a>
-            <section class="space--xxs" id="features-section"  data-section="features">
-                <div class="container">
-                    <div class="row text-center to-animate">
-                      <div class='col-sm-12 section-heading '>
-                        <h2><%= I18n.t(:'headings.features').strip %></h2>
-                      </div>
-                    </div>
-                    <div class="row to-animate">
-                        <div class="col-sm-12 col-md-12">
-                            <%= I18n.t(:'content.features').map { |c| "<p>#{c.strip}#{c == I18n.t(:'content.features').last ? '<br><br>' : ''}</p>" }.join("\n#{' ' * 28}") %>
                         </div>
                     </div>
                 </div>
@@ -628,22 +593,77 @@ gtag('config', 'UA-17656782-2');
                     </div>
                 </div>
             </section>
-            <a id="faq"></a>
-            <section class="space--xxs" id="faq-section" data-section="faq">
+            <a id="benefits"></a>
+ 
+
+
+            <section class="space--xxs" id="why-section" data-section="why">
                 <div class="container">
                     <div class="row text-center to-animate">
                         <div class="col-xs-12 section-heading">
-                            <h2><%= I18n.t(:'headings.faq').strip %></h2>
+                            <h2><%= I18n.t(:'headings.why').strip %></h2>
                         </div>
                     </div>
                     <div class="row">
                         <div class="col-xs-12">
-<% I18n.t(:'content.faq').each do |qa| %><%= ' ' * 28 %><p class="question to-animate"><%= qa['question'].strip %></p>
-                            <%= qa['answer'].map { |a| "<p class='to-animate'>#{a.strip}</p>" }.join("\n#{' ' * 28}") %><%= if qa != I18n.t(:'content.faq').last; "\n"; end %><% end %>
+<% I18n.t(:'content.why').each do |qa| %><%= ' ' * 28 %><p class="question to-animate"><%= qa['benefit'].strip %></p>
+                            <%= qa['descrip'].map { |a| "<p class='to-animate'>#{a.strip}</p>" }.join("\n#{' ' * 28}") %><%= if qa != I18n.t(:'content.why').last; "\n"; end %><% end %>
                         </div>
                     </div>
                 </div>
             </section>
+
+<section class="space--xxs" id="merchant-benefits-section" data-section="benefits">
+                <div class="container">
+                    <div class="row text-center to-animate">
+                        <div class="col-xs-12 section-heading">
+                            <h2><%= I18n.t(:'headings.benefits').strip %></h2>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-xs-12">
+<% I18n.t(:'content.benefits').each do |qa| %><%= ' ' * 28 %><p class="question to-animate"><%= qa['benefit'].strip %></p>
+                            <%= qa['descrip'].map { |a| "<p class='to-animate'>#{a.strip}</p>" }.join("\n#{' ' * 28}") %><%= if qa != I18n.t(:'content.benefits').last; "\n"; end %><% end %>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+ <section class="space--xxs" id="history-section"  data-section="history">
+                <div class="container">
+                    <div class="row text-center to-animate">
+                      <div class='col-sm-12 section-heading '>
+                        <h2><%= I18n.t(:'headings.history').strip %></h2>
+                      </div>
+                    </div>
+                    <div class="row to-animate">
+                        <div class="col-sm-12 col-md-12">
+                            <%= I18n.t(:'content.history').map { |c| "<p>#{c.strip}</p>" }.join("\n#{' ' * 28}") %>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+
+ <section class="space--xxs" id="development-section"  data-section="development">
+                <div class="container">
+                    <div class="row text-center to-animate">
+                      <div class='col-sm-12 section-heading '>
+                        <h2><%= I18n.t(:'headings.development').strip %></h2>
+                      </div>
+                    </div>
+                    <div class="row to-animate">
+                        <div class="col-sm-12 col-md-12">
+                            <%= I18n.t(:'content.development').map { |c| "<p>#{c.strip}</p>" }.join("\n#{' ' * 28}") %>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+
+            
+
+
             <footer class="space--xs footer-1">
                 <div class="container">
                     <div class="row">
