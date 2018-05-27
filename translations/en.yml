@@ -79,7 +79,6 @@ en:
     dropdown_md_width: 3
     dropdown_sm_width: 3
   sections:
-    announcement: "Announcement"
     about: "About"
     features: "Features"
     nodes: "Nodes"
@@ -89,7 +88,7 @@ en:
     projects: "Projects"
     exchanges: "Exchanges"
     graphics: "Logos / Graphics"
-    faq: "FAQ"
+    benefits: "Benefits"
   layout:
     bitcoin_cash: "Bitcoin Cash"
     lead: "Peer-to-Peer Electronic Cash"
@@ -107,92 +106,86 @@ en:
       description: "A payment system that's a proven store of value."
     - title: "Secure"
       description: "World's most robust blockchain technology."
-  headings:
-    announcement: "May 2018 Network Upgrade"
-    about: "The Best Money in the World"
-    features: "New Features"
+  headings: 
+    history: "The History of Bitcoin Cash"
+    about: "The Best Money in the World" 
     nodes: "Nodes"
     wallets: "Wallets"
     services: "Services"
     projects: "Projects"
     exchanges: "Exchanges"
-    faq: "Frequently Asked Questions"
+    why: "Why Use Bitcoin Cash?"
+    benefits: "Benefits for Merchants" 
+    development: "Decentralized Development"
   content:
-    announcement:
+    history:
       - |
-        The Bitcoin Cash network will undergo a protocol upgrade on May 15th 2018. Businesses and individuals who use the Bitcoin Cash network should check to ensure that their software is compatible with the upgrade. A <a href="https://github.com/bitcoincashorg/spec/blob/master/may-2018-hardfork.md" target="_blank">specification</a> is available, and the upgrade is being tested on <a href="https://docs.google.com/spreadsheets/d/1_uJryqNnMEHogUdCY6WhCMoyuyoZsyMtVm2R4xAsIeI/edit#gid=299033565" target="_blank">testnet</a>. This upgrade is the first of planned series of protocol upgrades announced late 2017 by <a href="https://www.bitcoinunlimited.info/cash-development-plan" target="_blank">several</a> <a href="https://www.bitcoinabc.org/bitcoin-abc-medium-term-development" target="_blank">developer</a> <a href="https://www.yours.org/content/bitprim-vision-about-bitcoincash-development-plan-31e7465bf9ba/" target="_blank">groups</a>.
+        In October 2008, Satoshi Nakamoto published the famous whitepaper entitled <strong>“Bitcoin: A Peer to Peer Electronic Cash System”</strong>.  In 2009, he released the first bitcoin software that powered the network, and it operated smoothly for several years with low fees, and fast, reliable transactions.
+      - |
+        Unfortunately, from 2016 to 2017, Bitcoin became increasingly unreliable and expensive.  This was because the community could not reach consensus on increasing the network capacity. Some of the developers did not understand and agree with Satoshi’s plan. Instead, they preferred Bitcoin become a settlement layer.
+      - |
+        By 2017, Bitcoin dominance had plummeted from 95% to as low as 40% as a direct result of the usability problems.  Fortunately, a large portion of the Bitcoin community, including developers, investors, users, and businesses, still believed in the original vision of Bitcoin -- a low fee, peer to peer electronic cash system that could be used by all the people of the world.
+      - |
+        On August 1st, 2017, we took the logical step of increasing the maximum block size, and Bitcoin Cash was born.  Anyone who held Bitcoin at that time (block 478558) became an owner of Bitcoin Cash (BCH).  The network now supports up to 32MB blocks with ongoing research to allow massive future increases.
+    development:
+      - |
+         With multiple independent teams of developers providing software implementations, the future is secure. Bitcoin Cash is resistant to political and social attacks on protocol development. No single group or project can control it.  Multiple implementations also provides redundancy to ensure that the network retains 100% uptime.
+      - |
+        The <a href="https://lists.linuxfoundation.org/mailman/listinfo/bitcoin-ml" target="_blank">bitcoin-ml mailing list</a> is a good venue for making proposals for changes that require coordination across development teams. <a href="https://github.com/bitcoincashorg/workgroups" target="_blank">Workgroups</a> have been set up to assist developers to coordinate and seek peer-review. For those wishing to implement changes to the Bitcoin Cash protocol, it is recommended to seek early peer-review and engage collaboratively with other developers through the workgroups.
+        
+
+
     about:
       - |
         Bitcoin Cash brings sound money to the world, fulfilling the original promise of Bitcoin as "Peer-to-Peer Electronic Cash". Merchants and users are empowered with low fees and reliable confirmations. The future shines brightly with unrestricted growth, global adoption, permissionless innovation, and decentralized development.
       - |
-        All Bitcoin holders as of block 478558 are also owners of Bitcoin Cash. All are welcome to join the Bitcoin Cash community as we move forward in creating sound money accessible to the whole world.
-    features:
-      - |
-        <strong>On Chain Scalability</strong> - Bitcoin Cash follows the Nakamoto roadmap of global adoption with on-chain scaling. As a first step, the blocksize limit has been made adjustable, with an increased default of 8MB. <a href="https://github.com/BitcoinUnlimited/BUIP/blob/master/065.mediawiki" target="_blank">Research is underway to allow massive future increases</a>.
-      - |
-        <a href="https://github.com/bitcoincashorg/spec/blob/master/replay-protected-sighash.md" target="_blank"><strong>New Transaction Signatures</strong></a> - A new SigHash type provides replay protection, improved hardware wallet security, and elimination of the quadratic hashing problem.
-      - |
-        <a href="https://github.com/bitcoincashorg/spec/blob/master/nov-13-hardfork-spec.md" target="_blank"><strong>New Difficulty Adjustment Algorithm (DAA)</strong></a> - Responsive Proof-of-Work difficulty adjustment allows miners to migrate from the legacy Bitcoin chain as desired, while providing protection against hashrate fluctuations.
-      - |
-        <strong>Decentralized Development</strong> - With multiple independent teams of developers providing software implementations, the future is secure. Bitcoin Cash is resistant to political and social attacks on protocol development. No single group or project can control it. The <a href="https://lists.linuxfoundation.org/mailman/listinfo/bitcoin-ml" target="_blank">bitcoin-ml mailing list</a> is a good venue for making proposals for changes that require coordination across development teams. <a href="https://github.com/bitcoincashorg/workgroups" target="_blank">Workgroups</a> have been set up to assist developers to coordinate and seek peer-review. For those wishing to implement changes to the Bitcoin Cash protocol, it is recommended to seek early peer-review and engage collaboratively with other developers through the workgroups.
-    faq:
-      - question: "What is Bitcoin Cash?"
-        answer:
+        All are welcome to join the Bitcoin Cash community as we move forward in creating sound money accessible to the whole world.
+    why:
+      - benefit: "Send Money Anywhere In the World, Almost for Free"
+        descrip:
           - |
-            Bitcoin Cash is peer-to-peer electronic cash for the Internet. It is fully decentralized, with no central bank and requires no trusted third parties to operate.
-      - question: "Is Bitcoin Cash different from 'Bitcoin'?"
-        answer:
+            With Bitcoin Cash, you can send money to anyone, anywhere in the world, 24 hours a day, 365 days a year.  Like the Internet itself, the network is always on.  No transaction is too big or too small.  And you never need anyone’s permission or approval.
+      
+      - benefit: "Be Your Own Bank and Have Full Control Over Your Money"
+        descrip:
           - |
-            Yes. Bitcoin Cash is the continuation of the Bitcoin project as peer-to-peer digital cash. It is a fork of the Bitcoin blockchain ledger, with upgraded consensus rules that allow it to grow and scale.
-      - question: "If I own Bitcoin, do I automatically own Bitcoin Cash too?"
-        answer:
+            The seizing of capital from account holders (“bail-ins”) that occurred in Cyprus and nearly in Greece, demonstrated that bank deposits are only as safe as political leaders decide.  Even under the best of conditions, banks can make mistakes, hold funds, freeze accounts, and otherwise prevent you from accessing your own money.
           - |
-            Anyone who held Bitcoin at the time Bitcoin Cash was created became owners of Bitcoin Cash. This means that Bitcoin holders as of block 478558 (August 1st, 2017 about 13:16 UTC) have the same amount of Bitcoin Cash as they had Bitcoin at that time. If your Bitcoins are stored by a third party such as an exchange, then you must inquire with them about your Bitcoin Cash.
+            Banks can also decide to block your transactions, charge you fees, or close your account without warning.  Bitcoin Cash gives you full, sovereign control over your funds, which you can access from anywhere in the world.
+      - benefit: "A Scarce Digital Currency with a Known, Fixed Supply"
+        descrip:
           - |
-            Any transactions after the August 1st ledger split are completely separate between Bitcoin and Bitcoin Cash. This means any Bitcoin acquired after the split does not include any Bitcoin Cash, and any Bitcoin Cash does not include any Bitcoin.
-      - question: "How is transaction replay being handled between the new and the old blockchain?"
-        answer:
+            The Bitcoin Cash protocol ensures there will never be more than 21 million coins in existence.  Governments constantly print money out of thin air, endlessly inflating the supply and devaluing everyone’s savings. Bitcoin Cash has a fixed supply and therefore represents sound money.
+      - benefit: "Increase Your Privacy and Operate Anonymously"
+        descrip:
           - |
-            Bitcoin Cash transactions use a new signature hashing algorithm indicated by the flag SIGHASH_FORKID. These signatures are not valid on the Bitcoin Legacy network. This prevents Bitcoin Cash transactions from being replayed on the Bitcoin blockchain and vice versa.
-      - question: "Why was a fork necessary to create Bitcoin Cash?"
-        answer:
+            Bitcoin Cash offers more privacy and anonymity than traditional payment systems like bank transfers and credit card payments, since it’s normally impossible to know who controls a Bitcoin address.
           - |
-            The legacy Bitcoin code had a maximum limit of 1MB of data per block, or about 3 transactions per second. Although technically simple to raise this limit, the community could not reach a consensus, even after years of debate.
-      - question: "Was the 1 MB block size limit causing problems for Bitcoin?"
-        answer:
+            Bitcoin Cash offers various levels of privacy depending on how it is used.  It’s important to educate yourself thoroughly before using BCH for privacy purposes.
+      - benefit: "Enjoy Exclusive Discounts"
+        descrip:
           - |
-            Yes, in 2017, capacity hit the 'invisible wall'. Fees skyrocketed, and Bitcoin became unreliable, with some users unable to get their transactions confirmed, even after days of waiting.
+            Many merchants offer discounts for paying in Bitcoin Cash, because it eliminates credit card fees and helps grow the adoption of this new payment system.
+      - benefit: "Support Freedom Worldwide"
+        descrip:
           - |
-            Bitcoin's market price has increased, but its growth and usefulness as a currency has stagnated. Many users, merchants, businesses and even investors left Bitcoin for alternatives, causing its dominance to fall from 95% to as low as 40%.
-      - question: "Does Bitcoin Cash fix these problems?"
-        answer:
+            Bitcoin Cash is a permissionless, open network.  It empowers you to engage with your fellow human beings without intrusion.  It’s decentralized, voluntary, and non-aggressive.  As usage grows, old power structures will erode while fresh ideas blossom.  It may help usher in the greatest peaceful revolution the world has ever known.
+
+
+    benefits:
+      - benefit: "Ultra Low Fees"
+        descrip:
           - |
-            Yes. Bitcoin Cash immediately raised the block size limit to 8MB as part of a massive on-chain scaling approach. There is ample capacity for everyone's transactions.
+            The network fee for a typical Bitcoin Cash transaction is less than one penny. If you want to convert your BCH into fiat currency, such as US dollars, you can do that through merchant processors for a cost that is still much lower than credit card processing.
+      - benefit: "No Chargebacks"
+        descrip:
           - |
-            Low fees and fast confirmations have returned with Bitcoin Cash. The network is growing again. Users, merchants, businesses, and investors are building the future with real peer to peer cash.
-      - question: "Why didn't Bitcoin raise the block size if it was easy?"
-        answer:
+            Unlike credit cards, there are never any automatic voids, refunds, chargebacks, or other unexpected fees. Fraud protection is built into the system with no cost to the merchant.
+      - benefit: "New Customers"
+        descrip:
           - |
-            Some of the developers did not understand and agree with the <a href="/bitcoin.pdf" target="_blank">original vision of peer-to-peer electronic cash</a> that Satoshi Nakamoto had created. <a href="https://medium.com/@jgarzik/bitcoin-is-being-hot-wired-for-settlement-a5beb1df223a" target="_blank">Instead, they preferred Bitcoin become a settlement layer</a>.
+            A growing number of patrons are choosing Bitcoin Cash as a preferred payment method.  They favor merchants who offer this payment option and actively seek them out.
+      - benefit: "Free Marketing and Press"
+        descrip:
           - |
-            Many miners and users trusted these developers, while others recognized that they were leading the community down a different road than expected.
-          - |
-            These two very different visions for Bitcoin are largely incompatible, which led to the community divide.
-      - question: "Didn't SegWit increase the block capacity? Will Bitcoin Cash ever have SegWit?"
-        answer:
-          - |
-            Segregated Witness or "SegWit" is an unacceptable substitute for increasing the blocksize for several reasons.
-          - |
-            First, even if used in 100% of transactions, the increase would equate to 1.7MB blocks. Thus, it is a small capacity increase at best. It will not handle exponential growth or worldwide usage. Second, the soft fork implementation results in discardable signatures, which <a href="https://bitcrust.org/blog-incentive-shift-segwit" target="_blank">weakens Bitcoin's security model.</a> Third, it makes future capacity increases more difficult due to bandwidth inefficiency and quadratic hashing attacks which SegWit doesn't solve since an attacker isn't forced to use it.
-          - |
-            For those (and other) reasons, Bitcoin Cash was necessary as a pre-SegWit fork. Segwit will not be adopted.
-      - question: "Which Development Team is In Charge of Bitcoin Cash?"
-        answer:
-          - |
-            Unlike the previous situation in Bitcoin, there is no one single development team for Bitcoin Cash. There are now multiple independent teams of developers.
-          - |
-            This decentralization of development (and decentralization of software implementations) is a much needed and important step forward.
-      - question: "What is the ticker symbol for Bitcoin Cash?"
-        answer:
-          - |
-            Bitcoin Cash is usually represented by the ticker symbol BCH.
+            By accepting Bitcoin Cash, merchants can gain free listings in website and app directories, gaining even more customers.  They can also take advantage of this new trend and generate press for their business.
