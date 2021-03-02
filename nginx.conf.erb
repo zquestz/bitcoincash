@@ -34,8 +34,8 @@ server {
     listen       80;
     server_name  bitcoincash.org;
 
-    if ( $http_host = 'bitcoincash.org' ){
-        return 301 https://www.bitcoincash.org$request_uri;
+    if ( $http_host = 'www.bitcoincash.org' ){
+        return 301 https://bitcoincash.org$request_uri;
     }
 
     if ( $http_x_forwarded_proto = 'http' ) {
