@@ -68,7 +68,7 @@ gtag('config', 'UA-17656782-2');
                                 <div class="dropdown__container">
                                     <div class="container">
                                         <div class="row">
-                                            <div class="dropdown__content col-md-<%= I18n.t('misc.dropdown_md_width') %> col-sm-<%= I18n.t('misc.dropdown_sm_width') %>">
+                                            <div class="dropdown__content col-md-<%= I18n.t(:'misc.dropdown_md_width') %> col-sm-<%= I18n.t(:'misc.dropdown_sm_width') %>">
                                                 <ul class="menu-vertical">
                                                     <li>
                                                         <a href="#services" data-nav-section="services" class="inner-link">
@@ -158,35 +158,35 @@ gtag('config', 'UA-17656782-2');
                     <div class="row text-center">
                         <div class="col-sm-4 col-md-4 to-animate">
                             <p><i class="fa fa-bolt fa-fw fa-2x"></i></p>
-                            <p><strong><%= I18n.t(:'features')[0]['title'].strip %></strong></p>
-                            <p><%= I18n.t(:'features')[0]['description'].strip %></p>
+                            <p><strong><%= I18n.t(:'features')[0][:title].strip %></strong></p>
+                            <p><%= I18n.t(:'features')[0][:description].strip %></p>
                         </div>
                         <div class="col-sm-4 col-md-4 to-animate">
                             <p><i class="fa fa-thumbs-up fa-fw fa-2x"></i></p>
-                            <p><strong><%= I18n.t(:'features')[1]['title'].strip %></strong></p>
-                            <p><%= I18n.t(:'features')[1]['description'].strip %></p>
+                            <p><strong><%= I18n.t(:'features')[1][:title].strip %></strong></p>
+                            <p><%= I18n.t(:'features')[1][:description].strip %></p>
                         </div>
                         <div class="col-sm-4 col-md-4 to-animate">
                             <p><i class="fa fa-arrow-alt-down fa-fw fa-2x"></i></p>
-                            <p><strong><%= I18n.t(:'features')[2]['title'].strip %></strong></p>
-                            <p><%= I18n.t(:'features')[2]['description'].strip %></p>
+                            <p><strong><%= I18n.t(:'features')[2][:title].strip %></strong></p>
+                            <p><%= I18n.t(:'features')[2][:description].strip %></p>
                         </div>
                     </div>
                     <div class="row text-center">
                         <div class="col-sm-4 col-md-4 to-animate">
                             <p><i class="fa fa-check fa-fw fa-2x"></i></p>
-                            <p><strong><%= I18n.t(:'features')[3]['title'].strip %></strong></p>
-                            <p><%= I18n.t(:'features')[3]['description'].strip %></p>
+                            <p><strong><%= I18n.t(:'features')[3][:title].strip %></strong></p>
+                            <p><%= I18n.t(:'features')[3][:description].strip %></p>
                         </div>
                         <div class="col-sm-4 col-md-4 to-animate">
                             <p><i class="fa fa-cubes fa-fw fa-2x"></i></p>
-                            <p><strong><%= I18n.t(:'features')[4]['title'].strip %></strong></p>
-                            <p><%= I18n.t(:'features')[4]['description'].strip %></p>
+                            <p><strong><%= I18n.t(:'features')[4][:title].strip %></strong></p>
+                            <p><%= I18n.t(:'features')[4][:description].strip %></p>
                         </div>
                         <div class="col-sm-4 col-md-4 to-animate">
                             <p><i class="fa fa-lock fa-fw fa-2x"></i></p>
-                            <p><strong><%= I18n.t(:'features')[5]['title'].strip %></strong></p>
-                            <p><%= I18n.t(:'features')[5]['description'].strip %></p>
+                            <p><strong><%= I18n.t(:'features')[5][:title].strip %></strong></p>
+                            <p><%= I18n.t(:'features')[5][:description].strip %></p>
                         </div>
                     </div>
                 </div>
@@ -606,8 +606,8 @@ gtag('config', 'UA-17656782-2');
                     </div>
                     <div class="row">
                         <div class="col-xs-12">
-<% I18n.t(:'content.why').each do |qa| %><%= ' ' * 28 %><p class="question to-animate"><%= qa['benefit'].strip %></p>
-                            <%= qa['descrip'].map { |a| "<p class='to-animate'>#{a.strip}</p>" }.join("\n#{' ' * 28}") %><%= if qa != I18n.t(:'content.why').last; "\n"; end %><% end %>
+<% I18n.t(:'content.why').each do |qa| %><%= ' ' * 28 %><p class="question to-animate"><%= qa[:benefit].strip %></p>
+                            <%= qa[:descrip].map { |a| "<p class='to-animate'>#{a.strip}</p>" }.join("\n#{' ' * 28}") %><%= if qa != I18n.t(:'content.why').last; "\n"; end %><% end %>
                         </div>
                     </div>
                 </div>
@@ -622,8 +622,8 @@ gtag('config', 'UA-17656782-2');
                     </div>
                     <div class="row">
                         <div class="col-xs-12">
-<% I18n.t(:'content.benefits').each do |qa| %><%= ' ' * 28 %><p class="question to-animate"><%= qa['benefit'].strip %></p>
-                            <%= qa['descrip'].map { |a| "<p class='to-animate'>#{a.strip}</p>" }.join("\n#{' ' * 28}") %><%= if qa != I18n.t(:'content.benefits').last; "\n"; end %><% end %>
+<% I18n.t(:'content.benefits').each do |qa| %><%= ' ' * 28 %><p class="question to-animate"><%= qa[:benefit].strip %></p>
+                            <%= qa[:descrip].map { |a| "<p class='to-animate'>#{a.strip}</p>" }.join("\n#{' ' * 28}") %><%= if qa != I18n.t(:'content.benefits').last; "\n"; end %><% end %>
                         </div>
                     </div>
                 </div>
