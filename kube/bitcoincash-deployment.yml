@@ -1,4 +1,4 @@
-apiVersion: extensions/v1beta1
+apiVersion: apps/v1
 kind: Deployment
 metadata:
   namespace: default
@@ -6,7 +6,10 @@ metadata:
     service: bitcoincash
   name: bitcoincash
 spec:
-  replicas: 5
+  replicas: 3
+  selector:
+    matchLabels:
+      service: bitcoincash
   template:
     metadata:
       labels:
@@ -20,5 +23,5 @@ spec:
         - containerPort: 80
         resources:
           requests:
-            memory: "64Mi"
+            memory: "16Mi"
       restartPolicy: Always

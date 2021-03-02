@@ -5,9 +5,9 @@ metadata:
   namespace: default
 spec:
   scaleTargetRef:
-    apiVersion: extensions/v1beta1
+    apiVersion: apps/v1
     kind: Deployment
     name: bitcoincash
-  minReplicas: 5
-  maxReplicas: 10
+  minReplicas: 3
+  maxReplicas: 5
   targetCPUUtilizationPercentage: 90
