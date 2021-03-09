@@ -17,6 +17,8 @@ de:
           Bitcoin Cash bietet der gesamten Welt eine solide Währung. Der Nutzen für Händler oder Kunden sind zuverlässige Transaktionen mit geringen Transaktionskosten. Die Zukunft für Bitcoin Cash glänzt dank unlimitiertem Wachstum, globaler Akzeptanz, Innovation und dezentralisierter Entwicklung.
   misc:
     logo: "Logo"
+    dropdown_md_width: 3
+    dropdown_sm_width: 3
   sections:
     about: "Über"
     features: "Features"

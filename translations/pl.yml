@@ -17,6 +17,8 @@ pl:
           Bitcoin Cash to twarda waluta, cechująca się znikomymi opłatami. Przyszłość jawi się w jasnych barwach co do wzrostu wartości, globalalnej adopcja, niezależości oraz rozwoju.
   misc:
     logo: "logo"
+    dropdown_md_width: 3
+    dropdown_sm_width: 3
   sections:
     about: "Opis"
     features: "Co jest nowego"

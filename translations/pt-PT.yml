@@ -17,6 +17,8 @@ pt-PT:
           O Bitcoin Cash traz dinheiro forte para o mundo. Comerciantes e utilizadores são equipados com taxas baixas e confirmações fiáveis. O futuro é promissor com crescimento sem barreiras, inovação sem permissões e desenvolvimento descentralizado.
   misc:
     logo: "logo"
+    dropdown_md_width: 3
+    dropdown_sm_width: 3
   sections:
     about: "Sobre"
     features: "Funcionalidades"

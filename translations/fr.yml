@@ -17,6 +17,8 @@ fr:
           Bitcoin Cash apporte une monnaie saine au monde. Commerçants et utilisateurs bénéficient de frais infimes et de confirmations sûrs. L'avenir brille avec une croissance libre, une adoption mondiale, des innovations sans limites, et un développement décentralisé.
   misc:
     logo: "logo"
+    dropdown_md_width: 3
+    dropdown_sm_width: 3
   sections:
     about: "À propos"
     features: "Fonctionnalités"

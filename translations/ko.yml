@@ -17,6 +17,8 @@ ko:
           비트코인캐시는 세계에 건전한 화폐를 가능케합니다. 상인들과 사용자들은 낮은 수수료와 신뢰있는 승인의 권한이 주어집니다. 미래는 제한없는 성장, 세계적인 채택, 허가불필의 혁신, 탈중앙화된 개발로 밝게 빛납니다.
   misc:
     logo: "로고"
+    dropdown_md_width: 3
+    dropdown_sm_width: 3
   sections:
     about: "관하여"
     features: "기능"

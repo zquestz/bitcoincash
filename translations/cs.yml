@@ -17,6 +17,8 @@ cs:
           Bitcoin Cash přináší světu skvělou měnu. Obchodníkům jakož i uživatelům nabízí Bitcoin Cash nízké transakční poplatky a spolehlivá ověření transakcí. Čeká nás zářná budoucnost neomezeného růstu, globální adopce, neomezené inovace a decentralizovaného vývoje.
   misc:
     logo: "logo"
+    dropdown_md_width: 3
+    dropdown_sm_width: 3
   sections:
     about: "Informace"
     features: "Vlastnosti"

@@ -85,11 +85,13 @@
                               <%= I18n.t(:'sections.exchanges').strip %>
                             </a>
                           </li>
+                          <% if I18n.exists?(:'sections.graphics') %>
                           <li>
                             <a href="graphics/" class="external">
                               <%= I18n.t(:'sections.graphics').strip %>
                             </a>
                           </li>
+                          <% end %>
                         </ul>
                       </div>
                     </div>
