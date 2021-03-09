@@ -10,7 +10,8 @@ In order to build and run the site you need ruby and docker. Then run:
 1. `gem install bundler`
 2. `bundle install`
 3. `rake docker:build`
-4. `docker run -d -p 8888:80 bitcoincash`
+4. `docker run -d -p 8888:80 zquestz/bitcoincash`
+# Site running at localhost:8888
 
 Contributions
 -------------
