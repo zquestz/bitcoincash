@@ -17,6 +17,8 @@ de-CH:
           Bitcoin Cash bütet dä gsamte Wält e solidi Währig. Dä Nutzä für Händler oder Chundä sind zueverlässigi Transaktione mit gringe Transaktionsköschtä. D Zuekunft für Bitcoin Cash glänzt dank unltimitiertem Wachstum, globalä Akzeptanz, Innovation und dezentralä Entwicklig.
   misc:
     logo: "Logo"
+    dropdown_md_width: 3
+    dropdown_sm_width: 3
   sections:
     about: "Über"
     features: "Features"

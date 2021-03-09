@@ -17,6 +17,8 @@ pt-BR:
           Bitcoin Cash introduz uma moeda robusta para o mundo. Comerciantes e usuários são premiados com taxas baixas e transações confiáveis. O futuro será brilhante com crescimento irrestrito, adoção mundial, inovações independentes e desenvolvimento descentralizado.
   misc:
     logo: "logo"
+    dropdown_md_width: 3
+    dropdown_sm_width: 3
   sections:
     about: "Sobre"
     features: "Funcionalidades"

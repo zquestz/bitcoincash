@@ -17,6 +17,8 @@ zh-TW:
           比特幣現金為世界帶來一種可靠的貨幣，提供商家與使用者低手續費且可靠的交易確認。它，因其不受限制的成長、全世界的普及、無須允許的創新，以及去中心化的開發，有著極為光明的未來。
   misc:
     logo: "標誌"
+    dropdown_md_width: 3
+    dropdown_sm_width: 3
   sections:
     about: "關於"
     features: "功能"

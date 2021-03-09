@@ -17,6 +17,8 @@ es:
           Bitcoin Cash es una moneda fuerte para todos. Usuarios y comerciantes pueden ahora disfrutar de comisiones bajas y confirmaciones fiables. El futuro es prometedor gracias a crecimiento sin restricciones, adopción global, innovación que no necesita permisos y desarrollo descentralizado.
   misc:
     logo: "logo"
+    dropdown_md_width: 3
+    dropdown_sm_width: 3
   sections:
     about: "Acerca de"
     features: "Características"
