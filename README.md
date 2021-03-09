@@ -10,12 +10,25 @@ In order to build and run the site you need ruby and docker. Then run:
 1. `gem install bundler`
 2. `bundle install`
 3. `rake docker:build`
-4. `docker run -d -p 8888:80 bitcoincash`
+4. `docker run -d -p 8888:80 zquestz/bitcoincash`
+# Site running at localhost:8888, using the immutable remote docker container
+
+To refresh the site after making changes:
+```
+docker ps # Grab container name
+docker stop [name]
+# Make changes e.g. to index.html.erb
+rake docker:build
+docker run -d -p 8888:80 bitcoincash:latest
+# Site running at localhost:8888, with latest local changes
+```
 
 Contributions
 -------------
 
 If you want to submit updates to the website make sure you are editing `index.html.erb`. This is the template used to generate all translated html files via `rake translations:build`.
+
+Note: Image files for projects will not load if against a transparent background or will extend out of card if too oddly sized.  Best to use approximately 400x250 plain white card, with logo in the center.
 
 Adding Translations
 -------------------

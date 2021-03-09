@@ -7,6 +7,7 @@ GEM
     rake (13.0.3)
 
 PLATFORMS
+  x86_64-darwin-18
   x86_64-linux
 
 DEPENDENCIES
@@ -14,4 +15,4 @@ DEPENDENCIES
   rake
 
 BUNDLED WITH
-   2.2.12
+   2.2.14
