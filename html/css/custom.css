@@ -29,7 +29,7 @@ p.release {
 }
 
 .fa-fw {
-  color: #f08b16;
+  color: #0AC18E;
 }
 
 .vertical-align {
@@ -108,13 +108,13 @@ p.question {
   font-size: 1.3em;
   font-weight: 350;
   font-variant-ligatures: common-ligatures;
-  color: #f08b16;
+  color: #0AC18E;
   font-family: 'Open Sans', 'Helvetica', 'Arial', sans-serif;
   margin-bottom: 1.04em;
 }
 
 .nodes div a:hover, .wallets div a:hover, .services div a:hover, .exchanges div a:hover{
-  border-bottom: 3px solid #F08B16;
+  border-bottom: 3px solid #0AC18E;
 }
 
 .nodes div a, .wallets div a, .services div a, .exchanges div a{
