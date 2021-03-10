@@ -85,32 +85,32 @@
                               <%= I18n.t(:'sections.exchanges').strip %>
                             </a>
                           </li>
-                          <% if I18n.exists?(:'sections.graphics') %>
-                            <li>
-                              <a href="graphics/" class="external">
-                                <%= I18n.t(:'sections.graphics').strip %>
-                              </a>
-                            </li>
-                          <% end %>
+                          <%- if I18n.exists?(:'sections.graphics') -%>
+                          <li>
+                            <a href="graphics/" class="external">
+                              <%= I18n.t(:'sections.graphics').strip %>
+                            </a>
+                          </li>
+                          <%- end -%>
                         </ul>
                       </div>
                     </div>
                   </div>
                 </div>
               </li>
-              <% if !I18n.t(:'content.why').is_a?(String) %>
-                <li>
-                  <a href="#why" data-nav-section="why" class="inner-link">
-                    <span><%= I18n.t(:'sections.benefits').strip %></span>
-                  </a>
-                </li>
-              <% else %>
-                <li>
-                  <a href="#why" data-nav-section="faq" class="inner-link">
-                    <span><%= I18n.t(:'sections.faq').strip %></span>
-                  </a>
-                </li>
-              <% end %>
+              <%- if !I18n.t(:'content.why').is_a?(String) -%>
+              <li>
+                <a href="#why" data-nav-section="why" class="inner-link">
+                  <span><%= I18n.t(:'sections.benefits').strip %></span>
+                </a>
+              </li>
+              <%- else -%>
+              <li>
+                <a href="#why" data-nav-section="faq" class="inner-link">
+                  <span><%= I18n.t(:'sections.faq').strip %></span>
+                </a>
+              </li>
+              <%- end -%>
               <li class="dropdown">
                 <span class="dropdown__trigger"><%= I18n.t(:language).strip %></span>
                 <div class="dropdown__container">
@@ -124,472 +124,472 @@
                         -%>
                         <ul class="menu-vertical">
                           <%- group.each do |pair| -%>
-                            <li>
-                              <a href="/<%= pair[0].to_s.downcase %>/" class="external">
-                                <%= pair[1] %>
-                              </a>
-                            </li>
+                          <li>
+                            <a href="/<%= pair[0].to_s.downcase %>/" class="external">
+                              <%= pair[1] %>
+                            </a>
+                          </li>
                           <%- end -%>
                         </ul>
-                      <%- end -%>
+                        <%- end -%>
+                      </div>
                     </div>
                   </div>
                 </div>
-              </div>
-            </li>
-          </ul>
-        </div>
-      </nav>
-    </div>
-  </header>
-  <section id="fh5co-home" data-section="home" class="home site-header">
-    <div class="container">
-      <div class="row">
-        <div class="col-xs-8 col-xs-offset-2 col-sm-6 col-sm-offset-3 col-md-4 col-md-offset-4 text-center hero-logo to-animate">
-          <img alt="<%= I18n.t(:'layout.bitcoin_cash').strip %>" src="/graphics/img/2-bitcoin-cash-logo-wt.svg">
-          <p class="lead">
-            <%= I18n.t(:'layout.lead').strip %>
-          </p>
-        </div>
+              </li>
+            </ul>
+          </div>
+        </nav>
       </div>
-      <div class="row">
-        <div class="col-sm-12 ticker text-center">
-          <span id="ticker_value" class="to-animate"><%= I18n.t(:'layout.loading').strip %></span>
-        </div>
-      </div>
-    </div>
-    <div class="slant"></div>
-  </section>
-  <div class="main-container" id="home-section">
-    <section class="space--xxs no-bottom" id="about-section" data-section="about">
-      <div class="container benefits">
-        <div class="row text-center">
-          <div class="col-sm-4 col-md-4 to-animate">
-            <p><i class="fa fa-bolt fa-fw fa-2x"></i></p>
-            <p><strong><%= I18n.t(:'features')[0][:title].strip %></strong></p>
-            <p><%= I18n.t(:'features')[0][:description].strip %></p>
-          </div>
-          <div class="col-sm-4 col-md-4 to-animate">
-            <p><i class="fa fa-thumbs-up fa-fw fa-2x"></i></p>
-            <p><strong><%= I18n.t(:'features')[1][:title].strip %></strong></p>
-            <p><%= I18n.t(:'features')[1][:description].strip %></p>
-          </div>
-          <div class="col-sm-4 col-md-4 to-animate">
-            <p><i class="fa fa-arrow-alt-down fa-fw fa-2x"></i></p>
-            <p><strong><%= I18n.t(:'features')[2][:title].strip %></strong></p>
-            <p><%= I18n.t(:'features')[2][:description].strip %></p>
-          </div>
-        </div>
-        <div class="row text-center">
-          <div class="col-sm-4 col-md-4 to-animate">
-            <p><i class="fa fa-check fa-fw fa-2x"></i></p>
-            <p><strong><%= I18n.t(:'features')[3][:title].strip %></strong></p>
-            <p><%= I18n.t(:'features')[3][:description].strip %></p>
-          </div>
-          <div class="col-sm-4 col-md-4 to-animate">
-            <p><i class="fa fa-cubes fa-fw fa-2x"></i></p>
-            <p><strong><%= I18n.t(:'features')[4][:title].strip %></strong></p>
-            <p><%= I18n.t(:'features')[4][:description].strip %></p>
-          </div>
-          <div class="col-sm-4 col-md-4 to-animate">
-            <p><i class="fa fa-lock fa-fw fa-2x"></i></p>
-            <p><strong><%= I18n.t(:'features')[5][:title].strip %></strong></p>
-            <p><%= I18n.t(:'features')[5][:description].strip %></p>
-          </div>
-        </div>
-      </div>
-    </section>
-    <a id="about"></a>
-    <section class="space--xxs" data-section="about2" id="about2-section">
+    </header>
+    <section id="fh5co-home" data-section="home" class="home site-header">
       <div class="container">
-        <div class="row text-center section-heading to-animate">
-          <div class='col-sm-12'>
-            <h2><%= I18n.t(:'headings.about').strip %></h2>
-          </div>
-        </div>
-        <div class="row to-animate">
-          <div class="col-sm-12 col-md-12">
-            <%= I18n.t(:'content.about').map { |c| "<p>#{c.strip}</p>" }.join("\n#{' ' * 28}") %>
-          </div>
-        </div>
-      </div>
-    </section>
-    <a id="nodes"></a>
-    <section class="space--xxs text-center gray border-bottom" id="nodes-section"  data-section="nodes">
-      <div class="container nodes">
-        <div class="row to-animate">
-          <div class="col-xs-12 section-heading ">
-            <h2><%= I18n.t(:'headings.nodes').strip %></h2>
+        <div class="row">
+          <div class="col-xs-8 col-xs-offset-2 col-sm-6 col-sm-offset-3 col-md-4 col-md-offset-4 text-center hero-logo to-animate">
+            <img alt="<%= I18n.t(:'layout.bitcoin_cash').strip %>" src="/graphics/img/2-bitcoin-cash-logo-wt.svg">
+            <p class="lead">
+              <%= I18n.t(:'layout.lead').strip %>
+            </p>
           </div>
         </div>
         <div class="row">
-          <div class="col-sm-6 col-md-6 vertical-align to-animate">
-            <a href="https://bitcoincashnode.org" target="_blank"><img alt="Bitcoin Cash Node" src="/img/wallets/bitcoincashnode.png"></a>
-          </div>
-          <div class="col-sm-6 col-md-6 vertical-align to-animate">
-            <a href="https://www.bitcoinunlimited.info" target="_blank"><img alt="Bitcoin Unlimited" src="/img/wallets/bitcoinunlimited.png"></a>
-          </div>
-          <div class="col-sm-6 col-md-6 vertical-align to-animate">
-            <a href="https://bchd.cash" target="_blank"><img alt="BCHD" src="/img/wallets/bchd.png"></a>
-          </div>
-          <div class="col-sm-6 col-md-6 vertical-align to-animate">
-            <a href="https://flowee.org" target="_blank"><img alt="Flowee The Hub" src="/img/wallets/flowee.png"></a>
-          </div>
-          <div class="col-sm-6 col-md-6 vertical-align to-animate">
-            <a href="https://bitcoinverde.org" target="_blank"><img alt="Bitcoin Verde" src="/img/wallets/bitcoinverde.png"></a>
-          </div>
-          <div class="col-sm-6 col-md-6 vertical-align to-animate">
-            <a href="https://kth.cash" target="_blank"><img alt="Knuth" src="/img/wallets/knuth.png"></a>
+          <div class="col-sm-12 ticker text-center">
+            <span id="ticker_value" class="to-animate"><%= I18n.t(:'layout.loading').strip %></span>
           </div>
         </div>
       </div>
+      <div class="slant"></div>
     </section>
-    <a id="wallets"></a>
-    <section class="space--xxs text-center gray border-bottom" id="wallets-section" data-section="wallets">
-      <div class="container wallets">
-        <div class="row to-animate">
-          <div class="col-xs-12 section-heading ">
-            <h2><%= I18n.t(:'headings.wallets').strip %></h2>
+    <div class="main-container" id="home-section">
+      <section class="space--xxs no-bottom" id="about-section" data-section="about">
+        <div class="container benefits">
+          <div class="row text-center">
+            <div class="col-sm-4 col-md-4 to-animate">
+              <p><i class="fa fa-bolt fa-fw fa-2x"></i></p>
+              <p><strong><%= I18n.t(:'features')[0][:title].strip %></strong></p>
+              <p><%= I18n.t(:'features')[0][:description].strip %></p>
+            </div>
+            <div class="col-sm-4 col-md-4 to-animate">
+              <p><i class="fa fa-thumbs-up fa-fw fa-2x"></i></p>
+              <p><strong><%= I18n.t(:'features')[1][:title].strip %></strong></p>
+              <p><%= I18n.t(:'features')[1][:description].strip %></p>
+            </div>
+            <div class="col-sm-4 col-md-4 to-animate">
+              <p><i class="fa fa-arrow-alt-down fa-fw fa-2x"></i></p>
+              <p><strong><%= I18n.t(:'features')[2][:title].strip %></strong></p>
+              <p><%= I18n.t(:'features')[2][:description].strip %></p>
+            </div>
+          </div>
+          <div class="row text-center">
+            <div class="col-sm-4 col-md-4 to-animate">
+              <p><i class="fa fa-check fa-fw fa-2x"></i></p>
+              <p><strong><%= I18n.t(:'features')[3][:title].strip %></strong></p>
+              <p><%= I18n.t(:'features')[3][:description].strip %></p>
+            </div>
+            <div class="col-sm-4 col-md-4 to-animate">
+              <p><i class="fa fa-cubes fa-fw fa-2x"></i></p>
+              <p><strong><%= I18n.t(:'features')[4][:title].strip %></strong></p>
+              <p><%= I18n.t(:'features')[4][:description].strip %></p>
+            </div>
+            <div class="col-sm-4 col-md-4 to-animate">
+              <p><i class="fa fa-lock fa-fw fa-2x"></i></p>
+              <p><strong><%= I18n.t(:'features')[5][:title].strip %></strong></p>
+              <p><%= I18n.t(:'features')[5][:description].strip %></p>
+            </div>
           </div>
         </div>
-        <div class="row">
-          <div class="col-sm-6 col-md-3 vertical-align to-animate">
-            <a href="https://wallet.bitcoin.com/" target="_blank"><img alt="Bitcoin.com" src="/img/wallets/bitcoindotcom.png"></a>
+      </section>
+      <a id="about"></a>
+      <section class="space--xxs" data-section="about2" id="about2-section">
+        <div class="container">
+          <div class="row text-center section-heading to-animate">
+            <div class='col-sm-12'>
+              <h2><%= I18n.t(:'headings.about').strip %></h2>
+            </div>
           </div>
-          <div class="col-sm-6 col-md-3 vertical-align to-animate">
-            <a href="https://electroncash.org/" target="_blank"><img alt="Electron Cash" src="/img/wallets/electroncash.png"></a>
-          </div>
-          <div class="col-sm-6 col-md-3 vertical-align to-animate">
-            <a href="https://bitpay.com/wallet" target="_blank"><img alt="Bitpay Wallet" src="/img/wallets/bitpay.png"></a>
-          </div>
-          <div class="col-sm-6 col-md-3 vertical-align to-animate">
-            <a href="https://edgesecure.co/" target="_blank"><img alt="Edge" src="/img/wallets/edge.png"></a>
-          </div>
-          <div class="col-sm-6 col-md-3 vertical-align to-animate">
-            <a href="https://www.coinbase.com/" target="_blank"><img alt="Coinbase" src="/img/exchanges/coinbase.png"></a>
-          </div>
-          <div class="col-sm-6 col-md-3 vertical-align to-animate">
-            <a href="http://www.ledgerwallet.com/" target="_blank"><img alt="Ledger" src="/img/wallets/ledger.png"></a>
-          </div>
-          <div class="col-sm-6 col-md-3 vertical-align to-animate">
-            <a href="https://wallet.trezor.io/" target="_blank"><img alt="Trezor" src="/img/wallets/trezor.png"></a>
-          </div>
-          <div class="col-sm-6 col-md-3 vertical-align to-animate">
-            <a href="https://shapeshift.com/keepkey" target="_blank"><img alt="KeepKey" src="/img/wallets/keepkey.png"></a>
-          </div>
-          <div class="col-sm-6 col-md-3 vertical-align to-animate">
-            <a href="https://www.exodus.io/" target="_blank"><img alt="Exodus" src="/img/wallets/exodus.png"></a>
-          </div>
-          <div class="col-sm-6 col-md-3 vertical-align to-animate">
-            <a href="https://breadapp.com/" target="_blank"><img alt="Bread" src="/img/wallets/bread.png"></a>
-          </div>
-          <div class="col-sm-6 col-md-3 vertical-align to-animate">
-            <a href="https://wallet.btc.com/" target="_blank"><img alt="BCC Wallet" src="/img/wallets/btcdotcom.png"></a>
-          </div>
-          <div class="col-sm-6 col-md-3 vertical-align to-animate">
-            <a href="https://www.mobi.me/" target="_blank"><img alt="Mobi" src="/img/wallets/mobi.png"></a>
-          </div>
-          <div class="col-sm-6 col-md-3 vertical-align to-animate">
-            <a href="https://jaxx.io/" target="_blank"><img alt="Jaxx" src="/img/wallets/jaxx.png"></a>
-          </div>
-          <div class="col-sm-6 col-md-3 vertical-align to-animate">
-            <a href="https://strongcoin.com/" target="_blank"><img alt="StrongCoin" src="/img/wallets/strongcoin.png"></a>
-          </div>
-          <div class="col-sm-6 col-md-3 vertical-align to-animate">
-            <a href="https://www.wmtransfer.com/" target="_blank"><img alt="Web Money" src="/img/wallets/webmoney.png"></a>
-          </div>
-          <div class="col-sm-6 col-md-3 vertical-align to-animate">
-            <a href="https://bitcoin-india.org/" target="_blank"><img alt="Bitcoin India" src="/img/wallets/bitcoinindia.png"></a>
-          </div>
-          <div class="col-sm-6 col-md-3 vertical-align to-animate">
-            <a href="https://www.melis.io/" target="_blank"><img alt="Melis" src="/img/wallets/melisio.png"></a>
-          </div>
-          <div class="col-sm-6 col-md-3 vertical-align to-animate">
-            <a href="https://www.coin.space" target="_blank"><img alt="Coin Space" src="/img/wallets/coinspace.png"></a>
-          </div>
-          <div class="col-sm-6 col-md-3 vertical-align to-animate">
-            <a href="https://guarda.co/" target="_blank"><img alt="Guarda Wallet" src="/img/wallets/guarda.png"></a>
-          </div>
-          <div class="col-sm-6 col-md-3 vertical-align to-animate">
-            <a href="https://www.iPayYou.io/tk/BitcoinCashOrg/" target="_blank"><img alt="I Pay You" src="/img/wallets/ipayyou.png"></a>
-          </div>
-          <div class="col-sm-6 col-md-3 vertical-align to-animate">
-            <a href="https://cashaddress.org/" target="_blank"><img alt="Cash Address" src="/img/wallets/cashaddress.png"></a>
-          </div>
-          <div class="col-sm-6 col-md-3 vertical-align to-animate">
-            <a href="https://walletgenerator.net/?currency=BitcoinCash" target="_blank"><img alt="WalletGenerator.net" src="/img/wallets/walletgenerator.png"></a>
+          <div class="row to-animate">
+            <div class="col-sm-12 col-md-12">
+              <%= I18n.t(:'content.about').map { |c| "<p>#{c.strip}</p>" }.join("\n#{' ' * 14}") %>
+            </div>
           </div>
         </div>
-      </div>
-    </section>
-    <a id="services"></a>
-    <section class="space--xxs text-center gray border-bottom" id="services-section"  data-section="services">
-      <div class="container services">
-        <div class="row to-animate">
-          <div class="col-xs-12 section-heading ">
-            <h2><%= I18n.t(:'headings.services').strip %></h2>
+      </section>
+      <a id="nodes"></a>
+      <section class="space--xxs text-center gray border-bottom" id="nodes-section"  data-section="nodes">
+        <div class="container nodes">
+          <div class="row to-animate">
+            <div class="col-xs-12 section-heading ">
+              <h2><%= I18n.t(:'headings.nodes').strip %></h2>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-sm-6 col-md-6 vertical-align to-animate">
+              <a href="https://bitcoincashnode.org" target="_blank"><img alt="Bitcoin Cash Node" src="/img/wallets/bitcoincashnode.png"></a>
+            </div>
+            <div class="col-sm-6 col-md-6 vertical-align to-animate">
+              <a href="https://www.bitcoinunlimited.info" target="_blank"><img alt="Bitcoin Unlimited" src="/img/wallets/bitcoinunlimited.png"></a>
+            </div>
+            <div class="col-sm-6 col-md-6 vertical-align to-animate">
+              <a href="https://bchd.cash" target="_blank"><img alt="BCHD" src="/img/wallets/bchd.png"></a>
+            </div>
+            <div class="col-sm-6 col-md-6 vertical-align to-animate">
+              <a href="https://flowee.org" target="_blank"><img alt="Flowee The Hub" src="/img/wallets/flowee.png"></a>
+            </div>
+            <div class="col-sm-6 col-md-6 vertical-align to-animate">
+              <a href="https://bitcoinverde.org" target="_blank"><img alt="Bitcoin Verde" src="/img/wallets/bitcoinverde.png"></a>
+            </div>
+            <div class="col-sm-6 col-md-6 vertical-align to-animate">
+              <a href="https://kth.cash" target="_blank"><img alt="Knuth" src="/img/wallets/knuth.png"></a>
+            </div>
           </div>
         </div>
-        <div class="row">
-          <div class="col-sm-4 col-md-3 vertical-align to-animate">
-            <a href="https://bitpay.com" target="_blank"><img alt="Bitpay" src="/img/wallets/bitpay.png"></a>
+      </section>
+      <a id="wallets"></a>
+      <section class="space--xxs text-center gray border-bottom" id="wallets-section" data-section="wallets">
+        <div class="container wallets">
+          <div class="row to-animate">
+            <div class="col-xs-12 section-heading ">
+              <h2><%= I18n.t(:'headings.wallets').strip %></h2>
+            </div>
           </div>
-          <div class="col-sm-4 col-md-3 vertical-align to-animate">
-            <a href="https://purse.io/shop" target="_blank"><img alt="Purse.io" src="/img/services/purseio.png"></a>
-          </div>
-          <div class="col-sm-4 col-md-3 vertical-align to-animate">
-            <a href="https://rocketr.net/" target="_blank"><img alt="Rocketr" src="/img/services/rocketr.png"></a>
-          </div>
-          <div class="col-sm-4 col-md-3 vertical-align to-animate">
-            <a href="https://www.coinpayments.net/" target="_blank"><img alt="CoinPayments" src="/img/services/coinpayments.png"></a>
-          </div>
-          <div class="col-sm-4 col-md-3 vertical-align to-animate">
-            <a href="https://coingate.com/" target="_blank"><img alt="CoinGate" src="/img/services/coingate.png"></a>
-          </div>
-          <div class="col-sm-4 col-md-3 vertical-align to-animate">
-            <a href="https://gourl.io/" target="_blank"><img alt="GoUrl" src="/img/services/gourl.png"></a>
-          </div>
-          <div class="col-sm-4 col-md-3 vertical-align to-animate">
-            <a href="https://www.alfacoins.com" target="_blank"><img alt="ALFAcoins" src="/img/services/alfacoins.png"></a>
-          </div>
-          <div class="col-sm-4 col-md-3 vertical-align to-animate">
-            <a href="https://blockchair.com/" target="_blank"><img alt="Blockchair" src="/img/services/blockchair.png"></a>
-          </div>
-          <div class="col-sm-4 col-md-3 vertical-align to-animate">
-            <a href="https://cash.coin.dance/" target="_blank"><img alt="Coin Dance" src="/img/services/coindance.png"></a>
-          </div>
-          <div class="col-sm-4 col-md-3 vertical-align to-animate">
-            <a href="https://cointext.io" target="_blank"><img alt="Cointext" src="/img/services/cointext.png"></a>
-          </div>
-          <div class="col-sm-4 col-md-3 vertical-align to-animate">
-            <a href="https://www.livingroomofsatoshi.com/?sc=bch" target="_blank"><img alt="Living Room Of Satoshi" src="/img/services/livingroomofsatoshi.png"></a>
-          </div>
-          <div class="col-sm-4 col-md-3 vertical-align to-animate">
-            <a href="https://www.piixpay.com/web/" target="_blank"><img alt="piixPay" src="/img/services/piixpay.png"></a>
-          </div>
-          <div class="col-sm-4 col-md-3 vertical-align to-animate">
-            <a href="https://www.bitcoinrewards.com" target="_blank"><img alt="BitcoinRewards" src="/img/services/bitcoinrewards.png"></a>
-          </div>
-          <div class="col-sm-4 col-md-3 vertical-align to-animate">
-            <a href="https://www.alfatop.me" target="_blank"><img alt="ALFAtop" src="/img/services/alfatopme.png"></a>
-          </div>
-          <div class="col-sm-4 col-md-3 vertical-align to-animate">
-            <a href="http://www.chaintip.org" target="_blank"><img alt="ChainTip" src="/img/services/chaintip.png"></a>
-          </div>
-          <div class="col-sm-4 col-md-3 vertical-align to-animate">
-            <a href="https://www.viabtc.com/" target="_blank"><img alt="ViaBTC" src="/img/services/viabtc.png"></a>
-          </div>
-          <div class="col-sm-4 col-md-3 vertical-align to-animate">
-            <a href="https://anyhedge.com/" target="_blank"><img alt="AnyHedge" src="/img/services/anyhedge.png"></a>
-          </div>
-          <div class="col-sm-4 col-md-3 vertical-align to-animate">
-            <a href="https://detoken.net/" target="_blank"><img alt="Detoken" src="/img/services/detoken.png"></a>
-          </div>
-        </div>
-      </div>
-    </section>
-    <a id="projects"></a>
-    <section class="space--xxs text-center gray border-bottom" id="projects-section"  data-section="projects">
-      <div class="container services">
-        <div class="row to-animate">
-          <div class="col-xs-12 section-heading ">
-            <h2><%= I18n.t(:'headings.projects').strip %></h2>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-sm-4 col-md-3 vertical-align to-animate">
-            <a href="https://cashfusion.org/" target="_blank"><img alt="CashFusion" src="/img/projects/cashfusion.png"></a>
-          </div>
-          <div class="col-sm-4 col-md-3 vertical-align to-animate">
-            <a href="https://paybutton.org/" target="_blank"><img alt="PayButton" src="/img/projects/paybutton.png"></a>
-          </div>
-          <div class="col-sm-4 col-md-3 vertical-align to-animate">
-            <a href="https://bch.games/" target="_blank"><img alt="BCH.games" src="/img/projects/bchgames.png"></a>
-          </div>
-          <div class="col-sm-4 col-md-3 vertical-align to-animate">
-            <a href="https://read.cash/" target="_blank"><img alt="read.cash" src="/img/projects/readcash.png"></a>
-          </div>
-          <div class="col-sm-4 col-md-3 vertical-align to-animate">
-            <a href="https://noise.cash/" target="_blank"><img alt="noise.cash" src="/img/projects/noisecash.png"></a>
-          </div>
-          <div class="col-sm-4 col-md-3 vertical-align to-animate">
-            <a href="https://memo.cash/" target="_blank"><img alt="memo.cash" src="/img/projects/memocash.png"></a>
-          </div>
-          <div class="col-sm-4 col-md-3 vertical-align to-animate">
-            <a href="https://blockchain.poker/" target="_blank"><img alt="Blockchain Poker" src="/img/projects/blockchainpoker.png"></a>
-          </div>
-          <div class="col-sm-4 col-md-3 vertical-align to-animate">
-            <a href="https://www.openbazaar.org/" target="_blank"><img alt="OpenBazaar" src="/img/projects/openbazaar.png"></a>
-          </div>
-          <div class="col-sm-4 col-md-3 vertical-align to-animate">
-            <a href="http://joystream.co/" target="_blank"><img alt="Joystream" src="/img/projects/joystream.png"></a>
-          </div>
-          <div class="col-sm-4 col-md-3 vertical-align to-animate">
-            <a href="https://learnbitcoin.cash/" target="_blank"><img alt="Learn Bitcoin Cash" src="/img/projects/learnbitcoincash.png"></a>
-          </div>
-          <div class="col-sm-4 col-md-3 vertical-align to-animate">
-            <a href="https://acceptbitcoin.cash" target="_blank"><img alt="Accept Bitcoin Cash" src="/img/projects/acceptbitcoincash.png"></a>
-          </div>
-          <div class="col-sm-4 col-md-3 vertical-align to-animate">
-            <a href="https://counterparty.cash" target="_blank"><img alt="counterparty.cash" src="/img/projects/xcpcash.png"></a>
-          </div>
-          <div class="col-sm-4 col-md-3 vertical-align to-animate">
-            <a href="https://satoshidice.com/" target="_blank"><img alt="Satoshi Dice" src="/img/projects/satoshidice.png"></a>
-          </div>
-          <div class="col-sm-4 col-md-3 vertical-align to-animate">
-            <a href="https://github.com/dsmurrell/awesome-bitcoin-cash" target="_blank"><img alt="Awesome Bitcoin Cash" src="/img/projects/awesomebitcoincash.png"></a>
-          </div>
-          <div class="col-sm-4 col-md-3 vertical-align to-animate">
-            <a href="https://pompler.com" target="_blank"><img alt="Pompler" src="/img/projects/pompler.png"></a>
-          </div>
-          <div class="col-sm-4 col-md-3 vertical-align to-animate">
-            <a href="https://cashshuffle.com" target="_blank"><img alt="CashShuffle" src="/img/projects/cashshuffle.png"></a>
-          </div>
-          <div class="col-sm-4 col-md-3 vertical-align to-animate">
-            <a href="https://member.cash/" target="_blank"><img alt="member.cash" src="/img/projects/membercash.png"></a>
+          <div class="row">
+            <div class="col-sm-6 col-md-3 vertical-align to-animate">
+              <a href="https://wallet.bitcoin.com/" target="_blank"><img alt="Bitcoin.com" src="/img/wallets/bitcoindotcom.png"></a>
+            </div>
+            <div class="col-sm-6 col-md-3 vertical-align to-animate">
+              <a href="https://electroncash.org/" target="_blank"><img alt="Electron Cash" src="/img/wallets/electroncash.png"></a>
+            </div>
+            <div class="col-sm-6 col-md-3 vertical-align to-animate">
+              <a href="https://bitpay.com/wallet" target="_blank"><img alt="Bitpay Wallet" src="/img/wallets/bitpay.png"></a>
+            </div>
+            <div class="col-sm-6 col-md-3 vertical-align to-animate">
+              <a href="https://edgesecure.co/" target="_blank"><img alt="Edge" src="/img/wallets/edge.png"></a>
+            </div>
+            <div class="col-sm-6 col-md-3 vertical-align to-animate">
+              <a href="https://www.coinbase.com/" target="_blank"><img alt="Coinbase" src="/img/exchanges/coinbase.png"></a>
+            </div>
+            <div class="col-sm-6 col-md-3 vertical-align to-animate">
+              <a href="http://www.ledgerwallet.com/" target="_blank"><img alt="Ledger" src="/img/wallets/ledger.png"></a>
+            </div>
+            <div class="col-sm-6 col-md-3 vertical-align to-animate">
+              <a href="https://wallet.trezor.io/" target="_blank"><img alt="Trezor" src="/img/wallets/trezor.png"></a>
+            </div>
+            <div class="col-sm-6 col-md-3 vertical-align to-animate">
+              <a href="https://shapeshift.com/keepkey" target="_blank"><img alt="KeepKey" src="/img/wallets/keepkey.png"></a>
+            </div>
+            <div class="col-sm-6 col-md-3 vertical-align to-animate">
+              <a href="https://www.exodus.io/" target="_blank"><img alt="Exodus" src="/img/wallets/exodus.png"></a>
+            </div>
+            <div class="col-sm-6 col-md-3 vertical-align to-animate">
+              <a href="https://breadapp.com/" target="_blank"><img alt="Bread" src="/img/wallets/bread.png"></a>
+            </div>
+            <div class="col-sm-6 col-md-3 vertical-align to-animate">
+              <a href="https://wallet.btc.com/" target="_blank"><img alt="BCC Wallet" src="/img/wallets/btcdotcom.png"></a>
+            </div>
+            <div class="col-sm-6 col-md-3 vertical-align to-animate">
+              <a href="https://www.mobi.me/" target="_blank"><img alt="Mobi" src="/img/wallets/mobi.png"></a>
+            </div>
+            <div class="col-sm-6 col-md-3 vertical-align to-animate">
+              <a href="https://jaxx.io/" target="_blank"><img alt="Jaxx" src="/img/wallets/jaxx.png"></a>
+            </div>
+            <div class="col-sm-6 col-md-3 vertical-align to-animate">
+              <a href="https://strongcoin.com/" target="_blank"><img alt="StrongCoin" src="/img/wallets/strongcoin.png"></a>
+            </div>
+            <div class="col-sm-6 col-md-3 vertical-align to-animate">
+              <a href="https://www.wmtransfer.com/" target="_blank"><img alt="Web Money" src="/img/wallets/webmoney.png"></a>
+            </div>
+            <div class="col-sm-6 col-md-3 vertical-align to-animate">
+              <a href="https://bitcoin-india.org/" target="_blank"><img alt="Bitcoin India" src="/img/wallets/bitcoinindia.png"></a>
+            </div>
+            <div class="col-sm-6 col-md-3 vertical-align to-animate">
+              <a href="https://www.melis.io/" target="_blank"><img alt="Melis" src="/img/wallets/melisio.png"></a>
+            </div>
+            <div class="col-sm-6 col-md-3 vertical-align to-animate">
+              <a href="https://www.coin.space" target="_blank"><img alt="Coin Space" src="/img/wallets/coinspace.png"></a>
+            </div>
+            <div class="col-sm-6 col-md-3 vertical-align to-animate">
+              <a href="https://guarda.co/" target="_blank"><img alt="Guarda Wallet" src="/img/wallets/guarda.png"></a>
+            </div>
+            <div class="col-sm-6 col-md-3 vertical-align to-animate">
+              <a href="https://www.iPayYou.io/tk/BitcoinCashOrg/" target="_blank"><img alt="I Pay You" src="/img/wallets/ipayyou.png"></a>
+            </div>
+            <div class="col-sm-6 col-md-3 vertical-align to-animate">
+              <a href="https://cashaddress.org/" target="_blank"><img alt="Cash Address" src="/img/wallets/cashaddress.png"></a>
+            </div>
+            <div class="col-sm-6 col-md-3 vertical-align to-animate">
+              <a href="https://walletgenerator.net/?currency=BitcoinCash" target="_blank"><img alt="WalletGenerator.net" src="/img/wallets/walletgenerator.png"></a>
+            </div>
           </div>
         </div>
-      </div>
-    </section>
-    <a id="exchanges"></a>
-    <section class="space--xxs text-center gray" id="exchanges-section"  data-section="exchanges">
-      <div class="container exchanges">
-        <div class="row to-animate">
-          <div class="col-xs-12 section-heading ">
-            <h2><%= I18n.t(:'headings.exchanges').strip %></h2>
+      </section>
+      <a id="services"></a>
+      <section class="space--xxs text-center gray border-bottom" id="services-section"  data-section="services">
+        <div class="container services">
+          <div class="row to-animate">
+            <div class="col-xs-12 section-heading ">
+              <h2><%= I18n.t(:'headings.services').strip %></h2>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-sm-4 col-md-3 vertical-align to-animate">
+              <a href="https://bitpay.com" target="_blank"><img alt="Bitpay" src="/img/wallets/bitpay.png"></a>
+            </div>
+            <div class="col-sm-4 col-md-3 vertical-align to-animate">
+              <a href="https://purse.io/shop" target="_blank"><img alt="Purse.io" src="/img/services/purseio.png"></a>
+            </div>
+            <div class="col-sm-4 col-md-3 vertical-align to-animate">
+              <a href="https://rocketr.net/" target="_blank"><img alt="Rocketr" src="/img/services/rocketr.png"></a>
+            </div>
+            <div class="col-sm-4 col-md-3 vertical-align to-animate">
+              <a href="https://www.coinpayments.net/" target="_blank"><img alt="CoinPayments" src="/img/services/coinpayments.png"></a>
+            </div>
+            <div class="col-sm-4 col-md-3 vertical-align to-animate">
+              <a href="https://coingate.com/" target="_blank"><img alt="CoinGate" src="/img/services/coingate.png"></a>
+            </div>
+            <div class="col-sm-4 col-md-3 vertical-align to-animate">
+              <a href="https://gourl.io/" target="_blank"><img alt="GoUrl" src="/img/services/gourl.png"></a>
+            </div>
+            <div class="col-sm-4 col-md-3 vertical-align to-animate">
+              <a href="https://www.alfacoins.com" target="_blank"><img alt="ALFAcoins" src="/img/services/alfacoins.png"></a>
+            </div>
+            <div class="col-sm-4 col-md-3 vertical-align to-animate">
+              <a href="https://blockchair.com/" target="_blank"><img alt="Blockchair" src="/img/services/blockchair.png"></a>
+            </div>
+            <div class="col-sm-4 col-md-3 vertical-align to-animate">
+              <a href="https://cash.coin.dance/" target="_blank"><img alt="Coin Dance" src="/img/services/coindance.png"></a>
+            </div>
+            <div class="col-sm-4 col-md-3 vertical-align to-animate">
+              <a href="https://cointext.io" target="_blank"><img alt="Cointext" src="/img/services/cointext.png"></a>
+            </div>
+            <div class="col-sm-4 col-md-3 vertical-align to-animate">
+              <a href="https://www.livingroomofsatoshi.com/?sc=bch" target="_blank"><img alt="Living Room Of Satoshi" src="/img/services/livingroomofsatoshi.png"></a>
+            </div>
+            <div class="col-sm-4 col-md-3 vertical-align to-animate">
+              <a href="https://www.piixpay.com/web/" target="_blank"><img alt="piixPay" src="/img/services/piixpay.png"></a>
+            </div>
+            <div class="col-sm-4 col-md-3 vertical-align to-animate">
+              <a href="https://www.bitcoinrewards.com" target="_blank"><img alt="BitcoinRewards" src="/img/services/bitcoinrewards.png"></a>
+            </div>
+            <div class="col-sm-4 col-md-3 vertical-align to-animate">
+              <a href="https://www.alfatop.me" target="_blank"><img alt="ALFAtop" src="/img/services/alfatopme.png"></a>
+            </div>
+            <div class="col-sm-4 col-md-3 vertical-align to-animate">
+              <a href="http://www.chaintip.org" target="_blank"><img alt="ChainTip" src="/img/services/chaintip.png"></a>
+            </div>
+            <div class="col-sm-4 col-md-3 vertical-align to-animate">
+              <a href="https://www.viabtc.com/" target="_blank"><img alt="ViaBTC" src="/img/services/viabtc.png"></a>
+            </div>
+            <div class="col-sm-4 col-md-3 vertical-align to-animate">
+              <a href="https://anyhedge.com/" target="_blank"><img alt="AnyHedge" src="/img/services/anyhedge.png"></a>
+            </div>
+            <div class="col-sm-4 col-md-3 vertical-align to-animate">
+              <a href="https://detoken.net/" target="_blank"><img alt="Detoken" src="/img/services/detoken.png"></a>
+            </div>
           </div>
         </div>
-        <div class="row">
-          <div class="col-sm-4 col-md-3 vertical-align to-animate">
-            <a href="https://support.bittrex.com/hc/en-us/articles/115000808991-Statement-on-Bitcoin-Cash-BCC-" target="_blank"><img alt="Bittrex" src="/img/exchanges/bittrex.png"></a>
+      </section>
+      <a id="projects"></a>
+      <section class="space--xxs text-center gray border-bottom" id="projects-section"  data-section="projects">
+        <div class="container services">
+          <div class="row to-animate">
+            <div class="col-xs-12 section-heading ">
+              <h2><%= I18n.t(:'headings.projects').strip %></h2>
+            </div>
           </div>
-          <div class="col-sm-4 col-md-3 vertical-align to-animate">
-            <a href="http://blog.kraken.com/post/1150/bitcoin-cash-and-a-critical-alert-for-bitcoin-margin-traders/" target="_blank"><img alt="Kraken" src="/img/exchanges/kraken.png"></a>
-          </div>
-          <div class="col-sm-4 col-md-3 vertical-align to-animate">
-            <a href="https://cex.io/" target="_blank"><img alt="Cexio" src="/img/exchanges/cexio.png"></a>
-          </div>
-          <div class="col-sm-4 col-md-3 vertical-align to-animate">
-            <a href="https://blog.okex.com/2017/07/31/okex-to-offer-bcc-btc-trading-pair-immediately-after-bcc-launch/" target="_blank"><img alt="OKEx" src="/img/exchanges/kex.png"></a>
-          </div>
-          <div class="col-sm-4 col-md-3 vertical-align to-animate">
-            <a href="https://www.huobi.com/p/content/notice/getNotice?id=624" target="_blank"><img alt="Houbi" src="/img/exchanges/houbi.png"></a>
-          </div>
-          <div class="col-sm-4 col-md-3 vertical-align to-animate">
-            <a href="http://korbitblog.tumblr.com/post/163440038518/%EC%95%88%EB%82%B4-bitcoin-cash-bcc-user-activated-hard-fork" target="_blank"><img alt="Korbit" src="/img/exchanges/korbit.png"></a>
-          </div>
-          <div class="col-sm-4 col-md-3 vertical-align to-animate">
-            <a href="https://www.btcbox.co.jp/market-bcc.html" target="_blank"><img alt="BtcBox" src="/img/exchanges/btcbox.png"></a>
-          </div>
-          <div class="col-sm-4 col-md-3 vertical-align to-animate">
-            <a href="http://blog.coinfloor.co.uk/post/163532243506/coinfloor-to-list-bitcoin-cash-bch-in-addition" target="_blank"><img alt="Coinfloor" src="/img/exchanges/coinfloor.png"></a>
-          </div>
-          <div class="col-sm-4 col-md-3 vertical-align to-animate">
-            <a href="https://changelly.com/" target="_blank"><img alt="Changelly" src="/img/exchanges/changelly.png"></a>
-          </div>
-          <div class="col-sm-4 col-md-3 vertical-align to-animate">
-            <a href="https://blog.btcpop.co/2017/07/19/preparation-for-hard-forks/" target="_blank"><img alt="BTCPOP" src="/img/exchanges/btcpop.png"></a>
-          </div>
-          <div class="col-sm-4 col-md-3 vertical-align to-animate">
-            <a href="https://www.bitstarex.com/service/article.html?id=18" target="_blank"><img alt="Bitstarex" src="/img/exchanges/bitstarex.png"></a>
-          </div>
-          <div class="col-sm-4 col-md-3 vertical-align to-animate">
-            <a href="https://shapeshift.io/" target="_blank"><img alt="ShapeShift" src="/img/exchanges/shapeshift.png"></a>
-          </div>
-          <div class="col-sm-4 col-md-3 vertical-align to-animate">
-            <a href="https://blog.hitbtc.com/our-statement-on-bitcoincash-support/" target="_blank"><img alt="HitBTC" src="/img/exchanges/hitbtc.png"></a>
-          </div>
-          <div class="col-sm-4 col-md-3 vertical-align to-animate">
-            <a href="https://uphold.com/en/blog/posts/uphold/bitcoin-cash-live-on-uphold" target="_blank"><img alt="Uphold" src="/img/exchanges/uphold.png"></a>
-          </div>
-          <div class="col-sm-4 col-md-3 vertical-align to-animate">
-            <a href="https://www.bithumb.com/" target="_blank"><img alt="Bithumb" src="/img/exchanges/bithumb.png"></a>
-          </div>
-          <div class="col-sm-4 col-md-3 vertical-align to-animate">
-            <a href="https://www.alfacashier.com/" target="_blank"><img alt="ALFAcashier" src="/img/exchanges/alfacashier.png"></a>
-          </div>
-          <div class="col-sm-4 col-md-3 vertical-align to-animate">
-            <a href="https://evercoin.com/" target="_blank"><img alt="Evercoin" src="/img/exchanges/evercoin.png"></a>
-          </div>
-          <div class="col-sm-4 col-md-3 vertical-align to-animate">
-            <a href="https://bitcoinvn.io" target="_blank"><img alt="BitcoinVN" src="/img/exchanges/bitcoinvietnam.png"></a>
-          </div>
-          <div class="col-sm-4 col-md-3 vertical-align to-animate">
-            <a href="https://coinone.co.kr/" target="_blank"><img alt="Coinone" src="/img/exchanges/coinone.png"></a>
-          </div>
-          <div class="col-sm-4 col-md-3 vertical-align to-animate">
-            <a href="https://bx.in.th/THB/BCH/" target="_blank"><img alt="BX.in.th" src="/img/exchanges/bxinth.png"></a>
-          </div>
-          <div class="col-sm-4 col-md-3 vertical-align to-animate">
-            <a href="https://simplefx.com/dashboard/" target="_blank"><img alt="SimpleFX" src="/img/exchanges/simplefx.png"></a>
-          </div>
-          <div class="col-sm-4 col-md-3 vertical-align to-animate">
-            <a href="https://bitflyer.jp/" target="_blank"><img alt="bitFlyer" src="/img/exchanges/bitflyer.png"></a>
-          </div>
-          <div class="col-sm-4 col-md-3 vertical-align to-animate">
-            <a href="https://poloniex.com/" target="_blank"><img alt="Poloniex" src="/img/exchanges/poloniex.png"></a>
-          </div>
-          <div class="col-sm-4 col-md-3 vertical-align to-animate">
-            <a href="https://www.binance.com/" target="_blank"><img alt="Binance" src="/img/exchanges/binance.png"></a>
-          </div>
-          <div class="col-sm-4 col-md-3 vertical-align to-animate">
-            <a href="https://therocktrading.com/" target="_blank"><img alt="The Rock Trading" src="/img/exchanges/therock.png"></a>
-          </div>
-          <div class="col-sm-4 col-md-3 vertical-align to-animate">
-            <a href="https://www.bitcoin.de/" target="_blank"><img alt="Bitcoin.de" src="/img/exchanges/bitcoinde.png"></a>
-          </div>
-          <div class="col-sm-4 col-md-3 vertical-align to-animate">
-            <a href="https://karsha.biz/" target="_blank"><img alt="Karsha Exchange" src="/img/exchanges/karsha.png"></a>
-          </div>
-          <div class="col-sm-4 col-md-3 vertical-align to-animate">
-            <a href="https://bitbay.net/" target="_blank"><img alt="BitBay" src="/img/exchanges/bitbay.png"></a>
-          </div>
-          <div class="col-sm-4 col-md-3 vertical-align to-animate">
-            <a href="https://coinwale.com/" target="_blank"><img alt="Coinwale" src="/img/exchanges/coinwale.png"></a>
-          </div>
-          <div class="col-sm-4 col-md-3 vertical-align to-animate">
-            <a href="https://surbtc.com/" target="_blank"><img alt="SURBTC" src="/img/exchanges/surbtc.png"></a>
-          </div>
-          <div class="col-sm-4 col-md-3 vertical-align to-animate">
-            <a href="https://www.etoro.com/" target="_blank"><img alt="eToro" src="/img/exchanges/etoro.png"></a>
-          </div>
-          <div class="col-sm-4 col-md-3 vertical-align to-animate">
-            <a href="https://www.independentreserve.com/" target="_blank"><img alt="Independent Reserve" src="/img/exchanges/independentreserve.png"></a>
-          </div>
-          <div class="col-sm-4 col-md-3 vertical-align to-animate">
-            <a href="https://changenow.io/" target="_blank"><img alt="ChangeNOW" src="/img/exchanges/changenow.png"></a>
-          </div>
-          <div class="col-sm-4 col-md-3 vertical-align to-animate">
-            <a href="https://www.bitstamp.net/" target="_blank"><img alt="Bitstamp" src="/img/exchanges/bitstamp.png"></a>
-          </div>
-          <div class="col-sm-4 col-md-3 vertical-align to-animate">
-            <a href="https://www.localbitcoincash.org/" target="_blank"><img alt="LocalBitcoinCash" src="/img/exchanges/localbitcoincash.png"></a>
-          </div>
-          <div class="col-sm-4 col-md-3 vertical-align to-animate">
-            <a href="https://www.coinbase.com/" target="_blank"><img alt="Coinbase" src="/img/exchanges/coinbase.png"></a>
-          </div>
-          <div class="col-sm-4 col-md-3 vertical-align to-animate">
-            <a href="https://www.gdax.com/" target="_blank"><img alt="GDAX" src="/img/exchanges/gdax.png"></a>
-          </div>
-          <div class="col-sm-4 col-md-3 vertical-align to-animate">
-            <a href="https://www.ntrust.com/" target="_blank"><img alt="nTrust" src="/img/exchanges/ntrust.png"></a>
-          </div>
-          <div class="col-sm-4 col-md-3 vertical-align to-animate">
-            <a href="https://bestrate.org/" target="_blank"><img alt="BestRate" src="/img/exchanges/bestrate.png"></a>
-          </div>
-          <div class="col-sm-4 col-md-3 vertical-align to-animate">
-            <a href="https://www.coinex.com/" target="_blank"><img alt="Coinex" src="/img/exchanges/coinex.png"></a>
-          </div>
-          <div class="col-sm-4 col-md-3 vertical-align to-animate">
-            <a href="https://coinfalcon.com" target="_blank"><img alt="CoinFalcon" src="/img/exchanges/coinfalcon.png"></a>
-          </div>
-          <div class="col-sm-4 col-md-3 vertical-align to-animate">
-            <a href="https://exmo.com" target="_blank"><img alt="Exmo" src="/img/exchanges/exmo.png"></a>
+          <div class="row">
+            <div class="col-sm-4 col-md-3 vertical-align to-animate">
+              <a href="https://cashfusion.org/" target="_blank"><img alt="CashFusion" src="/img/projects/cashfusion.png"></a>
+            </div>
+            <div class="col-sm-4 col-md-3 vertical-align to-animate">
+              <a href="https://paybutton.org/" target="_blank"><img alt="PayButton" src="/img/projects/paybutton.png"></a>
+            </div>
+            <div class="col-sm-4 col-md-3 vertical-align to-animate">
+              <a href="https://bch.games/" target="_blank"><img alt="BCH.games" src="/img/projects/bchgames.png"></a>
+            </div>
+            <div class="col-sm-4 col-md-3 vertical-align to-animate">
+              <a href="https://read.cash/" target="_blank"><img alt="read.cash" src="/img/projects/readcash.png"></a>
+            </div>
+            <div class="col-sm-4 col-md-3 vertical-align to-animate">
+              <a href="https://noise.cash/" target="_blank"><img alt="noise.cash" src="/img/projects/noisecash.png"></a>
+            </div>
+            <div class="col-sm-4 col-md-3 vertical-align to-animate">
+              <a href="https://memo.cash/" target="_blank"><img alt="memo.cash" src="/img/projects/memocash.png"></a>
+            </div>
+            <div class="col-sm-4 col-md-3 vertical-align to-animate">
+              <a href="https://blockchain.poker/" target="_blank"><img alt="Blockchain Poker" src="/img/projects/blockchainpoker.png"></a>
+            </div>
+            <div class="col-sm-4 col-md-3 vertical-align to-animate">
+              <a href="https://www.openbazaar.org/" target="_blank"><img alt="OpenBazaar" src="/img/projects/openbazaar.png"></a>
+            </div>
+            <div class="col-sm-4 col-md-3 vertical-align to-animate">
+              <a href="http://joystream.co/" target="_blank"><img alt="Joystream" src="/img/projects/joystream.png"></a>
+            </div>
+            <div class="col-sm-4 col-md-3 vertical-align to-animate">
+              <a href="https://learnbitcoin.cash/" target="_blank"><img alt="Learn Bitcoin Cash" src="/img/projects/learnbitcoincash.png"></a>
+            </div>
+            <div class="col-sm-4 col-md-3 vertical-align to-animate">
+              <a href="https://acceptbitcoin.cash" target="_blank"><img alt="Accept Bitcoin Cash" src="/img/projects/acceptbitcoincash.png"></a>
+            </div>
+            <div class="col-sm-4 col-md-3 vertical-align to-animate">
+              <a href="https://counterparty.cash" target="_blank"><img alt="counterparty.cash" src="/img/projects/xcpcash.png"></a>
+            </div>
+            <div class="col-sm-4 col-md-3 vertical-align to-animate">
+              <a href="https://satoshidice.com/" target="_blank"><img alt="Satoshi Dice" src="/img/projects/satoshidice.png"></a>
+            </div>
+            <div class="col-sm-4 col-md-3 vertical-align to-animate">
+              <a href="https://github.com/dsmurrell/awesome-bitcoin-cash" target="_blank"><img alt="Awesome Bitcoin Cash" src="/img/projects/awesomebitcoincash.png"></a>
+            </div>
+            <div class="col-sm-4 col-md-3 vertical-align to-animate">
+              <a href="https://pompler.com" target="_blank"><img alt="Pompler" src="/img/projects/pompler.png"></a>
+            </div>
+            <div class="col-sm-4 col-md-3 vertical-align to-animate">
+              <a href="https://cashshuffle.com" target="_blank"><img alt="CashShuffle" src="/img/projects/cashshuffle.png"></a>
+            </div>
+            <div class="col-sm-4 col-md-3 vertical-align to-animate">
+              <a href="https://member.cash/" target="_blank"><img alt="member.cash" src="/img/projects/membercash.png"></a>
+            </div>
           </div>
         </div>
-      </div>
-    </section>
-    <% if !I18n.t(:'content.faq').is_a?(String) %>
+      </section>
+      <a id="exchanges"></a>
+      <section class="space--xxs text-center gray" id="exchanges-section"  data-section="exchanges">
+        <div class="container exchanges">
+          <div class="row to-animate">
+            <div class="col-xs-12 section-heading ">
+              <h2><%= I18n.t(:'headings.exchanges').strip %></h2>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-sm-4 col-md-3 vertical-align to-animate">
+              <a href="https://support.bittrex.com/hc/en-us/articles/115000808991-Statement-on-Bitcoin-Cash-BCC-" target="_blank"><img alt="Bittrex" src="/img/exchanges/bittrex.png"></a>
+            </div>
+            <div class="col-sm-4 col-md-3 vertical-align to-animate">
+              <a href="http://blog.kraken.com/post/1150/bitcoin-cash-and-a-critical-alert-for-bitcoin-margin-traders/" target="_blank"><img alt="Kraken" src="/img/exchanges/kraken.png"></a>
+            </div>
+            <div class="col-sm-4 col-md-3 vertical-align to-animate">
+              <a href="https://cex.io/" target="_blank"><img alt="Cexio" src="/img/exchanges/cexio.png"></a>
+            </div>
+            <div class="col-sm-4 col-md-3 vertical-align to-animate">
+              <a href="https://blog.okex.com/2017/07/31/okex-to-offer-bcc-btc-trading-pair-immediately-after-bcc-launch/" target="_blank"><img alt="OKEx" src="/img/exchanges/kex.png"></a>
+            </div>
+            <div class="col-sm-4 col-md-3 vertical-align to-animate">
+              <a href="https://www.huobi.com/p/content/notice/getNotice?id=624" target="_blank"><img alt="Houbi" src="/img/exchanges/houbi.png"></a>
+            </div>
+            <div class="col-sm-4 col-md-3 vertical-align to-animate">
+              <a href="http://korbitblog.tumblr.com/post/163440038518/%EC%95%88%EB%82%B4-bitcoin-cash-bcc-user-activated-hard-fork" target="_blank"><img alt="Korbit" src="/img/exchanges/korbit.png"></a>
+            </div>
+            <div class="col-sm-4 col-md-3 vertical-align to-animate">
+              <a href="https://www.btcbox.co.jp/market-bcc.html" target="_blank"><img alt="BtcBox" src="/img/exchanges/btcbox.png"></a>
+            </div>
+            <div class="col-sm-4 col-md-3 vertical-align to-animate">
+              <a href="http://blog.coinfloor.co.uk/post/163532243506/coinfloor-to-list-bitcoin-cash-bch-in-addition" target="_blank"><img alt="Coinfloor" src="/img/exchanges/coinfloor.png"></a>
+            </div>
+            <div class="col-sm-4 col-md-3 vertical-align to-animate">
+              <a href="https://changelly.com/" target="_blank"><img alt="Changelly" src="/img/exchanges/changelly.png"></a>
+            </div>
+            <div class="col-sm-4 col-md-3 vertical-align to-animate">
+              <a href="https://blog.btcpop.co/2017/07/19/preparation-for-hard-forks/" target="_blank"><img alt="BTCPOP" src="/img/exchanges/btcpop.png"></a>
+            </div>
+            <div class="col-sm-4 col-md-3 vertical-align to-animate">
+              <a href="https://www.bitstarex.com/service/article.html?id=18" target="_blank"><img alt="Bitstarex" src="/img/exchanges/bitstarex.png"></a>
+            </div>
+            <div class="col-sm-4 col-md-3 vertical-align to-animate">
+              <a href="https://shapeshift.io/" target="_blank"><img alt="ShapeShift" src="/img/exchanges/shapeshift.png"></a>
+            </div>
+            <div class="col-sm-4 col-md-3 vertical-align to-animate">
+              <a href="https://blog.hitbtc.com/our-statement-on-bitcoincash-support/" target="_blank"><img alt="HitBTC" src="/img/exchanges/hitbtc.png"></a>
+            </div>
+            <div class="col-sm-4 col-md-3 vertical-align to-animate">
+              <a href="https://uphold.com/en/blog/posts/uphold/bitcoin-cash-live-on-uphold" target="_blank"><img alt="Uphold" src="/img/exchanges/uphold.png"></a>
+            </div>
+            <div class="col-sm-4 col-md-3 vertical-align to-animate">
+              <a href="https://www.bithumb.com/" target="_blank"><img alt="Bithumb" src="/img/exchanges/bithumb.png"></a>
+            </div>
+            <div class="col-sm-4 col-md-3 vertical-align to-animate">
+              <a href="https://www.alfacashier.com/" target="_blank"><img alt="ALFAcashier" src="/img/exchanges/alfacashier.png"></a>
+            </div>
+            <div class="col-sm-4 col-md-3 vertical-align to-animate">
+              <a href="https://evercoin.com/" target="_blank"><img alt="Evercoin" src="/img/exchanges/evercoin.png"></a>
+            </div>
+            <div class="col-sm-4 col-md-3 vertical-align to-animate">
+              <a href="https://bitcoinvn.io" target="_blank"><img alt="BitcoinVN" src="/img/exchanges/bitcoinvietnam.png"></a>
+            </div>
+            <div class="col-sm-4 col-md-3 vertical-align to-animate">
+              <a href="https://coinone.co.kr/" target="_blank"><img alt="Coinone" src="/img/exchanges/coinone.png"></a>
+            </div>
+            <div class="col-sm-4 col-md-3 vertical-align to-animate">
+              <a href="https://bx.in.th/THB/BCH/" target="_blank"><img alt="BX.in.th" src="/img/exchanges/bxinth.png"></a>
+            </div>
+            <div class="col-sm-4 col-md-3 vertical-align to-animate">
+              <a href="https://simplefx.com/dashboard/" target="_blank"><img alt="SimpleFX" src="/img/exchanges/simplefx.png"></a>
+            </div>
+            <div class="col-sm-4 col-md-3 vertical-align to-animate">
+              <a href="https://bitflyer.jp/" target="_blank"><img alt="bitFlyer" src="/img/exchanges/bitflyer.png"></a>
+            </div>
+            <div class="col-sm-4 col-md-3 vertical-align to-animate">
+              <a href="https://poloniex.com/" target="_blank"><img alt="Poloniex" src="/img/exchanges/poloniex.png"></a>
+            </div>
+            <div class="col-sm-4 col-md-3 vertical-align to-animate">
+              <a href="https://www.binance.com/" target="_blank"><img alt="Binance" src="/img/exchanges/binance.png"></a>
+            </div>
+            <div class="col-sm-4 col-md-3 vertical-align to-animate">
+              <a href="https://therocktrading.com/" target="_blank"><img alt="The Rock Trading" src="/img/exchanges/therock.png"></a>
+            </div>
+            <div class="col-sm-4 col-md-3 vertical-align to-animate">
+              <a href="https://www.bitcoin.de/" target="_blank"><img alt="Bitcoin.de" src="/img/exchanges/bitcoinde.png"></a>
+            </div>
+            <div class="col-sm-4 col-md-3 vertical-align to-animate">
+              <a href="https://karsha.biz/" target="_blank"><img alt="Karsha Exchange" src="/img/exchanges/karsha.png"></a>
+            </div>
+            <div class="col-sm-4 col-md-3 vertical-align to-animate">
+              <a href="https://bitbay.net/" target="_blank"><img alt="BitBay" src="/img/exchanges/bitbay.png"></a>
+            </div>
+            <div class="col-sm-4 col-md-3 vertical-align to-animate">
+              <a href="https://coinwale.com/" target="_blank"><img alt="Coinwale" src="/img/exchanges/coinwale.png"></a>
+            </div>
+            <div class="col-sm-4 col-md-3 vertical-align to-animate">
+              <a href="https://surbtc.com/" target="_blank"><img alt="SURBTC" src="/img/exchanges/surbtc.png"></a>
+            </div>
+            <div class="col-sm-4 col-md-3 vertical-align to-animate">
+              <a href="https://www.etoro.com/" target="_blank"><img alt="eToro" src="/img/exchanges/etoro.png"></a>
+            </div>
+            <div class="col-sm-4 col-md-3 vertical-align to-animate">
+              <a href="https://www.independentreserve.com/" target="_blank"><img alt="Independent Reserve" src="/img/exchanges/independentreserve.png"></a>
+            </div>
+            <div class="col-sm-4 col-md-3 vertical-align to-animate">
+              <a href="https://changenow.io/" target="_blank"><img alt="ChangeNOW" src="/img/exchanges/changenow.png"></a>
+            </div>
+            <div class="col-sm-4 col-md-3 vertical-align to-animate">
+              <a href="https://www.bitstamp.net/" target="_blank"><img alt="Bitstamp" src="/img/exchanges/bitstamp.png"></a>
+            </div>
+            <div class="col-sm-4 col-md-3 vertical-align to-animate">
+              <a href="https://www.localbitcoincash.org/" target="_blank"><img alt="LocalBitcoinCash" src="/img/exchanges/localbitcoincash.png"></a>
+            </div>
+            <div class="col-sm-4 col-md-3 vertical-align to-animate">
+              <a href="https://www.coinbase.com/" target="_blank"><img alt="Coinbase" src="/img/exchanges/coinbase.png"></a>
+            </div>
+            <div class="col-sm-4 col-md-3 vertical-align to-animate">
+              <a href="https://www.gdax.com/" target="_blank"><img alt="GDAX" src="/img/exchanges/gdax.png"></a>
+            </div>
+            <div class="col-sm-4 col-md-3 vertical-align to-animate">
+              <a href="https://www.ntrust.com/" target="_blank"><img alt="nTrust" src="/img/exchanges/ntrust.png"></a>
+            </div>
+            <div class="col-sm-4 col-md-3 vertical-align to-animate">
+              <a href="https://bestrate.org/" target="_blank"><img alt="BestRate" src="/img/exchanges/bestrate.png"></a>
+            </div>
+            <div class="col-sm-4 col-md-3 vertical-align to-animate">
+              <a href="https://www.coinex.com/" target="_blank"><img alt="Coinex" src="/img/exchanges/coinex.png"></a>
+            </div>
+            <div class="col-sm-4 col-md-3 vertical-align to-animate">
+              <a href="https://coinfalcon.com" target="_blank"><img alt="CoinFalcon" src="/img/exchanges/coinfalcon.png"></a>
+            </div>
+            <div class="col-sm-4 col-md-3 vertical-align to-animate">
+              <a href="https://exmo.com" target="_blank"><img alt="Exmo" src="/img/exchanges/exmo.png"></a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <%- if !I18n.t(:'content.faq').is_a?(String) -%>
       <a id="faq"></a>
       <section class="space--xxs" id="faq-section" data-section="faq">
         <div class="container">
@@ -600,16 +600,17 @@
           </div>
           <div class="row">
             <div class="col-xs-12">
-              <% I18n.t(:'content.faq').each do |qa| %><%= ' ' * 28 %>
-                <p class="question to-animate"><%= qa[:question].strip %></p>
-                <%= qa[:answer].map { |a| "<p class='to-animate'>#{a.strip}</p>" }.join("\n#{' ' * 28}") %><%= if qa != I18n.t(:'content.faq').last; "\n"; end %><% end %>
+              <% I18n.t(:'content.faq').each do |qa| %><%= ' ' * 16 %>
+              <p class="question to-animate"><%= qa[:question].strip %></p>
+              <%= qa[:answer].map { |a| "<p class='to-animate'>#{a.strip}</p>" }.join("\n#{' ' * 14}") %>
+              <%- end -%>
               </div>
             </div>
           </div>
         </div>
       </section>
-    <% end %>
-    <% if !I18n.t(:'content.why').is_a?(String) %>
+      <%- end -%>
+      <%- if !I18n.t(:'content.why').is_a?(String) -%>
       <a id="benefits"></a>
       <section class="space--xxs" id="why-section" data-section="why">
         <div class="container">
@@ -620,106 +621,108 @@
           </div>
           <div class="row">
             <div class="col-xs-12">
-              <% I18n.t(:'content.why').each do |qa| %><%= ' ' * 28 %>
-                <p class="question to-animate"><%= qa[:benefit].strip %></p>
-                <%= qa[:descrip].map { |a| "<p class='to-animate'>#{a.strip}</p>" }.join("\n#{' ' * 28}") %><%= if qa != I18n.t(:'content.why').last; "\n"; end %><% end %>
-              </div>
+              <%- I18n.t(:'content.why').each do |qa| -%>
+              <p class="question to-animate"><%= qa[:benefit].strip %></p>
+              <%= qa[:descrip].map { |a| "<p class='to-animate'>#{a.strip}</p>" }.join("\n#{' ' * 14}") %>
+              <%- end -%>
             </div>
           </div>
-        </section>
-      <% end %>
-      <% if !I18n.t(:'content.benefits').is_a?(String) %>
-        <section class="space--xxs" id="merchant-benefits-section" data-section="benefits">
-          <div class="container">
-            <div class="row text-center to-animate">
-              <div class="col-xs-12 section-heading">
-                <h2><%= I18n.t(:'headings.benefits').strip %></h2>
-              </div>
-            </div>
-            <div class="row">
-              <div class="col-xs-12">
-                <% I18n.t(:'content.benefits').each do |qa| %><%= ' ' * 28 %>
-                  <p class="question to-animate"><%= qa[:benefit].strip %></p>
-                  <%= qa[:descrip].map { |a| "<p class='to-animate'>#{a.strip}</p>" }.join("\n#{' ' * 28}") %><%= if qa != I18n.t(:'content.benefits').last; "\n"; end %><% end %>
-                </div>
-              </div>
-            </div>
-          </section>
-        <% end %>
-        <% if !I18n.t(:'content.history').is_a?(String) %>
-          <section class="space--xxs" id="history-section"  data-section="history">
-            <div class="container">
-              <div class="row text-center to-animate">
-                <div class='col-sm-12 section-heading '>
-                  <h2><%= I18n.t(:'headings.history').strip %></h2>
-                </div>
-              </div>
-              <div class="row to-animate">
-                <div class="col-sm-12 col-md-12">
-                  <%= I18n.t(:'content.history').map { |c| "<p>#{c.strip}</p>" }.join("\n#{' ' * 28}") %>
-                </div>
-              </div>
-            </div>
-          </section>
-        <% end %>
-        <% if !I18n.t(:'content.development').is_a?(String) %>
-          <section class="space--xxs" id="development-section"  data-section="development">
-            <div class="container">
-              <div class="row text-center to-animate">
-                <div class='col-sm-12 section-heading '>
-                  <h2><%= I18n.t(:'headings.development').strip %></h2>
-                </div>
-              </div>
-              <div class="row to-animate">
-                <div class="col-sm-12 col-md-12">
-                  <%= I18n.t(:'content.development').map { |c| "<p>#{c.strip}</p>" }.join("\n#{' ' * 28}") %>
-                </div>
-              </div>
-            </div>
-          </section>
-        <% end %>
-        <footer class="space--xs footer-1">
-          <div class="container">
-            <div class="row">
-              <div class="col-sm-6">
-                <span class="type--fine-print">&copy;<span class="update-year"></span> bitcoincash.org</span>
-              </div>
-              <div class="col-sm-6 text-right text-center-xs">
-                <ul class="social-list list-inline list--hover">
-                  <li>
-                    <a href="https://www.facebook.com/bitcoincashorg" target="_blank">
-                      <i class="socicon socicon-facebook icon icon--xs"></i>
-                    </a>
-                  </li>
-                  <li>
-                    <a href="https://www.reddit.com/r/Bitcoincash/" target="_blank">
-                      <i class="socicon socicon-reddit icon icon--xs"></i>
-                    </a>
-                  </li>
-                  <li>
-                    <a href="https://github.com/zquestz/bitcoincash" target="_blank">
-                      <i class="socicon socicon-github icon icon--xs"></i>
-                    </a>
-                  </li>
-                </ul>
-              </div>
+        </div>
+      </section>
+      <%- end -%>
+      <%- if !I18n.t(:'content.benefits').is_a?(String) -%>
+      <section class="space--xxs" id="merchant-benefits-section" data-section="benefits">
+        <div class="container">
+          <div class="row text-center to-animate">
+            <div class="col-xs-12 section-heading">
+              <h2><%= I18n.t(:'headings.benefits').strip %></h2>
             </div>
           </div>
-        </footer>
-      </div>
-      <a class="back-to-top inner-link" href="#start" data-scroll-class="100vh:active">
-        <i class="stack-interface stack-up-open-big"></i>
-      </a>
-      <script src="/js/jquery.min.js"></script>
-      <script src="/js/smooth-scroll.min.js"></script>
-      <script src="/js/scripts.js"></script>
-      <script src="/js/fontawesome.js"></script>
-      <script src="/js/packs/solid.js"></script>
-      <script src="/js/ticker.js?v=2"></script>
-      <script src="/js/jquery.easing.1.3.js"></script>
-      <script src="/js/jquery.stellar.min.js"></script>
-      <script src="/js/bootstrap.min.js"></script>
-      <script src="/js/jquery.waypoints.min.js"></script>
-      <script src="/js/main.js"></script>
-    </body>
-  </html>
+          <div class="row">
+            <div class="col-xs-12">
+              <%- I18n.t(:'content.benefits').each do |qa| -%>
+              <p class="question to-animate"><%= qa[:benefit].strip %></p>
+              <%= qa[:descrip].map { |a| "<p class='to-animate'>#{a.strip}</p>" }.join("\n#{' ' * 14}") %>
+              <%- end -%>
+            </div>
+          </div>
+        </div>
+      </section>
+      <%- end -%>
+      <%- if !I18n.t(:'content.history').is_a?(String) -%>
+      <section class="space--xxs" id="history-section"  data-section="history">
+        <div class="container">
+          <div class="row text-center to-animate">
+            <div class='col-sm-12 section-heading '>
+              <h2><%= I18n.t(:'headings.history').strip %></h2>
+            </div>
+          </div>
+          <div class="row to-animate">
+            <div class="col-sm-12 col-md-12">
+              <%= I18n.t(:'content.history').map { |c| "<p>#{c.strip}</p>" }.join("\n#{' ' * 14}") %>
+            </div>
+          </div>
+        </div>
+      </section>
+      <%- end -%>
+      <%- if !I18n.t(:'content.development').is_a?(String) -%>
+      <section class="space--xxs" id="development-section"  data-section="development">
+        <div class="container">
+          <div class="row text-center to-animate">
+            <div class='col-sm-12 section-heading '>
+              <h2><%= I18n.t(:'headings.development').strip %></h2>
+            </div>
+          </div>
+          <div class="row to-animate">
+            <div class="col-sm-12 col-md-12">
+              <%= I18n.t(:'content.development').map { |c| "<p>#{c.strip}</p>" }.join("\n#{' ' * 14}") %>
+            </div>
+          </div>
+        </div>
+      </section>
+      <%- end -%>
+      <footer class="space--xs footer-1">
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-6">
+              <span class="type--fine-print">&copy;<span class="update-year"></span> bitcoincash.org</span>
+            </div>
+            <div class="col-sm-6 text-right text-center-xs">
+              <ul class="social-list list-inline list--hover">
+                <li>
+                  <a href="https://www.facebook.com/bitcoincashorg" target="_blank">
+                    <i class="socicon socicon-facebook icon icon--xs"></i>
+                  </a>
+                </li>
+                <li>
+                  <a href="https://www.reddit.com/r/Bitcoincash/" target="_blank">
+                    <i class="socicon socicon-reddit icon icon--xs"></i>
+                  </a>
+                </li>
+                <li>
+                  <a href="https://github.com/zquestz/bitcoincash" target="_blank">
+                    <i class="socicon socicon-github icon icon--xs"></i>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+    <a class="back-to-top inner-link" href="#start" data-scroll-class="100vh:active">
+      <i class="stack-interface stack-up-open-big"></i>
+    </a>
+    <script src="/js/jquery.min.js"></script>
+    <script src="/js/smooth-scroll.min.js"></script>
+    <script src="/js/scripts.js"></script>
+    <script src="/js/fontawesome.js"></script>
+    <script src="/js/packs/solid.js"></script>
+    <script src="/js/ticker.js?v=2"></script>
+    <script src="/js/jquery.easing.1.3.js"></script>
+    <script src="/js/jquery.stellar.min.js"></script>
+    <script src="/js/bootstrap.min.js"></script>
+    <script src="/js/jquery.waypoints.min.js"></script>
+    <script src="/js/main.js"></script>
+  </body>
+</html>
