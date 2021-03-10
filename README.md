@@ -34,6 +34,14 @@ Adding Translations
 
 To add translations to the project, use `translations/en.yml` as a template and create a new file for your locale. Then translate all the content inside of the yaml file and send us a pull request.
 
+Optimizing Images
+-----------------
+
+Just run `pngquant` to optimize all png images.
+```
+find . -name '*.png' -exec pngquant --ext .png --force --skip-if-larger {} \;
+```
+
 About Bitcoin Cash
 ------------------
 
