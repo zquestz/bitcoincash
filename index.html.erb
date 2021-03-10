@@ -86,11 +86,11 @@
                             </a>
                           </li>
                           <% if I18n.exists?(:'sections.graphics') %>
-                          <li>
-                            <a href="graphics/" class="external">
-                              <%= I18n.t(:'sections.graphics').strip %>
-                            </a>
-                          </li>
+                            <li>
+                              <a href="graphics/" class="external">
+                                <%= I18n.t(:'sections.graphics').strip %>
+                              </a>
+                            </li>
                           <% end %>
                         </ul>
                       </div>
@@ -446,8 +446,8 @@
             <a href="https://cashshuffle.com" target="_blank"><img alt="CashShuffle" src="/img/projects/cashshuffle.png"></a>
           </div>
           <div class="col-sm-4 col-md-3 vertical-align to-animate">
-          <a href="https://member.cash/" target="_blank"><img alt="member.cash" src="/img/projects/membercash.png"></a>
-        </div>
+            <a href="https://member.cash/" target="_blank"><img alt="member.cash" src="/img/projects/membercash.png"></a>
+          </div>
         </div>
       </div>
     </section>
@@ -606,119 +606,120 @@
               </div>
             </div>
           </div>
+        </div>
+      </section>
+    <% end %>
+    <% if !I18n.t(:'content.why').is_a?(String) %>
+      <a id="benefits"></a>
+      <section class="space--xxs" id="why-section" data-section="why">
+        <div class="container">
+          <div class="row text-center to-animate">
+            <div class="col-xs-12 section-heading">
+              <h2><%= I18n.t(:'headings.why').strip %></h2>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-xs-12">
+              <% I18n.t(:'content.why').each do |qa| %><%= ' ' * 28 %>
+                <p class="question to-animate"><%= qa[:benefit].strip %></p>
+                <%= qa[:descrip].map { |a| "<p class='to-animate'>#{a.strip}</p>" }.join("\n#{' ' * 28}") %><%= if qa != I18n.t(:'content.why').last; "\n"; end %><% end %>
+              </div>
+            </div>
+          </div>
         </section>
       <% end %>
-      <% if !I18n.t(:'content.why').is_a?(String) %>
-        <a id="benefits"></a>
-        <section class="space--xxs" id="why-section" data-section="why">
+      <% if !I18n.t(:'content.benefits').is_a?(String) %>
+        <section class="space--xxs" id="merchant-benefits-section" data-section="benefits">
           <div class="container">
             <div class="row text-center to-animate">
               <div class="col-xs-12 section-heading">
-                <h2><%= I18n.t(:'headings.why').strip %></h2>
+                <h2><%= I18n.t(:'headings.benefits').strip %></h2>
               </div>
             </div>
             <div class="row">
               <div class="col-xs-12">
-                <% I18n.t(:'content.why').each do |qa| %><%= ' ' * 28 %>
+                <% I18n.t(:'content.benefits').each do |qa| %><%= ' ' * 28 %>
                   <p class="question to-animate"><%= qa[:benefit].strip %></p>
-                  <%= qa[:descrip].map { |a| "<p class='to-animate'>#{a.strip}</p>" }.join("\n#{' ' * 28}") %><%= if qa != I18n.t(:'content.why').last; "\n"; end %><% end %>
+                  <%= qa[:descrip].map { |a| "<p class='to-animate'>#{a.strip}</p>" }.join("\n#{' ' * 28}") %><%= if qa != I18n.t(:'content.benefits').last; "\n"; end %><% end %>
                 </div>
               </div>
             </div>
           </section>
         <% end %>
-        <% if !I18n.t(:'content.benefits').is_a?(String) %>
-          <section class="space--xxs" id="merchant-benefits-section" data-section="benefits">
+        <% if !I18n.t(:'content.history').is_a?(String) %>
+          <section class="space--xxs" id="history-section"  data-section="history">
             <div class="container">
               <div class="row text-center to-animate">
-                <div class="col-xs-12 section-heading">
-                  <h2><%= I18n.t(:'headings.benefits').strip %></h2>
+                <div class='col-sm-12 section-heading '>
+                  <h2><%= I18n.t(:'headings.history').strip %></h2>
                 </div>
               </div>
-              <div class="row">
-                <div class="col-xs-12">
-                  <% I18n.t(:'content.benefits').each do |qa| %><%= ' ' * 28 %>
-                    <p class="question to-animate"><%= qa[:benefit].strip %></p>
-                    <%= qa[:descrip].map { |a| "<p class='to-animate'>#{a.strip}</p>" }.join("\n#{' ' * 28}") %><%= if qa != I18n.t(:'content.benefits').last; "\n"; end %><% end %>
-                  </div>
-                </div>
-              </div>
-            </section>
-          <% end %>
-          <% if !I18n.t(:'content.history').is_a?(String) %>
-            <section class="space--xxs" id="history-section"  data-section="history">
-              <div class="container">
-                <div class="row text-center to-animate">
-                  <div class='col-sm-12 section-heading '>
-                    <h2><%= I18n.t(:'headings.history').strip %></h2>
-                  </div>
-                </div>
-                <div class="row to-animate">
-                  <div class="col-sm-12 col-md-12">
-                    <%= I18n.t(:'content.history').map { |c| "<p>#{c.strip}</p>" }.join("\n#{' ' * 28}") %>
-                  </div>
-                </div>
-              </div>
-            </section>
-          <% end %>
-          <% if !I18n.t(:'content.development').is_a?(String) %>
-            <section class="space--xxs" id="development-section"  data-section="development">
-              <div class="container">
-                <div class="row text-center to-animate">
-                  <div class='col-sm-12 section-heading '>
-                    <h2><%= I18n.t(:'headings.development').strip %></h2>
-                  </div>
-                </div>
-                <div class="row to-animate">
-                  <div class="col-sm-12 col-md-12">
-                    <%= I18n.t(:'content.development').map { |c| "<p>#{c.strip}</p>" }.join("\n#{' ' * 28}") %>
-                  </div>
-                </div>
-              </div>
-            </section>
-          <% end %>
-          <footer class="space--xs footer-1">
-            <div class="container">
-              <div class="row">
-                <div class="col-sm-6">
-                  <span class="type--fine-print">&copy;<span class="update-year"></span> bitcoincash.org</span>
-                </div>
-                <div class="col-sm-6 text-right text-center-xs">
-                  <ul class="social-list list-inline list--hover">
-                    <li>
-                      <a href="https://www.facebook.com/bitcoincashorg" target="_blank">
-                        <i class="socicon socicon-facebook icon icon--xs"></i>
-                      </a>
-                    </li>
-                    <li>
-                      <a href="https://www.reddit.com/r/Bitcoincash/" target="_blank">
-                        <i class="socicon socicon-reddit icon icon--xs"></i>
-                      </a>
-                    </li>
-                    <li>
-                      <a href="https://github.com/zquestz/bitcoincash" target="_blank">
-                        <i class="socicon socicon-github icon icon--xs"></i>
-                      </a>
-                    </li>
-                  </ul>
+              <div class="row to-animate">
+                <div class="col-sm-12 col-md-12">
+                  <%= I18n.t(:'content.history').map { |c| "<p>#{c.strip}</p>" }.join("\n#{' ' * 28}") %>
                 </div>
               </div>
             </div>
-          </footer>
-        </div>
-        <a class="back-to-top inner-link" href="#start" data-scroll-class="100vh:active">
-          <i class="stack-interface stack-up-open-big"></i>
-        </a>
-        <script src="/js/jquery.min.js"></script>
-        <script src="/js/smooth-scroll.min.js"></script>
-        <script src="/js/scripts.js"></script>
-        <script src="/js/fontawesome.js"></script>
-        <script src="/js/packs/solid.js"></script>
-        <script src="/js/ticker.js?v=2"></script>
-        <script src="/js/jquery.easing.1.3.js"></script>
-        <script src="/js/jquery.stellar.min.js"></script>
-        <script src="/js/bootstrap.min.js"></script>
-        <script src="/js/jquery.waypoints.min.js"></script>
-        <script src="/js/main.js"></script>
-      </body>
-    </html>
+          </section>
+        <% end %>
+        <% if !I18n.t(:'content.development').is_a?(String) %>
+          <section class="space--xxs" id="development-section"  data-section="development">
+            <div class="container">
+              <div class="row text-center to-animate">
+                <div class='col-sm-12 section-heading '>
+                  <h2><%= I18n.t(:'headings.development').strip %></h2>
+                </div>
+              </div>
+              <div class="row to-animate">
+                <div class="col-sm-12 col-md-12">
+                  <%= I18n.t(:'content.development').map { |c| "<p>#{c.strip}</p>" }.join("\n#{' ' * 28}") %>
+                </div>
+              </div>
+            </div>
+          </section>
+        <% end %>
+        <footer class="space--xs footer-1">
+          <div class="container">
+            <div class="row">
+              <div class="col-sm-6">
+                <span class="type--fine-print">&copy;<span class="update-year"></span> bitcoincash.org</span>
+              </div>
+              <div class="col-sm-6 text-right text-center-xs">
+                <ul class="social-list list-inline list--hover">
+                  <li>
+                    <a href="https://www.facebook.com/bitcoincashorg" target="_blank">
+                      <i class="socicon socicon-facebook icon icon--xs"></i>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="https://www.reddit.com/r/Bitcoincash/" target="_blank">
+                      <i class="socicon socicon-reddit icon icon--xs"></i>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="https://github.com/zquestz/bitcoincash" target="_blank">
+                      <i class="socicon socicon-github icon icon--xs"></i>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </footer>
+      </div>
+      <a class="back-to-top inner-link" href="#start" data-scroll-class="100vh:active">
+        <i class="stack-interface stack-up-open-big"></i>
+      </a>
+      <script src="/js/jquery.min.js"></script>
+      <script src="/js/smooth-scroll.min.js"></script>
+      <script src="/js/scripts.js"></script>
+      <script src="/js/fontawesome.js"></script>
+      <script src="/js/packs/solid.js"></script>
+      <script src="/js/ticker.js?v=2"></script>
+      <script src="/js/jquery.easing.1.3.js"></script>
+      <script src="/js/jquery.stellar.min.js"></script>
+      <script src="/js/bootstrap.min.js"></script>
+      <script src="/js/jquery.waypoints.min.js"></script>
+      <script src="/js/main.js"></script>
+    </body>
+  </html>
