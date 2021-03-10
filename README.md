@@ -9,19 +9,18 @@ In order to build and run the site you need ruby and docker. Then run:
 
 1. `gem install bundler`
 2. `bundle install`
-3. `rake docker:build`
-4. `docker run -d -p 8888:80 zquestz/bitcoincash`
-# Site running at localhost:8888, using the immutable remote docker container
+3. `bundle exec rake docker:build`
+4. `docker run -p 8888:80 zquestz/bitcoincash`
+
+Now the site is running at http://localhost:8888.
 
 To refresh the site after making changes:
 ```
-docker ps # Grab container name
-docker stop [name]
-# Make changes e.g. to index.html.erb
-rake docker:build
-docker run -d -p 8888:80 bitcoincash:latest
-# Site running at localhost:8888, with latest local changes
+# ctrl-c the running docker process.
+bundle exec rake docker:build && docker run -p 8888:80 bitcoincash:latest
 ```
+
+The site is running at http://localhost:8888 with your changes.
 
 Contributions
 -------------
