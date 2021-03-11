@@ -522,6 +522,19 @@ h1, h2, h3, h4, h5, h6 {
   width: 101%;
 }
 
+.gap {
+  position: absolute;
+  background-color: #fff;
+  content: "";
+  z-index: 3;
+  display: inline-block;
+  height: 70px;
+  bottom: 0;
+  margin-bottom: -35px;
+  padding: 0;
+  width: 101%;
+}
+
 #fh5co-intro {
   position: relative;
   bottom: 0;
