@@ -167,6 +167,10 @@ en:
         descrip:
           - |
             Many merchants offer discounts for paying in Bitcoin Cash, because it eliminates credit card fees and helps grow the adoption of this new payment system.
+      - benefit: "Token Ecosystem"
+        descrip:
+          - |
+            Storing and managing tokens on a blockchain provides greater transparency and integrity than traditional forms of asset accounting and trading. Bitcoin Cash supports token protocols that power a variety of projects, and it is easy to create your own token backed projects.
       - benefit: "Support Freedom Worldwide"
         descrip:
           - |
