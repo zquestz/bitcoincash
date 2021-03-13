@@ -119,8 +119,8 @@
                       <div class="dropdown__content lang-menu">
                         <%-
                             I18n.available_locales.map do |locale|
-                                [locale, I18n.t(:language, :locale => locale).strip]
-                            end.sort_by { |pair| pair[1] }.each_slice(8) do |group|
+                                [locale, I18n.t(:language, :locale => locale).strip] unless locale == :tl
+                            end.compact.sort_by { |pair| pair[1] }.each_slice(8) do |group|
                         -%>
                         <ul class="menu-vertical">
                           <%- group.each do |pair| -%>

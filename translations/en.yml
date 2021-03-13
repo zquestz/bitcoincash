@@ -107,16 +107,16 @@ en:
       description: "A payment system that's a proven store of value."
     - title: "Secure"
       description: "World's most robust blockchain technology."
-  headings: 
+  headings:
     history: "The History of Bitcoin Cash"
-    about: "The Best Money in the World" 
+    about: "The Best Money in the World"
     nodes: "Nodes"
     wallets: "Wallets"
     services: "Services"
     projects: "Projects"
     exchanges: "Exchanges"
     why: "Why Use Bitcoin Cash?"
-    benefits: "Benefits for Merchants" 
+    benefits: "Benefits for Merchants"
     development: "Decentralized Development"
   content:
     history:
@@ -133,9 +133,6 @@ en:
          With multiple independent teams of developers providing software implementations, the future is secure. Bitcoin Cash is resistant to political and social attacks on protocol development. No single group or project can control it.  Multiple implementations also provides redundancy to ensure that the network retains 100% uptime.
       - |
         The <a href="https://lists.linuxfoundation.org/mailman/listinfo/bitcoin-ml" target="_blank">bitcoin-ml mailing list</a> is a good venue for making proposals for changes that require coordination across development teams. For those wishing to implement changes to the Bitcoin Cash protocol, it is recommended to seek early peer-review and engage collaboratively with other developers.
-        
-
-
     about:
       - |
         Bitcoin Cash brings sound money to the world, fulfilling the original promise of Bitcoin as "Peer-to-Peer Electronic Cash". Merchants and users are empowered with low fees and reliable confirmations. The future shines brightly with unrestricted growth, global adoption, permissionless innovation, and decentralized development.
@@ -146,7 +143,6 @@ en:
         descrip:
           - |
             With Bitcoin Cash, you can send money to anyone, anywhere in the world, 24 hours a day, 365 days a year.  Like the Internet itself, the network is always on.  No transaction is too big or too small.  And you never need anyone’s permission or approval.
-      
       - benefit: "Be Your Own Bank and Have Full Control Over Your Money"
         descrip:
           - |
@@ -175,8 +171,6 @@ en:
         descrip:
           - |
             Bitcoin Cash is a permissionless, open network.  It empowers you to engage with your fellow human beings without intrusion.  It’s decentralized, voluntary, and non-aggressive.  As usage grows, old power structures will erode while fresh ideas blossom.  It may help usher in the greatest peaceful revolution the world has ever known.
-
-
     benefits:
       - benefit: "Ultra Low Fees"
         descrip:
