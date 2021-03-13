@@ -1,196 +1,196 @@
 ---
-en:
-  language: English
+fil:
+  language: Filipino
   title:
-    index: "Bitcoin Cash - Peer-to-Peer Electronic Cash"
-    graphics: "Bitcoin Cash - Logos / Graphics"
+    index: "Bitcoin Cash - Elektronikong Pera para sa Kapwa-sa-Kapwa"
+    graphics: "Bitcoin Cash - Mga Tatak at Grapiko"
   meta:
     index:
       description: |
-        Bitcoin Cash brings sound money to the world. Merchants and users are empowered with low fees and reliable confirmations. The future shines brightly with unrestricted growth, global adoption, permissionless innovation, and decentralized development.
+        Ang Bitcoin Cash ay nagdadala ng napakainam na pera para sa buong mundo. Ang mga negosyante at gumagamit nito ay nabibigyan ng pagkakataong magpadala ng may maliit na bayarin at maasahang kumpirmasyon sa bawat transaksyon. Ang kinabukasan ay nagniningning kasama ang hindi pinipigilang paglaki, pandaigdigang adapsyon, malayang pagbabago, at desentralisadong pagpapa-unlad.
       twitter:
-        title: "Bitcoin Cash - Peer-to-Peer Electronic Cash"
+        title: "Bitcoin Cash - Elektronikong Pera para sa Kapwa-sa-Kapwa"
         description: |
-          Bitcoin Cash brings sound money to the world. Merchants and users are empowered with low fees and reliable confirmations. The future shines brightly with unrestricted growth, global adoption, permissionless innovation, and decentralized development.
+          Ang Bitcoin Cash ay nagdadala ng napakainam na pera para sa buong mundo. Ang mga negosyante at gumagamit nito ay nabibigyan ng pagkakataong magpadala ng may maliit na bayarin at maasahang kumpirmasyon sa bawat transaksyon. Ang kinabukasan ay nagniningning kasama ang hindi pinipigilang paglaki, pandaigdigang adapsyon, malayang pagbabago, at desentralisadong pagpapa-unlad.
       og:
-        title: "Bitcoin Cash - Peer-to-Peer Electronic Cash"
+        title: "Bitcoin Cash - Elektronikong Pera para sa Kapwa-sa-Kapwa"
         description: |
-          Bitcoin Cash brings sound money to the world. Merchants and users are empowered with low fees and reliable confirmations. The future shines brightly with unrestricted growth, global adoption, permissionless innovation, and decentralized development.
+          Ang Bitcoin Cash ay nagdadala ng napakainam na pera para sa buong mundo. Ang mga negosyante at gumagamit nito ay nabibigyan ng pagkakataong magpadala ng may maliit na bayarin at maasahang kumpirmasyon sa bawat transaksyon. Ang kinabukasan ay nagniningning kasama ang hindi pinipigilang paglaki, pandaigdigang adapsyon, malayang pagbabago, at desentralisadong pagpapa-unlad.
     graphics:
       description: |
-        A collection of logos and graphics for Bitcoin Cash.
+        Koleksyon ng mga tatak at grapiko para sa Bitcoin Cash 
       twitter:
-        title: "Bitcoin Cash - Logos / Graphics"
+        title: "Bitcoin Cash - Mga Tatak/Grapiko"
         description: |
-          A collection of logos and graphics for Bitcoin Cash.
+          Koleksyon ng mga tatak at grapiko para sa Bitcoin Cash 
       og:
-        title: "Bitcoin Cash - Logos / Graphics"
+        title: "Bitcoin Cash - Mga Tatak/Grapiko"
         description: |
-          A collection of logos and graphics for Bitcoin Cash.
+          Koleksyon ng mga tatak at grapiko para sa Bitcoin Cash 
   graphics:
-    title: "Promotional Graphics"
-    description: "These Bitcoin Cash logos and brand assets can be used for display in online services, retail establishments, press or other promotional purposes."
-    logos: "Logos"
-    download_png_svg: "Download Bitcoin Cash logos in PNG and SVG"
-    download_all: "Download All"
-    small: "Small (PNG)"
-    medium: "Medium (PNG)"
-    large: "Large (PNG)"
-    full: "Full (PNG)"
+    title: "Mga Grapikong Pang-promosyon"
+    description: "Ang mga tatak at iba pang uri nito ng Bitcoin Cash ay pwedeng gamitin pang-display sa mga serbisyo online, tingi-tingiang establesiemento, limbagan o iba pang mga pang-promosyon na sadya."
+    logos: "Mga Tatak"
+    download_png_svg: "I-download ang mga tatak ng Bitcoin Cash sa PNG at SVG"
+    download_all: "I-download ang Lahat"
+    small: "Maliit (PNG)"
+    medium: "Katamtaman (PNG)"
+    large: "Malaki (PNG)"
+    full: "Buo (PNG)"
     vector: "Vector (SVG)"
     sections:
       home: "Home"
-      logos: "Logos"
-      merchant: "Merchant"
-      donations: "Donations"
-      identity: "Identity"
+      logos: "Mga Tatak"
+      merchant: "Negosyante"
+      donations: "Mga Donasyon"
+      identity: "Pagkakakilanlan"
     types:
-      primary: "BCH Logo Primary"
-      white: "BCH Logo White Text"
-      mark: "BCH Logo Mark"
-      horizontal_primary: "BCH Logo Horizontal Primary"
-      horizontal_white: "BCH Logo Horizontal White"
-      wallets_exchanges: "BCH Logo For Wallets / Exchanges"
+      primary: "Pangunahing Tatak ng BCH"
+      white: "Tatak ng BCH na Puting Teksto"
+      mark: "Tatakang Marka ng BCH"
+      horizontal_primary: "Tatak ng BCH na Pangunahing Pahalang"
+      horizontal_white: "Tatak ng BCH na Puting Pahalan"
+      wallets_exchanges: "Tatak ng BCH para sa mga Pitaka at Palitan"
     merchant:
-      title: "Merchant Buttons"
-      description: "Show your customers that you accept Bitcoin Cash"
-      primary: "Bitcoin Cash Accepted Here Primary"
-      orange: "Bitcoin Cash Accepted Here Orange"
+      title: "Pindutan ng mga Negosyante"
+      description: "Ipakita sa iyong mga mamimili na kayo ay tumatanggap ng Bitcoin Cash."
+      primary: "Pangunahing Tumatanggap ng Bitcoin Cash Dito"
+      orange: "Tumatanggap ng Bitcoin Cash Dito Orends"
     donation:
-      title: "Donation Buttons"
-      description: "Promote the acceptance of Bitcoin Cash as a donation method."
-      primary: "Bitcoin Cash Donations Accepted Primary"
-      orange: "Bitcoin Cash Donations Accepted Orange"
+      title: "Pindutan ng mga Donasyon"
+      description: "Itaguyod ang pagtanggap ng Bitcoin Cash bilang paraan ng pag-abuloy."
+      primary: "Pangunahing Tumatanggap ng Bitcoin Cash na Donasyon"
+      orange: "Tumatanggap ng Bitcoin Cash na Donasyon Orends"
     identity:
-      title: "Visual Identity"
-      description: "Bitcoin Cash fonts, colors, and more."
+      title: "Biswal na Pagkakakilanlan"
+      description: "Mga font, kulay, at iba pa ng Bitcoin Cash"
       font: "Ubuntu Bold"
       font_italic: "Ubuntu Bold Italic"
-      download: "Download Font"
-      orange: "Bitcoin Cash Orange"
-      grey: "Bitcoin Cash Grey"
-      white: "Bitcoin Cash White"
+      download: "I-download ang Font"
+      orange: "Bitcoin Cash Orends"
+      grey: "Kulay Abo na Bitcoin Cash"
+      white: "Puting Bitcoin Cash"
       hex: "Hex"
       rgb: "RGB"
       cmyk: "CMYK"
       pantone: "Pantone"
   misc:
-    logo: "logo"
+    logo: "Tatak"
     dropdown_md_width: 3
     dropdown_sm_width: 3
   sections:
-    about: "About"
-    features: "Features"
-    nodes: "Nodes"
-    wallets: "Wallets"
-    community: "Community"
-    services: "Services"
-    projects: "Projects"
-    exchanges: "Exchanges"
-    graphics: "Logos / Graphics"
-    benefits: "Benefits"
+    about: "Mga Tampok"
+    features: "Mga Anyo"
+    nodes: "Mga Node"
+    wallets: "Mga Pitaka"
+    community: "Komunidad"
+    services: "Mga Serbisyo"
+    projects: "Mga Proyekto"
+    exchanges: "Mga Palitan"
+    graphics: " MgaTatak/Grapiko"
+    benefits: "Mga Benepisyo"
     faq: "FAQ"
   layout:
     bitcoin_cash: "Bitcoin Cash"
-    lead: "Peer-to-Peer Electronic Cash"
-    loading: "Loading..."
+    lead: "Elektronikong Pera para sa Kapwa-sa-Kapwa"
+    loading: "Hintayin..."
   features:
-    - title: "Fast"
-      description: "Transact in seconds. Get confirmed in minutes."
-    - title: "Reliable"
-      description: "A network that runs without congestion."
-    - title: "Low Fees"
-      description: "Send money globally for pennies."
+    - title: "Mabilis"
+      description: "Segundong transaksyon. Kumpirmasyon sa iilang minuto."
+    - title: "Maasahan"
+      description: "Ang network na tumatakbo ng walang kasikipan."
+    - title: "Mababang Bayarin"
+      description: "Magpadala ng pera sa buong mundo na barya lang ang binabayaran."
     - title: "Simple"
-      description: "Easy to use. No hassles."
-    - title: "Stable"
-      description: "A payment system that's a proven store of value."
-    - title: "Secure"
-      description: "World's most robust blockchain technology."
+      description: "Madaling gamitin at walang hassles."
+    - title: "Matatag"
+      description: "Ang sistema ng pagbayad na may napatunayang halaga."
+    - title: "Seguridad"
+      description: "Pinakabatibot na teknolohiya ng Blockchain sa buong mundo."
   headings: 
-    history: "The History of Bitcoin Cash"
-    about: "The Best Money in the World" 
-    nodes: "Nodes"
-    wallets: "Wallets"
-    services: "Services"
-    projects: "Projects"
-    exchanges: "Exchanges"
-    why: "Why Use Bitcoin Cash?"
-    benefits: "Benefits for Merchants" 
-    development: "Decentralized Development"
+    history: "Ang Kasaysayan ng Bitcoin Cash"
+    about: "Ang Pinakadakilang Pera sa Daigdig" 
+    nodes: "Mga Node"
+    wallets: "Mga Pitaka"
+    services: "Mga Serbisyo"
+    projects: "Mga Proyekto"
+    exchanges: "Mga Palitan"
+    why: "Bakit Kailangan Gamitin ang Bitcoin Cash?"
+    benefits: "Mga Benepisyo para sa mga Negosyante" 
+    development: "Desentralisadong Pagbabago"
   content:
     history:
       - |
-        In October 2008, Satoshi Nakamoto published the famous whitepaper entitled <strong>“Bitcoin: A Peer to Peer Electronic Cash System”</strong>.  In 2009, he released the first bitcoin software that powered the network, and it operated smoothly for several years with low fees, and fast, reliable transactions.
+        Sa taong 2008 ng Oktubre, inilathala ni Satoshi Nakamoto ang sikat na "white paper" na pinamagatang <strong>“Bitcoin: A Peer to Peer Electronic Cash System”</strong>.  Sa taong 2009, pinakawalan niya ang pinakaunang software na nagpalakas sa network, at napakagaan na operasyon sa mga ilang taon dahil sa mababang bayarin, mabilis at maasahang transaksyon.
       - |
-        Unfortunately, from 2016 to 2017, Bitcoin became increasingly unreliable and expensive.  This was because the community could not reach consensus on increasing the network capacity. Some of the developers did not understand and agree with Satoshi’s plan. Instead, they preferred Bitcoin become a settlement layer.
+        Sa kasamaang palad, noong 2016 hanggang 2017, naging mahirap at mahal ang pagtransaksyon sa Bitcoin. Ito ay dahil hindi maabot ng komunidad ang konsensus sa kapasidad ng pagtaas ng network. Ilan sa mga developers nito ay hindi ito naiintindihan gayundin ang layunin ni Satoshi. Sapagkat mas ginusto nilang maging settlement layer lamang ang Bitcoin.
       - |
-        By 2017, Bitcoin dominance had plummeted from 95% to as low as 40% as a direct result of the usability problems.  Fortunately, a large portion of the Bitcoin community, including developers, investors, users, and businesses, still believed in the original vision of Bitcoin -- a low fee, peer to peer electronic cash system that could be used by all the people of the world.
+        Pagsapit ng taong 2017, ang Bitcoin ay nangibabaw na bumulusok mula 95% hanggang sa bumaba sa 40% bilang direkta na resulta ng mga naging problema nito. Sa kabutihang palad, ang making porsyento ng komunidad ng Bitcoin, kasama ang developers, mga imbestor, gumagamit, at mga negosyo ay patuloy na naniniwala sa orihinal na bersyon ng Bitcoin --- mababang bayarin, elektronikong sistema para sa kapwa-sa-kapwa na pwedeng pakinabangan ng mga tao sa daigdig.
       - |
-        On August 1st, 2017, we took the logical step of increasing the maximum block size, and Bitcoin Cash was born.  Anyone who held Bitcoin at that time (block 478558) became an owner of Bitcoin Cash (BCH).  The network now supports up to 32MB blocks with ongoing research to allow massive future increases.
+        Noong unang araw ng Agusto, sa taong 2017, nagsagawa kami ng lohikal na hakbang para pataasin ang pinakamataas na block size, at dito umusbong ang Bitcoin Cash. Lahat ng nagmamay-ari ng Bitcoin sa panahong iyon (block 478558) ay nagmamay-ari na din ng Bitcoin Cash (BCH). Ngayon ang network ay kasalukuyang sumusuporta sa aabot na 32MB blocks at patuloy na pinag-aaralan ang karagdagang pagtaas dito.
     development:
       - |
-         With multiple independent teams of developers providing software implementations, the future is secure. Bitcoin Cash is resistant to political and social attacks on protocol development. No single group or project can control it.  Multiple implementations also provides redundancy to ensure that the network retains 100% uptime.
+         Kasama ang iilang grupo ng mga independenteng developers na nagbibigay ng mga implementasyon sa software, ang ating kinabukasan ay segurado. Ang mga plano ng Bitcoin Cash para umunlad ay malayo sa mga atakeng pangpulitikal at pangsosyal. Walang sinumang grupo o proyekto ang kayang kontrolin ito. Ang pagpapanatili sa 100% uptime ng network ay bunga ng paulit-ulit na maraming implementasyon.
       - |
-        The <a href="https://lists.linuxfoundation.org/mailman/listinfo/bitcoin-ml" target="_blank">bitcoin-ml mailing list</a> is a good venue for making proposals for changes that require coordination across development teams. For those wishing to implement changes to the Bitcoin Cash protocol, it is recommended to seek early peer-review and engage collaboratively with other developers.
+        Ang <a href="https://lists.linuxfoundation.org/mailman/listinfo/bitcoin-ml" target="_blank">bitcoin-ml mailing list</a> ay isang magandang lugar sa pagsasagawa ng mga panukala para sa mga pagbabago na nangangailangan din ng koordinasyon sa mga grupo ng developers. Ang sinumang nagnanais magsagawa ng pagbabago sa protokol ng Bitcoin Cash ay mas mabuting maghanap muna ng rekomendasyon sa lipunan at makipag-ugnayan sa ibang developers.
         
 
 
     about:
       - |
-        Bitcoin Cash brings sound money to the world, fulfilling the original promise of Bitcoin as "Peer-to-Peer Electronic Cash". Merchants and users are empowered with low fees and reliable confirmations. The future shines brightly with unrestricted growth, global adoption, permissionless innovation, and decentralized development.
+        Ang Bitcoin Cash ay nagdadala ng napakainam na pera para sa buong mundo, angkop sa orihinal na pamantayan ng Bitcoin bilang "Elektronikong Pera para sa Kapwa-sa-Kapwa". Ang mga negosyante at gumagamit nito ay nabibigyan ng pagkakataong magpadala ng may maliit na bayarin at maasahang kumpirmasyon sa bawat transaksyon. Ang kinabukasan ay nagniningning kasama ang hindi pinipigilang paglaki, pandaigdigang adapsyon, malayang pagbabago, at desentralisadong pagpapa-unlad.
       - |
-        All are welcome to join the Bitcoin Cash community as we move forward in creating sound money accessible to the whole world.
+        Ang lahat ay malayang sumali sa komunidad ng Bitcoin Cash at tayo ay susulong habang nagsasagawa ng mainam na pera para sa lahat ng nakatira sa buong mundo.
     why:
-      - benefit: "Send Money Anywhere In the World, Almost for Free"
+      - benefit: "Magpadala ng Pera Saang Sulok man ng Mundo, Halos Wala ka ng Babayaran"
         descrip:
           - |
-            With Bitcoin Cash, you can send money to anyone, anywhere in the world, 24 hours a day, 365 days a year.  Like the Internet itself, the network is always on.  No transaction is too big or too small.  And you never need anyone’s permission or approval.
+            Gamit ang Bitcoin Cash, kaya munang magpadala ng pera kanino man, saan man sa mundo, 24 na oras kada araw, 365 na araw kada taon. Kagaya ng internet mismo, ang network ay palaging nandiyan. Walang malaki o maliit na transaksyon. At hinding-hindi muna kakailanganin ang permiso o pahintulot ng iba.
       
-      - benefit: "Be Your Own Bank and Have Full Control Over Your Money"
+      - benefit: "Ikaw na ang Bangko at Kontrolin mu ng Malaya ang Iyong Pera"
         descrip:
           - |
-            The seizing of capital from account holders (“bail-ins”) that occurred in Cyprus and nearly in Greece, demonstrated that bank deposits are only as safe as political leaders decide.  Even under the best of conditions, banks can make mistakes, hold funds, freeze accounts, and otherwise prevent you from accessing your own money.
+            Ang nangyaring paghawak ng Cyprus at di kalayuan sa Greece ng puhunan ng mga tao ("paglagak") ay katunayan lamang na ang seguridad sa pagdeposito ng pera sa banko ay di maihahalintulad sa desisyon ng mga lider sa pulitika. Kahit pa man maganda ang mga kondisyon, ang posibilidad na magkamali ang banko, paglagak ng pera, pagfreeze ng ari-arian, at ang malala pa ay pagpigil sa inyo na makuha ang inyong pera.
           - |
-            Banks can also decide to block your transactions, charge you fees, or close your account without warning.  Bitcoin Cash gives you full, sovereign control over your funds, which you can access from anywhere in the world.
-      - benefit: "A Scarce Digital Currency with a Known, Fixed Supply"
+            Ang mga banko ay maari ring magdesisyon na pigilan ang mga transaksyon mo, mag-isyu ng mga bayarin, o isara ang iyong ari-arian ng walang pahintulot. Ang Bitcoin Cash ay nagbibigay ng buo, malayang pagkontrol sa iyong ari-arian, na kaya mong gamitin saan man sa mundo.
+      - benefit: "Isang Madalang na Salaping Digital na may Kilalang, Natatakdang Tutos"
         descrip:
           - |
-            The Bitcoin Cash protocol ensures there will never be more than 21 million coins in existence.  Governments constantly print money out of thin air, endlessly inflating the supply and devaluing everyone’s savings. Bitcoin Cash has a fixed supply and therefore represents sound money.
-      - benefit: "Increase Your Privacy and Operate Anonymously"
+            Sinisigurado ng protokol ng Bitcoin Cash na ang tutos nito ay hindi susobra sa 21 milyon. Ang gobyerno ay patuloy na gumagawa ng pera ng hindi natin alam, dahil dito walang katapusan ang paglobo ng ating tutos at siya ring dahilan kung bakit bumababa ang halaga ng ating naipon. Ang Bitcoin Cash ay mayroong natatakdang tutos kung kayat ito ay isang mainam na pera.
+      - benefit: "Dagdagan ang Iyong Pagiging Pribado at Gumalaw ng Walang Nakakakilala"
         descrip:
           - |
-            Bitcoin Cash offers more privacy and anonymity than traditional payment systems like bank transfers and credit card payments, since it’s normally impossible to know who controls a Bitcoin address.
+            Ang Bitcoin Cash ay mas nagbibigay sayo ng pagiging pribado at nakatagong pagkakakilanlan kung ikukumpara sa mga nakasanayang sistema ng pagbayad, gaya ng pagtransak sa banko at mga kredit kards, ito ay dahil napakaimposibleng alamin ang may kontrol ng naturang Bitcoin address.
           - |
-            Bitcoin Cash offers various levels of privacy depending on how it is used.  It’s important to educate yourself thoroughly before using BCH for privacy purposes.
-      - benefit: "Enjoy Exclusive Discounts"
+            Ang Bitcoin Cash ay nagbibigay sa iyo ng ibat-ibang antas ng proteksyon sa pagiging pribado na inaayon din sa klase ng paggagamitan mu. Ang paggamit ng BCH para sa proteksyon sa pagiging pribado ay nangangahulugan din na kailangang pag-aralan ito ng mabuti.
+      - benefit: "Magpakasaya sa mga Eksklusibong Deskuwento"
         descrip:
           - |
-            Many merchants offer discounts for paying in Bitcoin Cash, because it eliminates credit card fees and helps grow the adoption of this new payment system.
-      - benefit: "Token Ecosystem"
+            Marami sa ating mga negosyante ang nagbibigay diskuwento o tawad dahil naiiwasan nila ang magbayad ng mga kredit kard na bayarin, yan ay kung magbabayad ka gamit ang Bitcoin Cash at ito din ay tumutulong sa pagtaas ng mga gagamit ng bagong sistema ng pagbayad.
+      - benefit: "Ekosistema ng Token"
         descrip:
           - |
-            Storing and managing tokens on a blockchain provides greater transparency and integrity than traditional forms of asset accounting and trading. Bitcoin Cash supports token protocols that power a variety of projects, and it is easy to create your own token backed projects.
-      - benefit: "Support Freedom Worldwide"
+            Ang pagtago at pamamahala ng mga token sa blockchain ay nagbibigay ng mas magandang panganganinag at integridad kung ikukumpara sa mga tradisyunal o kinagawian na pagpalitan ng mga ari-arian. Ang Bitcoin Cash ay sumusuporta nga protokol sa tokens na siyang nagbibigay kapangyarihan sa mga proyekto at madali lamang gumawa nito para sa iyong proyekto.
+      - benefit: "Pandaigdigang Suporta para sa Kalayaan"
         descrip:
           - |
-            Bitcoin Cash is a permissionless, open network.  It empowers you to engage with your fellow human beings without intrusion.  It’s decentralized, voluntary, and non-aggressive.  As usage grows, old power structures will erode while fresh ideas blossom.  It may help usher in the greatest peaceful revolution the world has ever known.
+            Ang Bitcoin Cash ay hindi nangangailangan ng pahintulot, ito ay isang malayang network. Naghahatid ito sa inyo ng kakayahang makipaginterak kaninu man ng walang nakikialam. Ito ay desentralisado, boluntaryo, at hindi agresibo. Habang ito ay lumalaki, ang mga istruktura noon ay mawawala at uusbong ang mga bagong ideya. Ito rin ay maaring magdala ng pinakamapayapang rebolusyon na nakilala ng buong mundo.
 
 
     benefits:
-      - benefit: "Ultra Low Fees"
+      - benefit: "Napakaliit na mga Bayarin"
         descrip:
           - |
-            The network fee for a typical Bitcoin Cash transaction is less than one penny. If you want to convert your BCH into fiat currency, such as US dollars, you can do that through merchant processors for a cost that is still much lower than credit card processing.
-      - benefit: "No Chargebacks"
+            Ang karaniwang transaksyon sa Bitcoin Cash ay maaring magbayad sa network ng halos mababa pa sa sentimo. Kung nais mo din namang palitan ang iyong BCH sa salapi, gaya ng dolyar ng US, maaring gawin ay magbayad sa mga negosyante para makatipid kaysa sa mga proseso ng kredit kards.
+      - benefit: "Walang Chargebacks"
         descrip:
           - |
-            Unlike credit cards, there are never any automatic voids, refunds, chargebacks, or other unexpected fees. Fraud protection is built into the system with no cost to the merchant.
-      - benefit: "New Customers"
+            Di gaya ng mga kredit kards, hinding-hindi mu makikita ang mga awtomatikong pagkawala, isinauli, chargebacks, o anumang mga di-inaasahang bayarin. Ang sistema ay ginawa upang maprotektahan mula sa pandaraya ang mga negosyante ng libre.
+      - benefit: "Mga Bagong Mamimili"
         descrip:
           - |
-            A growing number of patrons are choosing Bitcoin Cash as a preferred payment method.  They favor merchants who offer this payment option and actively seek them out.
-      - benefit: "Free Marketing and Press"
+            Dumadami na ang numero ng mga mamimiling gustong magbayad gamit ang Bitcoin Cash. Mas ginugusto nilang maghanap ng mga negosyante na tumatanggap nito.
+      - benefit: "Malayang Pagpapahayag at Limbagan"
         descrip:
           - |
-            By accepting Bitcoin Cash, merchants can gain free listings in website and app directories, gaining even more customers.  They can also take advantage of this new trend and generate press for their business.
+            Sa pamamagitan ng pagtanggap ng mga negosyante ng Bitcoin Cash, maari silang makatanggap ng libreng limbag sa mga website at app, mas makakakuha pa sila ng madaming mamimili. Maari din nilang gamitin ang bagong trend na ito at gumawa ng pahayagan patungkol sa kanilang negosyo.
