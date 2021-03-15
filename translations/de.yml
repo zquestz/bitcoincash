@@ -1,133 +1,190 @@
 ﻿---
 de:
-  language: Deutsch Deutschland
+  language: Deutsch
   title:
     index: "Bitcoin Cash - Eine elektronische Peer-to-Peer Währung"
+    graphics: "Bitcoin Cash - Logos / Grafiken"
   meta:
     index:
       description: |
-        Bitcoin Cash bietet der gesamten Welt eine solide Währung. Der Nutzen für Händler oder Kunden sind zuverlässige Transaktionen mit geringen Transaktionskosten. Die Zukunft für Bitcoin Cash glänzt dank unlimitiertem Wachstum, globaler Akzeptanz, Innovation und dezentralisierter Entwicklung.
+        Bitcoin Cash bringt solides Geld in die Welt. Händler und Nutzer werden durch niedrige Gebühren und zuverlässige Bestätigungen gestärkt. Die Zukunft leuchtet hell mit uneingeschränktem Wachstum, globaler Akzeptanz, erlaubnisfreier Innovation und dezentraler Entwicklung.
       twitter:
-        title: "Bitcoin Cash - Eine elektronische Peer-to-Peer Währung"
+        title: "Bitcoin Cash - Eine elektronische Peer-to-Peer Währung
         description: |
-          Bitcoin Cash bietet der gesamten Welt eine solide Währung. Der Nutzen für Händler oder Kunden sind zuverlässige Transaktionen mit geringen Transaktionskosten. Die Zukunft für Bitcoin Cash glänzt dank unlimitiertem Wachstum, globaler Akzeptanz, Innovation und dezentralisierter Entwicklung.
+          Bitcoin Cash bringt solides Geld in die Welt. Händler und Nutzer werden durch niedrige Gebühren und zuverlässige Bestätigungen gestärkt. Die Zukunft leuchtet hell mit uneingeschränktem Wachstum, globaler Akzeptanz, erlaubnisfreier Innovation und dezentraler Entwicklung.
       og:
         title: "Bitcoin Cash - Eine elektronische Peer-to-Peer Währung"
         description: |
-          Bitcoin Cash bietet der gesamten Welt eine solide Währung. Der Nutzen für Händler oder Kunden sind zuverlässige Transaktionen mit geringen Transaktionskosten. Die Zukunft für Bitcoin Cash glänzt dank unlimitiertem Wachstum, globaler Akzeptanz, Innovation und dezentralisierter Entwicklung.
+          Bitcoin Cash bringt solides Geld in die Welt. Händler und Nutzer werden durch niedrige Gebühren und zuverlässige Bestätigungen gestärkt. Die Zukunft leuchtet hell mit uneingeschränktem Wachstum, globaler Akzeptanz, erlaubnisfreier Innovation und dezentraler Entwicklung.
+    graphics:
+      description: |
+        Eine Sammlung von Logos und Grafiken für Bitcoin Cash.
+      twitter:
+        title: "Bitcoin Cash - Logos / Grafiken"
+        description: |
+          Eine Sammlung von Logos und Grafiken für Bitcoin Cash.
+      og:
+        title: "Bitcoin Cash - Logos / Grafiken"
+        description: |
+          Eine Sammlung von Logos und Grafiken für Bitcoin Cash.
+  graphics:
+    title: "Werbegrafiken"
+    description: "Diese Bitcoin Cash-Logos und Marken-Assets können für die Darstellung in Online-Diensten, Einzelhandelsgeschäften, in der Presse oder für andere Werbezwecke verwendet werden."
+    logos: "Logos"
+    download_png_svg: "Bitcoin Cash-Logos in PNG und SVG herunterladen"
+    download_all: "Alles herunterladen"
+    small: "Klein (PNG)"
+    medium: "Mittel (PNG)"
+    large: "Groß (PNG)"
+    full: "Voll (PNG)"
+    vector: "Vektor (SVG)"
+    sections:
+      home: "Home"
+      logos: "Logos"
+      merchant: "Händler"
+      donations: "Spenden"
+      identity: "Indentität"
+    types:
+      primary: "Primäres BCH Logo"
+      white: "BCH Logo Weiße Schrift"
+      mark: "BCH Logo Marke"
+      horizontal_primary: "Primäres Horizontales BCH Logo"
+      horizontal_white: "Horizontales BCH Logo Weiß"
+      wallets_exchanges: "BCH Logo Für Brieftaschen / Börsen"
+    merchant:
+      title: "SButtons für Händler"
+      description: "Zeig denen Kunden, dass du Bitcoin Cash akzeptierst"
+      primary: "Primäres Bitcoin Cash Accepted Here"
+      orange: "Bitcoin Cash Accepted Here Orange"
+    donation:
+      title: "Spendenbuttons"
+      description: "Fördern Sie die Akzeptanz von Bitcoin Cash als Spendenmethode."
+      primary: "Primäres Bitcoin Cash Donations Accepted"
+      orange: "Bitcoin Cash Donations Accepted Orange"
+    identity:
+      title: "Visuele Identität"
+      description: "Bitcoin Cash fonts, farben und mehr."
+      font: "Ubuntu Bold"
+      font_italic: "Ubuntu Bold Italic"
+      download: "Font herunterladen"
+      orange: "Bitcoin Cash Orange"
+      grey: "Bitcoin Cash Grau"
+      white: "Bitcoin Cash Weiß"
+      hex: "Hex"
+      rgb: "RGB"
+      cmyk: "CMYK"
+      pantone: "Pantone"
   misc:
-    logo: "Logo"
+    logo: "logo"
     dropdown_md_width: 3
     dropdown_sm_width: 3
   sections:
     about: "Über"
-    features: "Features"
-    nodes: "Nodes"
-    wallets: "Wallets"
+    features: "Merkmale"
+    nodes: "Knoten"
+    wallets: "Brieftaschen"
     community: "Community"
     services: "Dienste"
     projects: "Projekte"
     exchanges: "Börsen"
+    graphics: "Logos / Grafiken"
+    benefits: "Vorteile"
     faq: "FAQ"
   layout:
     bitcoin_cash: "Bitcoin Cash"
     lead: "Eine elektronische Peer-to-Peer Währung"
-    loading: "Lädt..."
+    loading: "Loading..."
   features:
     - title: "Schnell"
-      description: "Tätige Geschäfte innerhalb von Sekunden. Erhalte die Bestätigung innerhalb von Minuten."
-    - title: "Zuverlässig"
-      description: "Ein Netzwerk, das ohne Überlastung funktioniert."
-    - title: "Niedrige Transaktionskosten"
-      description: "Sende Geld global für einstellige Centbeträge."
+      description: "Transaktionen sekundenschnell. Bestätigung in Minuten"
+    - title: "Zuversässig"
+      description: "Ein Netzwerk, das ohne Überlastung läuft."
+    - title: "Niedrige Gebühren"
+      description: "Senden Sie Geld weltweit für ein Cent."
     - title: "Einfach"
-      description: "Einfach und ohne Ärger zu benutzen."
+      description: "Einfach zu bedienen. Keine Probleme."
     - title: "Stabil"
-      description: "Ein Bezahlungssystem, welches ebenso ein Wertaufbewahrungsmittel ist."
-    - title: "Sicher"
-      description: "Die robusteste Blockchain der Welt."
+      description: "A payment system that's a proven store of value."
+    - title: "Secure"
+      description: "Die robusteste Blockchain-Technologie der Welt."
   headings:
-    about: "Die beste Währung der Welt"
-    features: "Neue Features"
-    nodes: "Nodes"
-    wallets: "Wallets"
+    history: "Die Geschichte von Bitcoin Cash"
+    about: "Das beste Geld in der Welt"
+    nodes: "KNoten"
+    wallets: "Brieftaschen"
     services: "Dienste"
     projects: "Projekte"
     exchanges: "Börsen"
-    faq: "Häufig gestellte Fragen"
+    why: "Warum Bitcoin Cash nutzen?"
+    benefits: "Vorteile für Händler"
+    development: "Decentralisierte Entwicklung"
   content:
+    history:
+      - |
+        Im Oktober 2008 veröffentlichte Satoshi Nakamoto das berühmte Whitepaper mit dem Titel <strong>"Bitcoin: A Peer to Peer Electronic Cash System"</strong>.  Im Jahr 2009 veröffentlichte er die erste Bitcoin-Software, die das Netzwerk antrieb, und es funktionierte mehrere Jahre lang reibungslos mit niedrigen Gebühren und schnellen, zuverlässigen Transaktionen.
+      - |
+        Leider wurde Bitcoin von 2016 bis 2017 zunehmend unzuverlässig und teuer.  Das lag daran, dass die Gemeinschaft keinen Konsens über die Erhöhung der Netzwerkkapazität erreichen konnte. Einige der Entwickler haben Satoshis Plan nicht verstanden oder waren damit nicht mehr einverstanden. Stattdessen zogen sie es vor, dass Bitcoin in ein settelment lLayer zu verwandeln.
+      - |
+        Im Jahr 2017 war die Bitcoin-Dominanz von 95 % auf nur noch 40 % gesunken, was eine direkte Folge der Probleme mit der Benutzerfreundlichkeit war.  Glücklicherweise glaubte ein großer Teil der Bitcoin-Community, darunter Entwickler, Investoren, Nutzer und Unternehmen, immer noch an die ursprüngliche Vision von Bitcoin - ein elektronisches Geldsystem mit niedrigen Gebühren, das von allen Menschen auf der Welt genutzt werden kann.
+      - |
+        Am 1. August 2017 machten wir den logischen Schritt, die maximale Blockgröße zu erhöhen, und Bitcoin Cash war geboren.  Jeder, der zu diesem Zeitpunkt Bitcoin besaß (Block 478558), wurde Besitzer von Bitcoin Cash (BCH).  Das Netzwerk unterstützt nun bis zu 32MB Blöcke mit laufender Forschung, um massive zukünftige Steigerungen zu ermöglichen.
+    development:
+      - |
+        Mit mehreren unabhängigen Teams von Entwicklern, die Software-Implementierungen bereitstellen, ist die Zukunft sicher. Bitcoin Cash ist resistent gegen politische und soziale Angriffe auf die Protokollentwicklung. Keine einzelne Gruppe oder Projekt kann es kontrollieren.  Mehrere Implementierungen bieten auch Redundanz, um sicherzustellen, dass das Netzwerk eine 100%ige Betriebszeit beibehält.
+      - |
+        Die <a href="https://lists.linuxfoundation.org/mailman/listinfo/bitcoin-ml" target="_blank">Bitcoin-ml Mailingliste</a> ist ein guter Ort, um Vorschläge für Änderungen zu machen, die eine Koordination zwischen den Entwicklungsteams erfordern. Für diejenigen, die Änderungen am Bitcoin Cash-Protokoll implementieren wollen, wird empfohlen, sich frühzeitig um ein Peer-Review zu bemühen und mit anderen Entwicklern zusammenzuarbeiten.
     about:
       - |
-        Bitcoin bietet der Welt eine solide Währung, die der Originalvision von Bitcoin als "Peer-to-Peer Electronic Cash" entspricht. Der Nutzen für Händler oder Kunden sind zuverlässige Transaktionen mit geringen Transaktionskosten. Die Zukunft für Bitcoin Cash glänzt dank unlimitiertem Wachstum, globaler Akzeptanz, Innovation und dezentralisierter Entwicklung.
+        Bitcoin Cash bringt solides Geld in die Welt und erfüllt das ursprüngliche Versprechen von Bitcoin als "Peer-to-Peer Electronic Cash". Händler und Nutzer werden durch niedrige Gebühren und zuverlässige Bestätigungen gestärkt. Die Zukunft leuchtet hell mit uneingeschränktem Wachstum, globaler Akzeptanz, erlaubnisfreier Innovation und dezentraler Entwicklung.
       - |
-        Jeder, der bei Block 478558 Bitcoin besessen hat, erhielt ebenso automatisch Bitcoin Cash. Jeder ist willkommen, dabei zu helfen Bitcoin Cash für die gesamte Welt zugänglich zu machen.
-    features:
-      - |
-        <strong>On-Chain-Skalierung</strong> - Bitcoin Cash folgt dem Leitplan von Satoshi Nakamoto für globale Akzeptanz durch On-Chain-Skalierung. Als erster Schritt wurde das Blocksizelimit anpassbar festgelegt. Ebenso wurde das Standardlimit auf 8MB erhöht. <a href="https://github.com/BitcoinUnlimited/BUIP/blob/master/065.mediawiki" target="_blank">Forschung wird betrieben, um zukünftige Blocksize-Erhöhungen zu ermöglichen</a>.
-      - |
-        <strong>Neue Transaktionssignaturen</strong> - Ein neuer SigHash-Typ bietet Replay Protection, verbesserte Walletsicherheit und Eliminierung des Quadratic-Hashing-Problems.
-      - |
-        <strong>Neuer Difficulty Adjustment Algorithmus</strong> - Der neue Algorithmus erlaubt eine schnelle Anpassung der Difficulty, schützt vor Hashrateschwankungen und erlaubt Minern fließend von der Legacy Bitcoin Blockchain auf Bitcoin Cash umzusteigen.
-      - |
-        <strong>Dezentralisierte Entwicklung</strong> -  Mit mehreren unabhängigen Entwicklerteams, die Softwareimplementierungen bieten, ist die Zukunft gesichert. Bitcoin Cash ist resistent gegen politische oder soziale Attacken auf die Entwicklung des Protokolls. Keine einzelne Gruppe oder einzelnes Projekt kann es kontrollieren. Die <a href="https://lists.linuxfoundation.org/mailman/listinfo/bitcoin-ml" target="_blank">bitcoin-ml Mailingliste</a> ist eine gute Plattform um Vorschläge für Änderungen anzubringen, die Koordination und Zusammenarbeit von mehreren Entwicklungsteams benötigt.
-    faq:
-      - question: "Was ist Bitcoin Cash?"
-        answer:
+        Alle sind willkommen, sich der Bitcoin Cash-Gemeinschaft anzuschließen, während wir bei der Schaffung von gesundem Geld, das für die ganze Welt zugänglich ist, voranschreiten.
+    why:
+      - benefit: "Senden Sie Geld an jeden Ort der Welt, fast umsonst"
+        descrip:
           - |
-            Bitcoin Cash ist eine elektronische Peer-to-Peer Währung für das Internet. Es ist komplett dezentralisiert, ohne Zentralbank und benötigt kein Vertrauen in Drittpartein um zu funktionieren.
-      - question: "Ist Bitcoin Cash anders als \"Bitcoin\"?"
-        answer:
+            Mit Bitcoin Cash können Sie Geld an jeden senden, überall auf der Welt, 24 Stunden am Tag, 365 Tage im Jahr.  Wie das Internet selbst, ist das Netzwerk immer in Betrieb.  Keine Transaktion ist zu groß oder zu klein.  Und Sie brauchen nie die Erlaubnis oder Zustimmung von jemandem.
+      - benefit: "Seien Sie Ihre eigene Bank und haben Sie die volle Kontrolle über Ihr Geld"
+        descrip:
           - |
-            Ja. Bitcoin Cash ist die Weiterführung von Bitcoin als elektronische Peer-to-Peer Währung. Es ist eine Fork der Bitcoin Blockchain mit aktualisierten Regeln, die es Bitcoin Cash erlauben zu wachsen.
-      - question: "Besitze ich auch Bitcoin Cash, falls ich bereits Bitcoin besitze?"
-        answer:
+            Die Beschlagnahmung des Kapitals von Kontoinhabern ("bail-ins"), die in Zypern und fast auch in Griechenland stattfand, hat gezeigt, dass Bankeinlagen nur so sicher sind, wie die politischen Führer entscheiden.  Selbst unter den besten Bedingungen können Banken Fehler machen, Gelder einbehalten, Konten einfrieren und Sie anderweitig daran hindern, auf Ihr eigenes Geld zuzugreifen.
           - |
-            Jeder, der Bitcoin zum Zeitpunkt der Erstellung von Bitcoin Cash besessen hat, wurde automatisch zu einem Bitcoin Cash Besitzer. Das heißt, dass bei Block 478558 (1. August, ca. 13:16 UTC) Bitcoinbesitzer die gleiche Menge wie Bitcoin an Bitcoin Cash erhalten haben. Falls Ihre Bitcoins zu diesem Zeitpunkt bei einer Drittpartei, wie z.B. einer Börse waren müssen Sie sich bei dieser nach ihren Bitcoin Cash erkundigen.
+            Banken können auch beschließen, Ihre Transaktionen zu blockieren, Ihnen Gebühren zu berechnen oder Ihr Konto ohne Vorwarnung zu schließen.  Bitcoin Cash gibt Ihnen die volle, souveräne Kontrolle über Ihr Geld, auf das Sie von überall auf der Welt zugreifen können.
+      - benefit: "Eine knappe digitale Währung mit einem bekannten, festen Angebot"
+        descrip:
           - |
-            Jede Transaktion nach dem 1. August wird von Bitcoin und Bitcoin Cash separat verarbeitet. Dies bedeutet, dass Bitcoin, die danach erworben wurden, keine Bitcoin Cash enthalten und Bitcoin Cash, die danach erworben wurden keine Bitcoin enthalten.
-      - question: "Wie wird die Wiederholung von Transaktionen zwischen der alten und der neuen Blockchain gehandhabt?"
-        answer:
+            Das Bitcoin-Cash-Protokoll stellt sicher, dass es nie mehr als 21 Millionen Coins geben wird.  Regierungen drucken ständig Geld aus dem Nichts, blähen das Angebot endlos auf und entwerten die Ersparnisse aller. Bitcoin Cash hat einen festen Vorrat und stellt daher gesundes Geld dar.
+      - benefit: "Erhöhen Sie Ihre Privatsphäre und arbeiten Sie anonym"
+        descrip:
           - |
-            Bitcoin Cash Transaktionen benutzen einen neuen Signatur Hashing Algorithmus, erkennbar durch die Flagge "SIGHASH_FORKID". Diese Signaturen sind auf der Bitcoin Legacy Blockchain nicht gültig. Dies verhindert die Wiederholung von Bitcoin Cash Transaktionen auf der Bitcoin Blockchain und umgekehrt.
-      - question: "Warum war eine Fork notwendig um Bitcoin Cash ins Leben zu rufen?"
-        answer:
+            Bitcoin Cash bietet mehr Privatsphäre und Anonymität als traditionelle Zahlungssysteme wie Banküberweisungen und Kreditkartenzahlungen, da es normalerweise unmöglich ist zu wissen, wer eine Bitcoin-Adresse kontrolliert.
           - |
-            Der Legacy Bitcoin Code besaß ein Blocksizelimit von 1MB, was 3 Transaktionen/Sekunde entspricht. Obwohl es technisch einfach gewesen wäre, die Blocksize zu erhöhen, hat die Community nie einen gemeinsamen Nenner erreicht.
-      - question: "Hat das Bitcoin Blocksizelimit von 1MB Probleme verursacht?"
-        answer:
+            Bitcoin Cash bietet verschiedene Stufen der Privatsphäre, je nachdem wie es verwendet wird.  Es ist wichtig, sich gründlich zu informieren, bevor Sie BCH für Datenschutzzwecke verwenden.
+      - benefit: "Genießen Sie exklusive Rabatte"
+        descrip:
           - |
-            Ja, in 2017, als die Kapazität komplett ausgelastet wurde. Transaktionskosten sind explodiert und Bitcoin wurde unzuverlässig, viele Transaktionen wurden selbst nach mehreren Tagen nicht bestätigt.
+            Viele Händler bieten Rabatte für die Zahlung in Bitcoin Cash an, weil dadurch Kreditkartengebühren entfallen und die Akzeptanz dieses neuen Zahlungssystems wächst.
+      - benefit: "Token-Ökosystem"
+        descrip:
           - |
-            Bitcoin's Marktpreis ist gestiegen, aber das Wachstum und der Nutzen als Währung ist stagniert. Viele Nutzer, Händler, Geschäfte und Investoren haben Bitcoin für Alternativen verlassen, was dazu geführt hat, dass die Dominanz von Bitcoin von 95% auf bis zu 40% gefallen ist.
-      - question: "Behebt Bitcoin Cash diese Probleme?"
-        answer:
+            Das Speichern und Verwalten von Token auf einer Blockchain bietet eine größere Transparenz und Integrität als herkömmliche Formen der Vermögensbuchhaltung und des Handels. Bitcoin Cash unterstützt Token-Protokolle, die eine Vielzahl von Projekten antreiben, und es ist einfach, Ihre eigenen Token-gestützten Projekte zu erstellen.
+      - benefit: "Ünterstützen Sie weltweit die Freiheit"
+        descrip:
           - |
-            Ja. Bitcoin Cash hat das Blocksizelimit als Teil der On-Chain Skalierungsherangehensweise auf 8MB erhöht, was genug Platz für jede Transaktion bietet.
+            Bitcoin Cash ist ein erlaubnisfreies, offenes Netzwerk.  Es befähigt Sie, sich mit Ihren Mitmenschen ohne Einmischung zu engagieren.  Es ist dezentralisiert, freiwillig und nicht-aggressiv.  Wenn die Nutzung wächst, werden alte Machtstrukturen erodieren, während neue Ideen aufblühen.  Es könnte helfen, die größte friedliche Revolution einzuleiten, die die Welt je gesehen hat.
+    benefits:
+      - benefit: "Ultraniedrige Gebühren"
+        descrip:
           - |
-            Niedrige Transaktionskosten und schnelle Bestätigungen sind mit Bitcoin Cash zurückgekehrt. Das Netzwerk wächst wieder. Nutzer, Händler, Geschäfte und Investoren erbauen die Zukunft mithilfe einer echten Peer-to-Peer Währung.
-      - question: "Warum hat Bitcoin das Blocksizelimit nicht angegehoben wenn es so einfach ist?"
-        answer:
+            Die Netzwerkgebühr für eine typische Bitcoin Cash Transaktion beträgt weniger als einen Cent. Wenn Sie Ihre BCH in Fiat-Währung, wie z.B. US-Dollar, konvertieren wollen, können Sie das über Händler-Prozessoren zu Kosten tun, die immer noch viel niedriger sind als die Kreditkartenabwicklung.
+      - benefit: "Keine Rückbuchungen"
+        descrip:
           - |
-            Einige Entwickler haben die originale Vision einer globalen elektronischen Peer-to-Peer Währung von Satoshi Nakamoto nicht verstanden oder ihr nicht zugestimmt. <a href="https://medium.com/@jgarzik/bitcoin-is-being-hot-wired-for-settlement-a5beb1df223a" target="_blank">Stattdessen wollen sie Bitcoin in ein Settlement Layer verwandeln</a>.
+            Anders als bei Kreditkarten gibt es keine automatischen Stornierungen, Rückerstattungen, Rückbuchungen oder andere unerwartete Gebühren. Der Schutz vor Betrug ist in das System integriert, ohne dass für den Händler Kosten entstehen.
+      - benefit: "Neue Kunden"
+        descrip:
           - |
-            Viele Miner und Nutzer vertrauten diesen Entwicklern, während wiederum andere erkannten, dass diese die Community auf einen anderen Weg als versprochen führten.
+            Eine wachsende Zahl von Kunden wählt Bitcoin Cash als bevorzugte Zahlungsmethode.  Sie bevorzugen Händler, die diese Zahlungsoption anbieten und suchen diese aktiv auf.
+      - benefit: "Kostenloses Marketing und Pressearbeit"
+        descrip:
           - |
-            Diese zwei Visionen sind größtenteils inkompatibel, weswegen die Community gespalten wurde.
-      - question: "Hat SegWit die Kapazität von Bitcoinblöcken erhöht? Wird Bitcoin Cash jemals SegWit bekommen?"
-        answer:
-          - |
-            Segregated Witness oder "SegWit" ist ein inakzeptabler Ersatz für die Erhöhung der Blocksize aus mehreren Gründen.
-          - |
-            Erstens, selbst wenn SegWit in 100% der Transaktionen verwendet werden würde, würde dies einer Blocksize von 1,7MB entsprechen. Deshalb ist es im besten Fall nur eine kleine Erhöhung. SegWit kann exponentielles Wachstum oder globale Akzeptanz nicht handhaben. Zweitens resultiert die Soft Fork von SegWit in Wegwerfsignaturen, welche <a href="https://bitcrust.org/blog-incentive-shift-segwit" target="_blank">das Sicherheitsmodell von Bitcoin verschlechtern</a>. Drittens werden zukünftige Kapazitätserhöhungen aufgrund der Bandbreitenineffizienz und Quadractic-Hashing-Angriffen erschwert, da SegWit diese Probleme nicht löst, da ein Angreifer SegWit nicht verwenden muss.
-          - |
-            Aus diesen Gründen war es notwendig, die Bitcoin Cash Fork vor der Implementierung von SegWit durchzuführen. SegWit wird nicht implementiert.
-      - question: "Welches Entwicklerteam leitet Bitcoin Cash?"
-        answer:
-          - |
-            Im Gegensatz zur Situation bei Bitcoin gibt es kein einzelnes Entwicklerteam für Bitcoin Cash, sondern es existieren mehrere unabhängige Entwicklerteams.
-          - |
-            Die Dezentralisierung der Entwicklung und Softwareimplementierung ist ein notwendiger und wichtiger Schritt in die richtige Richtung.
-      - question: "Was ist der Ticker für Bitcoin Cash?"
-        answer:
-          - |
-            Bitcoin Cash wird je nach Dienst oder Wallet von unterschiedlichen Tickersymbolen repräsentiert. BCH/BCC sind die am häufigsten anzutreffenden Ticker. XBC wird verwendet, um dem Internationalen Standard für Währungscodes (ISO 4217) gerecht zu werden.
+            Durch die Akzeptanz von Bitcoin Cash können Händler kostenlose Einträge in Website- und App-Verzeichnissen erhalten, wodurch sie noch mehr Kunden gewinnen können.  Sie können auch von diesem neuen Trend profitieren und Pressearbeit für ihr Geschäft generieren.
