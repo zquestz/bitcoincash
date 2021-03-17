@@ -1,6 +1,9 @@
 // A comma separated list of currencies to display.
 var ticker_currencies = "USD,EUR,JPY,CNY";
 
+// Update interval in ms.
+var update_interval = 30000;
+
 function ticker(currencies) {
   var symbols = {
     USD: "$",
@@ -42,9 +45,9 @@ function ticker(currencies) {
       }
     }
   }).done(function () {
-    setTimeout(function(){ ticker(ticker_currencies); }, 10000);
+    setTimeout(function(){ ticker(ticker_currencies); }, update_interval);
   }).fail(function() {
-    setTimeout(function(){ ticker(ticker_currencies); }, 10000);
+    setTimeout(function(){ ticker(ticker_currencies); }, update_interval);
   });
 }
 
