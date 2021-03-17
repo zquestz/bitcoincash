@@ -1,13 +1,13 @@
 // A comma separated list of currencies to display.
-var ticker_currencies = "USD,EUR,JPY,CNY"
+var ticker_currencies = "USD,EUR,JPY,CNY";
 
-ticker = function(currencies) {
+function ticker(currencies) {
   var symbols = {
     USD: "$",
     CNY: "¥",
     JPY: "¥",
     EUR: "€"
-  }
+  };
 
   $.ajax({
     type: "GET",
@@ -24,13 +24,22 @@ ticker = function(currencies) {
 
       $.each(currencyRates, function (currency, price) {
         var sym = symbols[currency];
+
         if (sym === undefined) {
-          sym = "";
+          return;
         }
+
         output.push("BCH/" + currency + "&nbsp;" + sym + price);
       });
 
-      $('#ticker_value').html(output.join(" &bull; "));
+      if (output.length > 0) {
+        $('#ticker_value').html(output.join(" &bull; "));
+        return;
+      }
+
+      if ($('#ticker_value').html() === 'Loading...') {
+        $('#ticker_value').html("N/A");
+      }
     }
   }).done(function () {
     setTimeout(function(){ ticker(ticker_currencies); }, 10000);
