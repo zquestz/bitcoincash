@@ -53,7 +53,7 @@ de:
       wallets_exchanges: "BCH Logo Für Brieftaschen / Börsen"
     merchant:
       title: "SButtons für Händler"
-      description: "Zeig denen Kunden, dass du Bitcoin Cash akzeptierst"
+      description: "Zeigen Sie Ihren Kunden, dass Sie Bitcoin Cash akzeptieren."
       primary: "Primäres Bitcoin Cash Accepted Here"
       orange: "Bitcoin Cash Accepted Here Orange"
     donation:
@@ -93,18 +93,18 @@ de:
   layout:
     bitcoin_cash: "Bitcoin Cash"
     lead: "Eine elektronische Peer-to-Peer Währung"
-    loading: "Loading..."
+    loading: "Lädt..."
   features:
     - title: "Schnell"
       description: "Transaktionen sekundenschnell. Bestätigung in Minuten"
-    - title: "Zuversässig"
-      description: "Ein Netzwerk, das ohne Überlastung läuft."
+    - title: "Zuverlässig"
+      description: "Ein Netzwerk, das ohne Unterbrechung läuft."
     - title: "Niedrige Gebühren"
       description: "Senden Sie Geld weltweit für ein Cent."
     - title: "Einfach"
       description: "Einfach zu bedienen. Keine Probleme."
     - title: "Stabil"
-      description: "A payment system that's a proven store of value."
+      description: "Ein Zahlungssystem, das ein bewährtes Wertaufbewahrungsmittel ist."
     - title: "Secure"
       description: "Die robusteste Blockchain-Technologie der Welt."
   headings:
@@ -170,7 +170,7 @@ de:
       - benefit: "Ünterstützen Sie weltweit die Freiheit"
         descrip:
           - |
-            Bitcoin Cash ist ein erlaubnisfreies, offenes Netzwerk.  Es befähigt Sie, sich mit Ihren Mitmenschen ohne Einmischung zu engagieren.  Es ist dezentralisiert, freiwillig und nicht-aggressiv.  Wenn die Nutzung wächst, werden alte Machtstrukturen erodieren, während neue Ideen aufblühen.  Es könnte helfen, die größte friedliche Revolution einzuleiten, die die Welt je gesehen hat.
+            Bitcoin Cash ist ein erlaubnisfreies, offenes Netzwerk. Es macht Ihnen möglich, mit Mitmenschen in Beziehuhung zu treten, ohne Ihre Privatsphäre zu verletzen. Es ist dezentralisiert, freiwillig und nicht-aggressiv.  Wenn die Nutzung wächst, werden alte Machtstrukturen erodieren, während neue Ideen aufblühen.  Es könnte helfen, die größte friedliche Revolution einzuleiten, die die Welt je gesehen hat.
     benefits:
       - benefit: "Ultraniedrige Gebühren"
         descrip:
