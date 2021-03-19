@@ -10,11 +10,12 @@
 
 p.release {
   color: white;
-  padding-top: .5em;
+  padding-top: 0.5em;
   font-size: 1.2em;
 }
 
-.release a, .release a:visited {
+.release a,
+.release a:visited {
   color: white;
   font-weight: 700;
   text-decoration: none;
@@ -29,7 +30,7 @@ p.release {
 }
 
 .fa-fw {
-  color: #0AC18E;
+  color: #0ac18e;
 }
 
 .vertical-align {
@@ -50,32 +51,33 @@ p.release {
 
 @media only screen and (max-device-width: 1024px) {
   .site-header {
-      background-attachment: scroll !important;
+    background-attachment: scroll !important;
   }
 }
 
 @media (max-width: 767px) {
   .dropdown .dropdown__content {
-      padding: 0 1.2em .3em;
+    padding: 0 1.2em 0.3em;
   }
 }
 
 .dropdown .dropdown__content {
   min-width: 200px;
-  border:1px solid #eee;
+  border: 1px solid #eee;
   border-radius: 0;
-  border-width:1px 1px 3px 1px;
+  border-width: 1px 1px 3px 1px;
   box-shadow: none;
   --webkit-box-shadow: none;
 }
 
-@media (min-width: 991px)  {
+@media (min-width: 991px) {
   .dropdown .dropdown__container:before {
     height: 0px;
   }
 }
 
-#ticker, #ticker_value {
+#ticker,
+#ticker_value {
   font-weight: 400;
   color: white;
 }
@@ -97,34 +99,40 @@ section.no-top {
 }
 
 section.gray {
-  background-color: #FAFAFA;
+  background-color: #fafafa;
 }
 
 section.border-bottom {
-  border-bottom: 1px solid #EAEAEA;
+  border-bottom: 1px solid #eaeaea;
 }
 
 p.question {
   font-size: 1.3em;
   font-weight: 350;
   font-variant-ligatures: common-ligatures;
-  color: #0AC18E;
-  font-family: 'Open Sans', 'Helvetica', 'Arial', sans-serif;
+  color: #0ac18e;
+  font-family: "Open Sans", "Helvetica", "Arial", sans-serif;
   margin-bottom: 1.04em;
 }
 
-.nodes div a:hover, .wallets div a:hover, .services div a:hover, .exchanges div a:hover{
-  border-bottom: 3px solid #0AC18E;
+.nodes div a:hover,
+.wallets div a:hover,
+.services div a:hover,
+.exchanges div a:hover {
+  border-bottom: 3px solid #0ac18e;
 }
 
-.nodes div a, .wallets div a, .services div a, .exchanges div a{
+.nodes div a,
+.wallets div a,
+.services div a,
+.exchanges div a {
   padding: 2em;
   width: 100%;
   height: 120px;
   display: block;
   background: white;
-  border:1px solid #eee;
-  border-width:1px 1px 3px 1px;
+  border: 1px solid #eee;
+  border-width: 1px 1px 3px 1px;
 
   -webkit-transition: border-color 250ms ease;
   -moz-transition: border-color 250ms ease;
