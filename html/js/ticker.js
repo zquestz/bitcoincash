@@ -9,17 +9,19 @@ function ticker(currencies) {
     USD: "$",
     CNY: "¥",
     JPY: "¥",
-    EUR: "€"
+    EUR: "€",
   };
 
   $.ajax({
     type: "GET",
-    url: "https://min-api.cryptocompare.com/data/price?fsym=BCH&tsyms=" + currencies,
+    url:
+      "https://min-api.cryptocompare.com/data/price?fsym=BCH&tsyms=" +
+      currencies,
     contentType: "application/json; charset=utf-8",
     timeout: 6000,
     error: function (x, t, m) {
-      if (!$('#ticker_value').html().includes("BCH")) {
-        $('#ticker_value').html("N/A");
+      if (!$("#ticker_value").html().includes("BCH")) {
+        $("#ticker_value").html("N/A");
       }
     },
     success: function (currencyRates) {
@@ -36,19 +38,25 @@ function ticker(currencies) {
       });
 
       if (output.length > 0) {
-        $('#ticker_value').html(output.join(" &bull; "));
+        $("#ticker_value").html(output.join(" &bull; "));
         return;
       }
 
-      if (!$('#ticker_value').html().includes("BCH")) {
-        $('#ticker_value').html("N/A");
+      if (!$("#ticker_value").html().includes("BCH")) {
+        $("#ticker_value").html("N/A");
       }
-    }
-  }).done(function () {
-    setTimeout(function(){ ticker(ticker_currencies); }, update_interval);
-  }).fail(function() {
-    setTimeout(function(){ ticker(ticker_currencies); }, update_interval);
-  });
+    },
+  })
+    .done(function () {
+      setTimeout(function () {
+        ticker(ticker_currencies);
+      }, update_interval);
+    })
+    .fail(function () {
+      setTimeout(function () {
+        ticker(ticker_currencies);
+      }, update_interval);
+    });
 }
 
 ticker(ticker_currencies);
