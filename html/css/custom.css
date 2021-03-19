@@ -151,3 +151,15 @@ p.question {
     white-space: normal;
   }
 }
+
+@media all and (max-width: 767px) {
+  .text-center-xs {
+    text-align: center;
+  }
+  .text-left-xs {
+    text-align: left;
+  }
+  .text-right-xs {
+    text-align: right;
+  }
+}
