@@ -2088,8 +2088,8 @@ footer.footer-6.bg--secondary .footer__lower {
 }
 section.space--xs,
 footer.space--xs {
-  padding-top: 3.71428571em;
-  padding-bottom: 3.71428571em;
+  padding-top: 3.71428571em !important;
+  padding-bottom: 3.71428571em !important;
 }
 
 .social-list a {
