@@ -115,18 +115,18 @@ es:
     projects: "Proyectos"
     exchanges: "Exchanges"
     why: "Por qué usar Bitcoin Cash"
-    benefits: "Beneficios para comerciantes"
+    benefits: "Beneficios para comercios"
     development: "Desarrollo descentralizado"
   content:
     history:
       - |
-        En octubre de 2008, Satoshi Nakamoto publicó el famoso Whitepaper titulado <strong>“Bitcoin: A Peer to Peer Electronic Cash System”</strong> (Bitcoin: Un sistema de dinero electrónico de usuario a usuario). En 2009, lanzó el primer software de bitcoin que impulsó la red la red, y Bitcoin funcionó sin problemas durante varios años con comisiones bajas y transacciones rápidas, fiables e irreversibles.
+        En octubre de 2008, Satoshi Nakamoto publicó el famoso Whitepaper titulado <strong>“Bitcoin: A Peer to Peer Electronic Cash System”</strong> (Bitcoin: Un sistema de dinero electrónico de usuario a usuario). En 2009, lanzó el primer software de bitcoin que impulsó la red, y Bitcoin funcionó sin problemas durante varios años con comisiones bajas y transacciones rápidas, fiables e irreversibles.
       - |
         Por desgracia, entre 2016 y 2017, las transacciones de Bitcoin se volvieron cada vez menos fiable y las comisiones más caras, lo que se debió a que la comunidad no pudo llegar a un consenso sobre el aumento de la capacidad de la red. Algunos de los desarrolladores informáticos no entendieron ni estaban de acuerdo con el plan de Satoshi. En su lugar, prefirieron que Bitcoin se convirtiera en una capa de contabilidad o liquidación de saldos.
       - |
         En 2017, el dominio de Bitcoin se había desplomado del 95% a tan solo el 40% como resultado directo de los problemas de uso. Afortunadamente, una gran parte de la comunidad de Bitcoin - desarrolladores, inversores, usuarios y empresas - todavía creía en la visión original de Bitcoin: un sistema de dinero electrónico de usuario a usuario con comisiones bajas que pudiera ser utilizado por todas las personas del planeta.
       - |
-        El 1 de agosto de 2017, dimos el lógico paso de aumentar el tamaño máximo de los bloques, y así nació Bitcoin Cash. Al ser una continuación de Bitcoin, toda persona que tenía Bitcoin en ese momento (bloque 478558) también pasó a tener Bitcoin Cash (BCH). La red de Bitcoin Cash procesa bloques de hasta 32MB, y hay investigaciones y pruebas en curso para implementar tamaños de bloque lo suficientemente grandes como para que la red continúe funcionando como debe.
+        El 1 de agosto de 2017, dimos el lógico paso de aumentar el tamaño máximo de los bloques, y así nació Bitcoin Cash. Al ser una continuación de Bitcoin, toda persona que tenía Bitcoin en ese momento (bloque 478558) también pasó a tener Bitcoin Cash (BCH). La red de Bitcoin Cash procesa bloques de hasta 32MB, y hay investigaciones y pruebas en curso para implementar tamaños de bloque lo suficientemente grandes como para que la red continúe funcionando como fue diseñada.
     development:
       - |
         Como múltiples equipos de desarrolladores independientes proporcionan diferentes implementaciones de software, el futuro está seguro. Bitcoin Cash es resistente a ataques políticos y sociales a nivel de desarrollo del protocolo; no es posible que un único grupo o proyecto pueda tener el control. La existencia de múltiples implementaciones también proporciona redundancia para garantizar que la red siempre esté operativa el 100% del tiempo.
@@ -141,7 +141,7 @@ es:
       - benefit: "Envía dinero a cualquier lugar del mundo prácticamente gratis"
         descrip:
           - |
-            Con Bitcoin Cash, puedes enviar dinero a cualquier persona esté donde esté, 24 horas al día, 365 días del año. Igual que Internet, la red siempre está operativa. Ninguna transacción es demasiado grande o pequeña. Y nunca necesitas el permiso o la aprobación de nadie.
+            Con Bitcoin Cash, puedes enviar dinero a cualquier persona esté donde esté, 24 horas al día, 365 días del año. Igual que Internet, la red siempre está operativa. Ninguna transacción es demasiado grande o pequeña y nunca necesitas el permiso o la aprobación de nadie.
       - benefit: "Sé tu propio banco y ten un control total de tu dinero"
         descrip:
           - |
@@ -161,11 +161,11 @@ es:
       - benefit: "Disfruta de descuentos exclusivos"
         descrip:
           - |
-            Muchos comerciantes ofrecen descuentos si se paga en Bitcoin Cash, ya que elimina las comisiones de las tarjetas de crédito y ayuda a aumentar la adopción de este nuevo sistema de pago.
+            Muchos comercios ofrecen descuentos si se paga en Bitcoin Cash, ya que elimina las comisiones de las tarjetas de crédito y ayuda a aumentar la adopción de este nuevo sistema de pago.
       - benefit: "Ecosistema de tokens"
         descrip:
           - |
-            Almacenar y administrar tokens en una blockchain proporciona mayor transparencia e integridad que las formas tradicionales de contabilidad e intercambio de activos. Bitcoin Cash soporta protocolos de tokens que potencian diferentes proyectos, y es fácil crear tus propios proyectos respaldados por tokens.
+            Almacenar y administrar tokens en una blockchain proporciona mayor transparencia e integridad que las formas tradicionales de contabilidad e intercambio de activos. Bitcoin Cash soporta protocolos de tokens que potencian diferentes proyectos, y crear tus propios proyectos respaldados por tokens es fácil.
       - benefit: "Apoya la libertad en todo el mundo"
         descrip:
           - |
@@ -178,11 +178,11 @@ es:
       - benefit: "Cero pagos devueltos"
         descrip:
           - |
-            A diferencia de las tarjetas de crédito, con Bitcoin Cash nunca hay anulaciones automáticas, pagos devueltos, reembolsos ni comisiones inesperadas. La protección contra el fraude está integrada en el sistema sin coste alguno para el comerciante.
+            A diferencia de las tarjetas de crédito, con Bitcoin Cash nunca hay anulaciones automáticas, pagos devueltos, reembolsos ni comisiones inesperadas. La protección contra el fraude está integrada en el sistema sin coste alguno para los comercios.
       - benefit: "Nuevos clientes"
         descrip:
           - |
-            Cada día más personas adoptan Bitcoin Cash como método de pago preferido. Prefieren comprar en los comercios que aceptan este método de pago y los buscan de forma activa.
+            Cada día más personas adoptan Bitcoin Cash como su dinero y método de pago preferido. Prefieren comprar en los comercios que aceptan este método de pago y los buscan de forma activa. Aceptando BCH, un comercio se posiciona por delante de su competencia en este nicho de mercado.
       - benefit: "Marketing y cobertura mediática gratis"
         descrip:
           - |
