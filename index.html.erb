@@ -49,13 +49,26 @@
                 </a>
               </li>
               <li>
-                <a href="#nodes" data-nav-section="nodes" class="inner-link">
-                  <span><%= I18n.t(:'sections.nodes').strip %></span>
-                </a>
-              </li>
-              <li>
                 <a href="#wallets" data-nav-section="wallets" class="inner-link">
                   <span><%= I18n.t(:'sections.wallets').strip %></span>
+                </a>
+              </li>
+              <%- if !I18n.t(:'content.why').is_a?(String) -%>
+              <li>
+                <a href="#why" data-nav-section="why" class="inner-link">
+                  <span><%= I18n.t(:'sections.benefits').strip %></span>
+                </a>
+              </li>
+              <%- else -%>
+              <li>
+                <a href="#why" data-nav-section="faq" class="inner-link">
+                  <span><%= I18n.t(:'sections.faq').strip %></span>
+                </a>
+              </li>
+              <%- end -%>
+              <li>
+                <a href="#nodes" data-nav-section="nodes" class="inner-link">
+                  <span><%= I18n.t(:'sections.nodes').strip %></span>
                 </a>
               </li>
               <li class="dropdown">
@@ -93,19 +106,6 @@
                   </div>
                 </div>
               </li>
-              <%- if !I18n.t(:'content.why').is_a?(String) -%>
-              <li>
-                <a href="#why" data-nav-section="why" class="inner-link">
-                  <span><%= I18n.t(:'sections.benefits').strip %></span>
-                </a>
-              </li>
-              <%- else -%>
-              <li>
-                <a href="#why" data-nav-section="faq" class="inner-link">
-                  <span><%= I18n.t(:'sections.faq').strip %></span>
-                </a>
-              </li>
-              <%- end -%>
               <li class="dropdown">
                 <span class="dropdown__trigger"><%= I18n.t(:language).strip %></span>
                 <div class="dropdown__container">
@@ -209,36 +209,6 @@
           </div>
         </div>
       </section>
-      <a id="nodes"></a>
-      <section class="space--xxs text-center gray border-bottom" id="nodes-section"  data-section="nodes">
-        <div class="container nodes">
-          <div class="row">
-            <div class="col-xs-12 section-heading ">
-              <h2><%= I18n.t(:'headings.nodes').strip %></h2>
-            </div>
-          </div>
-          <div class="row">
-            <div class="col-sm-6 col-md-6 vertical-align">
-              <a href="https://bitcoincashnode.org" target="_blank"><img alt="Bitcoin Cash Node" src="/img/wallets/bitcoincashnode.png"></a>
-            </div>
-            <div class="col-sm-6 col-md-6 vertical-align">
-              <a href="https://www.bitcoinunlimited.info" target="_blank"><img alt="Bitcoin Unlimited" src="/img/wallets/bitcoinunlimited.png"></a>
-            </div>
-            <div class="col-sm-6 col-md-6 vertical-align">
-              <a href="https://bchd.cash" target="_blank"><img alt="BCHD" src="/img/wallets/bchd.png"></a>
-            </div>
-            <div class="col-sm-6 col-md-6 vertical-align">
-              <a href="https://flowee.org" target="_blank"><img alt="Flowee The Hub" src="/img/wallets/flowee.png"></a>
-            </div>
-            <div class="col-sm-6 col-md-6 vertical-align">
-              <a href="https://bitcoinverde.org" target="_blank"><img alt="Bitcoin Verde" src="/img/wallets/bitcoinverde.png"></a>
-            </div>
-            <div class="col-sm-6 col-md-6 vertical-align">
-              <a href="https://kth.cash" target="_blank"><img alt="Knuth" src="/img/wallets/knuth.png"></a>
-            </div>
-          </div>
-        </div>
-      </section>
       <a id="wallets"></a>
       <section class="space--xxs text-center gray border-bottom" id="wallets-section" data-section="wallets">
         <div class="container wallets">
@@ -316,6 +286,128 @@
             </div>
             <div class="col-sm-6 col-md-3 vertical-align">
               <a href="https://walletgenerator.net/?currency=BitcoinCash" target="_blank"><img alt="WalletGenerator.net" src="/img/wallets/walletgenerator.png"></a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <%- if !I18n.t(:'content.faq').is_a?(String) -%>
+      <a id="faq"></a>
+      <section class="space--xxs" id="faq-section" data-section="faq">
+        <div class="container">
+          <div class="row text-center">
+            <div class="col-xs-12 section-heading">
+              <h2><%= I18n.t(:'headings.faq').strip %></h2>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-xs-12">
+              <% I18n.t(:'content.faq').each do |qa| %><%= ' ' * 16 %>
+              <p class="question"><%= qa[:question].strip %></p>
+              <%= qa[:answer].map { |a| "<p>#{a.strip}</p>" }.join("\n#{' ' * 14}") %>
+              <%- end -%>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <%- end -%>
+      <%- if !I18n.t(:'content.why').is_a?(String) -%>
+      <a id="benefits"></a>
+      <section class="space--xxs" id="why-section" data-section="why">
+        <div class="container">
+          <div class="row text-center">
+            <div class="col-xs-12 section-heading">
+              <h2><%= I18n.t(:'headings.why').strip %></h2>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-xs-12">
+              <%- I18n.t(:'content.why').each do |qa| -%>
+              <p class="question"><%= qa[:benefit].strip %></p>
+              <%= qa[:descrip].map { |a| "<p>#{a.strip}</p>" }.join("\n#{' ' * 14}") %>
+              <%- end -%>
+            </div>
+          </div>
+        </div>
+      </section>
+      <%- end -%>
+      <%- if !I18n.t(:'content.benefits').is_a?(String) -%>
+      <section class="space--xxs" id="merchant-benefits-section" data-section="benefits">
+        <div class="container">
+          <div class="row text-center">
+            <div class="col-xs-12 section-heading">
+              <h2><%= I18n.t(:'headings.benefits').strip %></h2>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-xs-12">
+              <%- I18n.t(:'content.benefits').each do |qa| -%>
+              <p class="question"><%= qa[:benefit].strip %></p>
+              <%= qa[:descrip].map { |a| "<p>#{a.strip}</p>" }.join("\n#{' ' * 14}") %>
+              <%- end -%>
+            </div>
+          </div>
+        </div>
+      </section>
+      <%- end -%>
+      <%- if !I18n.t(:'content.history').is_a?(String) -%>
+      <section class="space--xxs" id="history-section"  data-section="history">
+        <div class="container">
+          <div class="row text-center">
+            <div class='col-sm-12 section-heading '>
+              <h2><%= I18n.t(:'headings.history').strip %></h2>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-sm-12 col-md-12">
+              <%= I18n.t(:'content.history').map { |c| "<p>#{c.strip}</p>" }.join("\n#{' ' * 14}") %>
+            </div>
+          </div>
+        </div>
+      </section>
+      <%- end -%>
+      <%- if !I18n.t(:'content.development').is_a?(String) -%>
+      <section class="space--xxs" id="development-section"  data-section="development">
+        <div class="container">
+          <div class="row text-center">
+            <div class='col-sm-12 section-heading '>
+              <h2><%= I18n.t(:'headings.development').strip %></h2>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-sm-12 col-md-12">
+              <%= I18n.t(:'content.development').map { |c| "<p>#{c.strip}</p>" }.join("\n#{' ' * 14}") %>
+            </div>
+          </div>
+        </div>
+      </section>
+      <%- end -%>
+      <a id="nodes"></a>
+      <section class="space--xxs text-center gray border-bottom" id="nodes-section"  data-section="nodes">
+        <div class="container nodes">
+          <div class="row">
+            <div class="col-xs-12 section-heading ">
+              <h2><%= I18n.t(:'headings.nodes').strip %></h2>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-sm-6 col-md-6 vertical-align">
+              <a href="https://bitcoincashnode.org" target="_blank"><img alt="Bitcoin Cash Node" src="/img/wallets/bitcoincashnode.png"></a>
+            </div>
+            <div class="col-sm-6 col-md-6 vertical-align">
+              <a href="https://www.bitcoinunlimited.info" target="_blank"><img alt="Bitcoin Unlimited" src="/img/wallets/bitcoinunlimited.png"></a>
+            </div>
+            <div class="col-sm-6 col-md-6 vertical-align">
+              <a href="https://bchd.cash" target="_blank"><img alt="BCHD" src="/img/wallets/bchd.png"></a>
+            </div>
+            <div class="col-sm-6 col-md-6 vertical-align">
+              <a href="https://flowee.org" target="_blank"><img alt="Flowee The Hub" src="/img/wallets/flowee.png"></a>
+            </div>
+            <div class="col-sm-6 col-md-6 vertical-align">
+              <a href="https://bitcoinverde.org" target="_blank"><img alt="Bitcoin Verde" src="/img/wallets/bitcoinverde.png"></a>
+            </div>
+            <div class="col-sm-6 col-md-6 vertical-align">
+              <a href="https://kth.cash" target="_blank"><img alt="Knuth" src="/img/wallets/knuth.png"></a>
             </div>
           </div>
         </div>
@@ -507,6 +599,9 @@
               <a href="https://pro.coinbase.com/" target="_blank"><img alt="Coinbase Pro" src="/img/exchanges/coinbasepro.png"></a>
             </div>
             <div class="col-sm-4 col-md-3 vertical-align">
+              <a href="https://www.coinex.com/" target="_blank"><img alt="Coinex" src="/img/exchanges/coinex.png"></a>
+            </div>
+            <div class="col-sm-4 col-md-3 vertical-align">
               <a href="https://www.kraken.com/" target="_blank"><img alt="Kraken" src="/img/exchanges/kraken.png"></a>
             </div>
             <div class="col-sm-4 col-md-3 vertical-align">
@@ -603,9 +698,6 @@
               <a href="https://bestrate.org/" target="_blank"><img alt="BestRate" src="/img/exchanges/bestrate.png"></a>
             </div>
             <div class="col-sm-4 col-md-3 vertical-align">
-              <a href="https://www.coinex.com/" target="_blank"><img alt="Coinex" src="/img/exchanges/coinex.png"></a>
-            </div>
-            <div class="col-sm-4 col-md-3 vertical-align">
               <a href="https://coinfalcon.com" target="_blank"><img alt="CoinFalcon" src="/img/exchanges/coinfalcon.png"></a>
             </div>
             <div class="col-sm-4 col-md-3 vertical-align">
@@ -620,98 +712,6 @@
           </div>
         </div>
       </section>
-      <%- if !I18n.t(:'content.faq').is_a?(String) -%>
-      <a id="faq"></a>
-      <section class="space--xxs" id="faq-section" data-section="faq">
-        <div class="container">
-          <div class="row text-center">
-            <div class="col-xs-12 section-heading">
-              <h2><%= I18n.t(:'headings.faq').strip %></h2>
-            </div>
-          </div>
-          <div class="row">
-            <div class="col-xs-12">
-              <% I18n.t(:'content.faq').each do |qa| %><%= ' ' * 16 %>
-              <p class="question"><%= qa[:question].strip %></p>
-              <%= qa[:answer].map { |a| "<p>#{a.strip}</p>" }.join("\n#{' ' * 14}") %>
-              <%- end -%>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-      <%- end -%>
-      <%- if !I18n.t(:'content.why').is_a?(String) -%>
-      <a id="benefits"></a>
-      <section class="space--xxs" id="why-section" data-section="why">
-        <div class="container">
-          <div class="row text-center">
-            <div class="col-xs-12 section-heading">
-              <h2><%= I18n.t(:'headings.why').strip %></h2>
-            </div>
-          </div>
-          <div class="row">
-            <div class="col-xs-12">
-              <%- I18n.t(:'content.why').each do |qa| -%>
-              <p class="question"><%= qa[:benefit].strip %></p>
-              <%= qa[:descrip].map { |a| "<p>#{a.strip}</p>" }.join("\n#{' ' * 14}") %>
-              <%- end -%>
-            </div>
-          </div>
-        </div>
-      </section>
-      <%- end -%>
-      <%- if !I18n.t(:'content.benefits').is_a?(String) -%>
-      <section class="space--xxs" id="merchant-benefits-section" data-section="benefits">
-        <div class="container">
-          <div class="row text-center">
-            <div class="col-xs-12 section-heading">
-              <h2><%= I18n.t(:'headings.benefits').strip %></h2>
-            </div>
-          </div>
-          <div class="row">
-            <div class="col-xs-12">
-              <%- I18n.t(:'content.benefits').each do |qa| -%>
-              <p class="question"><%= qa[:benefit].strip %></p>
-              <%= qa[:descrip].map { |a| "<p>#{a.strip}</p>" }.join("\n#{' ' * 14}") %>
-              <%- end -%>
-            </div>
-          </div>
-        </div>
-      </section>
-      <%- end -%>
-      <%- if !I18n.t(:'content.history').is_a?(String) -%>
-      <section class="space--xxs" id="history-section"  data-section="history">
-        <div class="container">
-          <div class="row text-center">
-            <div class='col-sm-12 section-heading '>
-              <h2><%= I18n.t(:'headings.history').strip %></h2>
-            </div>
-          </div>
-          <div class="row">
-            <div class="col-sm-12 col-md-12">
-              <%= I18n.t(:'content.history').map { |c| "<p>#{c.strip}</p>" }.join("\n#{' ' * 14}") %>
-            </div>
-          </div>
-        </div>
-      </section>
-      <%- end -%>
-      <%- if !I18n.t(:'content.development').is_a?(String) -%>
-      <section class="space--xxs" id="development-section"  data-section="development">
-        <div class="container">
-          <div class="row text-center">
-            <div class='col-sm-12 section-heading '>
-              <h2><%= I18n.t(:'headings.development').strip %></h2>
-            </div>
-          </div>
-          <div class="row">
-            <div class="col-sm-12 col-md-12">
-              <%= I18n.t(:'content.development').map { |c| "<p>#{c.strip}</p>" }.join("\n#{' ' * 14}") %>
-            </div>
-          </div>
-        </div>
-      </section>
-      <%- end -%>
       <footer class="space--xs footer-1">
         <div class="container">
           <div class="row">
