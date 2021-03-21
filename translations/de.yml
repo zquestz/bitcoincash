@@ -1,4 +1,3 @@
-﻿---
 de:
   language: Deutsch
   title:
@@ -39,7 +38,7 @@ de:
     full: "Voll (PNG)"
     vector: "Vektor (SVG)"
     sections:
-      home: "Home"
+      home: "Startseite"
       logos: "Logos"
       merchant: "Händler"
       donations: "Spenden"
@@ -52,8 +51,8 @@ de:
       horizontal_white: "Horizontales BCH Logo Weiß"
       wallets_exchanges: "BCH Logo Für Brieftaschen / Börsen"
     merchant:
-      title: "SButtons für Händler"
-      description: "Zeigen Sie Ihren Kunden, dass Sie Bitcoin Cash akzeptieren."
+      title: "Buttons für Händler"
+      description: "Zeigen Sie Ihren Kunden, dass Sie Bitcoin Cash akzeptieren"
       primary: "Primäres Bitcoin Cash Accepted Here"
       orange: "Bitcoin Cash Accepted Here Orange"
     donation:
@@ -65,7 +64,7 @@ de:
       title: "Visuele Identität"
       description: "Bitcoin Cash fonts, farben und mehr."
       font: "Ubuntu Bold"
-      font_italic: "Ubuntu Bold Italic"
+      font_italic: "Ubuntu Bold Kursiv"
       download: "Font herunterladen"
       orange: "Bitcoin Cash Orange"
       grey: "Bitcoin Cash Grau"
@@ -83,7 +82,7 @@ de:
     features: "Merkmale"
     nodes: "Knoten"
     wallets: "Brieftaschen"
-    community: "Community"
+    community: "Gemeinschaft"
     services: "Dienste"
     projects: "Projekte"
     exchanges: "Börsen"
@@ -96,7 +95,7 @@ de:
     loading: "Lädt..."
   features:
     - title: "Schnell"
-      description: "Transaktionen sekundenschnell. Bestätigung in Minuten"
+      description: "Transaktionen sekundenschnell. Bestätigung in Minuten."
     - title: "Zuverlässig"
       description: "Ein Netzwerk, das ohne Unterbrechung läuft."
     - title: "Niedrige Gebühren"
@@ -105,19 +104,19 @@ de:
       description: "Einfach zu bedienen. Keine Probleme."
     - title: "Stabil"
       description: "Ein Zahlungssystem, das ein bewährtes Wertaufbewahrungsmittel ist."
-    - title: "Secure"
+    - title: "Sicher"
       description: "Die robusteste Blockchain-Technologie der Welt."
   headings:
     history: "Die Geschichte von Bitcoin Cash"
     about: "Das beste Geld in der Welt"
-    nodes: "KNoten"
+    nodes: "Knoten"
     wallets: "Brieftaschen"
     services: "Dienste"
     projects: "Projekte"
     exchanges: "Börsen"
     why: "Warum Bitcoin Cash nutzen?"
     benefits: "Vorteile für Händler"
-    development: "Decentralisierte Entwicklung"
+    development: "Dezentralisierte Entwicklung"
   content:
     history:
       - |
