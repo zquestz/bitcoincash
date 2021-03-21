@@ -118,7 +118,12 @@
 
     $(window).scroll(function (event) {
       var header = $("#fh5co-header"),
-        scrlTop = $(this).scrollTop();
+        scrlTop = $(this).scrollTop(),
+        expander = $("#expander");
+
+      if (expander.hasClass("active")) {
+        return;
+      }
 
       if (scrlTop > 500 && scrlTop <= 2000) {
         header.addClass("navbar-fixed-top fh5co-animated slideInDown");
