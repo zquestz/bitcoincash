@@ -75,7 +75,7 @@ it:
       pantone: "Pantone"
   misc:
     logo: "logo"
-    dropdown_md_width: 2
+    dropdown_md_width: 3
     dropdown_sm_width: 3
   sections:
     about: "Info"
