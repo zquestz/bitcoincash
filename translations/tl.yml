@@ -1,4 +1,3 @@
----
 tl:
   language: Tagalog
   title:
@@ -18,15 +17,15 @@ tl:
           Ang Bitcoin Cash ay nagdadala ng napakainam na pera para sa buong mundo. Ang mga negosyante at gumagamit nito ay nabibigyan ng pagkakataong magpadala ng may maliit na bayarin at maasahang kumpirmasyon sa bawat transaksyon. Ang kinabukasan ay nagniningning kasama ang hindi pinipigilang paglaki, pandaigdigang adapsyon, malayang pagbabago, at desentralisadong pagpapa-unlad.
     graphics:
       description: |
-        Koleksyon ng mga tatak at grapiko para sa Bitcoin Cash
+        Koleksyon ng mga tatak at grapiko para sa Bitcoin Cash.
       twitter:
         title: "Bitcoin Cash - Mga Tatak/Grapiko"
         description: |
-          Koleksyon ng mga tatak at grapiko para sa Bitcoin Cash
+          Koleksyon ng mga tatak at grapiko para sa Bitcoin Cash.
       og:
         title: "Bitcoin Cash - Mga Tatak/Grapiko"
         description: |
-          Koleksyon ng mga tatak at grapiko para sa Bitcoin Cash
+          Koleksyon ng mga tatak at grapiko para sa Bitcoin Cash.
   graphics:
     title: "Mga Grapikong Pang-promosyon"
     description: "Ang mga tatak at iba pang uri nito ng Bitcoin Cash ay pwedeng gamitin pang-display sa mga serbisyo online, tingi-tingiang establesiemento, limbagan o iba pang mga pang-promosyon na sadya."
@@ -53,7 +52,7 @@ tl:
       wallets_exchanges: "Tatak ng BCH para sa mga Pitaka at Palitan"
     merchant:
       title: "Pindutan ng mga Negosyante"
-      description: "Ipakita sa iyong mga mamimili na kayo ay tumatanggap ng Bitcoin Cash."
+      description: "Ipakita sa iyong mga mamimili na kayo ay tumatanggap ng Bitcoin Cash"
       primary: "Pangunahing Tumatanggap ng Bitcoin Cash Dito"
       orange: "Tumatanggap ng Bitcoin Cash Dito Orends"
     donation:
@@ -63,7 +62,7 @@ tl:
       orange: "Tumatanggap ng Bitcoin Cash na Donasyon Orends"
     identity:
       title: "Biswal na Pagkakakilanlan"
-      description: "Mga font, kulay, at iba pa ng Bitcoin Cash"
+      description: "Mga font, kulay, at iba pa ng Bitcoin Cash."
       font: "Ubuntu Bold"
       font_italic: "Ubuntu Bold Italic"
       download: "I-download ang Font"
@@ -75,7 +74,7 @@ tl:
       cmyk: "CMYK"
       pantone: "Pantone"
   misc:
-    logo: "Tatak"
+    logo: "tatak"
     dropdown_md_width: 3
     dropdown_sm_width: 3
   sections:
@@ -87,7 +86,7 @@ tl:
     services: "Mga Serbisyo"
     projects: "Mga Proyekto"
     exchanges: "Mga Palitan"
-    graphics: " MgaTatak/Grapiko"
+    graphics: "MgaTatak/Grapiko"
     benefits: "Mga Benepisyo"
     faq: "FAQ"
   layout:
@@ -130,7 +129,7 @@ tl:
         Noong unang araw ng Agusto, sa taong 2017, nagsagawa kami ng lohikal na hakbang para pataasin ang pinakamataas na block size, at dito umusbong ang Bitcoin Cash. Lahat ng nagmamay-ari ng Bitcoin sa panahong iyon (block 478558) ay nagmamay-ari na din ng Bitcoin Cash (BCH). Ngayon ang network ay kasalukuyang sumusuporta sa aabot na 32MB blocks at patuloy na pinag-aaralan ang karagdagang pagtaas dito.
     development:
       - |
-         Kasama ang iilang grupo ng mga independenteng developers na nagbibigay ng mga implementasyon sa software, ang ating kinabukasan ay segurado. Ang mga plano ng Bitcoin Cash para umunlad ay malayo sa mga atakeng pangpulitikal at pangsosyal. Walang sinumang grupo o proyekto ang kayang kontrolin ito. Ang pagpapanatili sa 100% uptime ng network ay bunga ng paulit-ulit na maraming implementasyon.
+        Kasama ang iilang grupo ng mga independenteng developers na nagbibigay ng mga implementasyon sa software, ang ating kinabukasan ay segurado. Ang mga plano ng Bitcoin Cash para umunlad ay malayo sa mga atakeng pangpulitikal at pangsosyal. Walang sinumang grupo o proyekto ang kayang kontrolin ito. Ang pagpapanatili sa 100% uptime ng network ay bunga ng paulit-ulit na maraming implementasyon.
       - |
         Ang <a href="https://lists.linuxfoundation.org/mailman/listinfo/bitcoin-ml" target="_blank">bitcoin-ml mailing list</a> ay isang magandang lugar sa pagsasagawa ng mga panukala para sa mga pagbabago na nangangailangan din ng koordinasyon sa mga grupo ng developers. Ang sinumang nagnanais magsagawa ng pagbabago sa protokol ng Bitcoin Cash ay mas mabuting maghanap muna ng rekomendasyon sa lipunan at makipag-ugnayan sa ibang developers.
     about:
