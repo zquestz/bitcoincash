@@ -668,15 +668,16 @@ h6 {
   height: 700px;
 }
 #fh5co-home .text-wrap {
-  display: table;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   width: 100%;
-  position: relative;
   z-index: 4;
 }
 #fh5co-home .text-inner {
-  display: table-cell;
   vertical-align: middle;
   text-align: center;
+  width: 100%;
 }
 #fh5co-home .text-inner a {
   color: white;
