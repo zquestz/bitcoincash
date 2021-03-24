@@ -1673,6 +1673,11 @@ h6 {
   transform: rotateZ(-45deg);
 }
 
+.row {
+  margin-right: 0 !important;
+  margin-left: 0 !important;
+}
+
 .fh5co-nav-toggle {
   position: absolute;
   top: 2px;
