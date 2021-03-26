@@ -70,7 +70,7 @@ pt-BR:
       - |
         <strong>Novo Algoritmo de Ajuste de Dificuldade (DAA)</strong> - Ajustes da dificuldade do Proof-of-Work permitem aos mineradores migrar do Bitcoin para o Bitcoin Cash facilmente, enquanto protege contra flutuações na taxa de hash.
       - |
-        <strong>Desenvolvimento Descentralizado</strong> - Com múltiplos times de desenvolvedores indepentes implementanto software, o futuro é seguro. O Bitcoin Cash é resistente a ataques políticos e sociais no desenvolvimento do protocolo. Nenhum grupo único pode controlar o projeto. A <a href="https://lists.linuxfoundation.org/mailman/listinfo/bitcoin-ml" target="_blank">bitcoin-ml mailing list</a> é um bom local para fazer propostas de mudanças que requeiram coordenação entre múltiplos times.
+        <strong>Desenvolvimento Descentralizado</strong> - Com múltiplos times de desenvolvedores indepentes implementanto software, o futuro é seguro. O Bitcoin Cash é resistente a ataques políticos e sociais no desenvolvimento do protocolo. Nenhum grupo único pode controlar o projeto. A <a href="https://bitcoincashresearch.org" target="_blank">bitcoincashresearch.org </a> é um bom local para fazer propostas de mudanças que requeiram coordenação entre múltiplos times.
     faq:
       - question: "O que é Bitcoin Cash?"
         answer:

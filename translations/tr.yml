@@ -69,7 +69,7 @@ tr:
       - |
         <strong>Yeni Zorluk Ayarlarma Algoritması (ZAA)</strong> - Duyarlı iş-ispatı zorluk ayarı sayesinde madencilerin miras Bitcoin zincirinden geçiş yapması sağlanırken işlem hızı dalgalanması için koruma sağlar.
       - |
-        <strong>Merkeziyetsiz Gelişim</strong> - Birçok bağımsız yazılımcı ekibi sayesinde gelecek güvende. Bitcoin Cash'in gelişimi politik ve sosyal saldırlardan etkilenemez. Hiçbir tekil topluluk ya da şahıs kontrol edemez. Bitcoin-ml <a href="https://lists.linuxfoundation.org/mailman/listinfo/bitcoin-ml" target="_blank">e-posta listesi</a> yazılımcılara tavsiyeler için iyi bir kaynaktır.
+        <strong>Merkeziyetsiz Gelişim</strong> - Birçok bağımsız yazılımcı ekibi sayesinde gelecek güvende. Bitcoin Cash'in gelişimi politik ve sosyal saldırlardan etkilenemez. Hiçbir tekil topluluk ya da şahıs kontrol edemez. bitcoincashresearch.org <a href="https://bitcoincashresearch.org" target="_blank">e-posta listesi</a> yazılımcılara tavsiyeler için iyi bir kaynaktır.
     faq:
       - question: "Bitcoin Cash nedir?"
         answer:
