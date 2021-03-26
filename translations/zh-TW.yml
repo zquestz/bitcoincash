@@ -69,7 +69,7 @@ zh-TW:
       - |
         <strong>新的難度調整算法 (DAA)</strong> - 響應式地調整工作量證明 (PoW) 之難度使礦工能夠自由地從傳統比特幣遷移至比特幣現金，同時也防範了算力的波動。
       - |
-        <strong>去中心化的開發</strong> - 提供軟體實作的數個獨立開發團隊，保障了安全的未來。比特幣現金能夠抵抗開發相關的政治及社交攻擊，也不受制於單一的組織或專案。<a href="https://lists.linuxfoundation.org/mailman/listinfo/bitcoin-ml" target="_blank">bitcoin-ml</a> 郵寄清單提供一個優良的平台，讓人們提出需要跨團隊開發者合作的變動。
+        <strong>去中心化的開發</strong> - 提供軟體實作的數個獨立開發團隊，保障了安全的未來。比特幣現金能夠抵抗開發相關的政治及社交攻擊，也不受制於單一的組織或專案。<a href="https://bitcoincashresearch.org" target="_blank">bitcoincashresearch.org</a> 郵寄清單提供一個優良的平台，讓人們提出需要跨團隊開發者合作的變動。
     faq:
       - question: "何謂比特幣現金？"
         answer:

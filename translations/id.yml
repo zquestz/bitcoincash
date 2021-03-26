@@ -69,7 +69,7 @@ id:
       - |
         <strong>Algoritma Penyesuaian Tingkat Kesulitan Baru</strong> - Penyesuaian kesulitan Proof-of-Work yang responsif memungkinkan penambang bermigrasi dari rantai Bitcoin orisinal sesuai keinginan, sambil memberikan perlindungan terhadap fluktuasi hashrate.
       - |
-        <strong>Pembangunan Desentralisasi</strong> - Dengan beberapa tim pengembangan yang independen, masa depan Bitcoin Cash aman. Pembangan protokol Bitcoin Cash terlindungi terhadap serangan politik dan sosial. Tidak ada satu kelompok atau proyek yang bisa mengendalikannya. <a href="https://lists.linuxfoundation.org/mailman/listinfo/bitcoin-ml" target="_blank">bitcoin-ml mailing list</a> adalah tempat yang baik untuk membuat proposal untuk perubahan yang memerlukan koordinasi antar tim pengembangan.
+        <strong>Pembangunan Desentralisasi</strong> - Dengan beberapa tim pengembangan yang independen, masa depan Bitcoin Cash aman. Pembangan protokol Bitcoin Cash terlindungi terhadap serangan politik dan sosial. Tidak ada satu kelompok atau proyek yang bisa mengendalikannya. <a href="https://bitcoincashresearch.org" target="_blank">bitcoincashresearch.org </a> adalah tempat yang baik untuk membuat proposal untuk perubahan yang memerlukan koordinasi antar tim pengembangan.
     faq:
       - question: "Apa itu Bitcoin Cash?"
         answer:

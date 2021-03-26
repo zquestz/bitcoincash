@@ -69,7 +69,7 @@ cs:
       - |
         <strong>Nový Algoritmus Úpravy Obtížnosti (DAA)</strong> - Dynamická Proof-of-Work změna obtížnosti umožňuje těžařům bezstarostnou migraci z původní sítě a zároveň poskytuje ochranu před fluktuacemi výkonu sítě.
       - |
-        <strong>Decentralizovaný Vývoj</strong> - S několika nezávislými týmy, které hledají nejlepší řešení budoucího vývoje je budoucnost měny zabezpečená. Díky tomu je Bitcoin Cash rezistentní vůči politickým i sociálním útokům na vývoj protokolu. Žádná jedna skupina nebo sdružení nemůže projekt svévolně ovládnout. <a href="https://lists.linuxfoundation.org/mailman/listinfo/bitcoin-ml" target="_blank">bitcoin-ml mailing list</a> je dobré místo pro návrhy vylepšení, která vyžadují koordinaci mezi vývojovými týmy.
+        <strong>Decentralizovaný Vývoj</strong> - S několika nezávislými týmy, které hledají nejlepší řešení budoucího vývoje je budoucnost měny zabezpečená. Díky tomu je Bitcoin Cash rezistentní vůči politickým i sociálním útokům na vývoj protokolu. Žádná jedna skupina nebo sdružení nemůže projekt svévolně ovládnout. <a href="https://bitcoincashresearch.org" target="_blank">bitcoincashresearch.org </a> je dobré místo pro návrhy vylepšení, která vyžadují koordinaci mezi vývojovými týmy.
     faq:
       - question: "Co je Bitcoin Cash?"
         answer:
