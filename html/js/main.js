@@ -140,8 +140,16 @@
     });
   };
 
+  function changeSiteHeaderImage(){
+    //random 0-6 accoring to /img/backgrounds
+    const rand = Math.floor(Math.random() * 7)
+    console.log("rand is "+rand);
+    $(".site-header").css("background-image", "url(../img/backgrounds/"+rand+".jpg)")
+  }
+
   // Document on load.
   $(function () {
+    changeSiteHeaderImage()
     parallax();
     burgerMenu();
     clickMenu();

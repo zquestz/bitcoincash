@@ -41,11 +41,10 @@ p.release {
 .site-header {
   background-color: black;
   background-image: url(../img/background13.jpg);
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
   background-size: cover;
-  background-attachment: fixed;
+  position: absolute;
 }
 
 @media only screen and (max-device-width: 1024px) {
@@ -603,8 +602,6 @@ h6 {
 
 #fh5co-home {
   background-color: transparent;
-  background-size: cover;
-  background-attachment: fixed;
   position: relative;
   width: 100%;
   background-color: #e3e3e3;
