@@ -140,8 +140,16 @@
     });
   };
 
+  function randomHeaderImage(){
+    //random 0-9 according to /img/backgrounds
+    const rand = Math.floor(Math.random() * 8)
+    console.log("rand is "+rand);
+    $(".site-header").css("background-image", "url(../img/backgrounds/"+rand+".jpg)")
+  }
+
   // Document on load.
   $(function () {
+    randomHeaderImage()
     parallax();
     burgerMenu();
     clickMenu();
