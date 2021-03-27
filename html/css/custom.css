@@ -40,13 +40,21 @@ p.release {
 
 .site-header {
   background-color: black;
-  background-image: url(../img/backgrounds/1.jpg);
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+  background-size: initial;
+  background-repeat: no-repeat;
   background-attachment: fixed;
+  background-position: top;
 }
+
+/* For larger screens */
+@media only screen and (min-width: 2000px) {
+  .site-header {
+    background-size: 100;
+    background-size: 100% 80%;
+    background-position-y: -50%;
+  }
+}
+
 
 @media only screen and (max-device-width: 1024px) {
   .site-header {
@@ -602,9 +610,13 @@ h6 {
 }
 
 #fh5co-home {
+  /* These are being replaced by .site-header */
+  /* 
   background-color: transparent;
   background-size: cover;
-  background-attachment: fixed;
+  background-attachment: fixed; 
+  */
+
   position: relative;
   width: 100%;
   background-color: #e3e3e3;
