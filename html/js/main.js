@@ -141,9 +141,8 @@
   };
 
   function randomHeaderImage(){
-    //random 0-9 according to /img/backgrounds
+    //random 0-7 according to /img/backgrounds
     const rand = Math.floor(Math.random() * 8)
-    console.log("rand is "+rand);
     $(".site-header").css("background-image", "url(../img/backgrounds/"+rand+".jpg)")
   }
 
