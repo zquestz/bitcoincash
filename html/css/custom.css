@@ -40,6 +40,7 @@ p.release {
 
 .site-header {
   background-color: black;
+  background-image: url(../img/backgrounds/1.jpg);
   background-size: initial;
   background-repeat: no-repeat;
   background-attachment: fixed;
