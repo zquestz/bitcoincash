@@ -14,6 +14,7 @@ namespace :translations do
   require 'fileutils'
   require 'i18n'
   require "i18n/backend/fallbacks"
+  require 'digest'
   I18n::Backend::Simple.send(:include, I18n::Backend::Fallbacks)
   I18n.load_path = Dir['./translations/*.yml']
   I18n.default_locale = :en

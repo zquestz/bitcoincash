@@ -110,7 +110,7 @@ p.question {
   font-weight: 350;
   font-variant-ligatures: common-ligatures;
   color: #0ac18e;
-  margin-bottom: 1.04em;
+  margin-bottom: 0.6em;
 }
 
 .nodes div a:hover,
@@ -220,7 +220,7 @@ p.question {
 *
 * ======================================================= */
 body {
-  font-family: "Fira Sans", "Ubuntu", Arial, sans-serif;
+  font-family: "Ubuntu", Arial, sans-serif;
   font-weight: 300;
   font-size: 20px;
   line-height: 1.5;
@@ -255,7 +255,6 @@ h4,
 h5,
 h6 {
   color: #000;
-  font-family: "Ubuntu", Arial, sans-serif;
   font-weight: 400;
   margin: 0 0 30px 0;
 }
@@ -467,7 +466,6 @@ h6 {
   margin-bottom: 0;
 }
 #fh5co-header #navbar li a {
-  font-family: "Ubuntu", Arial, sans-serif;
   color: rgba(0, 0, 0, 0.5);
   position: relative;
   font-size: 19px;
@@ -2019,7 +2017,6 @@ ol.lead li:not(:last-child) {
     line-height: 19px;
     font-size: 19px;
     display: block;
-    font-family: "Ubuntu", Arial, sans-serif;
     color: rgba(0, 0, 0, 0.5);
   }
 
