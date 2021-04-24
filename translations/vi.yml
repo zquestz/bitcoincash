@@ -1,18 +1,18 @@
 vi:
   language: Tiếng Việt
   title:
-    index: "Bitcoin Cash - Tiền Điện Tử Peer-to-Peer"
+    index: "Bitcoin Cash - Tiền Điện Tử Thông Qua Cơ Chế Trực Tiếp Peer-to-Peer"
     graphics: "Bitcoin Cash - Logo / Đồ hoạ"
   meta:
     index:
       description: |
         Bitcoin Cash mang đến hơi thở mới cho thế giới tiền điện tử. Thương gia và người dùng được trao quyền với mức phí thấp và xác nhận đáng tin cậy. Tương lai tỏa sáng với sự tăng trưởng không hạn chế, áp dụng toàn cầu, đổi mới không ngừng và phát triển phi tập trung.
       twitter:
-        title: "Bitcoin Cash - Tiền Điện Tử Peer-to-Peer"
+        title: "Bitcoin Cash - Tiền Điện Tử Thông Qua Cơ Chế Trực Tiếp Peer-to-Peer"
         description: |
           Bitcoin Cash mang đến hơi thở mới cho thế giới tiền điện tử. Thương gia và người dùng được trao quyền với mức phí thấp và xác nhận đáng tin cậy. Tương lai tỏa sáng với sự tăng trưởng không hạn chế, áp dụng toàn cầu, đổi mới không ngừng và phát triển phi tập trung.
       og:
-        title: "Bitcoin Cash - Tiền Điện Tử Peer-to-Peer"
+        title: "Bitcoin Cash - Tiền Điện Tử Thông Qua Cơ Chế Trực Tiếp Peer-to-Peer"
         description: |
           Bitcoin Cash mang đến hơi thở mới cho thế giới tiền điện tử. Thương gia và người dùng được trao quyền với mức phí thấp và xác nhận đáng tin cậy. Tương lai tỏa sáng với sự tăng trưởng không hạn chế, áp dụng toàn cầu, đổi mới không ngừng và phát triển phi tập trung.
     graphics:
@@ -91,15 +91,15 @@ vi:
     faq: "Câu hỏi thường gặp"
   layout:
     bitcoin_cash: "Bitcoin Cash"
-    lead: "Tiền Điện Tử Peer-to-Peer"
+    lead: "Tiền Điện Tử Thông Qua Cơ Chế Trực Tiếp Peer-to-Peer"
     loading: "Đang tải..."
   features:
-    - title: "Rất Nhanh"
+    - title: "Nhanh chóng"
       description: "Xử lí giao dịch trong vài giây. Nhận được xác nhận trong vài phút."
     - title: "Đáng tin cậy"
       description: "Mạng lưới hoạt động trơn tru mà không xảy ra tắc nghẽn."
     - title: "Phí thấp"
-      description: "Gửi tiền của bạn đến mọi nơi trên toàn cầu."
+      description: "Gửi tiền đến mọi nơi trên toàn cầu."
     - title: "Đơn giản"
       description: "Dễ sử dụng. Không có vấn đề. Không phức tạp."
     - title: "Ổn định"
@@ -120,28 +120,28 @@ vi:
   content:
     history:
       - |
-        Tháng 10 năm 2008, Satoshi Nakamoto đã đưa lên mạng một nghiên cứu có tiêu đề <strong>“Bitcoin: Hệ Thống Tiền Mặt Điện Tử Ngang Hàng”</strong>. Năm 2009, ông đã phát hành phần mềm đầu tiên chạy cho hệ thống mạng bitcoin và nó hoạt động trơn tru trong vài năm với giao dịch có chi phí thấp, nhanh chóng, đáng tin cậy.
+        Tháng 10 năm 2008, Satoshi Nakamoto đã đưa lên mạng một nghiên cứu có tiêu đề <strong>“Bitcoin: Hệ Thống Tiền Mặt Điện Tử Trực Tiếp”</strong>. Năm 2009, ông đã phát hành phần mềm đầu tiên chạy cho hệ thống mạng bitcoin và nó hoạt động trơn tru trong vài năm với giao dịch có chi phí thấp, nhanh chóng, đáng tin cậy.
       - |
-        Thật không may, từ năm 2016 đến năm 2017, Bitcoin ngày càng trở nên không đáng tin cậy và đắt đỏ. Lý do là cộng đồng đã không thể đạt được sự đồng thuận về việc tăng dung lượng xử lý giao dịch. Một số nhà phát triển đã không hiểu và đồng ý với kế hoạch của chính Satoshi. Thay vào đó, họ muốn Bitcoin trở thành mạng chỉ dùng để quyết toán.
+        Tuy nhiên, từ năm 2016 đến năm 2017, Bitcoin ngày càng trở nên không đáng tin cậy và đắt đỏ. Lý do là cộng đồng đã không thể đạt được sự đồng thuận về việc tăng dung lượng xử lý giao dịch. Một số nhà phát triển đã không hiểu và đồng ý với kế hoạch của chính Satoshi. Thay vào đó, họ muốn Bitcoin trở thành một phương thức thanh toán.
       - |
-        Năm 2017, sự thống trị của Bitcoin đã giảm mạnh từ 95% xuống thấp nhất là 40% do kết quả trực tiếp của các vấn đề về khả năng hữu dụng. May mắn thay, một phần lớn cộng đồng Bitcoin, bao gồm các nhà phát triển, nhà đầu tư, người dùng và doanh nghiệp, vẫn tin tưởng vào tầm nhìn ban đầu của Bitcoin - một hệ thống tiền điện tử ngang hàng với mức phí thấp có thể được sử dụng bởi tất cả mọi người trên thế giới.
+        Năm 2017, sự thống trị của Bitcoin đã giảm mạnh từ 95% xuống thấp nhất là 40% do kết quả trực tiếp của các vấn đề về tính khả dụng. May mắn thay, một phần lớn cộng đồng Bitcoin, bao gồm các nhà phát triển, nhà đầu tư, người dùng và doanh nghiệp, vẫn tin tưởng vào tầm nhìn ban đầu của Bitcoin - một hệ thống tiền điện tử trực tiếp với mức phí thấp có thể được sử dụng bởi tất cả mọi người trên thế giới.
       - |
-        Vào ngày 1 tháng 8 năm 2017, Nhóm đã thực hiện một bước đi hợp lý là tăng kích thước khối dữ liệu và Bitcoin Cash ra đời. Bất kỳ ai nắm giữ Bitcoin vào thời điểm đó (khối 478558) đều trở thành chủ sở hữu của Bitcoin Cash (BCH). Hệ thống Bitcoin Cash hiện nay có thể chấp nhận khối giao dịch lên tới 32MB, và vẫn tiếp tục đang được nghiên cứu để có thể tăng lên cao hơn nữa một cách an toàn.
+        Vào ngày 1 tháng 8 năm 2017, chúng tôi đã thực hiện một bước đi hợp lý là tăng kích thước tối đa khối dữ liệu và Bitcoin Cash ra đời. Bất kỳ ai nắm giữ Bitcoin vào thời điểm đó (khối 478558) đều trở thành chủ sở hữu của Bitcoin Cash (BCH). Hệ thống Bitcoin Cash hiện nay hỗ trợ khối giao dịch lên tới 32MB, và vẫn tiếp tục đang được nghiên cứu để tăng khối lượng khổng lồ trong tương lai.
     development:
       - |
-        Với nhiều nhóm phát triển độc lập cung cấp triển khai phần mềm, tương lai của Bitcoin Cash đã được bảo đảm. Bitcoin Cash có khả năng chống lại các cuộc tấn công chính trị và xã hội đối với sự phát triển giao thức. Không một nhóm hoặc dự án nào có thể kiểm soát nó. Rất nhiều phần mềm khác nhau đã được phát triển để đảm bảo rằng mạng Bitcoin Cash hoạt động một cách hiệu quả 100%.
+        Với nhiều nhóm nhà phát triển độc lập cung cấp triển khai phần mềm, tương lai của Bitcoin Cash đã được bảo đảm. Bitcoin Cash có khả năng chống lại các cuộc tấn công chính trị và xã hội đối với sự phát triển giao thức. Không một nhóm hoặc dự án nào có thể kiểm soát nó. Đồng thời nhiều triển khai khác cung cấp khả năng dự phòng để đảm bảo rằng mạng Bitcoin Cash duy trì hoạt động hiệu quả 100%.
       - |
         <a href="https://lists.linuxfoundation.org/mailman/listinfo/bitcoin-ml" target="_blank">Danh sách thư Bitcoin-ml</a> là nơi mà các nhóm phát triển dùng để trao đổi thông tin, góp ý, đề xuất những thay đổi quan trọng trong Bitcoin Cash. Nếu bạn muốn góp ý hoặc thay đổi giao thức Bitcoin Cash, xin liên hệ nhóm này để trao đổi và hợp tác.
     about:
       - |
-        Bitcoin Cash mang đến hơi thở mới cho thế giới tiền điện tử, hoàn thành sứ mệnh ban đầu của Bitcoin là "Đồng tiền Điện tử Peer-to-Peer". Thương gia và người dùng được trao quyền với mức phí thấp và xác nhận đáng tin cậy. Tương lai tỏa sáng với sự tăng trưởng không hạn chế, áp dụng toàn cầu, đổi mới không ngừng và phát triển phi tập trung.
+        Bitcoin Cash mang đến hơi thở mới cho thế giới tiền điện tử, hoàn thành sứ mệnh ban đầu của Bitcoin là "Đồng tiền Điện tử Trực Tiếp Peer-to-Peer". Thương gia và người dùng được trao quyền với mức phí thấp và xác nhận đáng tin cậy. Tương lai tỏa sáng với sự tăng trưởng không hạn chế, áp dụng toàn cầu, đổi mới không ngừng và phát triển phi tập trung.
       - |
-        Tất cả những người dùng sở hữu Bitcoin tại khối 478558 cũng đồng thời là chủ sở hữu của Bitcoin Cash. Chào mừng tất cả đến với cộng đồng Bitcoin Cash trong khi chúng tôi đang tiến về phía trước trong việc tạo ra tiếng nói có thể tiếp cận được với cả thế giới.
+        Tất cả mọi người được chào đón đến với cộng đồng Bitcoin Cash trong khi chúng tôi đang tiến về phía trước trong việc tạo ra đồng tiền mạnh mẽ cho toàn thế giới.
     why:
-      - benefit: "Gửi tiền đi bất cứ đâu trên thế giới này, gần như miễn phí"
+      - benefit: "Gửi Tiền Đi Bất Cứ Đâu Trên Thế Giới, Gần Như Miễn Phí"
         descrip:
           - |
-            Với Bitcoin Cash, bạn có thể gửi tiền cho bất kỳ ai, ở bất kỳ đâu trên thế giới, 24 giờ trong ngày, 365 ngày trong năm. Giống như chính Internet, mạng luôn ở trạng thái hoạt động. Không có giao dịch nào quá lớn hoặc quá nhỏ. Và bạn không bao giờ cần sự cho phép hoặc chấp thuận của bất kỳ ai.
+            Với Bitcoin Cash, bạn có thể gửi tiền cho bất kỳ ai, ở bất kỳ đâu trên thế giới, 24 giờ trong ngày, 365 ngày trong năm. Giống như chính Internet, mạng luôn ở trạng thái hoạt động. Không hạn chế giao dịch quá lớn hoặc quá nhỏ. Và bạn không bao giờ cần sự cho phép hoặc chấp thuận của bất kỳ ai.
       - benefit: "Ngân Hàng Của Chính Bạn và Toàn Quyền Kiểm Soát"
         descrip:
           - |
