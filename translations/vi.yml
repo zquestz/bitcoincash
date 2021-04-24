@@ -1,18 +1,18 @@
 vi:
   language: Tiếng Việt
   title:
-    index: "Bitcoin Cash - Tiền Điện Tử Thông Qua Cơ Chế Trực Tiếp Peer-to-Peer"
+    index: "Bitcoin Cash - Tiền Điện Tử Trực Tiếp Peer-to- Peer"
     graphics: "Bitcoin Cash - Logo / Đồ hoạ"
   meta:
     index:
       description: |
         Bitcoin Cash mang đến hơi thở mới cho thế giới tiền điện tử. Thương gia và người dùng được trao quyền với mức phí thấp và xác nhận đáng tin cậy. Tương lai tỏa sáng với sự tăng trưởng không hạn chế, áp dụng toàn cầu, đổi mới không ngừng và phát triển phi tập trung.
       twitter:
-        title: "Bitcoin Cash - Tiền Điện Tử Thông Qua Cơ Chế Trực Tiếp Peer-to-Peer"
+        title: "Bitcoin Cash - Tiền Điện Tử Trực Tiếp Peer-to- Peer"
         description: |
           Bitcoin Cash mang đến hơi thở mới cho thế giới tiền điện tử. Thương gia và người dùng được trao quyền với mức phí thấp và xác nhận đáng tin cậy. Tương lai tỏa sáng với sự tăng trưởng không hạn chế, áp dụng toàn cầu, đổi mới không ngừng và phát triển phi tập trung.
       og:
-        title: "Bitcoin Cash - Tiền Điện Tử Thông Qua Cơ Chế Trực Tiếp Peer-to-Peer"
+        title: "Bitcoin Cash - Tiền Điện Tử Trực Tiếp Peer-to- Peer"
         description: |
           Bitcoin Cash mang đến hơi thở mới cho thế giới tiền điện tử. Thương gia và người dùng được trao quyền với mức phí thấp và xác nhận đáng tin cậy. Tương lai tỏa sáng với sự tăng trưởng không hạn chế, áp dụng toàn cầu, đổi mới không ngừng và phát triển phi tập trung.
     graphics:
@@ -91,7 +91,7 @@ vi:
     faq: "Câu hỏi thường gặp"
   layout:
     bitcoin_cash: "Bitcoin Cash"
-    lead: "Tiền Điện Tử Thông Qua Cơ Chế Trực Tiếp Peer-to-Peer"
+    lead: "Tiền Điện Tử Trực Tiếp Peer-to- Peer"
     loading: "Đang tải..."
   features:
     - title: "Nhanh chóng"
