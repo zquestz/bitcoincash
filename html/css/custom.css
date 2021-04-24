@@ -221,7 +221,7 @@ p.question {
 * ======================================================= */
 body {
   font-family: "Ubuntu", Arial, sans-serif;
-  font-weight: 300;
+  font-weight: 400;
   font-size: 20px;
   line-height: 1.5;
   color: #777777;
@@ -701,7 +701,7 @@ h6 {
 #fh5co-home .text-inner h2 {
   font-size: 28px;
   line-height: 38px;
-  font-weight: 300;
+  font-weight: 400;
   color: #fff;
   margin: 0;
 }
@@ -1188,7 +1188,7 @@ h6 {
 #fh5co-counters .fh5co-counter .fh5co-counter-number {
   font-size: 70px;
   color: #fff;
-  font-weight: 300;
+  font-weight: 400;
 }
 #fh5co-counters .fh5co-counter .fh5co-counter-label {
   color: rgba(255, 255, 255, 0.5);
@@ -1216,7 +1216,7 @@ h6 {
   background: #fff;
   background: #0ac18e;
   font-size: 20px;
-  font-weight: 300;
+  font-weight: 400;
   position: relative;
   -webkit-border-radius: 7px;
   -moz-border-radius: 7px;
@@ -1540,7 +1540,7 @@ h6 {
 .section-heading h2 {
   margin: 0 0 30px 0;
   font-size: 50px;
-  font-weight: 300;
+  font-weight: 400;
   color: #444;
   text-transform: uppercase;
   position: relative;
@@ -1576,7 +1576,7 @@ h6 {
   }
 }
 .section-heading h3 {
-  font-weight: 300;
+  font-weight: 400;
   line-height: 1.5;
   color: #929292;
 }

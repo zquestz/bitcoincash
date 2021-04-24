@@ -6,9 +6,9 @@ vi:
   meta:
     index:
       description: |
-        Bitcoin Cash mang đến hơi thở mới cho thế giới tiền điện tử. Thương gia và người dùng được trao quyền với mức phí thấp và xác nhận đáng tin cậy. Tương lai tỏa sáng với sự tăng trưởng không hạn chế, áp dụng toàn cầu, đổi mới không ngừng và phát triển phi tập trung.
+        Bitcoin Cash mang đến cho thế giới một loại tiền mới. Doanh nghiệp và khách hàng được nâng tầm với những giao dịch tin cậy và chi phí cực rẻ. Mở ra một tương lai đầy tương sáng với sự tăng trưởng không giới hạn, sự chấp thuận toàn cầu, sự đổi mới không giới hạn và một hệ thống phát triển phi tập trung.
       twitter:
-        title: "Bitcoin Cash - Tiền Điện Tử Trực Tiếp Peer-to- Peer"
+        title: "Bitcoin Cash - Tiền Điện Tử Phi Tập Trung"
         description: |
           Bitcoin Cash mang đến hơi thở mới cho thế giới tiền điện tử. Thương gia và người dùng được trao quyền với mức phí thấp và xác nhận đáng tin cậy. Tương lai tỏa sáng với sự tăng trưởng không hạn chế, áp dụng toàn cầu, đổi mới không ngừng và phát triển phi tập trung.
       og:
@@ -17,7 +17,7 @@ vi:
           Bitcoin Cash mang đến hơi thở mới cho thế giới tiền điện tử. Thương gia và người dùng được trao quyền với mức phí thấp và xác nhận đáng tin cậy. Tương lai tỏa sáng với sự tăng trưởng không hạn chế, áp dụng toàn cầu, đổi mới không ngừng và phát triển phi tập trung.
     graphics:
       description: |
-        Bộ sưu tập Logo và Đồ hoạ của Bitoin Cash.
+        Bộ sưu tập Logo và Đồ hoạ cho Bitcoin Cash.
       twitter:
         title: "Bitcoin Cash - Logo / Đồ hoạ"
         description: |
@@ -27,10 +27,10 @@ vi:
         description: |
           Bộ sưu tập Logo và Đồ hoạ của Bitoin Cash.
   graphics:
-    title: "Đồ hoạ Quảng cáo"
-    description: "Các logo và tài sản thương hiệu Bitcoin Cash này có thể được sử dụng để hiển thị trong các dịch vụ trực tuyến, cơ sở bán lẻ, báo chí hoặc các mục đích quảng cáo khác."
+    title: "Hình ảnh cho Quảng Cáo"
+    description: "Những biểu tượng và hình ảnh thương hiệu Bitcoin Cash này có thể được sử dụng cho các dịch vụ trực tuyến, cơ sở bán lẻ, báo chí hoặc các mục đích quảng cáo khác."
     logos: "Logo"
-    download_png_svg: "Tải logo Bitcoin Cash ở PNG và SVG"
+    download_png_svg: "Tải logo Bitcoin Cash dưới dạng PNG và SVG"
     download_all: "Tải xuống Tất cả"
     small: "Nhỏ (PNG)"
     medium: "Vừa (PNG)"
@@ -58,13 +58,13 @@ vi:
     donation:
       title: "Nút Đóng Góp"
       description: "Thúc đẩy việc chấp nhận Bitcoin Cash như một hình thức quyên góp."
-      primary: "Khoản đóng góp Bitcoin Cash chính được chấp nhận"
-      orange: "Khoản đóng góp Bitcoin Cash màu cam được chấp nhận"
+      primary: "Khoản đóng góp bằng Bitcoin Cash đã được nhận"
+      orange: "Khoản đóng góp bằng Bitcoin Cash đã được nhận"
     identity:
       title: "Nhận diện Trực quan"
       description: "Phông chữ Bitcoin Cash, màu sắc và hơn thế nữa."
-      font: "Phông bôi đậm"
-      font_italic: "Phông in nghiêng đậm"
+      font: "Chữ Đậm"
+      font_italic: "Chữ Nghiên Đậm"
       download: "Tải phông chữ"
       orange: "Bitcoin Cash Màu cam"
       grey: "Bitcoin Cash Màu xám"
