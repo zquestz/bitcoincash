@@ -1,8 +1,8 @@
----
 ms:
   language: Bahasa Melayu
   title:
     index: "Bitcoin Cash - Wang elektronik langsung P2P"
+    graphics: "Bitcoin Cash- Logo/ Grafik"
   meta:
     index:
       description: |
@@ -15,6 +15,64 @@ ms:
         title: "Bitcoin Cash - Wang elektronik langsung P2P"
         description: |
           Bitcoin Cash memperkenalkan wang yang kukuh ke dunia ini. Peniaga dan juga pembeli boleh berurus niaga dengan caj yang amat rendah dan juga pengesahan yang dipercayai. Masa depan sangat bersinar dengan pertumbuhan tanpa batasan, penggunaan antarabangsa, inovasi tanpa had, dan pembangunan terdesentralisasi.
+    graphics:
+      description: |
+        Satu koleksi logo dan grafik bagi Bitcoin Cash.
+      twitter:
+        title: "Bitcoin Cash- Logo/ Grafik"
+        description: |
+          Satu koleksi logo dan grafik bagi Bitcoin Cash.
+      og:
+        title: "Bitcoin Cash- Logo/ Grafik"
+        description: |
+          Satu koleksi logo dan grafik bagi Bitcoin Cash.
+  graphics:
+    title: "Grafik Promosi"
+    description: "Logo dan aset jenama Bitcoin Cash boleh digunakan untuk dipapar di khidmat dalam talian, sektor runcit, pihak akhbar dan untuk tujuan promosi yang lain-lain."
+    logos: "Logo"
+    download_png_svg: 'Muat Turunkan Logo "Bitcoin Cash" dalam format PNG dan SVG'
+    download_all: "Muat Turun Semua"
+    small: "Kecil (PNG)"
+    medium: "Sederhana (PNG)"
+    large: "Besar (PNG)"
+    full: "Penuh (PNG)"
+    vector: "Vektor (PNG)"
+    sections:
+      home: "Laman Utama"
+      logos: "Logo"
+      merchant: "Peniaga"
+      donations: "Dermaan"
+      identity: "Identiti"
+    types:
+      primary: "Logo Utama BCH"
+      white: "Logo Tulisan Putih BCH"
+      mark: "Tanda Logo BCH"
+      horizontal_primary: "Logo Mendatar Primer BCH"
+      horizontal_white: "Logo Mendatar Putih BCH"
+      wallets_exchanges: "Logo BCH untuk Wallet / Pertukaran"
+    merchant:
+      title: "Butang Peniaga"
+      description: "Menunjukkan kepada pelanggan kamu bahawa Bitcoin Cash diterima"
+      primary: "Bitcoin Cash Diterima Di sini Utama"
+      orange: "Bitcoin Cash Diterima Di Sini Jingga"
+    donation:
+      title: "Butang Derma"
+      description: "Mempromosikan penerimaan Bitcoin Cash sebagai kaedah pendermaan."
+      primary: "Bitcoin Cash Sebagai Sumber Derma Utama"
+      orange: "Bitcoin Cash Sebagai Sumber Derma Utama Jingga"
+    identity:
+      title: "Identiti Visual"
+      description: "Bitcoin Cash fon, warna, dan lain- lain."
+      font: "Ubuntu Tebal"
+      font_italic: "Ubuntu Tebal Miring"
+      download: "Muat Turun Fon"
+      orange: "Bitcoin Cash Jingga"
+      grey: "Bitcoin Cash Kelabu"
+      white: "Bitcoin Cash Putih"
+      hex: "Hex"
+      rgb: "RGB"
+      cmyk: "CMYK"
+      pantone: "Pantone"
   misc:
     logo: "logo"
     dropdown_md_width: 3
@@ -28,11 +86,13 @@ ms:
     services: "Perkhidmatan"
     projects: "Projek-projek"
     exchanges: "Penukar-penukar Wang"
-    faq: "FAQ"
+    graphics: "Logo/ Grafik"
+    benefits: "Manfaat"
+    faq: "Soalan Lazim"
   layout:
     bitcoin_cash: "Bitcoin Cash"
-    lead: "Peer-to-Peer Electronic Cash"
-    loading: "Loading..."
+    lead: "P2P Tunai Elektronik"
+    loading: "Tengah Muat Turun..."
   features:
     - title: "Cepat"
       description: "Hantar wang dalam sesaat. Disahkan dalam beberapa minit."
@@ -47,87 +107,83 @@ ms:
     - title: "Selamat"
       description: "Teknologi blockchain yang terkukuh di dunia."
   headings:
+    history: "Sejarah Bitcoin Cash"
     about: "Wang terbaik di dunia ini."
-    features: "Ciri-ciri baru"
-    nodes: "Nodes"
+    nodes: "Nod"
     wallets: "Dompet"
     services: "Perkhidmatan"
     projects: "Projek-projek"
     exchanges: "Penukar-penukar Wang"
-    faq: "Soalan Lazim"
+    why: "Kenapa Guna Bitcoin Cash?"
+    benefits: "Faedah bagi Peniaga"
+    development: "Pembangunan yang desentralisasi"
   content:
+    history:
+      - |
+        Pada Oktober 2008, Satoshi Nakamoto menerbitkan "White Paper" yang terkenal dengan tajuk  <strong>“Bitcoin: A Peer to Peer Electronic Cash System”</strong>.  Pada 2009, dia mengemukakan perisian bitcoin pertama yang menggerakkan rangkaian, dan ia beroperasi dengan lancar untuk beberapa tahun dengan yuran yang rendah dan transaksi yang laju serta boleh diharapkan.
+      - |
+        Malangnya, menjelang 2016 sehingga 2017, Bitcoin menjadi semakin kurang dipercayai dan mahal untuk digunakan. Ini disebabkan komuniti tidak dapat konsensus untuk meningkatkan kapasiti rangkaian. Sebilangan pemaju tidak memahami dan bersetuju dengan rancangan Satoshi. Sebaliknya, mereka lebih menyukai Bitcoin sebagai lapisan penyelesaian.
+      - |
+        Menjelang 2017, dominasi Bitcoin semakin merosot dari 95% hingga serendah 40% diakibatkan dari masalah kebolehgunaan. Mujurnya, sebahagian besar komuniti Bitcoin, merangkumi pemaju, pelabur, pengguna dan perniagaan, masih mempercayai visi asal Bitcoin, iaitu sistem tunai elektronik P2P, dengan yuran yang murah untuk digunakan oleh semua orang seluruh dunia.
+      - |
+        Pada 1hb Ogos 2017, kita mengambil langkah yang logik untuk meningkatkan ukuran blok maksima, dan Bitcoin Cash diwujudkan. Sesiapa yang memegang Bitcoin pada masa itu (blok 478558) menjadi Tuan bagi Bitcoin Cash (BCH). Rangkaian ini menyokong sehingga 32MB blok untuk penyelidikan yang berterusan untuk membolehkan peningkatan besar-besaran pada masa depan.
+    development:
+      - |
+        Masa depan adalah selamat dengan penglibatan dari pelbagai pemaju bebas yang menyediakan pelaksanaan perisian. Bitcoin Cash boleh tahan terhadap ancaman politik dan sosial untuk perkembangan protokol. Tiada kumpulan atau projek individu yang mampu mengawal dengan sepenuhnya. Pelbagai pelaksanaan memberikan kelebihan untuk memastikan bahawa rangkaian mengekalkan 100% masa operasi.
+      - |
+        <a href="https://lists.linuxfoundation.org/mailman/listinfo/bitcoin-ml" target="_blank"> merupakan senarai mel </a> yang membolehkan cadangan perubahan yang memerlukan penyelarasan antara pasukan pemaju. Tinjauan awal dari rakan sebaya dan penglibatan pemaju lain secara kerjasama adalah disyorkan bagi mereka yang ingin melaksanakan sebarangan perubahan kepada protokol Bitcoin Cash.
     about:
       - |
         Bitcoin Cash memperkenalkan wang yang kukuh ke dunia ini, memenuhi janji asal Bitcoin iaitu: "Wang Electronik P2P". Peniaga dan juga pembeli boleh berurus niaga dengan caj yang amat rendah dan juga pengesahan yang dipercayai. Masa depan sangat bersinar dengan pertumbuhan tanpa batasan, penggunaan antarabangsa, inovasi tanpa had, dan pembangunan terdesentralisasi.
       - |
         Semua yang mempunyai Bitcoin sejak blok 478558 juga mempunyai Bitcoin Cash. Kamu semua dialu-alukan untuk menyertai masyarakat Bitcoin Cash dan bergerak langsung untuk mencipta wang yang kukuh yang mudah didatangi setiap manusia di dunia ini.
-    features:
-      - |
-        <strong>Pertumbuhan Secara "On Chain"</strong> - Bitcoin Cash mengikut rancangan Nakamoto untuk membawa penggunaan antarabangsa dengan pertumbuhan "on chain". Sebagai langkah utama, had saiz blok telah dijadikan secara laras, dengan asas 8MB yang telah ditingkatkan. <a href="https://github.com/BitcoinUnlimited/BUIP/blob/master/065.mediawiki" target="_blank">Kajian sedang dijalankan untuk membenarkan peningkatan lebih dalam masa depan</a>.
-      - |
-        <strong>Tandatangan Transaksi Terbaru</strong> - SigHash yang baru membenarkan perlindungan daripada transaksi ulangan, keselamatan dompet 'hardware' yang bertambah baik, dan juga penghapusan masalah 'quadratic hashing'.
-      - |
-        <strong>Algoritma Pelarasan Kesukaran (DAA) yang baru</strong> - Pelarasan Kesukaran 'Proof-of-Work' yang lebih responsif membenarkan 'miner' untuk meninggalkan chain Bitcoin yang lama dengan sewenang-wenangnya, sambil memberi perlindungan dari turun naik 'hashrate'.
-      - |
-        <strong>Pembangunan Dessentralisasi</strong> - Dengan beberapa kumpulan developer bebas yang menyediakan pelaksanaan software, masa hadapan kami selamat. Bitcoin Cash boleh menahan jajahan politik dan sosial ke atas pembangunan protokol. Tiada satu kumpulan atau projek yang boleh menguasainya. <a href="https://bitcoincashresearch.org" target="_blank">Senarai e-mel bitcoincashresearch.org</a> adalah tempat yang sesuai untuk membuat cadangan yang memerlukan penyelarasan antara kumpulan masing-masing.
-    faq:
-      - question: "Apakah itu Bitcoin Cash?"
-        answer:
+    why:
+      - benefit: "Hantar Wang di serata Dunia, hampir Percuma"
+        descrip:
           - |
-            Bitcoin Cash adalah wang elektronik P2P Internet. Ia adalah sepenuhnya tanpa sesuatu pusat, tanpa bank pusat, dan tidak memerlukan pihak ketiga untuk digunakan.
-      - question: "Adakah Bitcoin Cash itu berbeza dari 'Bitcoin'?"
-        answer:
+            Dengan Wang elektronik langsung P2P, anda boleh menghantar wang kepada sesiapa sahaja, di serata dunia, 24 jam sehari, 365 hari setahun. Seperti Internet, rangkaian sentiasa hidup. Tiada transaksi terlalu besar atau terlalu kecil dan anda tidak memerlukan kebenaran atau kelulusan sesiapa.
+      - benefit: "Jadilah Bank Anda Sendiri dan Kendalikan sepenuhnya Wang Anda"
+        descrip:
           - |
-            Ya. Bitcoin Cash adalah kesinambungan projek Bitcoin sebagai wang electronik P2P. Ia adalah pecahan dalam lejar blockchain Bitcoin, dengan peraturan konsensus yang telah dinaiktarafkan bagi membenarkan pertumbuhan.
-      - question: "Kalau saya ada Bitcoin, saya juga dapat Bitcoin Cash secara langsung?"
-        answer:
+            Penyitaan modal dari pemegang akaun ("wang-jaminan") yang berlaku di Cyprus dan hampirnya terjadi di Greece, menunjukkan deposit di bank adalah selamat tapi ditentukan oleh pihak politik. Bank boleh melakukan kesalahan, menahan dana anda, membekukan akaun dan menghalang anda mengakses wang anda sendiri walaupun dalam apa jua keadaan.
           - |
-            Sesiapa yang mempunyai Bitcoin ketika Bitcoin Cash dicipta, juga mendapat Bitcoin Cash. Ini bermakna pemilik Bitcoin sejak blok 478558 (August 1, 2017 dalam 13:16 UTC) juga memilik Bitcoin Cash dalam jumlah yang sama ketika masa itu. Jikalau Bitcoin anda bersama pihak ketiga seperti penukar-penukar wang, anda perlu bertanya bersama mereka tentang Bitcoin Cash.
+            Bank juga boleh menyekat transaksi anda, ataupun mengenakan yuran atau menutup akaun anda tanpa amaran. Bitcoin Cash memberikan anda kawalan penuh terhadap dana anda, di mana anda boleh mengakses di mana sahaja di dunia ini.
+      - benefit: "Suatu mata wang digital yang terhad dengan bekalan tetap yang diketahui"
+        descrip:
           - |
-            Setiap transaksi selepas pemecahan August 1 adalah berbeza antara Bitcoin dan Bitcoin Cash. Ini bermakna setiap Bitcoin yang dibeli selepas pemecahan tidak termasuk Bitcoin Cash, dan setiap Bitcoin Cash tidak termasuk Bitcoin.
-      - question: "Bagaimana ulangan transaksi dikendalikan antara blockchain lama dan baru?"
-        answer:
+            Protokol Bitcoin Cash memastikan bekalan yang wujud tidak akan melebihi 21 juta. Kerajaan sentiasa mencetak wang berterusan, melambungkan inflasi bekalan dan menurunkan nilai simpanan kita. Bitcoin Cash mempunyai bekalan yang tetap dan oleh sedemikian mewakili wang yang baik.
+      - benefit: "Tingkatkan Privasi Anda dan Kendalikan Tanpa Nama"
+        descrip:
           - |
-            Transaksi Bitcoin Cash menggunakan algoritma SigHash yang baru dinyatakan oleh tanda SIGHASH_FORKID. Tandatangan ini tidak sah di rangkaian Bitcoin yang lama. Ini menghentikan transaksi Bitcoin Cash diulangi kepada blockchain Bitcoin yang lama.
-      - question: "Mengapakah pemecahan ini diperlukan untuk menciptakan Bitcoin Cash?"
-        answer:
+            Bitcoin Cash menawarkan lebih selamat dan tanpa nama berbanding dengan sistem pembayaran tradisi seperti pindahan wang melalui bank dan pembayaran melalui kad kredit, disebabkan biasanya mustahil kita mengetahui siapa yang mengawal alamat Bitcoin ini.
           - |
-            Kod Bitcoin yang lama terletak had 1MB bagi setiap blok, atau 3 transaksi setiap saat. Walaupun ia senang untuk meningkatkan had ini, masyarakat Bitcoin tidak dapat mencapai persetujuan, walau bertahun-tahun telah berlalu.
-      - question: "Adakah had 1MB itu membawa masalah bagi Bitcoin?"
-        answer:
+            Bitcoin Cash menawarkan pelbagai tahap keselamatan bergantung pada cara penggunaannya. Ini adalah amat penting untuk mendidik diri secara sepenuhnya sebelum menggunakan BCH bagi tujuan keselamatan.
+      - benefit: "Menikmati Diskaun Eksklusif"
+        descrip:
           - |
-            Ya. pada tahun 2017, keupayaan Bitcoin mencapai batas ini. Caj pembayaran melambung, dan Bitcoin menjadi tidak sesuai untuk pembayaran harian.
+            Ramai peniaga menawarkan diskaun untuk bayaran dalam Bitcoin Cash, sebab ia menghapuskan yuran kad kredit dan menolong untuk pengamalan serta perkembangan sistem pembayaran yang baru ini.
+      - benefit: "Ekosistem Token"
+        descrip:
           - |
-            Harga pasaran Bitcoin telah naik, tetapi pertumbuhan dan kegunaannya sebagai wang telah berhenti. Ramai pengguna, peniaga, perniagaan dan juga pelabur-pelabur telah meninggalkan Bitcoin untuk pilihan yang lain, menyebabkan dominasinya turn dari 95% kepada serendah 40%.
-      - question: "Adakah Bitcoin Cash menyelesaikan masalah-masalah ini?"
-        answer:
+            Penyimpanan dan pengurusan token pada blockchain memberikan ketulusan dan integriti yang lebih mendalam berbanding dengan bentuk perakaunan dan perdagangan aset tradisional. Bitcoin Cash menyokong protokol token yang menguruskan pelbagai projek, dan ini membolehkan inisiatif projek yang mempunyai token sendiri.
+      - benefit: "Menyokong Kebebasan Seluruh Dunia"
+        descrip:
           - |
-            Ya. Bitcoin Cash dengan langsung meningkatkan had bloksaiz kepada 8MB sebagai usaha untuk berkembang secara 'on chain'. Terdapat cukup ruang untuk transaksi-transaksi setiap pengguna.
+            Bitcoin Cash merupakan suatu rangkaian terbuka, tanpa izin. Ia membolehkan kita berinteraksi sesama manusia tanpa pencerobohan. Ia adalah desentralisasi, sukarela dan tidak agresif. Struktur kuasa lama akan makin merosot sementara idea baru akan terus berkembang apabila penggunaan semakin meningkat. Ia akan membantu membawa revolusi aman yang terbesar di dunia ini.
+    benefits:
+      - benefit: "Yuran Yang Amat Rendah"
+        descrip:
           - |
-            Bayaran yuran yang rendah dan konfirmasi pantas telah datang kembali dengan Bitcoin Cash. Rangkaian pembayaran kami sedang membesar sekali lagi. Masyarakat kami sedang membangunkan masa depan dengan wang elektronic P2P yang benar.
-      - question: "Mengapakah Bitcoin tidak meningkatkan had bloksaiz jika ia penyelesaian yangsenang?"
-        answer:
+            Bayaran rangkaian bagi suatu transaksi bitcoin cash biasanya kurang dari satu sen. Jika anda ingin menukarkan BCH anda kepada mata wang fiat, seperti US Dollars, anda boleh membuat sedemikian melalui pemproses peniaga dengan kos yang lebih rendah dari pemprosesan kad kredit.
+      - benefit: "Tidak ada caj balik"
+        descrip:
           - |
-            Ramai daripada koder-koder Bitcoin tidak memahami dan setuju dengan visi asal wang elektronic P2P yang Satoshi Nakamoto telah menciptakan.
+            Tidak serupa kad kredit, transaksi tidak akan dibatalkan automatik, tiada bayaran balik, caj balik atau bayaran lain yang tidak dijangka.
+      - benefit: "Pelanggan Baru"
+        descrip:
           - |
-            Ramai 'miner-miner' dan pengguna Bitcoin telah mempercayai koder-koder ini, dan lain sedar bawah masayarakat Bitcoin sedang disesatkan.
+            Pilihan Bitcoin Cash sebagai kaedah pembayaran di antara ramai semakin meningkat. Peniaga yang menawarkan kaedah pembayaran ini akan digemari dan dicarikan secara aktif.
+      - benefit: "Pemasaran dan Pengiklanan Yang Percuma"
+        descrip:
           - |
-            Kedua-dua visi ini untuk Bitcoin amat berbeza, dan ini menyebabkan pemecahan dalam masyarakat kami.
-      - question: "Tidakkah SegWit itu meningkatkan kapasiti blok? Adakah Bitcoin Cash akan memasukkan SegWit?"
-        answer:
-          - |
-            SegWit itu tidak sesuai bagi mengelakkan peningkatan bloksaiz kerana beberapa sebab.
-          - |
-            Pertama, walau ia digunakan dalam segala transaksi, peningkatannya hanya bersama blok bersaiz 1.7MB. Oleh itu, ia hanya meningkatkan kapasiti dengan sedikit. Ia tidak boleh menahan penumbuhan pantas atau penggunaan global. Kedua, ia <a href="https://bitcrust.org/blog-incentive-shift-segwit" target="_blank">melemahkan keselamatan Bitcoin.</a> Ketiga, ia menyebabkan peningkatan kapasiti masa depan lebih sukar akibat ketidakcekapan jalur lebar dan serangan 'quadratic hashing'.
-          - |
-            Kerana itu, Bitcoin Cash diperlukan sebagai pemecahan tanpa SegWit. SegWit tidak akan dimasukkan.
-      - question: "Siapakah ketua pembangunan Bitcoin Cash"
-        answer:
-          - |
-            Tiada satu kumpulan yang mencipta Bitcoin Cash. Kini terdapat pelbagai kumpulan bebas.
-          - |
-            Pengedaran ini penting bagi masa depan kami.
-      - question: "Apakah lambang Bitcoin Cash di penukar-penukar wang?"
-        answer:
-          - |
-            Terdapat beberapa lambang Bitcoin Cash mengikut dompet atau perkhidmatan tersebut. BCH/BCC adalah yang paling sering digunakan, dan XBC digunakan untuk mencapai penyeragaman antarabangsa bagi kewangan (ISO 4217).
+            Peniaga akan disenaraikan di laman web dan direktori aplikasi secara percuma jika menerima Bitcoin Cash. Mereka akan mendapat manfaat dari trend baru ini dan menjana liputan akhbar untuk perniagaan mereka.
