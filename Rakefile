@@ -12,7 +12,7 @@ end
 namespace :css do
   desc "minify css files"
   task :minify do
-    deps = `juicer merge html/css/deps.css html/css/bootstrap.css html/css/stack-interface.css html/css/socicon.css html/css/icomoon.css --force`
+    deps = `juicer merge html/css/deps.css html/css/bootstrap.css html/css/stack-interface.css html/css/socicon.css --force`
     puts deps
     theme = `juicer merge html/css/theme.css --force`
     puts theme
