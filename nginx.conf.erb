@@ -67,12 +67,12 @@ server {
         index index.html;
     }
 <% end %>
-    location ~*  \.(jpg|jpeg|png|gif|ico)$ {
-        expires 30d;
+    location ~*  \.(jpg|jpeg|png|gif|ico|svg|ttf)$ {
+        expires 1y;
     }
 
     location ~*  \.(css|js)$ {
-        expires 1d;
+        expires 1y;
     }
 
     error_page 404 /404.html;

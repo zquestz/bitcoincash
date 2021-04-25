@@ -9,6 +9,7 @@
     url("../fonts/stack-interface.svg?33839631#stack-interface") format("svg");
   font-weight: normal;
   font-style: normal;
+  font-display: swap;
 }
 /* Chrome hack: SVG is rendered more smooth in Windozze. 100% magic, uncomment if you need it. */
 /* Note, that will break hinting! In other OS-es font will be not as sharp as it could be */
