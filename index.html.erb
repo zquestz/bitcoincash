@@ -13,6 +13,11 @@
     <meta property="og:title" content="<%= I18n.t(:'meta.index.og.title').strip %>">
     <meta property="og:description" content="<%= I18n.t(:'meta.index.og.description').strip %>">
     <meta property="og:image" content="https://www.bitcoincash.org/img/bitcoincash-twitter.png">
+    <%- if ['ar'].include?(I18n.locale.to_s.split('-').first) -%>
+    <style>
+      section { direction: rtl; }
+    </style>
+    <%- end -%>
     <link rel="preconnect" href="https://fonts.gstatic.com" />
     <link href="/css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
     <link href="/css/stack-interface.css" rel="stylesheet" type="text/css" media="all" />
