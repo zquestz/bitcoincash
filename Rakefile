@@ -3,9 +3,21 @@ Bundler.setup
 
 namespace :docker do
   desc "build docker images"
-  task :build => ['translations:build'] do
+  task :build => ['css:minify', 'translations:build'] do
     puts "Building bitcoincash docker image"
     puts `docker build -t bitcoincash .`
+  end
+end
+
+namespace :css do
+  desc "minify css files"
+  task :minify do
+    deps = `juicer merge html/css/deps.css html/css/bootstrap.css html/css/stack-interface.css html/css/socicon.css html/css/icomoon.css --force`
+    puts deps
+    theme = `juicer merge html/css/theme.css --force`
+    puts theme
+    custom = `juicer merge html/css/custom.css --force`
+    puts custom
   end
 end
 

@@ -17,7 +17,7 @@
 @media screen and (-webkit-min-device-pixel-ratio:0) {
   @font-face {
     font-family: 'stack-interface';
-    src: url('../font/stack-interface.svg?34857618#stack-interface') format('svg');
+    src: url('../fonts/stack-interface.svg?34857618#stack-interface') format('svg');
   }
 }
 */
