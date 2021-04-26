@@ -30,6 +30,12 @@ p.release {
 
 .fa-fw {
   color: #0ac18e;
+  height: 40px;
+  display: inline-block;
+}
+
+.fa-fw:before {
+  content: "\00a0";
 }
 
 .vertical-align {

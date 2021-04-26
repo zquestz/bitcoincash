@@ -237,14 +237,11 @@
     </a>
     <script src="/js/modernizr-2.6.2.min.js"></script>
     <script src="/js/jquery.min.js"></script>
-    <script src="/js/smooth-scroll.min.js"></script>
-    <script src="/js/scripts.js"></script>
-    <script src="/js/packs/solid.js"></script>
-    <script src="/js/ticker.js?v=2"></script>
-    <script src="/js/jquery.easing.1.3.js"></script>
+    <script src="/js/jquery.easing.1.3.min.js"></script>
     <script src="/js/jquery.stellar.min.js"></script>
-    <script src="/js/bootstrap.min.js"></script>
     <script src="/js/jquery.waypoints.min.js"></script>
-    <script src="/js/main.js"></script>
+    <script src="/js/smooth-scroll.min.js"></script>
+    <script src="/js/bootstrap.min.js"></script>
+    <script src="/js/scripts.min.js?v=<%= Digest::SHA256.file 'html/js/scripts.min.js' %>"></script>
   </body>
 </html>

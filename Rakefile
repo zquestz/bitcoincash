@@ -1,9 +1,15 @@
 require 'bundler'
 Bundler.setup
 
+require 'erb'
+require 'fileutils'
+require 'i18n'
+require "i18n/backend/fallbacks"
+require 'digest'
+
 namespace :docker do
   desc "build docker images"
-  task :build => ['css:minify', 'translations:build'] do
+  task :build => ['css:minify', 'js:minify', 'translations:build'] do
     puts "Building bitcoincash docker image"
     puts `docker build -t bitcoincash .`
   end
@@ -12,21 +18,22 @@ end
 namespace :css do
   desc "minify css files"
   task :minify do
-    deps = `juicer merge html/css/deps.css html/css/bootstrap.css html/css/stack-interface.css html/css/socicon.css --force`
-    puts deps
-    theme = `juicer merge html/css/theme.css --force`
-    puts theme
-    custom = `juicer merge html/css/custom.css --force`
-    puts custom
+    puts `juicer merge html/css/deps.css html/css/bootstrap.css html/css/stack-interface.css html/css/socicon.css --force`
+    puts `juicer merge html/css/theme.css html/css/custom.css --force`
+    puts `juicer merge html/css/custom.css --force`
+  end
+end
+
+namespace :js do
+  desc "minify js files"
+  task :minify do
+    puts `juicer merge html/js/jquery.easing.1.3.js --force`
+    puts `juicer merge html/js/scripts.js html/js/scripts.js --force`
+    puts `juicer merge html/js/ticker.js --force`
   end
 end
 
 namespace :translations do
-  require 'erb'
-  require 'fileutils'
-  require 'i18n'
-  require "i18n/backend/fallbacks"
-  require 'digest'
   I18n::Backend::Simple.send(:include, I18n::Backend::Fallbacks)
   I18n.load_path = Dir['./translations/*.yml']
   I18n.default_locale = :en

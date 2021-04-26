@@ -21,7 +21,6 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" />
     <link href="/css/deps.min.css?v=<%= Digest::SHA256.file 'html/css/deps.min.css' %>" rel="stylesheet" type="text/css" media="all" />
     <link href="/css/theme.min.css?v=<%= Digest::SHA256.file 'html/css/theme.min.css' %>" rel="stylesheet" type="text/css" media="all" />
-    <link href="/css/custom.min.css?v=<%= Digest::SHA256.file 'html/css/custom.min.css' %>" rel="stylesheet" type="text/css" media="all" />
     <link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet" type="text/css" media="all" />
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-4P1RG1J9TQ"></script>
     <script>
@@ -173,7 +172,7 @@
               <p><%= I18n.t(:'features')[1][:description].strip %></p>
             </div>
             <div class="col-sm-4 col-md-4">
-              <p><i class="fa fa-arrow-alt-down fa-fw fa-2x"></i></p>
+              <p><i class="fa fa-arrow-alt-circle-down fa-fw fa-2x"></i></p>
               <p><strong><%= I18n.t(:'features')[2][:title].strip %></strong></p>
               <p><%= I18n.t(:'features')[2][:description].strip %></p>
             </div>
@@ -821,15 +820,14 @@
     </a>
     <script src="/js/modernizr-2.6.2.min.js"></script>
     <script src="/js/jquery.min.js"></script>
-    <script src="/js/smooth-scroll.min.js"></script>
-    <script src="/js/scripts.js"></script>
-    <script src="/js/fontawesome.js"></script>
-    <script src="/js/packs/solid.js"></script>
-    <script src="/js/ticker.js?v=2"></script>
-    <script src="/js/jquery.easing.1.3.js"></script>
+    <script src="/js/ticker.min.js?v=<%= Digest::SHA256.file 'html/js/ticker.min.js' %>" async></script>
+    <script src="/js/fontawesome.min.js"></script>
+    <script src="/js/solid.min.js"></script>
+    <script src="/js/jquery.easing.1.3.min.js"></script>
     <script src="/js/jquery.stellar.min.js"></script>
-    <script src="/js/bootstrap.min.js"></script>
+    <script src="/js/smooth-scroll.min.js"></script>
     <script src="/js/jquery.waypoints.min.js"></script>
-    <script src="/js/main.js"></script>
+    <script src="/js/bootstrap.min.js"></script>
+    <script src="/js/scripts.min.js?v=<%= Digest::SHA256.file 'html/js/scripts.min.js' %>"></script>
   </body>
 </html>
