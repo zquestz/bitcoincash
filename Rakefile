@@ -28,7 +28,7 @@ namespace :js do
   desc "minify js files"
   task :minify do
     puts `juicer merge html/js/jquery.easing.1.3.js --force`
-    puts `juicer merge html/js/scripts.js html/js/scripts.js --force`
+    puts `juicer merge html/js/scripts.js html/js/main.js --force`
     puts `juicer merge html/js/ticker.js --force`
   end
 end
