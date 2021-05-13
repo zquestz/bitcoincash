@@ -1,0 +1,206 @@
+hu:
+  language: Magyar
+  title:
+    index: "Bitcoin Cash - Ponttól-pontig elektronikus fizetőeszköz"
+    graphics: "Bitcoin Cash - Logók / Grafikák"
+  meta:
+    index:
+      description: |
+        A Bitcoin Cash elhozza a használható pénzt a világnak. Felruházza az eladókat és a vásárlókat alacsony költségekkel és megbízható ellenőrzési lehetőséggel. Beragyogja a jövőt korlátlan növekedéssel, globális elfogadottsággal, engedélymentes újításokkal és decentralizált fejlesztéssel.
+      twitter:
+        title: "Bitcoin Cash - Ponttól-pontig elektronikus fizetőeszköz"
+        description: |
+          A Bitcoin Cash elhozza a használható pénzt a világnak. Felruházza az eladókat és a vásárlókat alacsony költségekkel és megbízható ellenőrzési lehetőséggel. Beragyogja a jövőt korlátlan növekedéssel, globális elfogadottsággal, engedélymentes újításokkal és decentralizált fejlesztéssel.
+      og:
+        title: "Bitcoin Cash - Ponttól-pontig elektronikus fizetőeszköz"
+        description: |
+          A Bitcoin Cash elhozza a használható pénzt a világnak. Felruházza az eladókat és a vásárlókat alacsony költségekkel és megbízható ellenőrzési lehetőséggel. Beragyogja a jövőt korlátlan növekedéssel, globális elfogadottsággal, engedélymentes újításokkal és decentralizált fejlesztéssel.
+    graphics:
+      description: |
+        Logók és grafikák gyűjteménye Bitocin Cash témában.
+      twitter:
+        title: "Bitcoin Cash - Logók / Grafikák"
+        description: |
+          Logók és grafikák gyűjteménye Bitocin Cash témában.
+      og:
+        title: "Bitcoin Cash - Logók / Grafikák"
+        description: |
+          Logók és grafikák gyűjteménye Bitocin Cash témában.
+  graphics:
+    title: "Reklámanyagok"
+    description: "Ezek a Bitcoin Cash logók és segédanyagok használhatóak online szolgáltatásokban, nyomtatott sajtóban vagy egyéb reklám célokra."
+    logos: "Logók"
+    download_png_svg: "Bitcoin Cash logók letöltése PNG vagy SVG formátumban"
+    download_all: "Mind letöltése"
+    small: "Kicsi (PNG)"
+    medium: "Közepes (PNG)"
+    large: "Nagy (PNG)"
+    full: "Teljes méretű (PNG)"
+    vector: "Vektoros (SVG)"
+    sections:
+      home: "Kezdőlap"
+      logos: "Logók"
+      merchant: "Eladó"
+      donations: "Adományok"
+      identity: "Márka"
+    types:
+      primary: "BCH Logó, Elsődleges"
+      white: "BCH Logó, Fehér Szöveg"
+      mark: "BCH Logó, Szimbólum"
+      horizontal_primary: "BCH Logó, Vízszintes Elsődleges"
+      horizontal_white: "BCH Logó, Vízszintes Fehér"
+      wallets_exchanges: "BCH Logó Tárcákba / Tőzsdékre"
+    merchant:
+      title: "Gombok eladóknak"
+      description: "Mutasd meg a vevőidnek, hogy fogadsz Bitcoin Cash befizetéseket"
+      primary: "Bitcoin Cash Elfogadóhely, Elsődleges"
+      orange: "Bitcoin Cash Elfogadóhely, Narancssárga"
+    donation:
+      title: "Adomány Gombok"
+      description: "Népszerűsítsd a Bitcoin Cash használatát adományozáshoz."
+      primary: "Elfogadunk Bitcoin Cash Adományokat, Elsődleges"
+      orange: "Elfogadunk Bitcoin Cash Adományokat, Narancssárga"
+    identity:
+      title: "Vizuális Nyelv"
+      description: "Bitcoin Cash színek, betűk és a többi."
+      font: "Ubuntu Bold"
+      font_italic: "Ubuntu Bold Italic"
+      download: "Betűtípus letöltése"
+      orange: "Bitcoin Cash Narancssárga"
+      grey: "Bitcoin Cash Szürke"
+      white: "Bitcoin Cash Fehér"
+      hex: "Hex"
+      rgb: "RGB"
+      cmyk: "CMYK"
+      pantone: "Pantone"
+  misc:
+    logo: "logó"
+    dropdown_md_width: 3
+    dropdown_sm_width: 3
+  sections:
+    about: "A Bitcoin Cash-ről"
+    features: "Képességek"
+    nodes: "Csomópontok"
+    wallets: "Tárcák"
+    community: "Közösség"
+    services: "Szolgáltatások"
+    projects: "Projektek"
+    exchanges: "Pénzváltók"
+    graphics: "Logók / Grafikák"
+    benefits: "Előnyök"
+    faq: "GYIK"
+  layout:
+    bitcoin_cash: "Bitcoin Cash"
+    lead: "Ponttól-pontig elektronikus fizetőeszköz"
+    loading: "Betöltés..."
+  features:
+    - 
+      title: "Gyors"
+      description: "Utalás másodpercek alatt. Visszaigazolás percek alatt."
+    - 
+      title: "Megbízható"
+      description: "Egy hálózat ami torlódások nélkül üzemel."
+    - 
+      title: "Alacsony díjak"
+      description: "Küldj pénzt bárhová a világon fillérekért."
+    - 
+      title: "Egyszerű"
+      description: "Könnyű használni. Nincs probléma."
+    - 
+      title: "Stabil"
+      description: "Egy fizetési rendszer ami bizonyítottan jól tartja az értékét."
+    - 
+      title: "Biztonságos"
+      description: "A világ legerősebb blokklánc technológiája."
+  headings:
+    history: "A Bitcoin Cash története"
+    about: "A legjobb pénz a világon"
+    nodes: "Csomópontok"
+    wallets: "Tárcák"
+    services: "Szolgáltatások"
+    projects: "Projektek"
+    exchanges: "Pénzváltók"
+    why: "Miért használj Bitcoin Cash-t?"
+    benefits: "Előnyök kereskedőknek"
+    development: "Decentralizált fejlesztés"
+  content:
+    history:
+      - |
+        2008 Októberében tette közzé Satoshi Nakamoto a híres publikációját <strong>"Bitcoin: A ponttól pontig elektronikus fizetési rendszer"</strong> címmel. 2009-ben adta ki az első bitcoin szoftvert amire épült a hálózat, és évekig üzemelt alacsony díjakkal és gyors, megbízható tranzakciókkal.
+      - |
+        Sajnos 2016 és 2017 között a Bitcoin egy drágább és megbízhatatlanabbá vált. Ez azért történt, mert a közösség nem tudott megegyezni abban, hogyan növeljék a hálózat kapacitását. Néhány fejlesztő nem értette meg vagy nem értett egyet Satoshi tervével. Ehelyett jobban szerették volna ha a Bitcoin egy egyezmény réteggé válik.
+      - |
+        2017-re a Bitcoin fölénye 95%-ról 40%-ra csökkent, a használhatósági problémák egyértelmű következményeként. Szerencsére a Bitcoin közösség egy nagy része, beleértve fejlesztőket, befektetőket, felhasználókat és üzleteket, még mindig hitt a Bitcoin eredeti víziójában -- egy olcsó, embertől emberig működő elektronikus fizetési rendszer amit mindenki használhat a világon.
+      - |
+        2017 Augusztus 1.-én megléptük a logikus lépést és növeltük a maximum blokkméretet, és megszületett a Bitcoin Cash. Mindenki akinek volt Bitcoinja abban az időben (478558 blokknál) Bitcoin Cash (BCH) tulajdonossá vált. A hálózat most támogatja a legfeljebb 32MB méretű blokkokat is, a háttérben folyó kutatásokkal, hogy a jelentős növelés is lehetővé váljon.
+    development:
+      - |
+        A sok független fejlesztő csapatnak köszönhetően mindig lesznek új szoftvermegvalósítások és a jövő biztosítva van. Bitcoin Cash ellenáll a protokoll fejlesztés ellen irányuló politikai és közösségi támadásokkal szemben. Egy csoport vagy projekt sem tudja irányítani. A többféle megvalósítás biztosítja azt is, hogy a hálózat 100%-ban aktív tudjon maradni.
+      - |
+        A <a href="https://bitcoincashresearch.org" target="_blank">bitcoincashresearch.org</a> weboldal jó hely az új ötletek benyújtására, amelyek eggyüttműködést igényelnek a fejlesztő csapatok között. Azok akik szeretnének változtatni a Bitcoin Cash protokollon ajánlott együttműködni, és megvitatni azt a többi fejlesztővel.
+    about:
+      - |
+        A Bitcoin Cash elhozza a használható pénzt a világnak, beteljesítve a Bitcoin eredeti "Ponttól pontig elektronikus fizetőeszköz" ígéretét. Felruházza az eladókat és a vásárlókat alacsony költségekkel és megbízható ellenőrzési lehetőséggel. Beragyogja a jövőt korlátlan növekedéssel, globális elfogadottsággal, engedélymentes újításokkal és decentralizált fejlesztéssel.
+      - |
+        Mindenkit szeretettel várunk a Bitcoin Cash közösségbe, hogy együtt tehessük ezt a remek pénzeszközt elérhetővé mindenkinek az egész világon.
+    why:
+      - 
+        benefit: "Küldj pénzt bárhová a világon, szinte ingyen"
+        descrip:
+          - |
+            Bitcoin Cash segítségével bárhová küldhetsz pénzt a világon, a nap 24 órájában, az év 365 napján. Pont úgy mint maga az Internet, ez a hálózat is mindig elérhető. Nincs túl nagy, vagy túl kicsi tranzakció. És soha nem lesz szükséged senki engedélyére vagy jóváhagyására.
+      - 
+        benefit: "Legyél a saját bankod és irányítsd Te a pénzügyeidet"
+        descrip:
+          - |
+            A tőke ("óvadék") lefoglalása a Ciprusi és majdnem a Görögországi számlatulajdonosoktól bizonyítja, hogy a bankszámlák csak annyira biztonságosak amennyire a politikusok szeretnék. A bankok még ideális körülmények között is hibázhatnak, lefagyaszthatnak számlákat, vagy egyéb módokon megakadályozhatnak abban, hogy hozzáférj a saját pénzedhez.
+          - |
+            A bankok figyelmeztetés nélkül blokkolhatják az utalásaidat, plusz költségeket róhatnak rád, vagy lezárhatják a számládat. A Bitcoin Cash teljeskörű hatalmat biztosít az egyenleged felett, amit bárhol, bármikor elérhetsz.
+      - 
+        benefit: "Egy ritka digitális fizetőeszköz jól ismert, fix kínálattal"
+        descrip:
+          - |
+            A Bitcoin Cash protokoll biztosítja, hogy soha nem lesz 21 milliónál több érme. Az országok folyamatosan újabb és újabb pénzeket nyomtatnak a semmiből, ezzel vég nélkül növelik a készletet és csökkentik a meglévők értékét. A Bitcoin Cash esetében egy fix készlet van amivel a "jó pénz" élő példája.
+      - 
+        benefit: "Növeld a magánélethez való jogodat és működj név nélkül"
+        descrip:
+          - |
+            Bitcoin Cash jobban védi a magánszférádat mint a megszokott pénzügyi szolgáltatások mint a banki átutalás vagy kártyás fizetések, mivel általában nem lehet visszakövetni ki irányít egy Bitcoin címet.
+          - |
+            A Bitcoin Cash változatos mértékű magánszférát biztosít aszerint hogyan használod. Fontos, hogy tanulmányozd a működését mielőtt használni kezdenéd.
+      - 
+        benefit: "Élvezd a diszkont árakat"
+        descrip:
+          - |
+            Sok értékesítő ajánl kedvezményeket azoknak akik Bitcoin Cash segítségével fizetnek, mivel csökkenti a banki költségeiket és segíti szélesebb körben elfogadottabbá tenni ezt az új fizetőeszközt.
+      - 
+        benefit: "Zseton Ökoszisztéma"
+        descrip:
+          - |
+            A zsetonok blokkláncon való kezelése és tárolása sokkal átláthatóbb mint a megszokott könyvelési és kereskedési formák. A Bitcoin Cash sok protokollt támogat, amelyek változatos projekteket működtetnek, és egyszerű saját zseton alapú projektet létrehozni.
+      - 
+        benefit: "Támogasd a szabadságot világszerte"
+        descrip:
+          - |
+            A Bitcoin Cash egy engedélymentes nyitott hálózat. Képessé tesz arra, hogy megszakítások nélkül kapcsolatot teremts a többi emberrel. Decentralizált, önkéntes és nem agresszív. Ahogy egyre többen használják, a régi erőviszonyok elmosódnak míg az új ötletek virágzanak. Segíthet véghezvinni a legnagyobb békés forradalmat a történelemben.
+    benefits:
+      - 
+        benefit: "Nagyon alacsony díjak"
+        descrip:
+          - |
+            A tranzakciós díj Bitcoin Cash esetében tipikusan kevesebb mint pár fillér. Ha át akarod váltani a BCH egyenleged a nemzeti pénzedbe, például Forintba, meg tudod tenni szolgáltatókon keresztül aminek a díja még mindig kisebb mint egy bankkártya feldolgozási díjai.
+      - 
+        benefit: "Nincs visszatérítés"
+        descrip:
+          - |
+            A bankkártyákkal ellentétben soha nem történik automatikus visszafizetés, visszautasítás vagy egyéb váratlan díj. Csalás elleni védelem a rendszerbe van építve kereskedőre rótt díjak nélkül.
+      - 
+        benefit: "Új vásárlók"
+        descrip:
+          - |
+            Egyre növekvő számú támogató választja a Bitcoin Cash-t, mint preferált fieztőeszközt. Azokat a kereskedőket részesítik előnyben akik elfogadják ezt a fizetési lehetőséget és aktívan keresik őket.
+      - 
+        benefit: "Ingyenes reklámok"
+        descrip:
+          - |
+            A Bitcoin Cash elfogadásával a kereskedők ingyenesen felkerülhetnek listákra weboldal és alkalmazáskönyvtárakban, még több vásárlót elérve. Ezen felül kihasználhatják az új divathullámot és reklámot generálhatnak az üzletüknek.
