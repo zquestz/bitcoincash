@@ -1,8 +1,8 @@
----
 nl:
   language: Nederlands
   title:
     index: "Bitcoin Cash - Peer-to-Peer Digitaal Geld"
+    graphics: "Bitcoin Cash - logo's / afbeeldingen"
   meta:
     index:
       description: |
@@ -10,24 +10,84 @@ nl:
       twitter:
         title: "Bitcoin Cash - Peer-to-Peer Digitaal Geld"
         description: |
-          Bitcoin Cash brengt betrouwbaar geld naar de wereld. Verkopers en gebruikers zijn verzekerd van lage transactiekosten en betrouwbare bevestigingen. De toekomst ziet er veelbelovend uit door onbeperkte groei, wereldwijde adoptie, vrije innovatie en decentrale ontwikkeling.
+          Bitcoin Cash brengt betrouwbaar geld naar de wereld en vervult de oorspronkelijke belofte van Bitcoin als "Peer-to-Peer Digitaal Geld". Verkopers en gebruikers zijn verzekerd van lage transactiekosten en betrouwbare bevestigingen. De toekomst ziet er veelbelovend uit door onbeperkte groei, wereldwijde adoptie, vrije innovatie en decentrale ontwikkeling.
       og:
         title: "Bitcoin Cash - Peer-to-Peer Digitaal Geld"
         description: |
           Bitcoin Cash brengt betrouwbaar geld naar de wereld. Verkopers en gebruikers zijn verzekerd van lage transactiekosten en betrouwbare bevestigingen. De toekomst ziet er veelbelovend uit door onbeperkte groei, wereldwijde adoptie, vrije innovatie en decentrale ontwikkeling.
+    graphics:
+      description: |
+        Een collectie van logo's en afbeeldingen voor Bitcoin Cash.
+      twitter:
+        title: "Bitcoin Cash - Logo's / Afbeeldingen"
+        description: |
+          Een collectie van logo's en afbeeldingen voor Bitcoin Cash.
+      og:
+        title: "Bitcoin Cash - Logo's / Afbeeldingen"
+        description: |
+          Een collectie van logo's en afbeeldingen voor Bitcoin Cash.
+  graphics:
+    title: "Promotie Afbeeldingen"
+    description: "Deze Bitcoin Cash logo's en merkactiva kunnen worden gebruikt voor weergave in online diensten, winkels, pers en / of voor andere promotionele doeleinden."
+    logos: "Afbeeldingen"
+    download_png_svg: "Download Bitcoin Cash logo's in PNG en SVG formaat"
+    download_all: "Download Alles"
+    small: "Klein (PNG)"
+    medium: "Medium (PNG)"
+    large: "Groot (PNG)"
+    full: "Vol (PNG)"
+    vector: "Direct (SVG)"
+    sections:
+      home: "Home"
+      logos: "Logo's"
+      merchant: "Handelaar"
+      donations: "Donaties"
+      identity: "Identiteit"
+    types:
+      primary: "Primaire BCH Logo"
+      white: "BCH Logo met Witte Tekst"
+      mark: "BCH Logo Kenmerk"
+      horizontal_primary: "Primaire BCH Logo Horizontaal"
+      horizontal_white: "BCH Logo Horinzontaal Wit"
+      wallets_exchanges: "BCH Logo voor Wallets / Exchanges"
+    merchant:
+      title: "Handelaars Knoppen"
+      description: "Laat aan je klanten zien dat je Bitcoin Cash accepteert"
+      primary: "Bitcoin Cash wordt hier primair geaccepteerd"
+      orange: "Bitcoin Cash Wordt Hier Geaccepteert Oranje"
+    donation:
+      title: "Donatie Knoppen"
+      description: "Promoot dat je Bitcoin Cash accepteert als een donatie methode."
+      primary: "Accepteert Hoofdzakelijk Bitcoin Cash Donaties"
+      orange: "Bitcoin Cash Donaties Geaccepteert Oranje"
+    identity:
+      title: "Visuele Identiteit"
+      description: "Bitcoin Cash fonts, kleuren, en meer."
+      font: "Ubuntu Bold"
+      font_italic: "Ubuntu Bold Italic"
+      download: "Download Font"
+      orange: "Bitcoin Cash Oranje"
+      grey: "Bitcoin Cash Grijs"
+      white: "Bitcoin Cash Wit"
+      hex: "Hex"
+      rgb: "RGB"
+      cmyk: "CMYK"
+      pantone: "Pantone"
   misc:
     logo: "logo"
     dropdown_md_width: 3
     dropdown_sm_width: 3
   sections:
     about: "Over"
-    features: "Features"
+    features: "Kenmerken"
     nodes: "Nodes"
-    wallets: "Wallets"
-    community: "Community"
+    wallets: "Portomonee"
+    community: "Gemeenschap"
     services: "Diensten"
     projects: "Projecten"
     exchanges: "Exchanges"
+    graphics: "Logo's / Afbeeldingen"
+    benefits: "Voordelen"
     faq: "FAQ"
   layout:
     bitcoin_cash: "Bitcoin Cash"
@@ -37,97 +97,93 @@ nl:
     - title: "Snel"
       description: "Koop of verkoop in seconden. Binnen enkele minuten bevestigd."
     - title: "Betrouwbaar"
-      description: "Een netwerk zonder datacongestie."
+      description: "Een netwerk dat draait zonder data opstoppingen."
     - title: "Lage transactiekosten"
-      description: "Wereldwijd geld versturen voor centen."
+      description: "Wereldwijd geld versturen voor een klein bedrag."
     - title: "Simpel"
       description: "Makkelijk in gebruik. Geen gedoe."
     - title: "Stabiel"
       description: "Een betaalsysteem dat een bewezen oppotmiddel is."
-    - title: "Betrouwbaar"
+    - title: "Veilig"
       description: "'s Werelds meest robuuste blockchain-technologie."
   headings:
+    history: "De Geschiedenis van Bitcoin Cash"
     about: "Het beste geld ter wereld"
-    features: "Nieuwe Features"
     nodes: "Nodes"
-    wallets: "Wallets"
+    wallets: "Portomonee"
     services: "Diensten"
     projects: "Projecten"
     exchanges: "Exchanges"
-    faq: "Veelgestelde vragen"
+    why: "Waarom Bitcoin Cash Gebruiken?"
+    benefits: "Voordelen voor Handelaren"
+    development: "Gedecentraliseerde Ontwikkeling"
   content:
+    history:
+      - |
+        In oktober 2008 publiceerde Satoshi Nakamoto de beroemde whitepaper getiteld <strong> "Bitcoin: een peer-to-peer elektronisch cash systeem" </strong>. In 2009 bracht hij de eerste bitcoin-software uit die het netwerk aandreef, en het werkte jarenlang probleemloos met lage kosten en snelle, betrouwbare transacties.
+      - |
+        Helaas werd Bitcoin van 2016 tot 2017 steeds onbetrouwbaarder en duurder. Dit kwam doordat de gemeenschap geen overeenstemming kon bereiken over het vergroten van de netwerkcapaciteit. Sommige ontwikkelaars begrepen het plan van Satoshi niet en waren het er niet mee eens. In plaats daarvan gaven ze er de voorkeur aan dat Bitcoin een afwikkelingslaag werd.
+      - |
+        In 2017 was de dominantie van Bitcoin sterk gedaald van 95% naar slechts 40% als direct gevolg van de bruikbaarheids problemen.  Gelukkig geloofde een groot deel van de Bitcoin-gemeenschap, inclusief ontwikkelaars, investeerders, gebruikers en bedrijven, nog steeds in de oorspronkelijke visie van Bitcoin - een laag tarief, peer-to-peer elektronisch geldsysteem dat gebruikt kan worden door alle mensen in de wereld.
+      - |
+        Op 1 augustus 2017 hebben we de logische stap genomen om de maximale blok grootte te vergroten, en Bitcoin Cash was geboren.  Iedereen die op dat moment Bitcoin had (blok 478558), werd eigenaar van Bitcoin Cash (BCH).  Het netwerk ondersteunt nu tot 32 MB blokken met lopend onderzoek om enorme toekomstige uitbreidingen mogelijk te maken.
+    development:
+      - |
+        Met meerdere onafhankelijke teams van ontwikkelaars die software-implementaties opleveren, is de toekomst veilig. Bitcoin Cash is bestand tegen politieke en sociale aanvallen op protocol ontwikkeling. Geen enkele groep of project kan het controleren. Meerdere implementaties bieden ook redundantie om ervoor te zorgen dat het netwerk 100% uptime behoudt.
+      - |
+        De <a href="https://bitcoincashresearch.org" target="_blank"> bitcoincashresearch.org </a> website is een goede plek om voorstellen te doen voor veranderingen die coördinatie tussen ontwikkel teams vereisen. Voor degenen die wijzigingen in het Bitcoin Cash-protocol willen doorvoeren, wordt aangeraden om vroegtijdige peer review te zoeken en samen te werken met andere ontwikkelaars.
     about:
       - |
         Bitcoin Cash brengt betrouwbaar geld naar de wereld en vervult de oorspronkelijke belofte van Bitcoin als "Peer-to-Peer Digitaal Geld". Verkopers en gebruikers zijn verzekerd van lage transactiekosten en betrouwbare bevestigingen. De toekomst ziet er veelbelovend uit door onbeperkte groei, wereldwijde adoptie, vrije innovatie en decentrale ontwikkeling.
       - |
-        Alle Bitcoin-houders vanaf block 478558 zijn ook eigenaar van Bitcoin Cash. Iedereen is welkom bij de Bitcoin Cash community waarin we streven om betrouwbaar geld voor iedereen toegankelijk te maken.
-    features:
-      - |
-        <strong>On-Chain Schaalbaarheid</strong> - Bitcoin Cash volgt de Nakamoto-roadmap van globale adoptie door on-chain schaalbaarheid. Als eerste stap is de blocksize aangepast naar een verhoogde standaard van 8 MB. <a href="https://github.com/BitcoinUnlimited/BUIP/blob/master/065.mediawiki" target="_blank">Onderzoek is gaande om enorme verhogingen in de toekomst mogelijk te maken</a>.
-      - |
-        <strong>Nieuwe Transactie-Handtekeningen</strong> - Een nieuw SigHash-type biedt replay protection, verbeterde hardware-walletbeveiliging en eliminatie van het kwadratische hash-probleem.
-      - |
-        <strong>Nieuw Difficulty Adjustment Algorithm (DAA)</strong> - Responsieve Proof-of-Work aanpassingsmoeilijkheid stelt miners in staat te migreren van de legacy Bitcoin-keten, terwijl bescherming wordt geboden tegen hashrate-fluctuaties.
-      - |
-        <strong>Gedecentraliseerde Ontwikkeling</strong> - Met meerdere onafhankelijke teams van ontwikkelaars die software implementaties leveren, is de toekomst veilig. Bitcoin Cash is bestand tegen politieke en sociale aanvallen op de ontwikkeling van protocollen. Geen enkele groep of project kan het besturen. De <a href="https://bitcoincashresearch.org" target="_blank">bitcoincashresearch.org </a> is een goede plek om voorstellen te doen voor veranderingen die coördinatie tussen ontwikkelteams vereisen.
-    faq:
-      - question: "Wat is Bitcoin Cash?"
-        answer:
+        Iedereen is welkom om lid te worden van de Bitcoin Cash-gemeenschap terwijl we verder gaan met het creëren van gezond geld dat voor de hele wereld toegankelijk is.
+    why:
+      - benefit: "Stuur Geld Overal In De Wereld, Voor Bijna Gratis"
+        descrip:
           - |
-            Bitcoin Cash is peer-to-peer digitaal geld voor het Internet. Het is helemaal gedecentraliseerd, zonder centrale bank en vereist geen vertrouwde derde partijen om te werken.
-      - question: "Verschilt Bitcoin Cash van 'Bitcoin'?"
-        answer:
+            Met Bitcoin Cash kan je 24 uur per dag, 365 dagen per jaar geld sturen naar iedereen, waar ook ter wereld. Net als internet zelf staat het netwerk altijd aan. Geen enkele transactie is te groot of te klein. En je hebt nooit de toestemming of goedkeuring van iemand nodig.
+      - benefit: "Wees je eigen bank en heb volledige controle over jouw geld"
+        descrip:
           - |
-            Ja. Bitcoin Cash is de voortzetting van het Bitcoin-project als peer-to-peer digitaal geld. Het is een afsplitsing van de Bitcoin-blockchain ledger met verbeterde consensusregels die het mogelijk maken om te groeien en te schalen.
-      - question: "Als ik Bitcoin heb, ben ik dan ook automatisch eigenaar van Bitcoin Cash?"
-        answer:
+            De inbeslagname van kapitaal van rekeninghouders ("bail-ins") die plaatsvonden in Cyprus en bijna in Griekenland, toont aan dat bank deposito's slechts zo veilig zijn als politieke leiders besluiten. Zelfs onder de beste omstandigheden kunnen banken fouten maken, geld aanhouden, rekeningen blokkeren en anderszins verhinderen dat u toegang krijgt tot uw eigen geld.
           - |
-            Iedereen die Bitcoin had toen Bitcoin Cash werd gemaakt, bezit tevens Bitcoin Cash. Dit betekent dat Bitcoin-houders vanaf block 478558 (1 augustus 2017, rond 13.16 UTC) hetzelfde aantal Bitcoin Cash hebben dat ze op dat moment in Bitcoin hadden. Als jouw Bitcoins worden bewaard bij een derde partij zoals een exchange, dan zul je bij hen moeten informeren over je Bitcoin Cash. 
+            Banken kunnen ook besluiten om uw transacties te blokkeren, kosten in rekening te brengen of uw rekening zonder waarschuwing te sluiten. Bitcoin Cash geeft u volledige, hoogste controle over uw geld, waartoe u overal ter wereld toegang heeft.
+      - benefit: "Een schaarse digitale valuta met een bekend, vast aanbod in omloop"
+        descrip:
           - |
-            Alle transacties na de afsplitsing op 1 augustus tussen Bitcoin en Bitcoin Cash zijn volledig gescheiden. Dit betekent dat elke Bitcoin die is verkregen ná de splitsing geen Bitcoin Cash bevat en Bitcoin Cash geen Bitcoin bevat.
-      - question: "Hoe wordt transactie replay afgehandeld tussen de nieuwe en de oude blockchain?"
-        answer:
+            Het Bitcoin Cash-protocol zorgt ervoor dat er nooit meer dan 21 miljoen munten zullen bestaan. Overheden drukken constant geld uit het niets, blazen het aanbod eindeloos op en devalueren ieders spaargeld. Bitcoin Cash heeft een vaste voorraad en vertegenwoordigt dus gezond geld.
+      - benefit: "Verhoog je privacy en werk anoniem"
+        descrip:
           - |
-            Bitcoin Cash transacties gebruiken een nieuw hash-algoritme voor handtekeningen dat wordt aangegeven met de vlag SIGHASH_FORKID. Deze handtekeningen zijn niet geldig op het Bitcoin Legacy-netwerk. Dit voorkomt dat Bitcoin Cash-transacties opnieuw worden afgespeeld op de Bitcoin-blockchain en omgekeerd.
-      - question: "Waarom was een afsplitsing nodig om Bitcoin Cash te ontwikkelen?"
-        answer:
+            Bitcoin Cash biedt meer privacy en anonimiteit dan een traditionele betalingssystemen zoals bankoverschrijvingen en creditcard betalingen, aangezien het normaal gesproken onmogelijk is om te weten wie een Bitcoin-adres beheert.
           - |
-            De oude Bitcoin code had een maximaal limiet van 1 MB aan blocksize, of ongeveer 3 transacties per seconde. Hoewel het technisch eenvoudig is om deze limiet te verhogen, kon de gemeenschap geen consensus bereiken, zelfs niet na jaren van debat.
-      - question: "Veroorzaakte de blocksize van 1 MB problemen voor Bitcoin?"
-        answer:
+            Bitcoin Cash biedt verschillende privacy niveaus, afhankelijk van hoe het wordt gebruikt. Het is belangrijk om uzelf grondig te verdiepen voordat u BCH gebruikt voor privacy doeleinden.
+      - benefit: "Geniet van exclusieve kortingen"
+        descrip:
           - |
-            Ja, in 2017 bereikte de capaciteit een glazen plafond. De kosten schoten omhoog en Bitcoin werd onbetrouwbaar doordat sommige gebruikers niet in staat waren om hun transacties bevestigd te krijgen, zelfs niet na dagen lang wachten.
+            Veel handelaren bieden kortingen voor betalen met Bitcoin Cash, omdat het creditcard kosten elimineert en de acceptatie van dit nieuwe betalings systeem helpt groeien.
+      - benefit: "Token Ecosysteem"
+        descrip:
           - |
-            De marktprijs van Bitcoin is gestegen, maar de groei en bruikbaarheid ervan als valuta is gestagneerd. Veel gebruikers, handelaren, bedrijven en zelfs investeerders verlieten Bitcoin voor alternatieven, waardoor de dominantie daalde van 95% naar slechts 40%.
-      - question: "Lost Bitcoin Cash deze problemen op?"
-        answer:
+            Het opslaan en beheren van tokens op een blockchain biedt meer transparantie en integriteit dan traditionele vormen van activa boekhouding en -handel. Bitcoin Cash ondersteunt token-protocollen die een verscheidenheid aan projecten mogelijk maken, en het is gemakkelijk om uw eigen door tokens ondersteunde projecten aan te maken.
+      - benefit: "Steun Vrijheid Wereldwijd"
+        descrip:
           - |
-            Ja. Bitcoin Cash vergrootte direct het limiet van de blocksize naar 8 MB als onderdeel van een grootschalig on-chain scaling-aanpak. Er is voldoende capaciteit voor ieders transacties.
+            Bitcoin Cash is een open netwerk zonder toestemming. Het stelt je in staat om zonder inbreuk met je medemensen om te gaan. Het is gedecentraliseerd, vrijwillig en niet-agressief.  Naarmate het gebruik toeneemt, zullen oude machtsstructuren verdwijnen terwijl nieuwe ideeën bloeien. Het kan helpen de grootste vreedzame revolutie in te luiden die de wereld ooit heeft gekend.
+    benefits:
+      - benefit: "Ultra Lage Tarieven"
+        descrip:
           - |
-            Lage transactiekosten en snelle bevestigingen zijn teruggekeerd met Bitcoin Cash. Het netwerk groeit weer. Gebruikers, handelaren, bedrijven en investeerders bouwen aan de toekomst met echt peer-to-peer digitaal geld.
-      - question: "Waarom verhoogde Bitcoin zelf niet de blocksize als dat zo makkelijk was?"
-        answer:
+            De netwerk kosten voor een typische Bitcoin Cash-transactie zijn minder dan één cent. Als u uw BCH wilt omrekenen naar fiat-valuta, zoals Amerikaanse dollars, kunt u dat doen via handelaren die tegen een kostprijs die nog steeds veel lager is dan bij creditcard verwerking.
+      - benefit: "Geen Terugboekingen"
+        descrip:
           - |
-            Sommige ontwikkelaars begrepen het niet of waren het niet eens met de originele visie van digitaal geld dat Satoshi Nakamoto had gecreëerd. <a href="https://medium.com/@jgarzik/bitcoin-is-being-hot-wired-for-settlement-a5beb1df223a" target="_blank">In plaats daarvan gaven ze er de voorkeur aan om Bitcoin als settlementslaag te laten worden</a>.
+            In tegenstelling tot creditcards zijn er nooit automatische annuleringen, terugbetalingen, terugboekingen of andere onverwachte kosten. Fraudebescherming is in het systeem ingebouwd zonder extra kosten voor de handelaar.
+      - benefit: "Nieuwe Klanten"
+        descrip:
           - |
-            Veel miners en gebruikers vertrouwden deze ontwikkelaars, terwijl anderen erkenden dat ze de community een andere weg lieten inslaan dan verwacht.
+            Een groeiend aantal klanten kiest Bitcoin Cash als voorkeurs betaalmethode. Ze geven de voorkeur aan handelaren die deze betalings optie aanbieden en zoeken ze actief op.
+      - benefit: "Gratis Marketing en Pers materiaal"
+        descrip:
           - |
-            Deze twee totaal verschillende visies voor Bitcoin zijn grotendeels onverenigbaar, wat leidde tot de vedeling van de gemeenschap.
-      - question: "Heeft SegWit de blocksize niet vergroot? Krijgt Bitcoin Cash ooit SegWit?"
-        answer:
-          - |
-            Segregated Witness of "SegWit" is een onaanvaardbare vervanging voor het vergroten van de blocksize om verschillende redenen.
-          - |
-            Ten eerste zou de toename, zelfs bij gebruik in 100% van de transacties, gelijk zijn aan 1,7 MB in blocksize. Het is dus maar een kleine verhoging van de capaciteit. Het zal niet kunnen omgaan met exponentiële groei of wereldwijd gebruik. Ten tweede resulteert de implementatie van deze soft fork in verworpen handtekeningen, wat <a href="https://bitcrust.org/blog-incentive-shift-segwit" target="_blank">het beveiligingsmodel van Bitcoin verzwakt</a>. Ten derde maakt het toekomstige capaciteitsverhogingen moeilijker vanwege inefficiëntie van de bandbreedte en kwadratische hashing-aanvallen die SegWit niet oplost omdat een aanvaller niet gedwongen wordt om het te gebruiken.
-          - |
-            Door deze (en andere) redenen, was het nodig voor Bitcoin Cash om voor de implementatie van SegWit af te splitsen. SegWit zal niet worden geïmplementeerd.
-      - question: "Welk team van ontwikkelaars heeft de leiding over Bitcoin Cash?"
-        answer:
-          - |
-            In tegenstelling tot de vorige situatie bij Bitcoin, is er bij Bitcoin Cash niet slechts één team van ontwikkelaars. Er zijn meerdere onafhankelijke teams.
-          - |
-            Deze decentralisatie van ontwikkeling (en decentralisatie van software implementatie) is een broodnodige en belangrijke stap voorwaarts.
-      - question: "Wat is het tickersymbool van Bitcoin Cash?"
-        answer:
-          - |
-            Bitcoin Cash wordt weergegeven door een aantal verschillende tickersymbolen, afhankelijk van de service of wallet die je gebruikt. BCH en BCC zijn de meest populaire symbolen, waarbij XBC wordt gebruikt om te voldoen aan de internationale standaard voor valutacodes (ISO 4217).
+            Door Bitcoin Cash te accepteren, kunnen verkopers gratis vermeldingen krijgen in website- en app-directories, waardoor ze nog meer klanten werven. Ze kunnen ook profiteren van deze nieuwe trend en reklamen genereren voor hun eigen bedrijf.
