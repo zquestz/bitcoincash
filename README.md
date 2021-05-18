@@ -25,7 +25,7 @@ The site is running at http://localhost:8888 with your changes.
 Contributions
 -------------
 
-If you want to submit updates to the website make sure you are editing `index.html.erb`. This is the template used to generate all translated html files via `rake translations:build`.
+If you want to submit updates to the website make sure you are editing the templates in the `views` directory. These are used to generate all translated html files via `rake translations:build`.
 
 Note: Image files for projects will not load if against a transparent background or will extend out of card if too oddly sized.  Best to use approximately 400x250 plain white card, with logo in the center.
 

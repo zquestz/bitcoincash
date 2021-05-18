@@ -44,10 +44,10 @@ namespace :translations do
     nginx_template = File.read('nginx.conf.erb')
     nginx_renderer = ERB.new(nginx_template)
     File.write(File.join('.', 'nginx.conf'), nginx_renderer.result())
-    graphics_template = File.read('graphics.html.erb')
+    graphics_template = File.read('views/graphics.html.erb')
     graphics_renderer = ERB.new(graphics_template, nil, '-')
     FileUtils.mkdir_p(File.join('.', 'html', 'graphics'))
-    template = File.read('index.html.erb')
+    template = File.read('views/index.html.erb')
     renderer = ERB.new(template, nil, '-')
     I18n.available_locales.sort.each do |locale|
       puts "Building #{locale}"
