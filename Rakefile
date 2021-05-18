@@ -41,7 +41,7 @@ namespace :translations do
   desc "build translated html files"
   task :build do
     puts "Building bitcoincash translated html files"
-    nginx_template = File.read('nginx.conf.erb')
+    nginx_template = File.read('views/nginx.conf.erb')
     nginx_renderer = ERB.new(nginx_template)
     File.write(File.join('.', 'nginx.conf'), nginx_renderer.result())
     graphics_template = File.read('views/graphics.html.erb')
