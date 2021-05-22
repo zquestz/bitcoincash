@@ -1,4 +1,4 @@
-apiVersion: networking.k8s.io/v1beta1
+apiVersion: networking.k8s.io/v1
 kind: Ingress
 metadata:
   name: bitcoincash-ingress
@@ -12,21 +12,29 @@ spec:
     - www.bitcoincash.org
     - bitcoincash.org
     secretName: bitcoincash-tls
-  backend:
-    serviceName: bitcoincash
-    servicePort: 84
+  defaultBackend:
+    service:
+      name: bitcoincash
+      port:
+        number: 84
   rules:
   - host: bitcoincash.org
     http:
       paths:
       - path: /
+        pathType: ImplementationSpecific
         backend:
-          serviceName: bitcoincash
-          servicePort: 84
+          service:
+            name: bitcoincash
+            port:
+              number: 84
   - host: www.bitcoincash.org
     http:
       paths:
       - path: /
+        pathType: ImplementationSpecific
         backend:
-          serviceName: bitcoincash
-          servicePort: 84
+          service:
+            name: bitcoincash
+            port:
+              number: 84
