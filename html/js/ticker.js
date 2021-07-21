@@ -11,7 +11,7 @@ function ticker(currencies) {
         USD: "$",
         CNY: "¥",
         JPY: "¥",
-        EUR: "€",
+        EUR: "€"
     };
 
     $.ajax({
@@ -47,7 +47,7 @@ function ticker(currencies) {
             if (!$("#ticker_value").html().includes("BCH")) {
                 $("#ticker_value").html("N/A");
             }
-        },
+        }
     })
         .done(function () {
             setTimeout(function () {
