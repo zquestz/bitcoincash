@@ -2,24 +2,29 @@ GEM
   remote: https://rubygems.org/
   specs:
     cmdparse (2.0.6)
-    concurrent-ruby (1.1.8)
-    i18n (1.8.10)
+    concurrent-ruby (1.1.9)
+    i18n (1.8.11)
       concurrent-ruby (~> 1.0)
     juicer (1.2.0)
       cmdparse
       nokogiri (>= 1.5.0)
       rubyzip (= 0.9.9)
+    mini_portile2 (2.6.1)
+    nokogiri (1.12.5)
+      mini_portile2 (~> 2.6.1)
+      racc (~> 1.4)
     nokogiri (1.12.5-arm64-darwin)
       racc (~> 1.4)
     nokogiri (1.12.5-x86_64-darwin)
       racc (~> 1.4)
     nokogiri (1.12.5-x86_64-linux)
       racc (~> 1.4)
-    racc (1.5.2)
-    rake (13.0.3)
+    racc (1.6.0)
+    rake (13.0.6)
     rubyzip (0.9.9)
 
 PLATFORMS
+  ruby
   universal-darwin-20
   x86_64-darwin-18
   x86_64-linux
@@ -31,4 +36,4 @@ DEPENDENCIES
   rake
 
 BUNDLED WITH
-   2.2.17
+   2.2.32
