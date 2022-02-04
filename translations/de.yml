@@ -91,7 +91,7 @@ de:
     faq: "FAQ"
   layout:
     bitcoin_cash: "Bitcoin Cash"
-    lead: "Eine elektronische Peer-to-Peer Währung"
+    lead: "Elektronische Peer-to-Peer Währung"
     loading: "Lädt..."
   features:
     - title: "Schnell"
