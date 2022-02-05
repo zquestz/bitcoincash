@@ -6,15 +6,15 @@ de:
   meta:
     index:
       description: |
-        Bitcoin Cash bringt solides Geld in die Welt. Händler und Nutzer werden durch niedrige Gebühren und zuverlässige Bestätigungen gestärkt. Die Zukunft leuchtet hell mit uneingeschränktem Wachstum, globaler Akzeptanz, erlaubnisfreier Innovation und dezentraler Entwicklung.
+        Bitcoin Cash bringt solides Geld in die Welt. Händler und Nutzer werden durch niedrige Gebühren und zuverlässige Bestätigungen gestärkt. Die Zukunft winkt mit uneingeschränktem Wachstum, globaler Akzeptanz, Innovation und dezentraler Entwicklung.
       twitter:
         title: "Bitcoin Cash - Eine elektronische Peer-to-Peer Währung"
         description: |
-          Bitcoin Cash bringt solides Geld in die Welt. Händler und Nutzer werden durch niedrige Gebühren und zuverlässige Bestätigungen gestärkt. Die Zukunft leuchtet hell mit uneingeschränktem Wachstum, globaler Akzeptanz, erlaubnisfreier Innovation und dezentraler Entwicklung.
+          Bitcoin Cash bringt solides Geld in die Welt. Händler und Nutzer werden durch niedrige Gebühren und zuverlässige Bestätigungen gestärkt. Die winkt mit uneingeschränktem Wachstum, globaler Akzeptanz, Innovation und dezentraler Entwicklung.
       og:
         title: "Bitcoin Cash - Eine elektronische Peer-to-Peer Währung"
         description: |
-          Bitcoin Cash bringt solides Geld in die Welt. Händler und Nutzer werden durch niedrige Gebühren und zuverlässige Bestätigungen gestärkt. Die Zukunft leuchtet hell mit uneingeschränktem Wachstum, globaler Akzeptanz, erlaubnisfreier Innovation und dezentraler Entwicklung.
+          Bitcoin Cash bringt solides Geld in die Welt. Händler und Nutzer werden durch niedrige Gebühren und zuverlässige Bestätigungen gestärkt. Die Zukunft winkt mit uneingeschränktem Wachstum, globaler Akzeptanz, Innovation und dezentraler Entwicklung.
     graphics:
       description: |
         Eine Sammlung von Logos und Grafiken für Bitcoin Cash.
@@ -42,14 +42,14 @@ de:
       logos: "Logos"
       merchant: "Händler"
       donations: "Spenden"
-      identity: "Indentität"
+      identity: "Identität"
     types:
       primary: "Primäres BCH Logo"
       white: "BCH Logo Weiße Schrift"
       mark: "BCH Logo Marke"
       horizontal_primary: "Primäres Horizontales BCH Logo"
       horizontal_white: "Horizontales BCH Logo Weiß"
-      wallets_exchanges: "BCH Logo Für Brieftaschen / Börsen"
+      wallets_exchanges: "BCH Logo Für Wallets / Börsen"
     merchant:
       title: "Buttons für Händler"
       description: "Zeigen Sie Ihren Kunden, dass Sie Bitcoin Cash akzeptieren"
@@ -61,8 +61,8 @@ de:
       primary: "Primäres Bitcoin Cash Donations Accepted"
       orange: "Bitcoin Cash Donations Accepted Orange"
     identity:
-      title: "Visuele Identität"
-      description: "Bitcoin Cash fonts, farben und mehr."
+      title: "Visuelle Identität"
+      description: "Bitcoin Cash fonts, Farben und mehr."
       font: "Ubuntu Bold"
       font_italic: "Ubuntu Bold Kursiv"
       download: "Font herunterladen"
@@ -81,7 +81,7 @@ de:
     about: "Über"
     features: "Merkmale"
     nodes: "Knoten"
-    wallets: "Brieftaschen"
+    wallets: "Wallets"
     community: "Gemeinschaft"
     services: "Dienste"
     projects: "Projekte"
@@ -91,26 +91,26 @@ de:
     faq: "FAQ"
   layout:
     bitcoin_cash: "Bitcoin Cash"
-    lead: "Eine elektronische Peer-to-Peer Währung"
+    lead: "Elektronische Peer-to-Peer Währung"
     loading: "Lädt..."
   features:
     - title: "Schnell"
-      description: "Transaktionen sekundenschnell. Bestätigung in Minuten."
+      description: "Transaktionen sekundenschnell. Bestätigung in Minuten"
     - title: "Zuverlässig"
-      description: "Ein Netzwerk, das ohne Unterbrechung läuft."
+      description: "Ein Netzwerk, ohne Unterbrechungen"
     - title: "Niedrige Gebühren"
-      description: "Senden Sie Geld weltweit für ein Cent."
+      description: "Sende Geld für weniger als einen cent"
     - title: "Einfach"
-      description: "Einfach zu bedienen. Keine Probleme."
+      description: "Einfach zu bedienen und fehlerfrei"
     - title: "Stabil"
-      description: "Ein Zahlungssystem, das ein bewährtes Wertaufbewahrungsmittel ist."
+      description: "Als Zahlungsmittel und Wertanlage bewährt"
     - title: "Sicher"
-      description: "Die robusteste Blockchain-Technologie der Welt."
+      description: "Die robusteste Blockchain-Technologie der Welt"
   headings:
     history: "Die Geschichte von Bitcoin Cash"
     about: "Das beste Geld in der Welt"
     nodes: "Knoten"
-    wallets: "Brieftaschen"
+    wallets: "Wallets"
     services: "Dienste"
     projects: "Projekte"
     exchanges: "Börsen"
