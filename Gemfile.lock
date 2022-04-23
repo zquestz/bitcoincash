@@ -2,8 +2,8 @@ GEM
   remote: https://rubygems.org/
   specs:
     cmdparse (2.0.6)
-    concurrent-ruby (1.1.9)
-    i18n (1.8.11)
+    concurrent-ruby (1.1.10)
+    i18n (1.10.0)
       concurrent-ruby (~> 1.0)
     juicer (1.2.0)
       cmdparse
