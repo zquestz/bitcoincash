@@ -90,6 +90,7 @@ en:
     graphics: "Logos / Graphics"
     benefits: "Benefits"
     faq: "FAQ"
+    smartbch: "SmartBCH"
   layout:
     bitcoin_cash: "Bitcoin Cash"
     lead: "Peer-to-Peer Electronic Cash"
@@ -118,6 +119,7 @@ en:
     why: "Why Use Bitcoin Cash?"
     benefits: "Benefits for Merchants"
     development: "Decentralized Development"
+    smartbch: "SmartBCH"
   content:
     history:
       - |
