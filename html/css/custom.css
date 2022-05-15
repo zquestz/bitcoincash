@@ -123,14 +123,16 @@ p.question {
 .nodes div a:hover,
 .wallets div a:hover,
 .services div a:hover,
-.exchanges div a:hover {
+.exchanges div a:hover,
+.smartbch div a:hover {
   border-bottom: 3px solid #0ac18e;
 }
 
 .nodes div a,
 .wallets div a,
 .services div a,
-.exchanges div a {
+.exchanges div a,
+.smartbch div a {
   padding: 2em;
   width: 100%;
   height: 120px;
