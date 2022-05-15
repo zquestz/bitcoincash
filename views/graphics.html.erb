@@ -13,9 +13,9 @@
     <meta property="og:description" content="<%= I18n.t(:'meta.graphics.og.description').strip %>">
     <meta property="og:image" content="https://www.bitcoincash.org/img/bitcoincash-twitter.png">
     <%- if ['ar', 'fa'].include?(I18n.locale.to_s.split('-').first) -%>
-    <style>
-      section { direction: rtl; }
-    </style>
+      <style>
+        section { direction: rtl; }
+      </style>
     <%- end -%>
     <link rel="preconnect" href="https://fonts.gstatic.com" />
     <link href="/css/deps.min.css?v=<%= Digest::SHA256.file 'html/css/deps.min.css' %>" rel="stylesheet" type="text/css" media="all" />

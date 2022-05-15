@@ -2,22 +2,23 @@ GEM
   remote: https://rubygems.org/
   specs:
     cmdparse (2.0.6)
-    concurrent-ruby (1.1.9)
-    i18n (1.8.11)
+    concurrent-ruby (1.1.10)
+    htmlbeautifier (1.4.2)
+    i18n (1.10.0)
       concurrent-ruby (~> 1.0)
     juicer (1.2.0)
       cmdparse
       nokogiri (>= 1.5.0)
       rubyzip (= 0.9.9)
     mini_portile2 (2.8.0)
-    nokogiri (1.13.3)
+    nokogiri (1.13.4)
       mini_portile2 (~> 2.8.0)
       racc (~> 1.4)
-    nokogiri (1.13.3-arm64-darwin)
+    nokogiri (1.13.4-arm64-darwin)
       racc (~> 1.4)
-    nokogiri (1.13.3-x86_64-darwin)
+    nokogiri (1.13.4-x86_64-darwin)
       racc (~> 1.4)
-    nokogiri (1.13.3-x86_64-linux)
+    nokogiri (1.13.4-x86_64-linux)
       racc (~> 1.4)
     racc (1.6.0)
     rake (13.0.6)
@@ -31,8 +32,10 @@ PLATFORMS
 
 DEPENDENCIES
   cmdparse (~> 2.0.6)
+  htmlbeautifier
   i18n
   juicer
+  nokogiri (>= 1.13.4)
   rake
 
 BUNDLED WITH

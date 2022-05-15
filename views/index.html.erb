@@ -14,9 +14,9 @@
     <meta property="og:description" content="<%= I18n.t(:'meta.index.og.description').strip %>">
     <meta property="og:image" content="https://www.bitcoincash.org/img/bitcoincash-twitter.png">
     <%- if ['ar', 'fa'].include?(I18n.locale.to_s.split('-').first) -%>
-    <style>
-      section { direction: rtl; }
-    </style>
+      <style>
+        section { direction: rtl; }
+      </style>
     <%- end -%>
     <link rel="preconnect" href="https://fonts.gstatic.com" />
     <link href="/css/deps.min.css?v=<%= Digest::SHA256.file 'html/css/deps.min.css' %>" rel="stylesheet" type="text/css" media="all" />
@@ -56,17 +56,17 @@
                 </a>
               </li>
               <%- if !I18n.t(:'content.why').is_a?(String) -%>
-              <li>
-                <a href="#why" data-nav-section="why" class="inner-link">
-                  <span><%= I18n.t(:'sections.benefits').strip %></span>
-                </a>
-              </li>
+                <li>
+                  <a href="#why" data-nav-section="why" class="inner-link">
+                    <span><%= I18n.t(:'sections.benefits').strip %></span>
+                  </a>
+                </li>
               <%- else -%>
-              <li>
-                <a href="#why" data-nav-section="faq" class="inner-link">
-                  <span><%= I18n.t(:'sections.faq').strip %></span>
-                </a>
-              </li>
+                <li>
+                  <a href="#why" data-nav-section="faq" class="inner-link">
+                    <span><%= I18n.t(:'sections.faq').strip %></span>
+                  </a>
+                </li>
               <%- end -%>
               <li>
                 <a href="#nodes" data-nav-section="nodes" class="inner-link">
@@ -90,17 +90,24 @@
                               <%= I18n.t(:'sections.projects').strip %>
                             </a>
                           </li>
+                          <%- if I18n.exists?(:'sections.smartbch') -%>
+                            <li>
+                              <a href="#smartbch" data-nav-section="smartbch" >
+                                <%= I18n.t(:'sections.smartbch').strip %>
+                              </a>
+                            </li>
+                          <%- end -%>
                           <li>
                             <a href="#exchanges" data-nav-section="exchanges" class="inner-link">
                               <%= I18n.t(:'sections.exchanges').strip %>
                             </a>
                           </li>
                           <%- if I18n.exists?(:'sections.graphics') -%>
-                          <li>
-                            <a href="graphics/" class="external">
-                              <%= I18n.t(:'sections.graphics').strip %>
-                            </a>
-                          </li>
+                            <li>
+                              <a href="graphics/" class="external">
+                                <%= I18n.t(:'sections.graphics').strip %>
+                              </a>
+                            </li>
                           <%- end -%>
                         </ul>
                       </div>
@@ -121,184 +128,181 @@
                         -%>
                         <ul class="menu-vertical">
                           <%- group.each do |pair| -%>
-                          <li>
-                            <a href="/<%= pair[0].to_s.downcase %>/" class="external">
-                              <%= pair[1] %>
-                            </a>
-                          </li>
+                            <li>
+                              <a href="/<%= pair[0].to_s.downcase %>/" class="external">
+                                <%= pair[1] %>
+                              </a>
+                            </li>
                           <%- end -%>
                         </ul>
-                        <%- end -%>
-                      </div>
+                      <%- end -%>
                     </div>
                   </div>
                 </div>
-              </li>
-            </ul>
-          </div>
-        </nav>
-      </div>
-    </header>
-    <section id="fh5co-home" data-section="home" class="home site-header">
-      <div class="container">
-        <div class="row">
-          <div class="col-xs-8 col-xs-offset-2 col-sm-6 col-sm-offset-3 col-md-4 col-md-offset-4 text-center hero-logo">
-            <img alt="<%= I18n.t(:'layout.bitcoin_cash').strip %>" src="/img/bitcoin-cash-logo-wt.svg">
-            <h1 class="lead">
-              <%= I18n.t(:'layout.lead').strip %>
-            </h1>
-          </div>
+              </div>
+            </li>
+          </ul>
         </div>
-        <div class="row">
-          <div class="col-sm-12 ticker text-center">
-            <span id="ticker_value"><%= I18n.t(:'layout.loading').strip %></span>
-          </div>
+      </nav>
+    </div>
+  </header>
+  <section id="fh5co-home" data-section="home" class="home site-header">
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-8 col-xs-offset-2 col-sm-6 col-sm-offset-3 col-md-4 col-md-offset-4 text-center hero-logo">
+          <img alt="<%= I18n.t(:'layout.bitcoin_cash').strip %>" src="/img/bitcoin-cash-logo-wt.svg">
+          <h1 class="lead">
+            <%= I18n.t(:'layout.lead').strip %>
+          </h1>
         </div>
       </div>
-      <div class="gap"></div>
+      <div class="row">
+        <div class="col-sm-12 ticker text-center">
+          <span id="ticker_value"><%= I18n.t(:'layout.loading').strip %></span>
+        </div>
+      </div>
+    </div>
+    <div class="gap"></div>
+  </section>
+  <div class="main-container" id="home-section">
+    <section class="space--xxs no-bottom" id="about-section" data-section="about">
+      <div class="container benefits">
+        <div class="row text-center">
+          <div class="col-sm-4 col-md-4">
+            <p><i class="fa fa-bolt fa-fw fa-2x"></i></p>
+            <p><strong><%= I18n.t(:'features')[0][:title].strip %></strong></p>
+            <p><%= I18n.t(:'features')[0][:description].strip %></p>
+          </div>
+          <div class="col-sm-4 col-md-4">
+            <p><i class="fa fa-thumbs-up fa-fw fa-2x"></i></p>
+            <p><strong><%= I18n.t(:'features')[1][:title].strip %></strong></p>
+            <p><%= I18n.t(:'features')[1][:description].strip %></p>
+          </div>
+          <div class="col-sm-4 col-md-4">
+            <p><i class="fa fa-arrow-alt-circle-down fa-fw fa-2x"></i></p>
+            <p><strong><%= I18n.t(:'features')[2][:title].strip %></strong></p>
+            <p><%= I18n.t(:'features')[2][:description].strip %></p>
+          </div>
+        </div>
+        <div class="row text-center">
+          <div class="col-sm-4 col-md-4">
+            <p><i class="fa fa-check fa-fw fa-2x"></i></p>
+            <p><strong><%= I18n.t(:'features')[3][:title].strip %></strong></p>
+            <p><%= I18n.t(:'features')[3][:description].strip %></p>
+          </div>
+          <div class="col-sm-4 col-md-4">
+            <p><i class="fa fa-cubes fa-fw fa-2x"></i></p>
+            <p><strong><%= I18n.t(:'features')[4][:title].strip %></strong></p>
+            <p><%= I18n.t(:'features')[4][:description].strip %></p>
+          </div>
+          <div class="col-sm-4 col-md-4">
+            <p><i class="fa fa-lock fa-fw fa-2x"></i></p>
+            <p><strong><%= I18n.t(:'features')[5][:title].strip %></strong></p>
+            <p><%= I18n.t(:'features')[5][:description].strip %></p>
+          </div>
+        </div>
+      </div>
     </section>
-    <div class="main-container" id="home-section">
-      <section class="space--xxs no-bottom" id="about-section" data-section="about">
-        <div class="container benefits">
-          <div class="row text-center">
-            <div class="col-sm-4 col-md-4">
-              <p><i class="fa fa-bolt fa-fw fa-2x"></i></p>
-              <p><strong><%= I18n.t(:'features')[0][:title].strip %></strong></p>
-              <p><%= I18n.t(:'features')[0][:description].strip %></p>
-            </div>
-            <div class="col-sm-4 col-md-4">
-              <p><i class="fa fa-thumbs-up fa-fw fa-2x"></i></p>
-              <p><strong><%= I18n.t(:'features')[1][:title].strip %></strong></p>
-              <p><%= I18n.t(:'features')[1][:description].strip %></p>
-            </div>
-            <div class="col-sm-4 col-md-4">
-              <p><i class="fa fa-arrow-alt-circle-down fa-fw fa-2x"></i></p>
-              <p><strong><%= I18n.t(:'features')[2][:title].strip %></strong></p>
-              <p><%= I18n.t(:'features')[2][:description].strip %></p>
-            </div>
-          </div>
-          <div class="row text-center">
-            <div class="col-sm-4 col-md-4">
-              <p><i class="fa fa-check fa-fw fa-2x"></i></p>
-              <p><strong><%= I18n.t(:'features')[3][:title].strip %></strong></p>
-              <p><%= I18n.t(:'features')[3][:description].strip %></p>
-            </div>
-            <div class="col-sm-4 col-md-4">
-              <p><i class="fa fa-cubes fa-fw fa-2x"></i></p>
-              <p><strong><%= I18n.t(:'features')[4][:title].strip %></strong></p>
-              <p><%= I18n.t(:'features')[4][:description].strip %></p>
-            </div>
-            <div class="col-sm-4 col-md-4">
-              <p><i class="fa fa-lock fa-fw fa-2x"></i></p>
-              <p><strong><%= I18n.t(:'features')[5][:title].strip %></strong></p>
-              <p><%= I18n.t(:'features')[5][:description].strip %></p>
-            </div>
+    <a id="about"></a>
+    <section class="space--xxs" data-section="about2" id="about2-section">
+      <div class="container">
+        <div class="row text-center section-heading">
+          <div class='col-sm-12'>
+            <h2><%= I18n.t(:'headings.about').strip %></h2>
           </div>
         </div>
-      </section>
-      <a id="about"></a>
-      <section class="space--xxs" data-section="about2" id="about2-section">
-        <div class="container">
-          <div class="row text-center section-heading">
-            <div class='col-sm-12'>
-              <h2><%= I18n.t(:'headings.about').strip %></h2>
-            </div>
-          </div>
-          <div class="row">
-            <div class="col-sm-12 col-md-12">
-              <%= I18n.t(:'content.about').map { |c| "<p>#{c.strip}</p>" }.join("\n#{' ' * 14}") %>
-            </div>
+        <div class="row">
+          <div class="col-sm-12 col-md-12">
+            <%= I18n.t(:'content.about').map { |c| "<p>#{c.strip}</p>" }.join("\n#{' ' * 14}") %>
           </div>
         </div>
-      </section>
-      <a id="wallets"></a>
-      <section class="space--xxs text-center gray border-bottom" id="wallets-section" data-section="wallets">
-        <div class="container wallets">
-          <div class="row">
-            <div class="col-xs-12 section-heading ">
-              <h2><%= I18n.t(:'headings.wallets').strip %></h2>
-            </div>
-          </div>
-          <div class="row">
-            <div class="col-sm-6 col-md-3 vertical-align">
-              <a href="https://wallet.bitcoin.com/" target="_blank"><img alt="Bitcoin.com" src="/img/wallets/bitcoindotcom.png"></a>
-            </div>
-            <div class="col-sm-6 col-md-3 vertical-align">
-              <a href="https://electroncash.org/" target="_blank"><img alt="Electron Cash" src="/img/wallets/electroncash.png"></a>
-            </div>
-            <div class="col-sm-6 col-md-3 vertical-align">
-              <a href="https://edgesecure.co/" target="_blank"><img alt="Edge" src="/img/wallets/edge.png"></a>
-            </div>
-            <div class="col-sm-6 col-md-3 vertical-align">
-              <a href="https://bitpay.com/wallet" target="_blank"><img alt="Bitpay Wallet" src="/img/wallets/bitpay.png"></a>
-            </div>
-            <div class="col-sm-6 col-md-3 vertical-align">
-              <a href="http://www.ledgerwallet.com/" target="_blank"><img alt="Ledger" src="/img/wallets/ledger.png"></a>
-            </div>
-            <div class="col-sm-6 col-md-3 vertical-align">
-              <a href="https://wallet.trezor.io/" target="_blank"><img alt="Trezor" src="/img/wallets/trezor.png"></a>
-            </div>
-            <div class="col-sm-6 col-md-3 vertical-align">
-              <a href="https://shapeshift.com/keepkey" target="_blank"><img alt="KeepKey" src="/img/wallets/keepkey.png"></a>
-            </div>
-            <div class="col-sm-6 col-md-3 vertical-align">
-              <a href="https://satochip.io/" target="_blank"><img alt="KeepKey" src="/img/wallets/satochip.png"></a>
-            </div>
-            <div class="col-sm-6 col-md-3 vertical-align">
-              <a href="https://www.exodus.io/" target="_blank"><img alt="Exodus" src="/img/wallets/exodus.png"></a>
-            </div>
-            <div class="col-sm-6 col-md-3 vertical-align">
-              <a href="https://pokket.cash/" target="_blank"><img alt="Pokket" src="/img/wallets/pokket.png"></a>
-            </div>
-            <div class="col-sm-6 col-md-3 vertical-align">
-              <a href="https://brd.com/" target="_blank"><img alt="BRD" src="/img/wallets/bread.png"></a>
-            </div>
-            <div class="col-sm-6 col-md-3 vertical-align">
-              <a href="https://wallet.coinbase.com/" target="_blank"><img alt="Coinbase Wallet" src="/img/wallets/coinbase-wallet.png"></a>
-            </div>
-            <div class="col-sm-6 col-md-3 vertical-align">
-              <a href="https://zapit.io/" target="_blank"><img alt="Zapit" src="/img/wallets/zapit.png"></a>
-            </div>
-            <div class="col-sm-6 col-md-3 vertical-align">
-              <a href="https://viawallet.com/" target="_blank"><img alt="ViaWallet" src="/img/wallets/viawallet.png"></a>
-            </div>
-            <div class="col-sm-6 col-md-3 vertical-align">
-              <a href="https://wallet.btc.com/" target="_blank"><img alt="BCC Wallet" src="/img/wallets/btcdotcom.png"></a>
-            </div>
-            <div class="col-sm-6 col-md-3 vertical-align">
-              <a href="https://www.mobi.me/" target="_blank"><img alt="Mobi" src="/img/wallets/mobi.png"></a>
-            </div>
-            <div class="col-sm-6 col-md-3 vertical-align">
-              <a href="https://jaxx.io/" target="_blank"><img alt="Jaxx" src="/img/wallets/jaxx.png"></a>
-            </div>
-            <div class="col-sm-6 col-md-3 vertical-align">
-              <a href="https://www.coin.space" target="_blank"><img alt="Coin Space" src="/img/wallets/coinspace.png"></a>
-            </div>
-            <div class="col-sm-6 col-md-3 vertical-align">
-              <a href="https://guarda.com/" target="_blank"><img alt="Guarda Wallet" src="/img/wallets/guarda.png"></a>
-            </div>
-            <div class="col-sm-6 col-md-3 vertical-align">
-              <a href="https://coinomi.com/" target="_blank"><img alt="Coinomi" src="/img/wallets/coinomi.png"></a>
-            </div>
-            <div class="col-sm-6 col-md-3 vertical-align">
-              <a href="https://strongcoin.com/" target="_blank"><img alt="StrongCoin" src="/img/wallets/strongcoin.png"></a>
-            </div>
-            <div class="col-sm-6 col-md-3 vertical-align">
-              <a href="https://www.melis.io/" target="_blank"><img alt="Melis" src="/img/wallets/melisio.png"></a>
-            </div>
-            <div class="col-sm-6 col-md-3 vertical-align">
-              <a href="https://cashaddress.org/" target="_blank"><img alt="Cash Address" src="/img/wallets/cashaddress.png"></a>
-            </div>
-            <div class="col-sm-6 col-md-3 vertical-align">
-              <a href="https://walletgenerator.net/?currency=BitcoinCash" target="_blank"><img alt="WalletGenerator.net" src="/img/wallets/walletgenerator.png"></a>
-            </div>
-            <div class="col-sm-6 col-md-3 vertical-align">
-              <a href="https://www.whalesheaven.com/whcypher" target="_blank"><img alt="WH Cypher" src="/img/wallets/whcypher.png"></a>
-            </div>
+      </div>
+    </section>
+    <a id="wallets"></a>
+    <section class="space--xxs text-center gray border-bottom" id="wallets-section" data-section="wallets">
+      <div class="container wallets">
+        <div class="row">
+          <div class="col-xs-12 section-heading ">
+            <h2><%= I18n.t(:'headings.wallets').strip %></h2>
           </div>
         </div>
-      </section>
-      <%- if !I18n.t(:'content.faq').is_a?(String) -%>
+        <div class="row">
+          <div class="col-sm-6 col-md-3 vertical-align">
+            <a href="https://wallet.bitcoin.com/" target="_blank"><img alt="Bitcoin.com" src="/img/wallets/bitcoindotcom.png"></a>
+          </div>
+          <div class="col-sm-6 col-md-3 vertical-align">
+            <a href="https://electroncash.org/" target="_blank"><img alt="Electron Cash" src="/img/wallets/electroncash.png"></a>
+          </div>
+          <div class="col-sm-6 col-md-3 vertical-align">
+            <a href="https://edgesecure.co/" target="_blank"><img alt="Edge" src="/img/wallets/edge.png"></a>
+          </div>
+          <div class="col-sm-6 col-md-3 vertical-align">
+            <a href="https://bitpay.com/wallet" target="_blank"><img alt="Bitpay Wallet" src="/img/wallets/bitpay.png"></a>
+          </div>
+          <div class="col-sm-6 col-md-3 vertical-align">
+            <a href="http://www.ledgerwallet.com/" target="_blank"><img alt="Ledger" src="/img/wallets/ledger.png"></a>
+          </div>
+          <div class="col-sm-6 col-md-3 vertical-align">
+            <a href="https://wallet.trezor.io/" target="_blank"><img alt="Trezor" src="/img/wallets/trezor.png"></a>
+          </div>
+          <div class="col-sm-6 col-md-3 vertical-align">
+            <a href="https://shapeshift.com/keepkey" target="_blank"><img alt="KeepKey" src="/img/wallets/keepkey.png"></a>
+          </div>
+          <div class="col-sm-6 col-md-3 vertical-align">
+            <a href="https://satochip.io/" target="_blank"><img alt="KeepKey" src="/img/wallets/satochip.png"></a>
+          </div>
+          <div class="col-sm-6 col-md-3 vertical-align">
+            <a href="https://www.exodus.io/" target="_blank"><img alt="Exodus" src="/img/wallets/exodus.png"></a>
+          </div>
+          <div class="col-sm-6 col-md-3 vertical-align">
+            <a href="https://pokket.cash/" target="_blank"><img alt="Pokket" src="/img/wallets/pokket.png"></a>
+          </div>
+          <div class="col-sm-6 col-md-3 vertical-align">
+            <a href="https://www.paytaca.com/" target="_blank"><img alt="Paytaca" src="/img/wallets/paytaca.svg"></a>
+          </div>
+          <div class="col-sm-6 col-md-3 vertical-align">
+            <a href="https://brd.com/" target="_blank"><img alt="BRD" src="/img/wallets/bread.png"></a>
+          </div>
+          <div class="col-sm-6 col-md-3 vertical-align">
+            <a href="https://wallet.coinbase.com/" target="_blank"><img alt="Coinbase Wallet" src="/img/wallets/coinbase-wallet.png"></a>
+          </div>
+          <div class="col-sm-6 col-md-3 vertical-align">
+            <a href="https://zapit.io/" target="_blank"><img alt="Zapit" src="/img/wallets/zapit.png"></a>
+          </div>
+          <div class="col-sm-6 col-md-3 vertical-align">
+            <a href="https://viawallet.com/" target="_blank"><img alt="ViaWallet" src="/img/wallets/viawallet.png"></a>
+          </div>
+          <div class="col-sm-6 col-md-3 vertical-align">
+            <a href="https://www.mobi.me/" target="_blank"><img alt="Mobi" src="/img/wallets/mobi.png"></a>
+          </div>
+          <div class="col-sm-6 col-md-3 vertical-align">
+            <a href="https://jaxx.io/" target="_blank"><img alt="Jaxx" src="/img/wallets/jaxx.png"></a>
+          </div>
+          <div class="col-sm-6 col-md-3 vertical-align">
+            <a href="https://www.coin.space" target="_blank"><img alt="Coin Space" src="/img/wallets/coinspace.png"></a>
+          </div>
+          <div class="col-sm-6 col-md-3 vertical-align">
+            <a href="https://guarda.com/" target="_blank"><img alt="Guarda Wallet" src="/img/wallets/guarda.png"></a>
+          </div>
+          <div class="col-sm-6 col-md-3 vertical-align">
+            <a href="https://coinomi.com/" target="_blank"><img alt="Coinomi" src="/img/wallets/coinomi.png"></a>
+          </div>
+          <div class="col-sm-6 col-md-3 vertical-align">
+            <a href="https://strongcoin.com/" target="_blank"><img alt="StrongCoin" src="/img/wallets/strongcoin.png"></a>
+          </div>
+          <div class="col-sm-6 col-md-3 vertical-align">
+            <a href="https://www.melis.io/" target="_blank"><img alt="Melis" src="/img/wallets/melisio.png"></a>
+          </div>
+          <div class="col-sm-6 col-md-3 vertical-align">
+            <a href="https://cashaddress.org/" target="_blank"><img alt="Cash Address" src="/img/wallets/cashaddress.png"></a>
+          </div>
+          <div class="col-sm-6 col-md-3 vertical-align">
+            <a href="https://www.whalesheaven.com/whcypher" target="_blank"><img alt="WH Cypher" src="/img/wallets/whcypher.png"></a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <%- if !I18n.t(:'content.faq').is_a?(String) -%>
       <a id="faq"></a>
       <section class="space--xxs" id="faq-section" data-section="faq">
         <div class="container">
@@ -310,570 +314,622 @@
           <div class="row">
             <div class="col-xs-12">
               <% I18n.t(:'content.faq').each do |qa| %><%= ' ' * 16 %>
-              <p class="question"><%= qa[:question].strip %></p>
-              <%= qa[:answer].map { |a| "<p>#{a.strip}</p>" }.join("\n#{' ' * 14}") %>
+                <p class="question"><%= qa[:question].strip %></p>
+                <%= qa[:answer].map { |a| "<p>#{a.strip}</p>" }.join("\n#{' ' * 14}") %>
               <%- end -%>
-              </div>
             </div>
           </div>
         </div>
-      </section>
-      <%- end -%>
-      <a id="why"></a>
-      <%- if !I18n.t(:'content.why').is_a?(String) -%>
-      <section class="space--xxs" id="why-section" data-section="why">
-        <div class="container">
-          <div class="row text-center">
-            <div class="col-xs-12 section-heading">
-              <h2><%= I18n.t(:'headings.why').strip %></h2>
-            </div>
+      </div>
+    </section>
+  <%- end -%>
+  <a id="why"></a>
+  <%- if !I18n.t(:'content.why').is_a?(String) -%>
+    <section class="space--xxs" id="why-section" data-section="why">
+      <div class="container">
+        <div class="row text-center">
+          <div class="col-xs-12 section-heading">
+            <h2><%= I18n.t(:'headings.why').strip %></h2>
           </div>
-          <div class="row">
-            <div class="col-xs-12">
-              <%- I18n.t(:'content.why').each do |qa| -%>
+        </div>
+        <div class="row">
+          <div class="col-xs-12">
+            <%- I18n.t(:'content.why').each do |qa| -%>
               <p class="question"><%= qa[:benefit].strip %></p>
               <%= qa[:descrip].map { |a| "<p>#{a.strip}</p>" }.join("\n#{' ' * 14}") %>
-              <%- end -%>
-            </div>
+            <%- end -%>
           </div>
         </div>
-      </section>
-      <%- end -%>
-      <%- if !I18n.t(:'content.benefits').is_a?(String) -%>
-      <section class="space--xxs" id="merchant-benefits-section" data-section="benefits">
-        <div class="container">
-          <div class="row text-center">
-            <div class="col-xs-12 section-heading">
-              <h2><%= I18n.t(:'headings.benefits').strip %></h2>
-            </div>
+      </div>
+    </section>
+  <%- end -%>
+  <%- if !I18n.t(:'content.benefits').is_a?(String) -%>
+    <section class="space--xxs" id="merchant-benefits-section" data-section="benefits">
+      <div class="container">
+        <div class="row text-center">
+          <div class="col-xs-12 section-heading">
+            <h2><%= I18n.t(:'headings.benefits').strip %></h2>
           </div>
-          <div class="row">
-            <div class="col-xs-12">
-              <%- I18n.t(:'content.benefits').each do |qa| -%>
+        </div>
+        <div class="row">
+          <div class="col-xs-12">
+            <%- I18n.t(:'content.benefits').each do |qa| -%>
               <p class="question"><%= qa[:benefit].strip %></p>
               <%= qa[:descrip].map { |a| "<p>#{a.strip}</p>" }.join("\n#{' ' * 14}") %>
-              <%- end -%>
-            </div>
+            <%- end -%>
           </div>
         </div>
-      </section>
-      <%- end -%>
-      <%- if !I18n.t(:'content.history').is_a?(String) -%>
-      <section class="space--xxs" id="history-section"  data-section="history">
-        <div class="container">
-          <div class="row text-center">
-            <div class='col-sm-12 section-heading '>
-              <h2><%= I18n.t(:'headings.history').strip %></h2>
-            </div>
-          </div>
-          <div class="row">
-            <div class="col-sm-12 col-md-12">
-              <%= I18n.t(:'content.history').map { |c| "<p>#{c.strip}</p>" }.join("\n#{' ' * 14}") %>
-            </div>
+      </div>
+    </section>
+  <%- end -%>
+  <%- if !I18n.t(:'content.history').is_a?(String) -%>
+    <section class="space--xxs" id="history-section"  data-section="history">
+      <div class="container">
+        <div class="row text-center">
+          <div class='col-sm-12 section-heading '>
+            <h2><%= I18n.t(:'headings.history').strip %></h2>
           </div>
         </div>
-      </section>
-      <%- end -%>
-      <%- if !I18n.t(:'content.development').is_a?(String) -%>
-      <section class="space--xxs" id="development-section"  data-section="development">
-        <div class="container">
-          <div class="row text-center">
-            <div class='col-sm-12 section-heading '>
-              <h2><%= I18n.t(:'headings.development').strip %></h2>
-            </div>
-          </div>
-          <div class="row">
-            <div class="col-sm-12 col-md-12">
-              <%= I18n.t(:'content.development').map { |c| "<p>#{c.strip}</p>" }.join("\n#{' ' * 14}") %>
-            </div>
+        <div class="row">
+          <div class="col-sm-12 col-md-12">
+            <%= I18n.t(:'content.history').map { |c| "<p>#{c.strip}</p>" }.join("\n#{' ' * 14}") %>
           </div>
         </div>
-      </section>
-      <%- end -%>
-      <a id="nodes"></a>
-      <section class="space--xxs text-center gray border-bottom" id="nodes-section"  data-section="nodes">
-        <div class="container nodes">
-          <div class="row">
-            <div class="col-xs-12 section-heading ">
-              <h2><%= I18n.t(:'headings.nodes').strip %></h2>
-            </div>
-          </div>
-          <div class="row">
-            <div class="col-sm-6 col-md-6 vertical-align">
-              <a href="https://bitcoincashnode.org" target="_blank"><img alt="Bitcoin Cash Node" src="/img/wallets/bitcoincashnode.png"></a>
-            </div>
-            <div class="col-sm-6 col-md-6 vertical-align">
-              <a href="https://www.bitcoinunlimited.info" target="_blank"><img alt="Bitcoin Unlimited" src="/img/wallets/bitcoinunlimited.png"></a>
-            </div>
-            <div class="col-sm-6 col-md-6 vertical-align">
-              <a href="https://bchd.cash" target="_blank"><img alt="BCHD" src="/img/wallets/bchd.png"></a>
-            </div>
-            <div class="col-sm-6 col-md-6 vertical-align">
-              <a href="https://flowee.org" target="_blank"><img alt="Flowee The Hub" src="/img/wallets/flowee.png"></a>
-            </div>
-            <div class="col-sm-6 col-md-6 vertical-align">
-              <a href="https://bitcoinverde.org" target="_blank"><img alt="Bitcoin Verde" src="/img/wallets/bitcoinverde.png"></a>
-            </div>
-            <div class="col-sm-6 col-md-6 vertical-align">
-              <a href="https://kth.cash" target="_blank"><img alt="Knuth" src="/img/wallets/knuth.png"></a>
-            </div>
+      </div>
+    </section>
+  <%- end -%>
+  <%- if !I18n.t(:'content.development').is_a?(String) -%>
+    <section class="space--xxs" id="development-section"  data-section="development">
+      <div class="container">
+        <div class="row text-center">
+          <div class='col-sm-12 section-heading '>
+            <h2><%= I18n.t(:'headings.development').strip %></h2>
           </div>
         </div>
-      </section>
-      <a id="services"></a>
-      <section class="space--xxs text-center gray border-bottom" id="services-section"  data-section="services">
-        <div class="container services">
-          <div class="row">
-            <div class="col-xs-12 section-heading ">
-              <h2><%= I18n.t(:'headings.services').strip %></h2>
-            </div>
-          </div>
-          <div class="row">
-            <div class="col-sm-4 col-md-3 vertical-align">
-              <a href="https://purse.io" target="_blank"><img alt="Purse" src="/img/services/purseio.png"></a>
-            </div>
-            <div class="col-sm-4 col-md-3 vertical-align">
-              <a href="https://bitpay.com" target="_blank"><img alt="Bitpay" src="/img/wallets/bitpay.png"></a>
-            </div>
-            <div class="col-sm-4 col-md-3 vertical-align">
-              <a href="https://gocrypto.com/" target="_blank"><img alt="GoCrypto" src="/img/services/gocrypto.png"></a>
-            </div>
-            <div class="col-sm-4 col-md-3 vertical-align">
-              <a href="https://commerce.coinbase.com" target="_blank"><img alt="Coinbase Commerce" src="/img/services/coinbasecommerce.png"></a>
-            </div>
-            <div class="col-sm-4 col-md-3 vertical-align">
-              <a href="https://map.bitcoin.com" target="_blank"><img alt="Bitcoin.com Maps" src="/img/services/bitcoincommaps.png"></a>
-            </div>
-            <div class="col-sm-4 col-md-3 vertical-align">
-              <a href="https://read.cash/" target="_blank"><img alt="read.cash" src="/img/services/readcash.png"></a>
-            </div>
-            <div class="col-sm-4 col-md-3 vertical-align">
-              <a href="https://noise.cash/" target="_blank"><img alt="noise.cash" src="/img/services/noisecash.png"></a>
-            </div>
-            <div class="col-sm-4 col-md-3 vertical-align">
-              <a href="https://memo.cash/" target="_blank"><img alt="memo.cash" src="/img/services/memocash.png"></a>
-            </div>
-            <div class="col-sm-4 col-md-3 vertical-align">
-              <a href="https://member.cash/" target="_blank"><img alt="member.cash" src="/img/services/membercash.png"></a>
-            </div>
-            <div class="col-sm-4 col-md-3 vertical-align">
-            <a href="https://enter-the-sphere.com/" target="_blank"><img alt="Enter The Sphere" src="/img/services/thesphere.png"></a>
-          </div>
-            <div class="col-sm-4 col-md-3 vertical-align">
-              <a href="https://bch.games/" target="_blank"><img alt="BCH.games" src="/img/services/bchgames.png"></a>
-            </div>
-            <div class="col-sm-4 col-md-3 vertical-align">
-              <a href="https://blockchain.poker/" target="_blank"><img alt="Blockchain Poker" src="/img/services/blockchainpoker.png"></a>
-            </div>
-            <div class="col-sm-4 col-md-3 vertical-align">
-              <a href="https://lazyfox.io/" target="_blank"><img alt="Lazyfox" src="/img/services/lazyfox.png"></a>
-            </div>
-            <div class="col-sm-4 col-md-3 vertical-align">
-              <a href="https://venezuelaworkers.com/" target="_blank"><img alt="Venezuela Workers" src="/img/services/venezuelaworkers.png"></a>
-            </div>
-            <div class="col-sm-4 col-md-3 vertical-align">
-              <a href="https://gitcash.io/" target="_blank"><img alt="GitCash" src="/img/services/gitcash.png"></a>
-            </div>
-            <div class="col-sm-4 col-md-3 vertical-align">
-              <a href="https://tipbitcoin.cash/" target="_blank"><img alt="tipbitcoin.cash" src="/img/services/tipbitcoincash.png"></a>
-            </div>
-            <div class="col-sm-4 col-md-3 vertical-align">
-              <a href="http://www.chaintip.org" target="_blank"><img alt="ChainTip" src="/img/services/chaintip.png"></a>
-            </div>
-            <div class="col-sm-4 col-md-3 vertical-align">
-              <a href="https://detoken.net/" target="_blank"><img alt="Detoken" src="/img/services/detoken.png"></a>
-            </div>
-            <div class="col-sm-4 col-md-3 vertical-align">
-              <a href="https://cheapair.com/" target="_blank"><img alt="CheapAir" src="/img/services/cheapair.png"></a>
-            </div>
-            <div class="col-sm-4 col-md-3 vertical-align">
-              <a href="https://namecheap.com/" target="_blank"><img alt="Namecheap" src="/img/services/namecheap.png"></a>
-            </div>
-            <div class="col-sm-4 col-md-3 vertical-align">
-              <a href="https://blockchair.com/" target="_blank"><img alt="Blockchair" src="/img/services/blockchair.png"></a>
-            </div>
-            <div class="col-sm-4 col-md-3 vertical-align">
-              <a href="https://cash.coin.dance/" target="_blank"><img alt="Coin Dance" src="/img/services/coindance.png"></a>
-            </div>
-            <div class="col-sm-4 col-md-3 vertical-align">
-              <a href="https://txstreet.com/v/bch-btc" target="_blank"><img alt="TxStreet" src="/img/services/txstreet.png"></a>
-            </div>
-            <div class="col-sm-4 col-md-3 vertical-align">
-              <a href="https://fork.lol" target="_blank"><img alt="Fork.lol" src="/img/services/forklol.png"></a>
-            </div>
-            <div class="col-sm-4 col-md-3 vertical-align">
-              <a href="https://www.alfatop.me" target="_blank"><img alt="ALFAtop" src="/img/services/alfatopme.png"></a>
-            </div>
-            <div class="col-sm-4 col-md-3 vertical-align">
-              <a href="https://alagoria.com/" target="_blank"><img alt="Alagoria" src="/img/services/alagoria.png"></a>
-            </div>
-            <div class="col-sm-4 col-md-3 vertical-align">
-              <a href="https://visionati.com" target="_blank"><img alt="Visionati" src="/img/services/visionati.png"></a>
-            </div>
-            <div class="col-sm-4 col-md-3 vertical-align">
-              <a href="https://satoshidice.com/" target="_blank"><img alt="Satoshi Dice" src="/img/services/satoshidice.png"></a>
-            </div>
-            <div class="col-sm-4 col-md-3 vertical-align">
-              <a href="https://solomonpierce.com/" target="_blank"><img alt="Solomon Pierce" src="/img/services/solomonpierce.png"></a>
-            </div>
-            <div class="col-sm-4 col-md-3 vertical-align">
-              <a href="https://rocketr.net/" target="_blank"><img alt="Rocketr" src="/img/services/rocketr.png"></a>
-            </div>
-            <div class="col-sm-4 col-md-3 vertical-align">
-              <a href="https://www.coinpayments.net/" target="_blank"><img alt="CoinPayments" src="/img/services/coinpayments.png"></a>
-            </div>
-            <div class="col-sm-4 col-md-3 vertical-align">
-              <a href="https://coingate.com/" target="_blank"><img alt="CoinGate" src="/img/services/coingate.png"></a>
-            </div>
-            <div class="col-sm-4 col-md-3 vertical-align">
-              <a href="https://gourl.io/" target="_blank"><img alt="GoUrl" src="/img/services/gourl.png"></a>
-            </div>
-            <div class="col-sm-4 col-md-3 vertical-align">
-              <a href="https://www.alfacoins.com" target="_blank"><img alt="ALFAcoins" src="/img/services/alfacoins.png"></a>
-            </div>
-            <div class="col-sm-4 col-md-3 vertical-align">
-              <a href="https://www.livingroomofsatoshi.com/?sc=bch" target="_blank"><img alt="Living Room Of Satoshi" src="/img/services/livingroomofsatoshi.png"></a>
-            </div>
-            <div class="col-sm-4 col-md-3 vertical-align">
-              <a href="https://www.piixpay.com/" target="_blank"><img alt="piixPay" src="/img/services/piixpay.png"></a>
-            </div>
-            <div class="col-sm-4 col-md-3 vertical-align">
-              <a href="https://www.bitcoinrewards.com" target="_blank"><img alt="BitcoinRewards" src="/img/services/bitcoinrewards.png"></a>
-            </div>
-            <div class="col-sm-4 col-md-3 vertical-align">
-              <a href="https://pompler.com" target="_blank"><img alt="Pompler" src="/img/services/pompler.png"></a>
-            </div>
-            <div class="col-sm-4 col-md-3 vertical-align">
-              <a href="https://www.viabtc.com/" target="_blank"><img alt="ViaBTC" src="/img/services/viabtc.png"></a>
-            </div>
-            <div class="col-sm-4 col-md-3 vertical-align">
-              <a href="https://simpleledger.info/" target="_blank"><img alt="SLP Explorer" src="/img/services/slpexplorer.png"></a>
-            </div>
-            <div class="col-sm-4 col-md-3 vertical-align">
-              <a href="https://explore.cash/" target="_blank"><img alt="BCHD Explorer" src="/img/services/explorecash.png"></a>
-            </div>
-            <div class="col-sm-4 col-md-3 vertical-align">
-              <a href="https://www.wmtransfer.com/" target="_blank"><img alt="Web Money" src="/img/services/webmoney.png"></a>
-            </div>
-            <div class="col-sm-4 col-md-3 vertical-align">
-              <a href="https://bitcoin-india.org/" target="_blank"><img alt="Bitcoin India" src="/img/services/bitcoinindia.png"></a>
-            </div>
-            <div class="col-sm-4 col-md-3 vertical-align">
-              <a href="https://www.menufy.com/" target="_blank"><img alt="Menufy" src="/img/services/menufy.png"></a>
-            </div>
-            <div class="col-sm-4 col-md-3 vertical-align">
-              <a href="https://card.coinbase.com/" target="_blank"><img alt="Coinbase Card" src="/img/services/coinbasecard.png"></a>
-            </div>
-            <div class="col-sm-4 col-md-3 vertical-align">
-              <a href="https://getblockcard.com/" target="_blank"><img alt="Blockcard" src="/img/services/blockcard.png"></a>
-            </div>
-            <div class="col-sm-4 col-md-3 vertical-align">
-              <a href="https://nexo.io/" target="_blank"><img alt="Nexo" src="/img/services/nexo.png"></a>
-            </div>
-            <div class="col-sm-4 col-md-3 vertical-align">
-              <a href="https://www.egifter.com/" target="_blank"><img alt="eGifter" src="/img/services/egifter.png"></a>
-            </div>
-            <div class="col-sm-4 col-md-3 vertical-align">
-              <a href="https://prompt.cash/" target="_blank"><img alt="Prompt.Cash" src="/img/services/promptcash.png"></a>
-            </div>
-            <div class="col-sm-4 col-md-3 vertical-align">
-              <a href="https://www.satoshisangels.com/" target="_blank"><img alt="Satoshi's Angels" src="/img/services/satoshisangels.png"></a>
-            </div>
-            <div class="col-sm-4 col-md-3 vertical-align">
-              <a href="https://coinrabbit.io/" target="_blank"><img alt="Coin Rabbit" src="/img/services/coinrabbit.png"></a>
-            </div>
-            <div class="col-sm-4 col-md-3 vertical-align">
-              <a href="https://onlycoins.app/" target="_blank"><img alt="Onlycoins" src="/img/services/onlycoins.png"></a>
-            </div>
-            <div class="col-sm-4 col-md-3 vertical-align">
-              <a href="https://zabo.com/" target="_blank"><img alt="Zabo" src="/img/services/zabo.png"></a>
-            </div>
-            <div class="col-sm-4 col-md-3 vertical-align">
-              <a href="https://nowpayments.io/" target="_blank"><img alt="NOWPayments" src="/img/services/nowpayments.svg"></a>
-            </div>
-            <div class="col-sm-4 col-md-3 vertical-align">
-              <a href="https://coinremitter.com/" target="_blank"><img alt="Coinremitter" src="/img/services/coinremitter.png"></a>
-            </div>
+        <div class="row">
+          <div class="col-sm-12 col-md-12">
+            <%= I18n.t(:'content.development').map { |c| "<p>#{c.strip}</p>" }.join("\n#{' ' * 14}") %>
           </div>
         </div>
-      </section>
-      <a id="projects"></a>
-      <section class="space--xxs text-center gray border-bottom" id="projects-section"  data-section="projects">
-        <div class="container services">
-          <div class="row">
-            <div class="col-xs-12 section-heading ">
-              <h2><%= I18n.t(:'headings.projects').strip %></h2>
-            </div>
-          </div>
-          <div class="row">
-            <div class="col-sm-4 col-md-3 vertical-align">
-              <a href="https://cashfusion.org/" target="_blank"><img alt="CashFusion" src="/img/projects/cashfusion.png"></a>
-            </div>
-            <div class="col-sm-4 col-md-3 vertical-align">
-              <a href="https://simpleledger.cash/" target="_blank"><img alt="Simple Ledger Protocol" src="/img/projects/slp.png"></a>
-            </div>
-            <div class="col-sm-4 col-md-3 vertical-align">
-              <a href="https://slp.dev/" target="_blank"><img alt="SLP Dev" src="/img/projects/slpdev.png"></a>
-            </div>
-            <div class="col-sm-4 col-md-3 vertical-align">
-              <a href="https://smartbch.org/" target="_blank"><img alt="SmartBCH" src="/img/projects/smartbch.png"></a>
-            </div>
-            <div class="col-sm-4 col-md-3 vertical-align">
-              <a href="https://acceptbitcoin.cash" target="_blank"><img alt="Accept Bitcoin Cash" src="/img/projects/acceptbitcoincash.png"></a>
-            </div>
-            <div class="col-sm-4 col-md-3 vertical-align">
-              <a href="https://eatbch.org/" target="_blank"><img alt="EatBCH" src="/img/projects/eatbch.png"></a>
-            </div>
-            <div class="col-sm-4 col-md-3 vertical-align">
-              <a href="https://flipstarter.cash/" target="_blank"><img alt="Flipstarter" src="/img/projects/flipstarter.png"></a>
-            </div>
-            <div class="col-sm-4 col-md-3 vertical-align">
-              <a href="https://cashscript.org/" target="_blank"><img alt="CashScript" src="/img/projects/cashscript.png"></a>
-            </div>
-            <div class="col-sm-4 col-md-3 vertical-align">
-              <a href="https://anyhedge.com/" target="_blank"><img alt="AnyHedge" src="/img/projects/anyhedge.png"></a>
-            </div>
-            <div class="col-sm-4 col-md-3 vertical-align">
-              <a href="https://signup.cash/" target="_blank"><img alt="Signup" src="/img/projects/signup.png"></a>
-            </div>
-            <div class="col-sm-4 col-md-3 vertical-align">
-              <a href="https://paybutton.org/" target="_blank"><img alt="PayButton" src="/img/projects/paybutton.png"></a>
-            </div>
-            <div class="col-sm-4 col-md-3 vertical-align">
-              <a href="https://givecrypto.org/" target="_blank"><img alt="GiveCrypto" src="/img/projects/givecrypto.png"></a>
-            </div>
-            <div class="col-sm-4 col-md-3 vertical-align">
-              <a href="https://bitcoincashresearch.org/" target="_blank"><img alt="Bitcoin Cash Research" src="/img/projects/bitcoincashresearch.png"></a>
-            </div>
-            <div class="col-sm-4 col-md-3 vertical-align">
-              <a href="https://cashshuffle.com" target="_blank"><img alt="CashShuffle" src="/img/projects/cashshuffle.png"></a>
-            </div>
-            <div class="col-sm-4 col-md-3 vertical-align">
-              <a href="https://www.openbazaar.org/" target="_blank"><img alt="OpenBazaar" src="/img/projects/openbazaar.png"></a>
-            </div>
-            <div class="col-sm-4 col-md-3 vertical-align">
-              <a href="https://awesomebitcoin.cash/" target="_blank"><img alt="Awesome Bitcoin Cash" src="/img/projects/awesomebitcoincash.png"></a>
-            </div>
-            <div class="col-sm-4 col-md-3 vertical-align">
-              <a href="https://fountainhead.cash/" target="_blank"><img alt="Fountainhead" src="/img/projects/fountainhead.png"></a>
-            </div>
-            <div class="col-sm-4 col-md-3 vertical-align">
-              <a href="https://one.surgery/" target="_blank"><img alt="One Surgery" src="/img/projects/onesurgery.png"></a>
-            </div>
-            <div class="col-sm-4 col-md-3 vertical-align">
-              <a href="https://spedn.pl/" target="_blank"><img alt="Spedn" src="/img/projects/spedn.png"></a>
-            </div>
-            <div class="col-sm-4 col-md-3 vertical-align">
-              <a href="https://fundme.cash/" target="_blank"><img alt="Fundme" src="/img/projects/fundme.png"></a>
-            </div>
-            <div class="col-sm-4 col-md-3 vertical-align">
-              <a href="https://chaingraph.cash/" target="_blank"><img alt="Chaingraph" src="/img/projects/chaingraph.png"></a>
-            </div>
-            <div class="col-sm-4 col-md-3 vertical-align">
-              <a href="https://libauth.org/" target="_blank"><img alt="Libauth" src="/img/projects/libauth.png"></a>
-            </div>
-            <div class="col-sm-4 col-md-3 vertical-align">
-              <a href="https://ide.bitauth.com/" target="_blank"><img alt="Bitauth IDE" src="/img/projects/bitauth-ide.png"></a>
-            </div>
-          </div>
+      </div>
+    </section>
+  <%- end -%>
+  <a id="nodes"></a>
+  <section class="space--xxs text-center gray border-bottom" id="nodes-section"  data-section="nodes">
+    <div class="container nodes">
+      <div class="row">
+        <div class="col-xs-12 section-heading ">
+          <h2><%= I18n.t(:'headings.nodes').strip %></h2>
         </div>
-      </section>
-      <a id="exchanges"></a>
-      <section class="space--xxs text-center gray" id="exchanges-section"  data-section="exchanges">
-        <div class="container exchanges">
-          <div class="row">
-            <div class="col-xs-12 section-heading ">
-              <h2><%= I18n.t(:'headings.exchanges').strip %></h2>
-            </div>
-          </div>
-          <div class="row">
-            <div class="col-sm-4 col-md-3 vertical-align">
-              <a href="https://www.coinbase.com/" target="_blank"><img alt="Coinbase" src="/img/exchanges/coinbase.png"></a>
-            </div>
-            <div class="col-sm-4 col-md-3 vertical-align">
-              <a href="https://pro.coinbase.com/" target="_blank"><img alt="Coinbase Pro" src="/img/exchanges/coinbasepro.png"></a>
-            </div>
-            <div class="col-sm-4 col-md-3 vertical-align">
-              <a href="https://www.coinex.com/" target="_blank"><img alt="Coinex" src="/img/exchanges/coinex.png"></a>
-            </div>
-            <div class="col-sm-4 col-md-3 vertical-align">
-              <a href="https://local.bitcoin.com/" target="_blank"><img alt="Local Bitcoin" src="/img/exchanges/localbitcoin.png"></a>
-            </div>
-            <div class="col-sm-4 col-md-3 vertical-align">
-              <a href="https://bit.com/" target="_blank"><img alt="Bit" src="/img/exchanges/bit.png"></a>
-            </div>
-            <div class="col-sm-4 col-md-3 vertical-align">
-              <a href="https://www.kraken.com/" target="_blank"><img alt="Kraken" src="/img/exchanges/kraken.png"></a>
-            </div>
-            <div class="col-sm-4 col-md-3 vertical-align">
-              <a href="https://www.etoro.com/" target="_blank"><img alt="eToro" src="/img/exchanges/etoro.png"></a>
-            </div>
-            <div class="col-sm-4 col-md-3 vertical-align">
-              <a href="https://buda.com/" target="_blank"><img alt="Buda" src="/img/exchanges/buda.png"></a>
-            </div>
-            <div class="col-sm-4 col-md-3 vertical-align">
-              <a href="https://gemini.com/" target="_blank"><img alt="Gemini" src="/img/exchanges/gemini.png"></a>
-            </div>
-            <div class="col-sm-4 col-md-3 vertical-align">
-              <a href="https://uphold.com/" target="_blank"><img alt="Uphold" src="/img/exchanges/uphold.png"></a>
-            </div>
-            <div class="col-sm-4 col-md-3 vertical-align">
-              <a href="https://sideshift.ai/" target="_blank"><img alt="Sideshift AI" src="/img/exchanges/sideshiftai.png"></a>
-            </div>
-            <div class="col-sm-4 col-md-3 vertical-align">
-              <a href="https://shapeshift.io/" target="_blank"><img alt="ShapeShift" src="/img/exchanges/shapeshift.png"></a>
-            </div>
-            <div class="col-sm-4 col-md-3 vertical-align">
-              <a href="https://bittrex.com/" target="_blank"><img alt="Bittrex" src="/img/exchanges/bittrex.png"></a>
-            </div>
-            <div class="col-sm-4 col-md-3 vertical-align">
-              <a href="https://www.juungle.net/" target="_blank"><img alt="Juungle" src="/img/exchanges/juungle.png"></a>
-            </div>
-            <div class="col-sm-4 col-md-3 vertical-align">
-              <a href="https://cex.io/" target="_blank"><img alt="Cexio" src="/img/exchanges/cexio.png"></a>
-            </div>
-            <div class="col-sm-4 col-md-3 vertical-align">
-              <a href="https://www.okex.com/" target="_blank"><img alt="OKEX" src="/img/exchanges/kex.png"></a>
-            </div>
-            <div class="col-sm-4 col-md-3 vertical-align">
-              <a href="https://www.huobi.com/" target="_blank"><img alt="Houbi" src="/img/exchanges/houbi.png"></a>
-            </div>
-            <div class="col-sm-4 col-md-3 vertical-align">
-              <a href="https://www.korbit.co.kr/" target="_blank"><img alt="Korbit" src="/img/exchanges/korbit.png"></a>
-            </div>
-            <div class="col-sm-4 col-md-3 vertical-align">
-              <a href="https://www.btcbox.co.jp/" target="_blank"><img alt="BtcBox" src="/img/exchanges/btcbox.png"></a>
-            </div>
-            <div class="col-sm-4 col-md-3 vertical-align">
-              <a href="https://coinfloor.co.uk/" target="_blank"><img alt="Coinfloor" src="/img/exchanges/coinfloor.png"></a>
-            </div>
-            <div class="col-sm-4 col-md-3 vertical-align">
-              <a href="https://changelly.com/" target="_blank"><img alt="Changelly" src="/img/exchanges/changelly.png"></a>
-            </div>
-            <div class="col-sm-4 col-md-3 vertical-align">
-              <a href="https://btcpop.co/" target="_blank"><img alt="BTCPOP" src="/img/exchanges/btcpop.png"></a>
-            </div>
-            <div class="col-sm-4 col-md-3 vertical-align">
-              <a href="https://hitbtc.com/" target="_blank"><img alt="HitBTC" src="/img/exchanges/hitbtc.png"></a>
-            </div>
-            <div class="col-sm-4 col-md-3 vertical-align">
-              <a href="https://www.bithumb.com/" target="_blank"><img alt="Bithumb" src="/img/exchanges/bithumb.png"></a>
-            </div>
-            <div class="col-sm-4 col-md-3 vertical-align">
-              <a href="https://evercoin.com/" target="_blank"><img alt="Evercoin" src="/img/exchanges/evercoin.png"></a>
-            </div>
-            <div class="col-sm-4 col-md-3 vertical-align">
-              <a href="https://bitcoinvn.io" target="_blank"><img alt="BitcoinVN" src="/img/exchanges/bitcoinvietnam.png"></a>
-            </div>
-            <div class="col-sm-4 col-md-3 vertical-align">
-              <a href="https://coinone.co.kr/" target="_blank"><img alt="Coinone" src="/img/exchanges/coinone.png"></a>
-            </div>
-            <div class="col-sm-4 col-md-3 vertical-align">
-              <a href="https://simplefx.com/" target="_blank"><img alt="SimpleFX" src="/img/exchanges/simplefx.png"></a>
-            </div>
-            <div class="col-sm-4 col-md-3 vertical-align">
-              <a href="https://bitflyer.jp/" target="_blank"><img alt="bitFlyer" src="/img/exchanges/bitflyer.png"></a>
-            </div>
-            <div class="col-sm-4 col-md-3 vertical-align">
-              <a href="https://poloniex.com/" target="_blank"><img alt="Poloniex" src="/img/exchanges/poloniex.png"></a>
-            </div>
-            <div class="col-sm-4 col-md-3 vertical-align">
-              <a href="https://www.binance.com/" target="_blank"><img alt="Binance" src="/img/exchanges/binance.png"></a>
-            </div>
-            <div class="col-sm-4 col-md-3 vertical-align">
-              <a href="https://therocktrading.com/" target="_blank"><img alt="The Rock Trading" src="/img/exchanges/therock.png"></a>
-            </div>
-            <div class="col-sm-4 col-md-3 vertical-align">
-              <a href="https://www.bitcoin.de/" target="_blank"><img alt="Bitcoin.de" src="/img/exchanges/bitcoinde.png"></a>
-            </div>
-            <div class="col-sm-4 col-md-3 vertical-align">
-              <a href="https://karsha.biz/" target="_blank"><img alt="Karsha Exchange" src="/img/exchanges/karsha.png"></a>
-            </div>
-            <div class="col-sm-4 col-md-3 vertical-align">
-              <a href="https://bitbay.net/" target="_blank"><img alt="BitBay" src="/img/exchanges/bitbay.png"></a>
-            </div>
-            <div class="col-sm-4 col-md-3 vertical-align">
-              <a href="https://www.independentreserve.com/" target="_blank"><img alt="Independent Reserve" src="/img/exchanges/independentreserve.png"></a>
-            </div>
-            <div class="col-sm-4 col-md-3 vertical-align">
-              <a href="https://changenow.io/" target="_blank"><img alt="ChangeNOW" src="/img/exchanges/changenow.png"></a>
-            </div>
-            <div class="col-sm-4 col-md-3 vertical-align">
-              <a href="https://www.bitstamp.net/" target="_blank"><img alt="Bitstamp" src="/img/exchanges/bitstamp.png"></a>
-            </div>
-            <div class="col-sm-4 col-md-3 vertical-align">
-              <a href="https://bestrate.org/" target="_blank"><img alt="BestRate" src="/img/exchanges/bestrate.png"></a>
-            </div>
-            <div class="col-sm-4 col-md-3 vertical-align">
-              <a href="https://coinfalcon.com" target="_blank"><img alt="CoinFalcon" src="/img/exchanges/coinfalcon.png"></a>
-            </div>
-            <div class="col-sm-4 col-md-3 vertical-align">
-              <a href="https://exmo.com" target="_blank"><img alt="Exmo" src="/img/exchanges/exmo.png"></a>
-            </div>
-            <div class="col-sm-4 col-md-3 vertical-align">
-              <a href="https://coincheck.com" target="_blank"><img alt="Coincheck" src="/img/exchanges/coincheck.png"></a>
-            </div>
-            <div class="col-sm-4 col-md-3 vertical-align">
-              <a href="https://crypto.com/" target="_blank"><img alt="Crypto" src="/img/exchanges/crypto.png"></a>
-            </div>
-            <div class="col-sm-4 col-md-3 vertical-align">
-              <a href="https://bitkan.pro/" target="_blank"><img alt="BitKan" src="/img/exchanges/bitkan.png"></a>
-            </div>
-            <div class="col-sm-4 col-md-3 vertical-align">
-              <a href="https://www.matrixport.com/" target="_blank"><img alt="Matrixport" src="/img/exchanges/matrixport.png"></a>
-            </div>
-            <div class="col-sm-4 col-md-3 vertical-align">
-              <a href="https://stealthex.io/" target="_blank"><img alt="StealthEx" src="/img/exchanges/stealthex.png"></a>
-            </div>
-            <div class="col-sm-4 col-md-3 vertical-align">
-              <a href="https://bitvavo.com/en/bitcoin-cash" target="_blank"><img alt="Bitvavo" src="/img/exchanges/bitvavo.png"></a>
-            </div>
-            <div class="col-sm-4 col-md-3 vertical-align">
-              <a href="https://app.mistswap.fi/" target="_blank"><img alt="MistSwap" src="/img/exchanges/mistswap.png"></a>
-            </div>
-            <div class="col-sm-6 col-md-3 vertical-align">
-              <a href="https://www.whalesheaven.com/" target="_blank"><img alt="WhalesHeaven" src="/img/exchanges/whalesheaven.png"></a>
-            </div>
-          </div>
+      </div>
+      <div class="row">
+        <div class="col-sm-6 col-md-6 vertical-align">
+          <a href="https://bitcoincashnode.org" target="_blank"><img alt="Bitcoin Cash Node" src="/img/wallets/bitcoincashnode.png"></a>
         </div>
-      </section>
-      <footer class="space--xs footer-1">
-        <div class="container">
-          <div class="row">
-            <div class="col-sm-6">
-              <span class="type--fine-print">&copy;<span class="update-year"></span> bitcoincash.org</span>
-            </div>
-            <div class="col-sm-6 text-right text-center-xs">
-              <ul class="social-list list-inline list--hover">
-                <li>
-                  <a href="https://www.reddit.com/r/Bitcoincash/" target="_blank">
-                    <i class="socicon socicon-reddit icon icon--xs"></i>
-                  </a>
-                </li>
-                <li>
-                  <a href="https://github.com/zquestz/bitcoincash" target="_blank">
-                    <i class="socicon socicon-github icon icon--xs"></i>
-                  </a>
-                </li>
-              </ul>
-            </div>
-          </div>
+        <div class="col-sm-6 col-md-6 vertical-align">
+          <a href="https://www.bitcoinunlimited.info" target="_blank"><img alt="Bitcoin Unlimited" src="/img/wallets/bitcoinunlimited.png"></a>
         </div>
-      </footer>
+        <div class="col-sm-6 col-md-6 vertical-align">
+          <a href="https://bchd.cash" target="_blank"><img alt="BCHD" src="/img/wallets/bchd.png"></a>
+        </div>
+        <div class="col-sm-6 col-md-6 vertical-align">
+          <a href="https://bitcoinverde.org" target="_blank"><img alt="Bitcoin Verde" src="/img/wallets/bitcoinverde.png"></a>
+        </div>
+        <div class="col-sm-6 col-md-6 vertical-align">
+          <a href="https://kth.cash" target="_blank"><img alt="Knuth" src="/img/wallets/knuth.png"></a>
+        </div>
+      </div>
     </div>
-    <a class="back-to-top inner-link" href="#start" data-scroll-class="100vh:active">
-      <i class="stack-interface stack-up-open-big"></i>
-    </a>
-    <script src="/js/modernizr-2.6.2.min.js"></script>
-    <script src="/js/jquery.min.js"></script>
-    <script src="/js/ticker.min.js?v=<%= Digest::SHA256.file 'html/js/ticker.min.js' %>" async></script>
-    <script src="/js/fontawesome.min.js"></script>
-    <script src="/js/solid.min.js"></script>
-    <script src="/js/jquery.easing.1.3.min.js"></script>
-    <script src="/js/jquery.stellar.min.js"></script>
-    <script src="/js/jquery.waypoints.min.js"></script>
-    <script src="/js/smooth-scroll.min.js"></script>
-    <script src="/js/bootstrap.min.js"></script>
-    <script src="/js/scripts.min.js?v=<%= Digest::SHA256.file 'html/js/scripts.min.js' %>"></script>
-  </body>
+  </section>
+  <a id="services"></a>
+  <section class="space--xxs text-center gray border-bottom" id="services-section"  data-section="services">
+    <div class="container services">
+      <div class="row">
+        <div class="col-xs-12 section-heading ">
+          <h2><%= I18n.t(:'headings.services').strip %></h2>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-sm-4 col-md-3 vertical-align">
+          <a href="https://purse.io" target="_blank"><img alt="Purse" src="/img/services/purseio.png"></a>
+        </div>
+        <div class="col-sm-4 col-md-3 vertical-align">
+          <a href="https://bitpay.com" target="_blank"><img alt="Bitpay" src="/img/wallets/bitpay.png"></a>
+        </div>
+        <div class="col-sm-4 col-md-3 vertical-align">
+          <a href="https://gocrypto.com/" target="_blank"><img alt="GoCrypto" src="/img/services/gocrypto.png"></a>
+        </div>
+        <div class="col-sm-4 col-md-3 vertical-align">
+          <a href="https://commerce.coinbase.com" target="_blank"><img alt="Coinbase Commerce" src="/img/services/coinbasecommerce.png"></a>
+        </div>
+        <div class="col-sm-4 col-md-3 vertical-align">
+          <a href="https://map.bitcoin.com" target="_blank"><img alt="Bitcoin.com Maps" src="/img/services/bitcoincommaps.png"></a>
+        </div>
+        <div class="col-sm-4 col-md-3 vertical-align">
+          <a href="https://read.cash/" target="_blank"><img alt="read.cash" src="/img/services/readcash.png"></a>
+        </div>
+        <div class="col-sm-4 col-md-3 vertical-align">
+          <a href="https://noise.cash/" target="_blank"><img alt="noise.cash" src="/img/services/noisecash.png"></a>
+        </div>
+        <div class="col-sm-4 col-md-3 vertical-align">
+          <a href="https://memo.cash/" target="_blank"><img alt="memo.cash" src="/img/services/memocash.png"></a>
+        </div>
+        <div class="col-sm-4 col-md-3 vertical-align">
+          <a href="https://member.cash/" target="_blank"><img alt="member.cash" src="/img/services/membercash.png"></a>
+        </div>
+        <div class="col-sm-4 col-md-3 vertical-align">
+          <a href="https://enter-the-sphere.com/" target="_blank"><img alt="Enter The Sphere" src="/img/services/thesphere.png"></a>
+        </div>
+        <div class="col-sm-4 col-md-3 vertical-align">
+          <a href="https://bch.games/" target="_blank"><img alt="BCH.games" src="/img/services/bchgames.png"></a>
+        </div>
+        <div class="col-sm-4 col-md-3 vertical-align">
+          <a href="https://blockchain.poker/" target="_blank"><img alt="Blockchain Poker" src="/img/services/blockchainpoker.png"></a>
+        </div>
+        <div class="col-sm-4 col-md-3 vertical-align">
+          <a href="https://lazyfox.io/" target="_blank"><img alt="Lazyfox" src="/img/services/lazyfox.png"></a>
+        </div>
+        <div class="col-sm-4 col-md-3 vertical-align">
+          <a href="https://coingigs.net/" target="_blank"><img alt="CoinGigs" src="/img/services/coingigs.svg"></a>
+        </div>
+        <div class="col-sm-4 col-md-3 vertical-align">
+          <a href="http://www.chaintip.org" target="_blank"><img alt="ChainTip" src="/img/services/chaintip.png"></a>
+        </div>
+        <div class="col-sm-4 col-md-3 vertical-align">
+          <a href="https://detoken.net/" target="_blank"><img alt="Detoken" src="/img/services/detoken.png"></a>
+        </div>
+        <div class="col-sm-4 col-md-3 vertical-align">
+          <a href="https://cheapair.com/" target="_blank"><img alt="CheapAir" src="/img/services/cheapair.png"></a>
+        </div>
+        <div class="col-sm-4 col-md-3 vertical-align">
+          <a href="https://namecheap.com/" target="_blank"><img alt="Namecheap" src="/img/services/namecheap.png"></a>
+        </div>
+        <div class="col-sm-4 col-md-3 vertical-align">
+          <a href="https://blockchair.com/" target="_blank"><img alt="Blockchair" src="/img/services/blockchair.png"></a>
+        </div>
+        <div class="col-sm-4 col-md-3 vertical-align">
+          <a href="https://cash.coin.dance/" target="_blank"><img alt="Coin Dance" src="/img/services/coindance.png"></a>
+        </div>
+        <div class="col-sm-4 col-md-3 vertical-align">
+          <a href="https://txstreet.com/v/bch-btc" target="_blank"><img alt="TxStreet" src="/img/services/txstreet.png"></a>
+        </div>
+        <div class="col-sm-4 col-md-3 vertical-align">
+          <a href="https://fork.lol" target="_blank"><img alt="Fork.lol" src="/img/services/forklol.png"></a>
+        </div>
+        <div class="col-sm-4 col-md-3 vertical-align">
+          <a href="https://www.alfatop.me" target="_blank"><img alt="ALFAtop" src="/img/services/alfatopme.png"></a>
+        </div>
+        <div class="col-sm-4 col-md-3 vertical-align">
+          <a href="https://alagoria.com/" target="_blank"><img alt="Alagoria" src="/img/services/alagoria.png"></a>
+        </div>
+        <div class="col-sm-4 col-md-3 vertical-align">
+          <a href="https://visionati.com" target="_blank"><img alt="Visionati" src="/img/services/visionati.png"></a>
+        </div>
+        <div class="col-sm-4 col-md-3 vertical-align">
+          <a href="https://satoshidice.com/" target="_blank"><img alt="Satoshi Dice" src="/img/services/satoshidice.png"></a>
+        </div>
+        <div class="col-sm-4 col-md-3 vertical-align">
+          <a href="https://solomonpierce.com/" target="_blank"><img alt="Solomon Pierce" src="/img/services/solomonpierce.png"></a>
+        </div>
+        <div class="col-sm-4 col-md-3 vertical-align">
+          <a href="https://rocketr.net/" target="_blank"><img alt="Rocketr" src="/img/services/rocketr.png"></a>
+        </div>
+        <div class="col-sm-4 col-md-3 vertical-align">
+          <a href="https://www.coinpayments.net/" target="_blank"><img alt="CoinPayments" src="/img/services/coinpayments.png"></a>
+        </div>
+        <div class="col-sm-4 col-md-3 vertical-align">
+          <a href="https://coingate.com/" target="_blank"><img alt="CoinGate" src="/img/services/coingate.png"></a>
+        </div>
+        <div class="col-sm-4 col-md-3 vertical-align">
+          <a href="https://gourl.io/" target="_blank"><img alt="GoUrl" src="/img/services/gourl.png"></a>
+        </div>
+        <div class="col-sm-4 col-md-3 vertical-align">
+          <a href="https://www.alfacoins.com" target="_blank"><img alt="ALFAcoins" src="/img/services/alfacoins.png"></a>
+        </div>
+        <div class="col-sm-4 col-md-3 vertical-align">
+          <a href="https://www.livingroomofsatoshi.com/?sc=bch" target="_blank"><img alt="Living Room Of Satoshi" src="/img/services/livingroomofsatoshi.png"></a>
+        </div>
+        <div class="col-sm-4 col-md-3 vertical-align">
+          <a href="https://www.piixpay.com/" target="_blank"><img alt="piixPay" src="/img/services/piixpay.png"></a>
+        </div>
+        <div class="col-sm-4 col-md-3 vertical-align">
+          <a href="https://pompler.com" target="_blank"><img alt="Pompler" src="/img/services/pompler.png"></a>
+        </div>
+        <div class="col-sm-4 col-md-3 vertical-align">
+          <a href="https://www.viabtc.com/" target="_blank"><img alt="ViaBTC" src="/img/services/viabtc.png"></a>
+        </div>
+        <div class="col-sm-4 col-md-3 vertical-align">
+          <a href="https://simpleledger.info/" target="_blank"><img alt="SLP Explorer" src="/img/services/slpexplorer.png"></a>
+        </div>
+        <div class="col-sm-4 col-md-3 vertical-align">
+          <a href="https://explore.cash/" target="_blank"><img alt="BCHD Explorer" src="/img/services/explorecash.png"></a>
+        </div>
+        <div class="col-sm-4 col-md-3 vertical-align">
+          <a href="https://www.wmtransfer.com/" target="_blank"><img alt="Web Money" src="/img/services/webmoney.png"></a>
+        </div>
+        <div class="col-sm-4 col-md-3 vertical-align">
+          <a href="https://bitcoin-india.org/" target="_blank"><img alt="Bitcoin India" src="/img/services/bitcoinindia.png"></a>
+        </div>
+        <div class="col-sm-4 col-md-3 vertical-align">
+          <a href="https://www.menufy.com/" target="_blank"><img alt="Menufy" src="/img/services/menufy.png"></a>
+        </div>
+        <div class="col-sm-4 col-md-3 vertical-align">
+          <a href="https://card.coinbase.com/" target="_blank"><img alt="Coinbase Card" src="/img/services/coinbasecard.png"></a>
+        </div>
+        <div class="col-sm-4 col-md-3 vertical-align">
+          <a href="https://unbanked.com/" target="_blank"><img alt="Unbanked" src="/img/services/unbanked.png"></a>
+        </div>
+        <div class="col-sm-4 col-md-3 vertical-align">
+          <a href="https://nexo.io/" target="_blank"><img alt="Nexo" src="/img/services/nexo.png"></a>
+        </div>
+        <div class="col-sm-4 col-md-3 vertical-align">
+          <a href="https://www.egifter.com/" target="_blank"><img alt="eGifter" src="/img/services/egifter.png"></a>
+        </div>
+        <div class="col-sm-4 col-md-3 vertical-align">
+          <a href="https://prompt.cash/" target="_blank"><img alt="Prompt.Cash" src="/img/services/promptcash.png"></a>
+        </div>
+        <div class="col-sm-4 col-md-3 vertical-align">
+          <a href="https://www.satoshisangels.com/" target="_blank"><img alt="Satoshi's Angels" src="/img/services/satoshisangels.png"></a>
+        </div>
+        <div class="col-sm-4 col-md-3 vertical-align">
+          <a href="https://coinrabbit.io/" target="_blank"><img alt="Coin Rabbit" src="/img/services/coinrabbit.svg"></a>
+        </div>
+        <div class="col-sm-4 col-md-3 vertical-align">
+          <a href="https://onlycoins.com/" target="_blank"><img alt="Onlycoins" src="/img/services/onlycoins.png"></a>
+        </div>
+        <div class="col-sm-4 col-md-3 vertical-align">
+          <a href="https://zabo.com/" target="_blank"><img alt="Zabo" src="/img/services/zabo.png"></a>
+        </div>
+        <div class="col-sm-4 col-md-3 vertical-align">
+          <a href="https://nowpayments.io/" target="_blank"><img alt="NOWPayments" src="/img/services/nowpayments.svg"></a>
+        </div>
+        <div class="col-sm-4 col-md-3 vertical-align">
+          <a href="https://coinremitter.com/" target="_blank"><img alt="Coinremitter" src="/img/services/coinremitter.png"></a>
+        </div>
+      </div>
+    </div>
+  </section>
+  <a id="projects"></a>
+  <section class="space--xxs text-center gray border-bottom" id="projects-section"  data-section="projects">
+    <div class="container services">
+      <div class="row">
+        <div class="col-xs-12 section-heading ">
+          <h2><%= I18n.t(:'headings.projects').strip %></h2>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-sm-4 col-md-3 vertical-align">
+          <a href="https://cashfusion.org/" target="_blank"><img alt="CashFusion" src="/img/projects/cashfusion.png"></a>
+        </div>
+        <div class="col-sm-4 col-md-3 vertical-align">
+          <a href="https://slp.dev/" target="_blank"><img alt="SLP Dev" src="/img/projects/slpdev.png"></a>
+        </div>
+        <div class="col-sm-4 col-md-3 vertical-align">
+          <a href="https://acceptbitcoin.cash" target="_blank"><img alt="Accept Bitcoin Cash" src="/img/projects/acceptbitcoincash.png"></a>
+        </div>
+        <div class="col-sm-4 col-md-3 vertical-align">
+          <a href="https://eatbch.org/" target="_blank"><img alt="EatBCH" src="/img/projects/eatbch.png"></a>
+        </div>
+        <div class="col-sm-4 col-md-3 vertical-align">
+          <a href="https://flipstarter.cash/" target="_blank"><img alt="Flipstarter" src="/img/projects/flipstarter.png"></a>
+        </div>
+        <div class="col-sm-4 col-md-3 vertical-align">
+          <a href="https://cashscript.org/" target="_blank"><img alt="CashScript" src="/img/projects/cashscript.png"></a>
+        </div>
+        <div class="col-sm-4 col-md-3 vertical-align">
+          <a href="https://anyhedge.com/" target="_blank"><img alt="AnyHedge" src="/img/projects/anyhedge.png"></a>
+        </div>
+        <div class="col-sm-4 col-md-3 vertical-align">
+          <a href="https://signup.cash/" target="_blank"><img alt="Signup" src="/img/projects/signup.png"></a>
+        </div>
+        <div class="col-sm-4 col-md-3 vertical-align">
+          <a href="https://paybutton.org/" target="_blank"><img alt="PayButton" src="/img/projects/paybutton.png"></a>
+        </div>
+        <div class="col-sm-4 col-md-3 vertical-align">
+          <a href="https://givecrypto.org/" target="_blank"><img alt="GiveCrypto" src="/img/projects/givecrypto.png"></a>
+        </div>
+        <div class="col-sm-4 col-md-3 vertical-align">
+          <a href="https://bitcoincashresearch.org/" target="_blank"><img alt="Bitcoin Cash Research" src="/img/projects/bitcoincashresearch.png"></a>
+        </div>
+        <div class="col-sm-4 col-md-3 vertical-align">
+          <a href="https://cashshuffle.com" target="_blank"><img alt="CashShuffle" src="/img/projects/cashshuffle.png"></a>
+        </div>
+        <div class="col-sm-4 col-md-3 vertical-align">
+          <a href="https://awesomebitcoin.cash/" target="_blank"><img alt="Awesome Bitcoin Cash" src="/img/projects/awesomebitcoincash.png"></a>
+        </div>
+        <div class="col-sm-4 col-md-3 vertical-align">
+          <a href="https://fountainhead.cash/" target="_blank"><img alt="Fountainhead" src="/img/projects/fountainhead.png"></a>
+        </div>
+        <div class="col-sm-4 col-md-3 vertical-align">
+          <a href="https://one.surgery/" target="_blank"><img alt="One Surgery" src="/img/projects/onesurgery.png"></a>
+        </div>
+        <div class="col-sm-4 col-md-3 vertical-align">
+          <a href="https://spedn.pl/" target="_blank"><img alt="Spedn" src="/img/projects/spedn.png"></a>
+        </div>
+        <div class="col-sm-4 col-md-3 vertical-align">
+          <a href="https://chaingraph.cash/" target="_blank"><img alt="Chaingraph" src="/img/projects/chaingraph.png"></a>
+        </div>
+        <div class="col-sm-4 col-md-3 vertical-align">
+          <a href="https://libauth.org/" target="_blank"><img alt="Libauth" src="/img/projects/libauth.png"></a>
+        </div>
+        <div class="col-sm-4 col-md-3 vertical-align">
+          <a href="https://ide.bitauth.com/" target="_blank"><img alt="Bitauth IDE" src="/img/projects/bitauth-ide.png"></a>
+        </div>
+      </div>
+    </div>
+  </section>
+  <%- if I18n.exists?(:'sections.smartbch') -%>
+    <a id="smartbch"></a>
+    <section class="space--xxs text-center gray border-bottom" id="smartbch-section"  data-section="smartbch">
+      <div class="container exchanges">
+        <div class="row">
+          <div class="col-xs-12 section-heading ">
+            <h2><%= I18n.t(:'headings.smartbch').strip %></h2>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-sm-4 col-md-3 vertical-align">
+            <a href="https://smartbch.org/" target="_blank"><img alt="SmartBCH" src="/img/projects/smartbch.png"></a>
+          </div>
+          <div class="col-sm-4 col-md-3 vertical-align">
+            <a href="https://hop.cash/" target="_blank"><img alt="hop cash" src="/img/services/hopcash.png"></a>
+          </div>
+          <div class="col-sm-4 col-md-3 vertical-align">
+            <a href="https://app.mistswap.fi/" target="_blank"><img alt="MistSwap" src="/img/exchanges/mistswap.png"></a>
+          </div>
+          <div class="col-sm-4 col-md-3 vertical-align">
+            <a href="https://tangoswap.cash/" target="_blank"><img alt="TangoSwap" src="/img/exchanges/tangoswap.png"></a>
+          </div>
+          <div class="col-sm-4 col-md-3 vertical-align">
+            <a href="https://smartswap.fi/" target="_blank"><img alt="SmartSwap" src="/img/exchanges/smart-swap.png"></a>
+          </div>
+          <div class="col-sm-4 col-md-3 vertical-align">
+            <a href="https://bch.domains/" target="_blank"><img alt="LNS" src="/img/projects/lns.png"></a>
+          </div>
+          <div class="col-sm-4 col-md-3 vertical-align">
+            <a href="https://verse.bitcoin.com/" target="_blank"><img alt="LNS" src="/img/exchanges/verse.png"></a>
+          </div>
+          <div class="col-sm-4 col-md-3 vertical-align">
+            <a href="https://oasis.cash/" target="_blank"><img alt="Oasis" src="/img/exchanges/oasis.png"></a>
+          </div>
+          <div class="col-sm-4 col-md-3 vertical-align">
+            <a href="https://metamask.io/" target="_blank"><img alt="MetaMask" src="/img/wallets/metamask.png"></a>
+          </div>
+          <div class="col-sm-4 col-md-3 vertical-align">
+            <a href="https://benswap.cash/" target="_blank"><img alt="BenSwap" src="/img/exchanges/benswap.png"></a>
+          </div>
+          <div class="col-sm-4 col-md-3 vertical-align">
+            <a href="https://smartscan.cash/" target="_blank"><img alt="SmartScan" src="/img/services/smartscan.png"></a>
+          </div>
+          <div class="col-sm-4 col-md-3 vertical-align">
+            <a href="https://marketcap.cash/" target="_blank"><img alt="MarketCap" src="/img/projects/marketcapcash.png"></a>
+          </div>
+          <div class="col-sm-4 col-md-3 vertical-align">
+            <a href="https://blockng.money/" target="_blank"><img alt="BlockNG" src="/img/projects/blockng.png"></a>
+          </div>
+          <div class="col-sm-4 col-md-3 vertical-align">
+            <a href="https://revoke.cash/" target="_blank"><img alt="Revoke" src="/img/projects/revoke.svg"></a>
+          </div>
+          <div class="col-sm-4 col-md-3 vertical-align">
+            <a href="https://joystick.club/" target="_blank"><img alt="Joystick Club" src="/img/projects/joystickclub.png"></a>
+          </div>
+          <div class="col-sm-4 col-md-3 vertical-align">
+            <a href="https://nftrarity.cash/" target="_blank"><img alt="NFT Rarity" src="/img/projects/nftrarity.png"></a>
+          </div>
+          <div class="col-sm-4 col-md-3 vertical-align">
+            <a href="https://goblins.cash/" target="_blank"><img alt="Goblins" src="/img/projects/goblins.png"></a>
+          </div>
+          <div class="col-sm-4 col-md-3 vertical-align">
+            <a href="https://checkbook.cash/" target="_blank"><img alt="Checkbook" src="/img/services/checkbook.png"></a>
+          </div>
+          <div class="col-sm-4 col-md-3 vertical-align">
+            <a href="https://helpme.cash/" target="_blank"><img alt="Revoke" src="/img/projects/helpme.png"></a>
+          </div>
+          <div class="col-sm-4 col-md-3 vertical-align">
+          <a href="https://emberswap.com/" target="_blank"><img alt="EmberSwap" src="/img/exchanges/emberswap.svg"></a>
+        </div>
+        </div>
+      </section>
+    <%- end -%>
+    <a id="exchanges"></a>
+    <section class="space--xxs text-center gray" id="exchanges-section"  data-section="exchanges">
+      <div class="container exchanges">
+        <div class="row">
+          <div class="col-xs-12 section-heading ">
+            <h2><%= I18n.t(:'headings.exchanges').strip %></h2>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-sm-4 col-md-3 vertical-align">
+            <a href="https://coinflex.com/" target="_blank"><img alt="CoinFLEX" src="/img/exchanges/coinflex.png"></a>
+          </div>
+          <div class="col-sm-4 col-md-3 vertical-align">
+            <a href="https://thorswap.finance/" target="_blank"><img alt="THORSwap" src="/img/exchanges/thorswap.png"></a>
+          </div>
+          <div class="col-sm-4 col-md-3 vertical-align">
+            <a href="https://www.okx.com/" target="_blank"><img alt="OKX" src="/img/exchanges/okx.png"></a>
+          </div>
+          <div class="col-sm-4 col-md-3 vertical-align">
+            <a href="https://www.coinbase.com/" target="_blank"><img alt="Coinbase" src="/img/exchanges/coinbase.png"></a>
+          </div>
+          <div class="col-sm-4 col-md-3 vertical-align">
+            <a href="https://pro.coinbase.com/" target="_blank"><img alt="Coinbase Pro" src="/img/exchanges/coinbasepro.png"></a>
+          </div>
+          <div class="col-sm-4 col-md-3 vertical-align">
+            <a href="https://localcryptos.com/" target="_blank"><img alt="LocalCryptos" src="/img/exchanges/localcryptos.png"></a>
+          </div>
+          <div class="col-sm-4 col-md-3 vertical-align">
+            <a href="https://ftx.com/" target="_blank"><img alt="FTX" src="/img/exchanges/ftx.png"></a>
+          </div>
+          <div class="col-sm-4 col-md-3 vertical-align">
+            <a href="https://www.binance.com/" target="_blank"><img alt="Binance" src="/img/exchanges/binance.png"></a>
+          </div>
+          <div class="col-sm-4 col-md-3 vertical-align">
+            <a href="https://www.huobi.com/" target="_blank"><img alt="Houbi" src="/img/exchanges/houbi.png"></a>
+          </div>
+          <div class="col-sm-4 col-md-3 vertical-align">
+            <a href="https://bit.com/" target="_blank"><img alt="Bit" src="/img/exchanges/bit.png"></a>
+          </div>
+          <div class="col-sm-4 col-md-3 vertical-align">
+            <a href="https://www.kraken.com/" target="_blank"><img alt="Kraken" src="/img/exchanges/kraken.png"></a>
+          </div>
+          <div class="col-sm-4 col-md-3 vertical-align">
+            <a href="https://www.etoro.com/" target="_blank"><img alt="eToro" src="/img/exchanges/etoro.png"></a>
+          </div>
+          <div class="col-sm-4 col-md-3 vertical-align">
+            <a href="https://buda.com/" target="_blank"><img alt="Buda" src="/img/exchanges/buda.png"></a>
+          </div>
+          <div class="col-sm-4 col-md-3 vertical-align">
+            <a href="https://gemini.com/" target="_blank"><img alt="Gemini" src="/img/exchanges/gemini.png"></a>
+          </div>
+          <div class="col-sm-4 col-md-3 vertical-align">
+            <a href="https://uphold.com/" target="_blank"><img alt="Uphold" src="/img/exchanges/uphold.png"></a>
+          </div>
+          <div class="col-sm-4 col-md-3 vertical-align">
+            <a href="https://sideshift.ai/" target="_blank"><img alt="Sideshift AI" src="/img/exchanges/sideshiftai.png"></a>
+          </div>
+          <div class="col-sm-4 col-md-3 vertical-align">
+            <a href="https://shapeshift.io/" target="_blank"><img alt="ShapeShift" src="/img/exchanges/shapeshift.png"></a>
+          </div>
+          <div class="col-sm-4 col-md-3 vertical-align">
+            <a href="https://bittrex.com/" target="_blank"><img alt="Bittrex" src="/img/exchanges/bittrex.png"></a>
+          </div>
+          <div class="col-sm-4 col-md-3 vertical-align">
+            <a href="https://www.juungle.net/" target="_blank"><img alt="Juungle" src="/img/exchanges/juungle.png"></a>
+          </div>
+          <div class="col-sm-4 col-md-3 vertical-align">
+            <a href="https://www.coinex.com/" target="_blank"><img alt="Coinex" src="/img/exchanges/coinex.png"></a>
+          </div>
+          <div class="col-sm-4 col-md-3 vertical-align">
+            <a href="https://cex.io/" target="_blank"><img alt="Cexio" src="/img/exchanges/cexio.png"></a>
+          </div>
+          <div class="col-sm-4 col-md-3 vertical-align">
+            <a href="https://www.korbit.co.kr/" target="_blank"><img alt="Korbit" src="/img/exchanges/korbit.png"></a>
+          </div>
+          <div class="col-sm-4 col-md-3 vertical-align">
+            <a href="https://www.btcbox.co.jp/" target="_blank"><img alt="BtcBox" src="/img/exchanges/btcbox.png"></a>
+          </div>
+          <div class="col-sm-4 col-md-3 vertical-align">
+            <a href="https://changelly.com/" target="_blank"><img alt="Changelly" src="/img/exchanges/changelly.png"></a>
+          </div>
+          <div class="col-sm-4 col-md-3 vertical-align">
+            <a href="https://btcpop.co/" target="_blank"><img alt="BTCPOP" src="/img/exchanges/btcpop.png"></a>
+          </div>
+          <div class="col-sm-4 col-md-3 vertical-align">
+            <a href="https://hitbtc.com/" target="_blank"><img alt="HitBTC" src="/img/exchanges/hitbtc.png"></a>
+          </div>
+          <div class="col-sm-4 col-md-3 vertical-align">
+            <a href="https://www.bithumb.com/" target="_blank"><img alt="Bithumb" src="/img/exchanges/bithumb.png"></a>
+          </div>
+          <div class="col-sm-4 col-md-3 vertical-align">
+            <a href="https://evercoin.com/" target="_blank"><img alt="Evercoin" src="/img/exchanges/evercoin.png"></a>
+          </div>
+          <div class="col-sm-4 col-md-3 vertical-align">
+            <a href="https://bitcoinvn.io" target="_blank"><img alt="BitcoinVN" src="/img/exchanges/bitcoinvietnam.png"></a>
+          </div>
+          <div class="col-sm-4 col-md-3 vertical-align">
+            <a href="https://coinone.co.kr/" target="_blank"><img alt="Coinone" src="/img/exchanges/coinone.png"></a>
+          </div>
+          <div class="col-sm-4 col-md-3 vertical-align">
+            <a href="https://simplefx.com/" target="_blank"><img alt="SimpleFX" src="/img/exchanges/simplefx.png"></a>
+          </div>
+          <div class="col-sm-4 col-md-3 vertical-align">
+            <a href="https://bitflyer.jp/" target="_blank"><img alt="bitFlyer" src="/img/exchanges/bitflyer.png"></a>
+          </div>
+          <div class="col-sm-4 col-md-3 vertical-align">
+            <a href="https://poloniex.com/" target="_blank"><img alt="Poloniex" src="/img/exchanges/poloniex.png"></a>
+          </div>
+          <div class="col-sm-4 col-md-3 vertical-align">
+            <a href="https://therocktrading.com/" target="_blank"><img alt="The Rock Trading" src="/img/exchanges/therock.png"></a>
+          </div>
+          <div class="col-sm-4 col-md-3 vertical-align">
+            <a href="https://www.bitcoin.de/" target="_blank"><img alt="Bitcoin.de" src="/img/exchanges/bitcoinde.png"></a>
+          </div>
+          <div class="col-sm-4 col-md-3 vertical-align">
+            <a href="https://karsha.biz/" target="_blank"><img alt="Karsha Exchange" src="/img/exchanges/karsha.png"></a>
+          </div>
+          <div class="col-sm-4 col-md-3 vertical-align">
+            <a href="https://www.independentreserve.com/" target="_blank"><img alt="Independent Reserve" src="/img/exchanges/independentreserve.png"></a>
+          </div>
+          <div class="col-sm-4 col-md-3 vertical-align">
+            <a href="https://changenow.io/" target="_blank"><img alt="ChangeNOW" src="/img/exchanges/changenow.png"></a>
+          </div>
+          <div class="col-sm-4 col-md-3 vertical-align">
+            <a href="https://www.bitstamp.net/" target="_blank"><img alt="Bitstamp" src="/img/exchanges/bitstamp.png"></a>
+          </div>
+          <div class="col-sm-4 col-md-3 vertical-align">
+            <a href="https://bestrate.org/" target="_blank"><img alt="BestRate" src="/img/exchanges/bestrate.png"></a>
+          </div>
+          <div class="col-sm-4 col-md-3 vertical-align">
+            <a href="https://coinfalcon.com" target="_blank"><img alt="CoinFalcon" src="/img/exchanges/coinfalcon.png"></a>
+          </div>
+          <div class="col-sm-4 col-md-3 vertical-align">
+            <a href="https://exmo.com" target="_blank"><img alt="Exmo" src="/img/exchanges/exmo.png"></a>
+          </div>
+          <div class="col-sm-4 col-md-3 vertical-align">
+            <a href="https://coincheck.com" target="_blank"><img alt="Coincheck" src="/img/exchanges/coincheck.png"></a>
+          </div>
+          <div class="col-sm-4 col-md-3 vertical-align">
+            <a href="https://crypto.com/" target="_blank"><img alt="Crypto" src="/img/exchanges/crypto.png"></a>
+          </div>
+          <div class="col-sm-4 col-md-3 vertical-align">
+            <a href="https://bitkan.pro/" target="_blank"><img alt="BitKan" src="/img/exchanges/bitkan.png"></a>
+          </div>
+          <div class="col-sm-4 col-md-3 vertical-align">
+            <a href="https://www.matrixport.com/" target="_blank"><img alt="Matrixport" src="/img/exchanges/matrixport.png"></a>
+          </div>
+          <div class="col-sm-4 col-md-3 vertical-align">
+            <a href="https://stealthex.io/" target="_blank"><img alt="StealthEx" src="/img/exchanges/stealthex.png"></a>
+          </div>
+          <div class="col-sm-4 col-md-3 vertical-align">
+            <a href="https://bitvavo.com/en/bitcoin-cash" target="_blank"><img alt="Bitvavo" src="/img/exchanges/bitvavo.png"></a>
+          </div>
+          <div class="col-sm-4 col-md-3 vertical-align">
+            <a href="https://swapzone.io" target="_blank"><img alt="Swapzone" src="/img/exchanges/swapzone.png"></a>
+          </div>
+          <div class="col-sm-6 col-md-3 vertical-align">
+            <a href="https://www.whalesheaven.com/" target="_blank"><img alt="WhalesHeaven" src="/img/exchanges/whalesheaven.png"></a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer class="space--xs footer-1">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-6">
+            <span class="type--fine-print">&copy;<span class="update-year"></span> bitcoincash.org</span>
+          </div>
+          <div class="col-sm-6 text-right text-center-xs">
+            <ul class="social-list list-inline list--hover">
+              <li>
+                <a href="https://www.reddit.com/r/Bitcoincash/" target="_blank">
+                  <i class="socicon socicon-reddit icon icon--xs"></i>
+                </a>
+              </li>
+              <li>
+                <a href="https://github.com/zquestz/bitcoincash" target="_blank">
+                  <i class="socicon socicon-github icon icon--xs"></i>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </div>
+  <a class="back-to-top inner-link" href="#start" data-scroll-class="100vh:active">
+    <i class="stack-interface stack-up-open-big"></i>
+  </a>
+  <script src="/js/modernizr-2.6.2.min.js"></script>
+  <script src="/js/jquery.min.js"></script>
+  <script src="/js/ticker.min.js?v=<%= Digest::SHA256.file 'html/js/ticker.min.js' %>" async></script>
+  <script src="/js/fontawesome.min.js"></script>
+  <script src="/js/solid.min.js"></script>
+  <script src="/js/jquery.easing.1.3.min.js"></script>
+  <script src="/js/jquery.stellar.min.js"></script>
+  <script src="/js/jquery.waypoints.min.js"></script>
+  <script src="/js/smooth-scroll.min.js"></script>
+  <script src="/js/bootstrap.min.js"></script>
+  <script src="/js/scripts.min.js?v=<%= Digest::SHA256.file 'html/js/scripts.min.js' %>"></script>
+</body>
 </html>
