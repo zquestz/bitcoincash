@@ -35,7 +35,7 @@ DEPENDENCIES
   htmlbeautifier
   i18n
   juicer
-  nokogiri (>= 1.13.4)
+  nokogiri (>= 1.13.6)
   rake
 
 BUNDLED WITH
