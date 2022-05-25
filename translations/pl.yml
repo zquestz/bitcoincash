@@ -89,6 +89,7 @@ pl:
     graphics: "Logo / Grafiki"
     benefits: "Korzyści"
     faq: "FAQ"
+    smartbch: "SmartBCH"
   layout:
     bitcoin_cash: "Bitcoin Cash"
     lead: "Elektroniczny pieniądz Peer-to-Peer"
@@ -117,6 +118,7 @@ pl:
     why: "Dlaczego warto używać Bitcoin Cash?"
     benefits: "Korzyści dla sprzedawców"
     development: "Zdecentralizowany rozwój"
+    smartbch: "SmartBCH"
   content:
     history:
       - |
@@ -132,6 +134,8 @@ pl:
         Z wieloma niezależnymi zespołami programistów dostarczających implementacje oprogramowania, przyszłość jest bezpieczna. Bitcoin Cash jest odporny na polityczne i społeczne ataki na rozwój protokołu. Żadna pojedyncza grupa lub projekt nie może go kontrolować.  Wiele implementacji zapewnia również redundancję, aby zapewnić, że sieć jest 100%-wo dostępna.
       - |
         Lista mailingowa <a href="https://bitcoincashresearch.org" target="_blank">bitcoincashresearch.org</a> jest dobrym miejscem do zgłaszania propozycji zmian, które wymagają koordynacji pomiędzy zespołami programistów. Dla tych, którzy chcą wdrożyć zmiany w protokole Bitcoin Cash, zalecane jest, aby szukać wczesnej wzajemnej oceny i angażować się we współpracę z innymi programistami.
+      - |
+        Jeśli jesteś zainteresowany pomocą w tłumaczeniu, sprawdź nasz <a href="https://crowdin.com/project/bitcoin-cash" target="_blank">projekt CrowdIn</a>. Pamiętaj, że akceptujemy tylko tłumaczenia dokonane przez człowieka, tłumaczenia automatyczne zostaną odrzucone.
     about:
       - |
         Bitcoin Cash daje światu solidny pieniądz. Sprzedawcy i użytkownicy korzystają z niskich opłat i wiarygodnych potwierdzeń. Przyszłość rysuje się w jasnych barwach dzięki nieograniczonemu wzrostowi, globalnej akceptacji, nie wymagającej zezwolenia innowacji i zdecentralizowanemu rozwojowi.
@@ -170,6 +174,10 @@ pl:
         descrip:
           - |
             Bitcoin Cash jest otwartą siecią, nie wymaga żadnego pozwolenia. Dzięki niej możesz nawiązywać kontakty z innymi bez naruszania ich prywatności. Jest zdecentralizowana, dobrowolna i nieagresywna. Wraz z jej rozwojem, stare struktury władzy ulegają erozji, a nowe idee rozkwitają. Może to pomóc w przeprowadzeniu największej pokojowej rewolucji, jaką kiedykolwiek znał świat.
+      - benefit: "Aplikacje Defi &amp; NFT"
+        descrip:
+          - |
+            SmartBCH jest wysoce wydajną siecią poboczną kompatybilną z EVM &amp; Web3 do obsługi aplikacji Defi. Skutkuje to stale rosnącą liczbą zdecentralizowanych giełd oraz projektów NFT!
     benefits:
       - benefit: "Ultra niskie opłaty"
         descrip:
