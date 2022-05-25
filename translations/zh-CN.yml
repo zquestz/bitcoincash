@@ -89,6 +89,7 @@ zh-CN:
     graphics: "标志 / 图形"
     benefits: "优势"
     faq: "常见问题"
+    smartbch: "SmartBCH"
   layout:
     bitcoin_cash: "比特币现金"
     lead: "点对点电子现金"
@@ -117,6 +118,7 @@ zh-CN:
     why: "为什么要使用比特币现金？"
     benefits: "对商家的优势"
     development: "去中心化开发"
+    smartbch: "SmartBCH"
   content:
     history:
       - |
@@ -132,6 +134,8 @@ zh-CN:
         比特币现金有多个独立的开发团队提供软件客户端，它的未来是安全的。比特币现金的协议能够抵御政治和社会性的攻击。 没有哪一个单一的团体或项目能够控制它。多个客户端能确保网络保持100%的正常运行。
       - |
         <a href="https://bitcoincashresearch.org" target="_blank">在比特币-ml 邮件列表</a> 可以制作提案，协调开发团队进行某些改动。 对于那些希望修改比特币现金协议的人，建议尽早寻求审查，并与其他开发者合作。
+      - |
+        如果你有兴趣帮助翻译，请查看我们的 <a href="https://crowdin.com/project/bitcoin-cash" target="_blank">Crowdin 项目</a>。 请记住，我们只接受人工翻译，任何自动翻译都将被拒绝。
     about:
       - |
         比特币现金为世界带来一种可靠的钱，它实践着比特币最初作为“点对点数字现金”的理念。商家和用户能享受到低手续用和可靠的支付确认。比特币现金的增长不受限制、全球都有商业采用、支持无需许可的创新，以及去中心化的开发。比特币现金拥有光明的未来。
@@ -170,6 +174,10 @@ zh-CN:
         descrip:
           - |
             比特币现金是一种无须权限的开放网络。你能够在不受侵犯的前提下与其他人交易。 它是去中心化的、志愿的和非侵略性的。随着使用率的增长，旧的权力结构将被新浪潮取代。 比特币现金可以助力一场前所未有的和平革命。
+      - benefit: "Defi 应用 &amp; NFTs"
+        descrip:
+          - |
+            SmartBCH 是一个高性能, 支持 DeFi 应用程序, EVM &amp; Web3 兼容的侧链。 这包括越来越多的去中心化交易所与NFT项目！
     benefits:
       - benefit: "超低手续费"
         descrip:

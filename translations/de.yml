@@ -6,15 +6,15 @@ de:
   meta:
     index:
       description: |
-        Bitcoin Cash bringt solides Geld in die Welt. Händler und Nutzer werden durch niedrige Gebühren und zuverlässige Bestätigungen gestärkt. Die Zukunft winkt mit uneingeschränktem Wachstum, globaler Akzeptanz, Innovation und dezentraler Entwicklung.
+        Bitcoin Cash bringt solides Geld in die Welt. Händler und Nutzer werden durch niedrige Gebühren und zuverlässige Bestätigungen gestärkt. Die Zukunft leuchtet hell mit uneingeschränktem Wachstum, globaler Akzeptanz, erlaubnisfreier Innovation und dezentraler Entwicklung.
       twitter:
         title: "Bitcoin Cash - Eine elektronische Peer-to-Peer Währung"
         description: |
-          Bitcoin Cash bringt solides Geld in die Welt. Händler und Nutzer werden durch niedrige Gebühren und zuverlässige Bestätigungen gestärkt. Die winkt mit uneingeschränktem Wachstum, globaler Akzeptanz, Innovation und dezentraler Entwicklung.
+          Bitcoin Cash bringt solides Geld in die Welt. Händler und Nutzer werden durch niedrige Gebühren und zuverlässige Bestätigungen gestärkt. Die Zukunft leuchtet hell mit uneingeschränktem Wachstum, globaler Akzeptanz, erlaubnisfreier Innovation und dezentraler Entwicklung.
       og:
         title: "Bitcoin Cash - Eine elektronische Peer-to-Peer Währung"
         description: |
-          Bitcoin Cash bringt solides Geld in die Welt. Händler und Nutzer werden durch niedrige Gebühren und zuverlässige Bestätigungen gestärkt. Die Zukunft winkt mit uneingeschränktem Wachstum, globaler Akzeptanz, Innovation und dezentraler Entwicklung.
+          Bitcoin Cash bringt solides Geld in die Welt. Händler und Nutzer werden durch niedrige Gebühren und zuverlässige Bestätigungen gestärkt. Die Zukunft leuchtet hell mit uneingeschränktem Wachstum, globaler Akzeptanz, erlaubnisfreier Innovation und dezentraler Entwicklung.
     graphics:
       description: |
         Eine Sammlung von Logos und Grafiken für Bitcoin Cash.
@@ -42,14 +42,14 @@ de:
       logos: "Logos"
       merchant: "Händler"
       donations: "Spenden"
-      identity: "Identität"
+      identity: "Indentität"
     types:
       primary: "Primäres BCH Logo"
       white: "BCH Logo Weiße Schrift"
       mark: "BCH Logo Marke"
       horizontal_primary: "Primäres Horizontales BCH Logo"
       horizontal_white: "Horizontales BCH Logo Weiß"
-      wallets_exchanges: "BCH Logo Für Wallets / Börsen"
+      wallets_exchanges: "BCH Logo Für Brieftaschen / Börsen"
     merchant:
       title: "Buttons für Händler"
       description: "Zeigen Sie Ihren Kunden, dass Sie Bitcoin Cash akzeptieren"
@@ -61,8 +61,8 @@ de:
       primary: "Primäres Bitcoin Cash Donations Accepted"
       orange: "Bitcoin Cash Donations Accepted Orange"
     identity:
-      title: "Visuelle Identität"
-      description: "Bitcoin Cash fonts, Farben und mehr."
+      title: "Visuele Identität"
+      description: "Bitcoin Cash fonts, farben und mehr."
       font: "Ubuntu Bold"
       font_italic: "Ubuntu Bold Kursiv"
       download: "Font herunterladen"
@@ -81,7 +81,7 @@ de:
     about: "Über"
     features: "Merkmale"
     nodes: "Knoten"
-    wallets: "Wallets"
+    wallets: "Brieftaschen"
     community: "Gemeinschaft"
     services: "Dienste"
     projects: "Projekte"
@@ -89,34 +89,36 @@ de:
     graphics: "Logos / Grafiken"
     benefits: "Vorteile"
     faq: "FAQ"
+    smartbch: "SmartBCH"
   layout:
     bitcoin_cash: "Bitcoin Cash"
-    lead: "Elektronische Peer-to-Peer Währung"
+    lead: "Eine elektronische Peer-to-Peer Währung"
     loading: "Lädt..."
   features:
     - title: "Schnell"
-      description: "Transaktionen sekundenschnell. Bestätigung in Minuten"
+      description: "Transaktionen sekundenschnell. Bestätigung in Minuten."
     - title: "Zuverlässig"
-      description: "Ein Netzwerk, ohne Unterbrechungen"
+      description: "Ein Netzwerk, das ohne Unterbrechung läuft."
     - title: "Niedrige Gebühren"
-      description: "Sende Geld für weniger als einen cent"
+      description: "Senden Sie Geld weltweit für ein Cent."
     - title: "Einfach"
-      description: "Einfach zu bedienen und fehlerfrei"
+      description: "Einfach zu bedienen. Keine Probleme."
     - title: "Stabil"
-      description: "Als Zahlungsmittel und Wertanlage bewährt"
+      description: "Ein Zahlungssystem, das ein bewährtes Wertaufbewahrungsmittel ist."
     - title: "Sicher"
-      description: "Die robusteste Blockchain-Technologie der Welt"
+      description: "Die robusteste Blockchain-Technologie der Welt."
   headings:
     history: "Die Geschichte von Bitcoin Cash"
     about: "Das beste Geld in der Welt"
     nodes: "Knoten"
-    wallets: "Wallets"
+    wallets: "Brieftaschen"
     services: "Dienste"
     projects: "Projekte"
     exchanges: "Börsen"
     why: "Warum Bitcoin Cash nutzen?"
     benefits: "Vorteile für Händler"
     development: "Dezentralisierte Entwicklung"
+    smartbch: "SmartBCH"
   content:
     history:
       - |
@@ -132,6 +134,8 @@ de:
         Mit mehreren unabhängigen Teams von Entwicklern, die Software-Implementierungen bereitstellen, ist die Zukunft sicher. Bitcoin Cash ist resistent gegen politische und soziale Angriffe auf die Protokollentwicklung. Keine einzelne Gruppe oder Projekt kann es kontrollieren.  Mehrere Implementierungen bieten auch Redundanz, um sicherzustellen, dass das Netzwerk eine 100%ige Betriebszeit beibehält.
       - |
         Die <a href="https://bitcoincashresearch.org" target="_blank">bitcoincashresearch.org Mailingliste</a> ist ein guter Ort, um Vorschläge für Änderungen zu machen, die eine Koordination zwischen den Entwicklungsteams erfordern. Für diejenigen, die Änderungen am Bitcoin Cash-Protokoll implementieren wollen, wird empfohlen, sich frühzeitig um ein Peer-Review zu bemühen und mit anderen Entwicklern zusammenzuarbeiten.
+      - |
+        Wenn Sie Interesse daran haben, bei Übersetzungen zu helfen, dann schauen Sie sich unser <a href="https://crowdin.com/project/bitcoin-cash" target="_blank">CrowdIn-Projekt</a>an. Denken Sie daran, wir akzeptieren nur menschliche Übersetzungen, automatisierte Übersetzungen werden abgelehnt.
     about:
       - |
         Bitcoin Cash bringt solides Geld in die Welt und erfüllt das ursprüngliche Versprechen von Bitcoin als "Peer-to-Peer Electronic Cash". Händler und Nutzer werden durch niedrige Gebühren und zuverlässige Bestätigungen gestärkt. Die Zukunft leuchtet hell mit uneingeschränktem Wachstum, globaler Akzeptanz, erlaubnisfreier Innovation und dezentraler Entwicklung.
@@ -170,6 +174,10 @@ de:
         descrip:
           - |
             Bitcoin Cash ist ein erlaubnisfreies, offenes Netzwerk. Es macht Ihnen möglich, mit Mitmenschen in Beziehuhung zu treten, ohne Ihre Privatsphäre zu verletzen. Es ist dezentralisiert, freiwillig und nicht-aggressiv.  Wenn die Nutzung wächst, werden alte Machtstrukturen erodieren, während neue Ideen aufblühen.  Es könnte helfen, die größte friedliche Revolution einzuleiten, die die Welt je gesehen hat.
+      - benefit: "Defi Anwendungen &amp; NFTs"
+        descrip:
+          - |
+            SmartBCH ist eine leistungsstarke EVM &amp; Web3 kompatible Sidechain zur Unterstützung von DeFi-Anwendungen. Dazu gehören eine ständig wachsende Anzahl dezentraler Austausch- und NFT-Projekte!
     benefits:
       - benefit: "Ultraniedrige Gebühren"
         descrip:

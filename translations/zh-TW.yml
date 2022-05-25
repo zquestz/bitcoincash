@@ -89,6 +89,7 @@ zh-TW:
     graphics: "標誌 / 圖形"
     benefits: "優勢"
     faq: "常見問題"
+    smartbch: "智能比特幣現金"
   layout:
     bitcoin_cash: "比特幣現金"
     lead: "點對點數位現金"
@@ -117,6 +118,7 @@ zh-TW:
     why: "為什麼要使用比特幣現金？"
     benefits: "對商家的好處"
     development: "去中心化開發"
+    smartbch: "智能比特幣現金"
   content:
     history:
       - |
@@ -132,6 +134,8 @@ zh-TW:
         比特幣現金有多個獨立的開發團隊提供軟件客戶端，它的未來是安全的。比特幣現金的協議能夠抵御政治和社會性的攻擊。 沒有哪一個單一的團體或項目能夠控制它。多個客戶端能確保網絡保持100%的正常運行。
       - |
         <a href="https://lists.linuxfoundation.org/mailman/listinfo/bitcoin-ml" target="_blank">在比特幣-ml 郵件列表</a> 可以制作提案，協調開發團隊進行某些改動。 對於那些希望修改比特幣現金協議的人，建議盡早尋求審查，並與其他開發者合作。
+      - |
+        如果你有興趣幫助翻譯，可以到這個網站：<a href="https://crowdin.com/project/bitcoin-cash" target="_blank">CrowdIn project</a>，記住我們只接受人工翻譯，不接受機器翻譯
     about:
       - |
         比特幣現金 (Bitcoin Cash) 為世界帶來一種可靠的貨幣，滿足原先比特幣身為「點對點數位現金」的承諾，並提供商家與使用者低手續費且可靠的交易確認。它，因其不受限制的成長、全世界的普及、無須允許的創新，以及去中心化的開發，有著極為光明的未來。
@@ -170,6 +174,10 @@ zh-TW:
         descrip:
           - |
             比特幣現金是一種無須權限的開放網絡。你能夠在不受侵犯的前提下與其他人交易。 它是去中心化的、志願的和非侵略性的。隨著使用率的增長，舊的權力結構將被新浪潮取代。 比特幣現金可以助力一場前所未有的和平革命。
+      - benefit: "去中心化金融應用&amp; NFT（非同質化代幣）"
+        descrip:
+          - |
+            智能比特幣現金是可以支援去中心化金融應用的EVM &amp; Web3相容的高效運作側鏈，功能包含了時下持續成長的去中心化交易和NFT計畫
     benefits:
       - benefit: "超低手續費"
         descrip:
