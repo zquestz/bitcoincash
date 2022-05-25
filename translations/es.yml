@@ -89,6 +89,7 @@ es:
     graphics: "Logos / Imágenes"
     benefits: "Ventajas"
     faq: "Preguntas Frecuentes"
+    smartbch: "SmartBCH"
   layout:
     bitcoin_cash: "Bitcoin Cash"
     lead: "Dinero electrónico de usuario a usuario"
@@ -117,6 +118,7 @@ es:
     why: "Por qué usar Bitcoin Cash"
     benefits: "Beneficios para comercios"
     development: "Desarrollo descentralizado"
+    smartbch: "SmartBCH"
   content:
     history:
       - |
@@ -132,6 +134,8 @@ es:
         Como múltiples equipos de desarrolladores independientes proporcionan diferentes implementaciones de software, el futuro está seguro. Bitcoin Cash es resistente a ataques políticos y sociales a nivel de desarrollo del protocolo; no es posible que un único grupo o proyecto pueda tener el control. La existencia de múltiples implementaciones también proporciona redundancia para garantizar que la red siempre esté operativa el 100% del tiempo.
       - |
         La lista de email <a href="https://bitcoincashresearch.org" target="_blank">bitcoincashresearch.org</a> es un buen lugar para hacer propuestas de cambios que requieren la coordinación de varios equipos de desarrollo. Para aquellas personas que deseen implementar cambios en el protocolo de Bitcoin Cash, se recomienda que su propuesta sea revisada por otros y que interactúen de forma colaborativa con otros desarrolladores.
+      - |
+        Si estás interesado en ayudarnos con las traducciones, por favor verifica nuestro <a href="https://crowdin.com/project/bitcoin-cash" target="_blank">CrowdIn project</a>. Recuerda, solo aceptamos traducciones de humanos, cualquier traduccion automatizada será rechazada.
     about:
       - |
         Bitcoin Cash es el dinero más sólido de la historia, cumpliendo con la promesa original de Bitcoin como "Dinero electrónico de usuario a usuario". Comisiones bajas y transacciones fiables e irreversibles empoderan a comerciantes y usuarios. Con un crecimiento sin limitaciones, desarrollo descentralizado, adopción global e innovación libre, el futuro es prometedor.
@@ -170,6 +174,10 @@ es:
         descrip:
           - |
             Bitcoin Cash es una red abierta en la que no se necesitan permisos; te permite interactuar con otros seres humanos sin intrusiones de terceros. Es un dinero descentralizado, voluntario y no agresivo. A medida que aumente el uso, las viejas estructuras de poder se debilitarán y florecerán nuevas ideas. Bitcoin Cash puede ayudar a iniciar la mayor revolución pacífica que el mundo haya conocido.
+      - benefit: "Aplicaciones Defi &amp; NFTs"
+        descrip:
+          - |
+            SmartBCH es una cadena de alto rendimiento compatible con EVM &amp; Es una cadena alterna de Web3 para soportar aplicaciones DeFi. Esto significa que hay un número incremental de Intercambios Descentralizados y Projectos NFT!
     benefits:
       - benefit: "Comisiones bajísimas"
         descrip:
