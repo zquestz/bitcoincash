@@ -89,6 +89,7 @@ fr:
     graphics: "Logos / Images"
     benefits: "Avantages"
     faq: "FAQ"
+    smartbch: "SmartBCH"
   layout:
     bitcoin_cash: "Bitcoin Cash"
     lead: "Argent liquide électronique pair-à-pair"
@@ -117,6 +118,7 @@ fr:
     why: "Pourquoi utiliser Bitcoin Cash ?"
     benefits: "Avantages pour les commerçants"
     development: "Développement décentralisé"
+    smartbch: "SmartBCH"
   content:
     history:
       - |
@@ -132,6 +134,8 @@ fr:
         Avec plusieurs équipes indépendantes de développeurs fournissant des implémentations logicielles, l'avenir est sûr. Bitcoin Cash résiste aux attaques politiques et sociales contre le développement de son protocole. Aucun groupe ou projet ne peut le contrôler. Plusieurs implémentations fournissent également une redondance pour s'assurer que le réseau conserve un temps de disponibilité de 100 %.
       - |
         La liste de diffusion <a href="https://lists.linuxfoundation.org/mailman/listinfo/bitcoin-ml" target="_blank">bitcoin-ml</a> est un bon endroit pour faire des propositions de changements qui nécessitent une coordination entre les équipes de développement. Pour ceux qui souhaitent mettre en œuvre des modifications au protocole Bitcoin Cash, il est recommandé de procéder à un examen précoce par les pairs et de collaborer avec d'autres développeurs.
+      - |
+        Si vous êtes intéressé pour aider à la traduction, veuillez consulter notre <a href="https://crowdin.com/project/bitcoin-cash" target="_blank">projet CrowdIn</a>. Notez que nous n'acceptons que les traductions humaines, toute traduction automatique sera rejetée.
     about:
       - |
         Bitcoin Cash apporte une monnaie saine pour le monde. Commerçants et utilisateurs bénéficient de frais infimes et de confirmations fiables. Son avenir s'annonce très brillant grâce à une croissance sans restriction, une adoption mondiale, une innovation sans permission et un développement décentralisé.
@@ -170,6 +174,10 @@ fr:
         descrip:
           - |
             Bitcoin Cash est un réseau ouvert et sans permission. Il vous permet de collaborer avec vos semblables, sans intrusion. Il est décentralisé, volontaire et non agressif. Au fur et à mesure que l'utilisation augmente, les vieilles structures de pouvoir s'érodent alors que les idées neuves fleurissent. Cela pourrait contribuer à faire naître la plus grande révolution pacifique que le monde ait jamais connue.
+      - benefit: "Applications DeFi &amp; NFT"
+        descrip:
+          - |
+            SmartBCH est une chaîne latérale hautement performante, compatible EVM &amp; Web3, pour prendre en charge les applications de finance décentralisée (DeFi). Cela comprend un nombre continuellement croissant de plateformes d'échange décentralisées et de projets NFT !
     benefits:
       - benefit: "Frais infimes"
         descrip:
