@@ -32,11 +32,11 @@ ms:
     logos: "Logo"
     download_png_svg: 'Muat Turunkan Logo "Bitcoin Cash" dalam format PNG dan SVG'
     download_all: "Muat Turun Semua"
-    small: "Kecil (PNG)"
-    medium: "Sederhana (PNG)"
-    large: "Besar (PNG)"
-    full: "Penuh (PNG)"
-    vector: "Vektor (PNG)"
+    small: "Kecil (WEBP)"
+    medium: "Sederhana (WEBP)"
+    large: "Besar (WEBP)"
+    full: "Penuh (WEBP)"
+    vector: "Vektor (SVG)"
     sections:
       home: "Laman Utama"
       logos: "Logo"

@@ -37,10 +37,7 @@ To add translations to the project, use `translations/en.yml` as a template and 
 Optimizing Images
 -----------------
 
-Just run `pngquant` to optimize all png images.
-```
-find . -name '*.png' -exec pngquant --ext .png --force --skip-if-larger {} \;
-```
+Please provide all images as WEBP.
 
 About Bitcoin Cash
 ------------------

@@ -46,7 +46,7 @@ p.release {
 
 .site-header {
   background-color: black;
-  background-image: url(../img/header-background.jpg);
+  background-image: url(../img/header-background.webp);
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
