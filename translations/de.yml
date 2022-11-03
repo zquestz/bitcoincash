@@ -122,7 +122,7 @@ de:
   content:
     history:
       - |
-        Im Oktober 2008 veröffentlichte Satoshi Nakamoto das berühmte Whitepaper mit dem Titel <strong>"Bitcoin: A Peer to Peer Electronic Cash System"</strong>.  Im Jahr 2009 veröffentlichte er die erste Bitcoin-Software, die das Netzwerk antrieb, und es funktionierte mehrere Jahre lang reibungslos mit niedrigen Gebühren und schnellen, zuverlässigen Transaktionen.
+        Im Oktober 2008 veröffentlichte Satoshi Nakamoto das berühmte Whitepaper mit dem Titel <a target="_blank" href="https://bitcoincash.org/bitcoin.pdf"><strong><q>Bitcoin: A Peer to Peer Electronic Cash System</q></strong></a>.  Im Jahr 2009 veröffentlichte er die erste Bitcoin-Software, die das Netzwerk antrieb, und es funktionierte mehrere Jahre lang reibungslos mit niedrigen Gebühren und schnellen, zuverlässigen Transaktionen.
       - |
         Leider wurde Bitcoin von 2016 bis 2017 zunehmend unzuverlässig und teuer.  Das lag daran, dass die Gemeinschaft keinen Konsens über die Erhöhung der Netzwerkkapazität erreichen konnte. Einige der Entwickler haben Satoshis Plan nicht verstanden oder waren damit nicht mehr einverstanden. Stattdessen zogen sie es vor, dass Bitcoin in ein settelment lLayer zu verwandeln.
       - |

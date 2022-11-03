@@ -122,7 +122,7 @@ fr:
   content:
     history:
       - |
-        En octobre 2008, Satoshi Nakamoto a publié le célèbre livre blanc intitulé <strong>« Bitcoin : un système d'argent liquide électronique pair-à-pair »</strong>. En 2009, il a publié le premier logiciel Bitcoin qui a lancé le réseau, et celui-ci a fonctionné sans incident pendant plusieurs années avec des frais faibles et des transactions rapides et fiables.
+        En octobre 2008, Satoshi Nakamoto a publié le célèbre livre blanc intitulé <a target="_blank" href="https://bitcoincash.org/bitcoin.pdf"><strong><q> Bitcoin : un système d'argent liquide électronique pair-à-pair </q></strong></a>. En 2009, il a publié le premier logiciel Bitcoin qui a lancé le réseau, et celui-ci a fonctionné sans incident pendant plusieurs années avec des frais faibles et des transactions rapides et fiables.
       - |
         Malheureusement, entre 2016 et 2017, le Bitcoin est devenu de moins en moins fiable et de plus en plus coûteux. Cela est dû au fait que la communauté n'a pas pu parvenir à un consensus sur l'augmentation de la capacité du réseau. Certains développeurs ne comprenaient pas et n’étaient pas d’accord avec le plan de Satoshi. Au lieu de cela, ils préféraient que Bitcoin devienne un protocole de règlement.
       - |

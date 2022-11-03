@@ -121,7 +121,7 @@ pt-BR:
   content:
     history:
       - |
-        Em outubro de 2008, Satoshi Nakamoto publicou o famoso whitepaper intitulado <strong>"Bitcoin: Um Sistema de Dinheiro Eletrônico em Paer a Peer".</strong>. Em 2009, ele lançou o primeiro software de bitcoin que alimentou a rede, e funcionou sem problemas durante vários anos, com taxas baixas e transações seguras e rápidas.
+        Em outubro de 2008, Satoshi Nakamoto publicou o famoso whitepaper intitulado <a target="_blank" href="https://bitcoincash.org/bitcoin.pdf"><strong><q>Bitcoin: Um Sistema de Dinheiro Eletrônico em Paer a Peer</q></strong></a>. Em 2009, ele lançou o primeiro software de bitcoin que alimentou a rede, e funcionou sem problemas durante vários anos, com taxas baixas e transações seguras e rápidas.
       - |
         Infelizmente, de 2016 até 2017, o Bitcoin tornou-se cada vez mais incerto e caro. Isto aconteceu porque a comunidade não conseguiu chegar a consenso sobre o aumento da capacidade da rede. Alguns dos desenvolvedores não concordavam com o plano do Satoshi. Em vez disso, eles preferiam que o Bitcoin se tornasse uma camada de liquidação.
       - |

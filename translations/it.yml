@@ -120,7 +120,7 @@ it:
   content:
     history:
       - |
-        Nell'Ottobre 2008, Satoshi Nakamoto ha pubblicato il famoso whitepaper intitolato <strong>“Bitcoin: A Peer to Peer Electronic Cash System”</strong>. Nel 2009 ha rilasciato il primo software bitcoin per la rete, il quale ha funzionato senza problemi per diversi anni grazie a commissioni basse e transazioni rapide e affidabili.
+        Nell'Ottobre 2008, Satoshi Nakamoto ha pubblicato il famoso whitepaper intitolato <a target="_blank" href="https://bitcoincash.org/bitcoin.pdf"><strong><q>Bitcoin: A Peer to Peer Electronic Cash System</q></strong></a>. Nel 2009 ha rilasciato il primo software bitcoin per la rete, il quale ha funzionato senza problemi per diversi anni grazie a commissioni basse e transazioni rapide e affidabili.
       - |
         Purtroppo, dal 2016 al 2017, Bitcoin è diventato sempre più inaffidabile e costoso. Questo perché la comunità non è riuscita a raggiungere il consenso all'aumento della capacità della rete. Alcuni degli sviluppatori non hanno ne inteso ne concordato con il piano di Satoshi. Hanno invece preferito che Bitcoin diventare uno bene di stoccaggio.
       - |

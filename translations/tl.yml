@@ -120,7 +120,7 @@ tl:
   content:
     history:
       - |
-        Sa taong 2008 ng Oktubre, inilathala ni Satoshi Nakamoto ang sikat na "white paper" na pinamagatang <strong>“Bitcoin: A Peer to Peer Electronic Cash System”</strong>.  Sa taong 2009, pinakawalan niya ang pinakaunang software na nagpalakas sa network, at napakagaan na operasyon sa mga ilang taon dahil sa mababang bayarin, mabilis at maasahang transaksyon.
+        Sa taong 2008 ng Oktubre, inilathala ni Satoshi Nakamoto ang sikat na "white paper" na pinamagatang <a target="_blank" href="https://bitcoincash.org/bitcoin.pdf"><strong><q>Bitcoin: A Peer to Peer Electronic Cash System</q></strong></a>.  Sa taong 2009, pinakawalan niya ang pinakaunang software na nagpalakas sa network, at napakagaan na operasyon sa mga ilang taon dahil sa mababang bayarin, mabilis at maasahang transaksyon.
       - |
         Sa kasamaang palad, noong 2016 hanggang 2017, naging mahirap at mahal ang pagtransaksyon sa Bitcoin. Ito ay dahil hindi maabot ng komunidad ang konsensus sa kapasidad ng pagtaas ng network. Ilan sa mga developers nito ay hindi ito naiintindihan gayundin ang layunin ni Satoshi. Sapagkat mas ginusto nilang maging settlement layer lamang ang Bitcoin.
       - |
