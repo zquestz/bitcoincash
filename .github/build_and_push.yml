@@ -7,6 +7,7 @@ on:
   pull_requests:
     branches:
       - master
+  workflow_dispatch:
 
 jobs:
   build_and_push_image:
