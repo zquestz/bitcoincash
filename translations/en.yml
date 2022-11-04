@@ -123,7 +123,7 @@ en:
   content:
     history:
       - |
-        In October 2008, Satoshi Nakamoto published the famous whitepaper entitled <strong>“Bitcoin: A Peer to Peer Electronic Cash System”</strong>.  In 2009, he released the first bitcoin software that powered the network, and it operated smoothly for several years with low fees, and fast, reliable transactions.
+        In October 2008, Satoshi Nakamoto published the famous whitepaper entitled <a target="_blank" href="https://bitcoincash.org/bitcoin.pdf"><strong><q>Bitcoin: A Peer to Peer Electronic Cash System</q></strong></a>.  In 2009, he released the first bitcoin software that powered the network, and it operated smoothly for several years with low fees, and fast, reliable transactions.
       - |
         Unfortunately, from 2016 to 2017, Bitcoin became increasingly unreliable and expensive.  This was because the community could not reach consensus on increasing the network capacity. Some of the developers did not understand and agree with Satoshi’s plan. Instead, they preferred Bitcoin become a settlement layer.
       - |
@@ -132,7 +132,7 @@ en:
         On August 1st, 2017, we took the logical step of increasing the maximum block size, and Bitcoin Cash was born.  Anyone who held Bitcoin at that time (block 478558) became an owner of Bitcoin Cash (BCH).  The network now supports up to 32MB blocks with ongoing research to allow massive future increases.
     development:
       - |
-         With multiple independent teams of developers providing software implementations, the future is secure. Bitcoin Cash is resistant to political and social attacks on protocol development. No single group or project can control it.  Multiple implementations also provides redundancy to ensure that the network retains 100% uptime.
+        With multiple independent teams of developers providing software implementations, the future is secure. Bitcoin Cash is resistant to political and social attacks on protocol development. No single group or project can control it.  Multiple implementations also provides redundancy to ensure that the network retains 100% uptime.
       - |
         The <a href="https://bitcoincashresearch.org" target="_blank">bitcoincashresearch.org</a> website is a good venue for making proposals for changes that require coordination across development teams. For those wishing to implement changes to the Bitcoin Cash protocol, it is recommended to seek early peer-review and engage collaboratively with other developers.
       - |

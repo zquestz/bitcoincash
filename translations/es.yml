@@ -122,7 +122,7 @@ es:
   content:
     history:
       - |
-        En octubre de 2008, Satoshi Nakamoto publicó el famoso Whitepaper titulado <strong>“Bitcoin: A Peer to Peer Electronic Cash System”</strong> (Bitcoin: Un sistema de dinero electrónico de usuario a usuario). En 2009, lanzó el primer software de bitcoin que impulsó la red, y Bitcoin funcionó sin problemas durante varios años con comisiones bajas y transacciones rápidas, fiables e irreversibles.
+        En octubre de 2008, Satoshi Nakamoto publicó el famoso Whitepaper titulado <a target="_blank" href="https://bitcoincash.org/bitcoin.pdf"><strong><q>Bitcoin: A Peer to Peer Electronic Cash System</q></strong></a> (Bitcoin: Un sistema de dinero electrónico de usuario a usuario). En 2009, lanzó el primer software de bitcoin que impulsó la red, y Bitcoin funcionó sin problemas durante varios años con comisiones bajas y transacciones rápidas, fiables e irreversibles.
       - |
         Por desgracia, entre 2016 y 2017, las transacciones de Bitcoin se volvieron cada vez menos fiable y las comisiones más caras, lo que se debió a que la comunidad no pudo llegar a un consenso sobre el aumento de la capacidad de la red. Algunos de los desarrolladores informáticos no entendieron ni estaban de acuerdo con el plan de Satoshi. En su lugar, prefirieron que Bitcoin se convirtiera en una capa de contabilidad o liquidación de saldos.
       - |
