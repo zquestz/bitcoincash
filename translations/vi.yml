@@ -120,7 +120,7 @@ vi:
   content:
     history:
       - |
-        Tháng 10 năm 2008, Satoshi Nakamoto đã đưa lên mạng một nghiên cứu có tiêu đề <strong>“Bitcoin: Hệ Thống Tiền Mặt Điện Tử Trực Tiếp”</strong>. Năm 2009, ông đã phát hành phần mềm đầu tiên chạy cho hệ thống mạng bitcoin và nó hoạt động trơn tru trong vài năm với giao dịch có chi phí thấp, nhanh chóng, đáng tin cậy.
+        Tháng 10 năm 2008, Satoshi Nakamoto đã đưa lên mạng một nghiên cứu có tiêu đề <a target="_blank" href="https://bitcoincash.org/bitcoin.pdf"><strong><q>Bitcoin: Hệ Thống Tiền Mặt Điện Tử Trực Tiếp</q></strong></a>. Năm 2009, ông đã phát hành phần mềm đầu tiên chạy cho hệ thống mạng bitcoin và nó hoạt động trơn tru trong vài năm với giao dịch có chi phí thấp, nhanh chóng, đáng tin cậy.
       - |
         Tuy nhiên, từ năm 2016 đến năm 2017, Bitcoin ngày càng trở nên không đáng tin cậy và đắt đỏ. Lý do là cộng đồng đã không thể đạt được sự đồng thuận về việc tăng dung lượng xử lý giao dịch. Một số nhà phát triển đã không hiểu và đồng ý với kế hoạch của chính Satoshi. Thay vào đó, họ muốn Bitcoin trở thành một phương thức thanh toán.
       - |

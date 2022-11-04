@@ -120,7 +120,7 @@ nl:
   content:
     history:
       - |
-        In oktober 2008 publiceerde Satoshi Nakamoto de beroemde whitepaper getiteld <strong> "Bitcoin: een peer-to-peer elektronisch cash systeem" </strong>. In 2009 bracht hij de eerste bitcoin-software uit die het netwerk aandreef, en het werkte jarenlang probleemloos met lage kosten en snelle, betrouwbare transacties.
+        In oktober 2008 publiceerde Satoshi Nakamoto de beroemde whitepaper getiteld <a target="_blank" href="https://bitcoincash.org/bitcoin.pdf"><strong><q>Bitcoin: een peer-to-peer elektronisch cash systeem</q></strong></a>. In 2009 bracht hij de eerste bitcoin-software uit die het netwerk aandreef, en het werkte jarenlang probleemloos met lage kosten en snelle, betrouwbare transacties.
       - |
         Helaas werd Bitcoin van 2016 tot 2017 steeds onbetrouwbaarder en duurder. Dit kwam doordat de gemeenschap geen overeenstemming kon bereiken over het vergroten van de netwerkcapaciteit. Sommige ontwikkelaars begrepen het plan van Satoshi niet en waren het er niet mee eens. In plaats daarvan gaven ze er de voorkeur aan dat Bitcoin een afwikkelingslaag werd.
       - |

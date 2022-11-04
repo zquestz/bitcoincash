@@ -120,7 +120,7 @@ tr:
   content:
     history:
       - |
-        Ekim 2008'de, Satoshi Nakamoto, meşhur <strong>“Bitcoin: A Peer to Peer Electronic Cash System”</strong> başlıklı makaleyi yayınladı. 2009'da, bitcoin ağını oluşturacak ilk bitcoin yazılımını yayınladı ve ağ, birkaç yıl boyunca düşük gönderim ücretiyle, hızlı ve sorunsuz bir şekilde işlemeyi sürdürdü.
+        Ekim 2008'de, Satoshi Nakamoto, meşhur <a target="_blank" href="https://bitcoincash.org/bitcoin.pdf"><strong><q>Bitcoin: A Peer to Peer Electronic Cash System</q></strong></a> başlıklı makaleyi yayınladı. 2009'da, bitcoin ağını oluşturacak ilk bitcoin yazılımını yayınladı ve ağ, birkaç yıl boyunca düşük gönderim ücretiyle, hızlı ve sorunsuz bir şekilde işlemeyi sürdürdü.
       - |
         Maalesef 2016'dan 2017'ye, Bitcoin giderek göndermesi sorunlu ve pahali bir hale geldi. Bu, toplumun ağ kapasitesini arttırma konusunda ortak bir karara varamamasından kaynaklandı. Bitcoin yazılımını geliştirenlerden bazıları Satoshi'nin planını anlamadı ve kabul etmedi. Bunun yerine Bitcoin'in bir mutabakat katmanı haline gelmesini tercih ettiler.
       - |
