@@ -1,0 +1,34 @@
+name: Build & Push Docker image
+
+on:
+  push:
+    branches:
+      - master
+  pull_request:
+    branches:
+      - master
+  workflow_dispatch:
+
+jobs:
+  build_and_push_image:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - uses: ruby/setup-ruby@v1
+        with:
+          bundler-cache: true
+      - name: Build Docker image
+        run: bundle exec rake
+
+      # TODO: Only Docker login & push on the push event + master branch
+      #- name: Retag Docker image
+      #  run: docker tag bitcoincash:latest zquestz/bitcoincash:latest
+      #- name: Login to Docker Hub
+      #  if: ${{ github.event_name == 'push' && github.ref == 'refs/heads/master' }}
+      #  uses: docker/login-action@v2
+      #  with:
+      #    username: zquestz
+      #    password: ${{ secrets.DOCKERHUB_TOKEN }}
+      #- name: Docker push
+      #  if: ${{ github.event_name == 'push' && github.ref == 'refs/heads/master' }}
+      #  run: docker push zquestz/bitcoincash:latest
