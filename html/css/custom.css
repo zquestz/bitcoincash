@@ -1086,7 +1086,7 @@ h6 {
   margin-bottom: 30px;
   display: -moz-inline-stack;
   display: inline-block;
-  zoom: 1;
+  zoom: scale(1);
   *display: inline;
 }
 #fh5co-services .icon:before {
@@ -1610,7 +1610,7 @@ h6 {
   position: relative;
   display: -moz-inline-stack;
   display: inline-block;
-  zoom: 1;
+  zoom: scale(1);
   *display: inline;
   width: 25px;
   height: 3px;
