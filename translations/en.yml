@@ -175,11 +175,6 @@ en:
         descrip:
           - |
             Bitcoin Cash is a permissionless, open network.  It empowers you to engage with your fellow human beings without intrusion.  It’s decentralized, voluntary, and non-aggressive.  As usage grows, old power structures will erode while fresh ideas blossom.  It may help usher in the greatest peaceful revolution the world has ever known.
-      - benefit: "Defi Applications &amp; NFTs"
-        descrip:
-          - |
-            SmartBCH is a highly performant EVM &amp; Web3 compatible sidechain to support DeFi applications. This includes a constantly growing number of decentralized exchanges and NFT projects!
-
     benefits:
       - benefit: "Ultra Low Fees"
         descrip:
