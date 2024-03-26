@@ -1,0 +1,194 @@
+---
+eo:
+  language: Esperanto
+  title:
+    index: "Bitcoin Cash - Samtavola bitmono"
+    graphics: "Bitcoin Cash - Emblemoj / Grafikaĵoj"
+  meta:
+    index:
+      description: |
+        Bitcoin Cash alportas solidan monon al la mondo. Malmultekostaj kotizoj kaj fidindaj konfirmoj donas povon al komercistoj kaj uzantoj. La estonteco havos senliman kreskadon, tutmondan adopton, senpermesan novigadon kaj sencentran disvolvadon.
+      twitter:
+        title: "Bitcoin Cash - Samtavola elektra mono"
+        description: |
+          Bitcoin Cash alportas solidan monon al la mondo. Malmultekostaj kotizoj kaj fidindaj konfirmoj donas povon al komercistoj kaj uzantoj. La estonteco havos senliman kreskadon, tutmondan adopton, senpermesan novigadon kaj sencentran disvolvadon.
+      og:
+        title: "Bitcoin Cash - Samtavola elektra mono"
+        description: |
+          Bitcoin Cash alportas solidan monon al la mondo. Malmultekostaj kotizoj kaj fidindaj konfirmoj donas povon al komercistoj kaj uzantoj. La estonteco havos senliman kreskadon, tutmondan adopton, senpermesan novigadon kaj sencentran disvolvadon.
+    graphics:
+      description: |
+        Kolekto da emblemoj kaj grafikaĵoj de Bitcoin Cash.
+      twitter:
+        title: "Bitcoin Cash - Emblemoj / Grafikaĵoj"
+        description: |
+          Kolekto da emblemoj kaj grafikaĵoj de Bitcoin Cash.
+      og:
+        title: "Bitcoin Cash - Emblemoj / Grafikaĵoj"
+        description: |
+          Kolekto da emblemoj kaj grafikaĵoj de Bitcoin Cash.
+  graphics:
+    title: "Reklamaj grafikaĵoj"
+    description: "Ĉi tiuj emblemoj de Bitcoin Cash kaj markaj aĵoj povas esti montrataj en Interretaj servoj, etaj vendejoj, gazetaraj aŭ aliaj reklamaj celoj"
+    logos: "Emblemoj"
+    download_png_svg: "Elŝuti emblemoj de Bitcoin Cash kiel PNG kaj SVG"
+    download_all: "Elŝuti ĉion"
+    small: "Eta (WEBP)"
+    medium: "Meza (WEBP)"
+    large: "Granda (WEBP)"
+    full: "Plena (WEBP)"
+    vector: "Vektora (SVG)"
+    sections:
+      home: "Ĉefpaĝo"
+      logos: "Emblemoj"
+      merchant: "Komercisto"
+      donations: "Donacoj"
+      identity: "Identeco"
+    types:
+      primary: "Ĉefa BCH-emblemo"
+      white: "BCH-emblemo kun blanka teksto"
+      mark: "Marka BCH-emblemo"
+      horizontal_primary: "Ĉefa horizontala BCH-emblemo"
+      horizontal_white: "Blanka horizontala BCH-emblemo"
+      wallets_exchanges: "BCH-emblemo por monujoj / Ŝanĝejoj"
+    merchant:
+      title: "Komercistaj butonoj"
+      description: "Montri al viaj klientojn, ke vi akceptas Bitcoin Cash"
+      primary: "Bitcoin Cash akceptata ĉi tie (ĉefa)"
+      orange: "Bitcoin Cash akceptata ĉi tie (oranĝa)"
+    donation:
+      title: "Donac-butonoj"
+      description: "Propagandu la akceptadon de Bitcoin Cash kiel donaca metodo."
+      primary: "Bitcoin Cash donacoj akceptitaj (ĉefa)"
+      orange: "Bitcoin Cash donacoj akceptitaj (oranĝa)"
+    identity:
+      title: "Vida identeco"
+      description: "Bitcoin Cash tiparoj, koloroj kaj pli."
+      font: "Ubuntu Bold"
+      font_italic: "Ubuntu Bold Italic"
+      download: "Elŝuti tiparon"
+      orange: "Bitcoin Cash (oranĝa)"
+      grey: "Bitcoin Cash (griza)"
+      white: "Bitcoin Cash (blanka)"
+      hex: "Deksesuma"
+      rgb: "RGB"
+      cmyk: "CMYK"
+      pantone: "Pantone"
+  misc:
+    logo: "emblemo"
+    dropdown_md_width: 3
+    dropdown_sm_width: 3
+  sections:
+    about: "Pri"
+    features: "Trajtoj"
+    nodes: "Nodoj"
+    wallets: "Monujoj"
+    community: "Komunumo"
+    services: "Servoj"
+    projects: "Projektoj"
+    exchanges: "Ŝanĝejoj"
+    graphics: "Emblemoj / Grafikaĵoj"
+    benefits: "Avantaĝoj"
+    faq: "Oftaj demandoj"
+    smartbch: "SmartBCH"
+  layout:
+    bitcoin_cash: "Bitcoin Cash"
+    lead: "Samtavola elektra mono"
+    loading: "Ŝarĝante..."
+  features:
+    - title: "Rapida"
+      description: "Transact in seconds. Get confirmed in minutes."
+    - title: "Reliable"
+      description: "Reto, kiu funkcias sen obstrukco."
+    - title: "Malmultekostaj kotizoj"
+      description: "Tutmonde sendu monon tre malmultekoste."
+    - title: "Simpla"
+      description: "Facile uzebla. Sen ĝenoj."
+    - title: "Stabila"
+      description: "Pagsistemo, kiu estas provita konservilo de valoro."
+    - title: "Sekura"
+      description: "La tutmonde plej fortika blokĉena teknologio"
+  headings:
+    history: "La historio de Bitcoin Cash"
+    about: "La plej bona mono en la mondo"
+    nodes: "Nodoj"
+    wallets: "Monujoj"
+    services: "Servoj"
+    projects: "Projektoj"
+    exchanges: "Ŝanĝejoj"
+    why: "Kial uzi Bitcoin Cash?"
+    benefits: "Avantaĝoj por komercistoj"
+    development: "Sencentra disvolvado"
+    smartbch: "SmartBCH"
+  content:
+    history:
+      - |
+        In October 2008, Satoshi Nakamoto published the famous whitepaper entitled <a target="_blank" href="https://bitcoincash.org/bitcoin.pdf"><strong><q>Bitcoin: A Peer to Peer Electronic Cash System</q></strong></a>.  In 2009, he released the first bitcoin software that powered the network, and it operated smoothly for several years with low fees, and fast, reliable transactions.
+      - |
+        Unfortunately, from 2016 to 2017, Bitcoin became increasingly unreliable and expensive.  This was because the community could not reach consensus on increasing the network capacity. Some of the developers did not understand and agree with Satoshi’s plan. Instead, they preferred Bitcoin become a settlement layer.
+      - |
+        By 2017, Bitcoin dominance had plummeted from 95% to as low as 40% as a direct result of the usability problems.  Fortunately, a large portion of the Bitcoin community, including developers, investors, users, and businesses, still believed in the original vision of Bitcoin -- a low fee, peer to peer electronic cash system that could be used by all the people of the world.
+      - |
+        On August 1st, 2017, we took the logical step of increasing the maximum block size, and Bitcoin Cash was born.  Anyone who held Bitcoin at that time (block 478558) became an owner of Bitcoin Cash (BCH).  The network now supports up to 32MB blocks with ongoing research to allow massive future increases.
+    development:
+      - |
+        With multiple independent teams of developers providing software implementations, the future is secure. Bitcoin Cash is resistant to political and social attacks on protocol development. No single group or project can control it.  Multiple implementations also provides redundancy to ensure that the network retains 100% uptime.
+      - |
+        The <a href="https://bitcoincashresearch.org" target="_blank">bitcoincashresearch.org</a> website is a good venue for making proposals for changes that require coordination across development teams. For those wishing to implement changes to the Bitcoin Cash protocol, it is recommended to seek early peer-review and engage collaboratively with other developers.
+      - |
+        If you are interested in helping with translations, then please check out our <a href="https://crowdin.com/project/bitcoin-cash" target="_blank">CrowdIn project</a>. Remember, we only accept human translations, any automated translations will be rejected.
+    about:
+      - |
+        Bitcoin Cash brings sound money to the world, fulfilling the original promise of Bitcoin as "Peer-to-Peer Electronic Cash". Merchants and users are empowered with low fees and reliable confirmations. The future shines brightly with unrestricted growth, global adoption, permissionless innovation, and decentralized development.
+      - |
+        All are welcome to join the Bitcoin Cash community as we move forward in creating sound money accessible to the whole world.
+    why:
+      - benefit: "Send Money Anywhere In the World, Almost for Free"
+        descrip:
+          - |
+            With Bitcoin Cash, you can send money to anyone, anywhere in the world, 24 hours a day, 365 days a year.  Like the Internet itself, the network is always on.  No transaction is too big or too small.  And you never need anyone’s permission or approval.
+      - benefit: "Be Your Own Bank and Have Full Control Over Your Money"
+        descrip:
+          - |
+            The seizing of capital from account holders (“bail-ins”) that occurred in Cyprus and nearly in Greece, demonstrated that bank deposits are only as safe as political leaders decide.  Even under the best of conditions, banks can make mistakes, hold funds, freeze accounts, and otherwise prevent you from accessing your own money.
+          - |
+            Banks can also decide to block your transactions, charge you fees, or close your account without warning.  Bitcoin Cash gives you full, sovereign control over your funds, which you can access from anywhere in the world.
+      - benefit: "A Scarce Digital Currency with a Known, Fixed Supply"
+        descrip:
+          - |
+            The Bitcoin Cash protocol ensures there will never be more than 21 million coins in existence.  Governments constantly print money out of thin air, endlessly inflating the supply and devaluing everyone’s savings. Bitcoin Cash has a fixed supply and therefore represents sound money.
+      - benefit: "Increase Your Privacy and Operate Anonymously"
+        descrip:
+          - |
+            Bitcoin Cash offers more privacy and anonymity than traditional payment systems like bank transfers and credit card payments, since it’s normally impossible to know who controls a Bitcoin address.
+          - |
+            Bitcoin Cash offers various levels of privacy depending on how it is used.  It’s important to educate yourself thoroughly before using BCH for privacy purposes.
+      - benefit: "Enjoy Exclusive Discounts"
+        descrip:
+          - |
+            Many merchants offer discounts for paying in Bitcoin Cash, because it eliminates credit card fees and helps grow the adoption of this new payment system.
+      - benefit: "Token Ecosystem"
+        descrip:
+          - |
+            Storing and managing tokens on a blockchain provides greater transparency and integrity than traditional forms of asset accounting and trading. Bitcoin Cash supports token protocols that power a variety of projects, and it is easy to create your own token backed projects.
+      - benefit: "Support Freedom Worldwide"
+        descrip:
+          - |
+            Bitcoin Cash is a permissionless, open network.  It empowers you to engage with your fellow human beings without intrusion.  It’s decentralized, voluntary, and non-aggressive.  As usage grows, old power structures will erode while fresh ideas blossom.  It may help usher in the greatest peaceful revolution the world has ever known.
+    benefits:
+      - benefit: "Ultra Low Fees"
+        descrip:
+          - |
+            The network fee for a typical Bitcoin Cash transaction is less than one penny. If you want to convert your BCH into fiat currency, such as US dollars, you can do that through merchant processors for a cost that is still much lower than credit card processing.
+      - benefit: "No Chargebacks"
+        descrip:
+          - |
+            Unlike credit cards, there are never any automatic voids, refunds, chargebacks, or other unexpected fees. Fraud protection is built into the system with no cost to the merchant.
+      - benefit: "Novaj klientojCustomers"
+        descrip:
+          - |
+            A growing number of patrons are choosing Bitcoin Cash as a preferred payment method.  They favor merchants who offer this payment option and actively seek them out.
+      - benefit: "Free Marketing and Press"
+        descrip:
+          - |
+            By accepting Bitcoin Cash, merchants can gain free listings in website and app directories, gaining even more customers.  They can also take advantage of this new trend and generate press for their business.
