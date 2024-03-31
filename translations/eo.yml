@@ -123,31 +123,31 @@ eo:
   content:
     history:
       - |
-        In October 2008, Satoshi Nakamoto published the famous whitepaper entitled <a target="_blank" href="https://bitcoincash.org/bitcoin.pdf"><strong><q>Bitcoin: A Peer to Peer Electronic Cash System</q></strong></a>.  In 2009, he released the first bitcoin software that powered the network, and it operated smoothly for several years with low fees, and fast, reliable transactions.
+        En Oktobro de 2008 Satoshi Nakamoto publikigis la faman teknikan dokumenton <a target="_blank" href="https://bitcoincash.org/bitcoin.pdf"><strong><q>Bitcoin: A Peer to Peer Electronic Cash System</q></strong></a>. En 2009 li eldonis la unuan Bitcoin-programon, kiu funkciigis la reton, kaj ĝi glate funkciis dum pluraj jaroj havante malmultekostajn kotizojn kaj transakciojn rapidajn kaj fidindajn.
       - |
-        Unfortunately, from 2016 to 2017, Bitcoin became increasingly unreliable and expensive.  This was because the community could not reach consensus on increasing the network capacity. Some of the developers did not understand and agree with Satoshi’s plan. Instead, they preferred Bitcoin become a settlement layer.
+        Bedaŭrinde, inter 2016 kaj 2017, Bitcoin iĝis pli kaj pli nefidinda kaj multekosta. Tio okazis pro tio, ke la komunumo ne povis atingi konsenton pri la pliigo de la retkapacito. Iuj programistoj ne komprenis kaj ne konsentis kun la plano de Satoshi. Anstataŭe ili preferis, ke Bitcoin iĝu librotenada tavolo.
       - |
-        By 2017, Bitcoin dominance had plummeted from 95% to as low as 40% as a direct result of the usability problems.  Fortunately, a large portion of the Bitcoin community, including developers, investors, users, and businesses, still believed in the original vision of Bitcoin -- a low fee, peer to peer electronic cash system that could be used by all the people of the world.
+        En 2017 la populareco de Bitcoin malkreskis el 95 % al 40 % kiel rekta rezulto de la uzeblecaj problemoj. Bonŝance granda parto de la Bitcoin-komunumo, inkluzive de programistoj, investantoj, uzantoj kaj firmaoj, ankoraŭ kredis je la origina ideo de Bitcoin: elektra samtavola mona sistemo kun malmultekostaj kozitoj, kiu povus esti uzata de ĉiuj homoj en la mondo.
       - |
-        On August 1st, 2017, we took the logical step of increasing the maximum block size, and Bitcoin Cash was born.  Anyone who held Bitcoin at that time (block 478558) became an owner of Bitcoin Cash (BCH).  The network now supports up to 32MB blocks with ongoing research to allow massive future increases.
+        Je la 1-a de Aŭgusto de 2017, we took the logical step of increasing the maximum block size, and Bitcoin Cash was born.  Anyone who held Bitcoin at that time (block 478558) became an owner of Bitcoin Cash (BCH).  The network now supports up to 32MB blocks with ongoing research to allow massive future increases.
     development:
       - |
-        With multiple independent teams of developers providing software implementations, the future is secure. Bitcoin Cash is resistant to political and social attacks on protocol development. No single group or project can control it.  Multiple implementations also provides redundancy to ensure that the network retains 100% uptime.
+        Danke al pluraj sendependaj teamoj de programistoj, kiuj disvolvas programojn, la estonteco estas sekura. Bitcoin Cash povas rezisti politikajn kaj sociajn atakoj al la programado de la protokolo. Neniu sola grupo aŭ projekto povas kontroli ĝin. Multaj versioj ankaŭ provizas redundon por certigi, ke la reto ĉiutempe funkciu.
       - |
-        The <a href="https://bitcoincashresearch.org" target="_blank">bitcoincashresearch.org</a> website is a good venue for making proposals for changes that require coordination across development teams. For those wishing to implement changes to the Bitcoin Cash protocol, it is recommended to seek early peer-review and engage collaboratively with other developers.
+        La retejo <a href="https://bitcoincashresearch.org" target="_blank">bitcoincashresearch.org</a> estas bona ejo por proponi ŝanĝojn, kiuj bezonas kunordigadon inter programistaj teamoj. Oni rekomendas al tiuj, kiuj deziras realigi ŝanĝojn al la protokolo de Bitcoin Cash, serĉi fruan kolegan revizion kaj kunlabori kun aliaj programistoj.
       - |
-        If you are interested in helping with translations, then please check out our <a href="https://crowdin.com/project/bitcoin-cash" target="_blank">CrowdIn project</a>. Remember, we only accept human translations, any automated translations will be rejected.
+        Se vi havas intereson helpi tradukante, vidu nian <a href="https://crowdin.com/project/bitcoin-cash" target="_blank">CrowdIn-projekton</a>. Memoru, ke ni nur akceptas homajn tradukojn, ĉiuj maŝinaj tradukoj estos malakceptitaj.
     about:
       - |
         Bitcoin Cash brings sound money to the world, fulfilling the original promise of Bitcoin as "Peer-to-Peer Electronic Cash". Merchants and users are empowered with low fees and reliable confirmations. The future shines brightly with unrestricted growth, global adoption, permissionless innovation, and decentralized development.
       - |
         All are welcome to join the Bitcoin Cash community as we move forward in creating sound money accessible to the whole world.
     why:
-      - benefit: "Send Money Anywhere In the World, Almost for Free"
+      - benefit: "Sendu monon ĉie ajn en la mondo, preskaŭ senkoste"
         descrip:
           - |
             With Bitcoin Cash, you can send money to anyone, anywhere in the world, 24 hours a day, 365 days a year.  Like the Internet itself, the network is always on.  No transaction is too big or too small.  And you never need anyone’s permission or approval.
-      - benefit: "Be Your Own Bank and Have Full Control Over Your Money"
+      - benefit: "Estu via propra banko kaj havu plenan kontrolon pri via mono"
         descrip:
           - |
             The seizing of capital from account holders (“bail-ins”) that occurred in Cyprus and nearly in Greece, demonstrated that bank deposits are only as safe as political leaders decide.  Even under the best of conditions, banks can make mistakes, hold funds, freeze accounts, and otherwise prevent you from accessing your own money.
@@ -176,7 +176,7 @@ eo:
           - |
             Bitcoin Cash is a permissionless, open network.  It empowers you to engage with your fellow human beings without intrusion.  It’s decentralized, voluntary, and non-aggressive.  As usage grows, old power structures will erode while fresh ideas blossom.  It may help usher in the greatest peaceful revolution the world has ever known.
     benefits:
-      - benefit: "Ultra Low Fees"
+      - benefit: "Tre tre malaltaj kotizoj"
         descrip:
           - |
             The network fee for a typical Bitcoin Cash transaction is less than one penny. If you want to convert your BCH into fiat currency, such as US dollars, you can do that through merchant processors for a cost that is still much lower than credit card processing.
