@@ -97,8 +97,8 @@ eo:
     loading: "Ŝarĝante..."
   features:
     - title: "Rapida"
-      description: "Transact in seconds. Get confirmed in minutes."
-    - title: "Reliable"
+      description: "Transakciu en sekundoj. Iĝu konfirmita en minutoj."
+    - title: "Fidinda"
       description: "Reto, kiu funkcias sen obstrukco."
     - title: "Malmultekostaj kotizoj"
       description: "Tutmonde sendu monon tre malmultekoste."
@@ -139,56 +139,56 @@ eo:
         Se vi havas intereson helpi tradukante, vidu nian <a href="https://crowdin.com/project/bitcoin-cash" target="_blank">CrowdIn-projekton</a>. Memoru, ke ni nur akceptas homajn tradukojn, ĉiuj maŝinaj tradukoj estos malakceptitaj.
     about:
       - |
-        Bitcoin Cash brings sound money to the world, fulfilling the original promise of Bitcoin as "Peer-to-Peer Electronic Cash". Merchants and users are empowered with low fees and reliable confirmations. The future shines brightly with unrestricted growth, global adoption, permissionless innovation, and decentralized development.
+        Bitcoin Cash alportas solidan monon al la mondo, plenumante la originan promeson de Bitcoin kiel «elektra samtavola mono». Malmultekostaj kotizoj kaj fidindaj konfirmoj donas povon al komercistoj kaj uzantoj. La estonteco havos senliman kreskadon, tutmondan adopton, senpermesan novigadon kaj sencentran disvolvadon.
       - |
-        All are welcome to join the Bitcoin Cash community as we move forward in creating sound money accessible to the whole world.
+        Ĉiuj estas bonvenaj aliĝi al la komunumo de Bitcoin Cash dum ni antaŭeniras kreante solidan monon alireblan por la tuta mondo.
     why:
       - benefit: "Sendu monon ĉie ajn en la mondo, preskaŭ senkoste"
         descrip:
           - |
-            With Bitcoin Cash, you can send money to anyone, anywhere in the world, 24 hours a day, 365 days a year.  Like the Internet itself, the network is always on.  No transaction is too big or too small.  And you never need anyone’s permission or approval.
+            Per Bitcoin Cash vi povas sendi monon al iu ajn, ie ajn en la mondo, 24 horojn tage, 365 tagojn jare. Kiel la Interreto mem, la reto ĉiam estas ŝaltita. Neniu transakcio estas tro granda aŭ tro malgranda. Kaj vi neniam bezonas ies permeson aŭ aprobon.
       - benefit: "Estu via propra banko kaj havu plenan kontrolon pri via mono"
         descrip:
           - |
-            The seizing of capital from account holders (“bail-ins”) that occurred in Cyprus and nearly in Greece, demonstrated that bank deposits are only as safe as political leaders decide.  Even under the best of conditions, banks can make mistakes, hold funds, freeze accounts, and otherwise prevent you from accessing your own money.
+            La konfisko de kapitalo de kontohavantoj, kiu okazis en Kipro kaj preskaŭ okazis en Grekio, montris ke bankaj deponejoj estas nur tiel sekuraj kiel la politikistoj decidas. Eĉ en la plej bonaj kondiĉoj, bankoj povas erari, reteni monon, frostigi kontojn kaj alie malhelpi vin aliri vian propran monon.
           - |
-            Banks can also decide to block your transactions, charge you fees, or close your account without warning.  Bitcoin Cash gives you full, sovereign control over your funds, which you can access from anywhere in the world.
-      - benefit: "A Scarce Digital Currency with a Known, Fixed Supply"
+            Bankoj povas ankaŭ decidi bloki viajn transakciojn, pagigi al vi kotizojn aŭ senaverte malfermi vian konton. Bitcoin Cash donas al vi plenan suverenan kontrolon pri via mono, al kiu vi povas aliri ĉie en la mondo.
+      - benefit: "Malabunda cifereca valuto kun konata fiksa kvanto"
         descrip:
           - |
-            The Bitcoin Cash protocol ensures there will never be more than 21 million coins in existence.  Governments constantly print money out of thin air, endlessly inflating the supply and devaluing everyone’s savings. Bitcoin Cash has a fixed supply and therefore represents sound money.
-      - benefit: "Increase Your Privacy and Operate Anonymously"
+            La protokolo de Bitcoin Cash certigas, ke neniam ekzistos pli ol 21 milionoj da moneroj. Registaroj senĉese presas monon, senfine ŝveligante la oferton kaj malvalorigante ĉies ŝparaĵojn. Bitcoin Cash havas fiksan kvanton kaj tial ĝi reprezentas solidan monon.
+      - benefit: "Pligrandigu vian privatecon kaj anonime operaciu"
         descrip:
           - |
-            Bitcoin Cash offers more privacy and anonymity than traditional payment systems like bank transfers and credit card payments, since it’s normally impossible to know who controls a Bitcoin address.
+            Bitcoin Cash ofertas pli da privateco kaj anonimeco ol tradiciaj pagsistemoj kiel ĝiroj kaj kreditkartaj pagoj, ĉar kutime estas maleble scii kiu kontrolas Bitcoin-adreson.
           - |
-            Bitcoin Cash offers various levels of privacy depending on how it is used.  It’s important to educate yourself thoroughly before using BCH for privacy purposes.
-      - benefit: "Enjoy Exclusive Discounts"
+            Bitcoin Cash ofertas diversajn nivelojn de privateco depende de kiel ĝi estas uzata. Estas grave plene eduki vin antaŭ uzi BCH por privatecaj celoj.
+      - benefit: "Ĝuu ekskluzivajn rabatojn"
         descrip:
           - |
-            Many merchants offer discounts for paying in Bitcoin Cash, because it eliminates credit card fees and helps grow the adoption of this new payment system.
-      - benefit: "Token Ecosystem"
+            Multaj komercistoj ofertas rabatojn por pagoj en Bitcoin Cash, ĉar ili forigas kreditkartajn kotizojn kaj helpas kreskigi la adopton de ĉi tiu nova pagsistemo.
+      - benefit: "Ĵetona ekosistemo"
         descrip:
           - |
-            Storing and managing tokens on a blockchain provides greater transparency and integrity than traditional forms of asset accounting and trading. Bitcoin Cash supports token protocols that power a variety of projects, and it is easy to create your own token backed projects.
-      - benefit: "Support Freedom Worldwide"
+            Stoki kaj administri ĵetonojn en blokĉeno provizas pli grandan travideblecon kaj integrecon ol tradiciaj manieroj de aktivo-kontado kaj komerco. Bitcoin Cash subtenas ĵetonajn protokolojn, kiuj funkciigas diversajn projektojn, kaj estas facile krei viajn proprajn ĵetone apogitajn projektojn.
+      - benefit: "Subtenu liberecon tutmonde"
         descrip:
           - |
-            Bitcoin Cash is a permissionless, open network.  It empowers you to engage with your fellow human beings without intrusion.  It’s decentralized, voluntary, and non-aggressive.  As usage grows, old power structures will erode while fresh ideas blossom.  It may help usher in the greatest peaceful revolution the world has ever known.
+            Bitcoin Cash estas senpermesa, malferma reto. Ĝi donas al vi povon engaĝiĝi kun aliaj homoj sen entrudiĝo. Ĝi estas sencentra, libervola kaj ne-agresema. Dum ĝia uzado kreskas, malnovaj povstrukturoj erozios dum freŝaj ideoj floros. Ĝi eble helpos enkonduki la plej grandan pacan revolucion, kiun la mondo iam konis.
     benefits:
       - benefit: "Tre tre malaltaj kotizoj"
         descrip:
           - |
-            The network fee for a typical Bitcoin Cash transaction is less than one penny. If you want to convert your BCH into fiat currency, such as US dollars, you can do that through merchant processors for a cost that is still much lower than credit card processing.
-      - benefit: "No Chargebacks"
+            La retkotizo por tipa Bitcoin Cash transakcio estas tre tre malaltaj. Se vi volas konverti vian BCH al fiat-valuto, kiel eŭroj, vi povas fari tion per komercistaj periloj kontraŭ kosto, kiu estas ankoraŭ multe pli malalta ol kreditkartaj kutimaj kotizoj.
+      - benefit: "Sen pagoj returnitaj"
         descrip:
           - |
-            Unlike credit cards, there are never any automatic voids, refunds, chargebacks, or other unexpected fees. Fraud protection is built into the system with no cost to the merchant.
-      - benefit: "Novaj klientojCustomers"
+            Malkiel kreditkartoj, neniam estos ia aŭtomataj nuligoj, repagoj aŭ returnitaj pagoj, aŭ aliaj reatenditaj kotizoj. Oni estigis protekton kontraŭ fraŭdo en la sistemo sen kosto por la komercisto.
+      - benefit: "Novaj klientoj"
         descrip:
           - |
-            A growing number of patrons are choosing Bitcoin Cash as a preferred payment method.  They favor merchants who offer this payment option and actively seek them out.
-      - benefit: "Free Marketing and Press"
+            Kreskanta nombro da klientoj elektas Bitcoin Cash kiel sian preferatan pagmetodon. Ili favoras komercistojn, kiuj proponas ĉi tiun pagan opcion kaj aktive serĉas ilin.
+      - benefit: "Senpaga merkatado kaj gazetaro"
         descrip:
           - |
-            By accepting Bitcoin Cash, merchants can gain free listings in website and app directories, gaining even more customers.  They can also take advantage of this new trend and generate press for their business.
+            Akceptante Bitcoin Cash, komercistoj povas aliĝi al senpagaj listoj en retejoj kaj apoj, akirante eĉ pli da klientoj. Ili ankaŭ povas utiligi ĉi tiun novan tendencon kaj altiri la gazetaron por siaj firmaoj.
