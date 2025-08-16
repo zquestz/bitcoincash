@@ -89,22 +89,29 @@ it:
     graphics: "Loghi / Grafiche"
     benefits: "Vantaggi"
     faq: "FAQ"
+    smartbch: "SmartBCH"
   layout:
     bitcoin_cash: "Bitcoin Cash"
     lead: "Denaro Digitale Peer-to-Peer"
     loading: "Caricamento..."
   features:
-    - title: "Veloce"
+    - 
+      title: "Veloce"
       description: "Paga in un'istante. Ottieni la conferma in pochi minuti."
-    - title: "Affidabile"
+    - 
+      title: "Affidabile"
       description: "Una rete che funziona senza rallentamenti."
-    - title: "Commissioni Bassissime"
+    - 
+      title: "Commissioni Bassissime"
       description: "Invia denaro in tutto il mondo pagando meno di un centesimo."
-    - title: "Semplice"
+    - 
+      title: "Semplice"
       description: "Facile da usare. Zero fastidi."
-    - title: "Stabile"
+    - 
+      title: "Stabile"
       description: "Un sistema di pagamento che è anche riserva di valore."
-    - title: "Sicuro"
+    - 
+      title: "Sicuro"
       description: "La tecnologia blockchain più sicura al mondo."
   headings:
     history: "La Storia di Bitcoin Cash"
@@ -117,6 +124,7 @@ it:
     why: "Perché Usare Bitcoin Cash?"
     benefits: "Vantaggi per i Commercianti"
     development: "Sviluppo Decentralizzato"
+    smartbch: "SmartBCH"
   content:
     history:
       - |
@@ -132,58 +140,76 @@ it:
         Con tanti team di sviluppatori indipendenti il futuro è sicuro. Bitcoin Cash è resistente agli attacchi politici e sociali contro lo sviluppo del suo protocollo. Nessun singolo gruppo o progetto può controllarlo. Svariate implementazioni permettono la ridondanza che garantisce alla rete di essere operativa al 100%.
       - |
         La  <a href="https://bitcoincashresearch.org" target="_blank">bitcoincashresearch.org</a> è un buon posto per proporre modifiche che richiedono la coordinazione tra i vari team di sviluppo.
+      - |
+        Se sei interessato ad aiutare con le traduzioni, dai un'occhiata al nostro <a href="https://crowdin.com/project/bitcoin-cash" target="_blank">progetto CrowdIn</a>. Ricorda, accettiamo solo traduzioni umane, qualsiasi traduzione automatizzata sarà respinta.
     about:
       - |
         Bitcoin Cash è il denaro digitale per tutto il mondo che mantiene la promessa originale di essere "Denaro Elettronico Peer-to-Peer". Negozianti e utenti sono incentivati a usarlo per via delle sue bassissime commissioni e della sua affidabilità. Grazie allo sviluppo decentralizzato il suo futuro è luminoso, senza limiti e volto all'adozione globale.
       - |
         Siete tutti benvenuti a unirvi alla comunità Bitcoin Cash che si impegna a sviluppare e migliorare il denaro elettronico per tutto il mondo.
     why:
-      - benefit: "Invia Denaro Ovunque Nel Mondo, Praticamente Gratis"
+      - 
+        benefit: "Invia Denaro Ovunque Nel Mondo, Praticamente Gratis"
         descrip:
           - |
             Con Bitcoin Cash puoi inviare denaro a chiunque, ovunque nel mondo e in qualsiasi momento. Proprio come Internet, la rete è sempre attiva. Nessuna transazione è troppo piccola o troppo grossa. Inoltre, non ti servirà mai il permesso di nessuno.
-      - benefit: "Sii la banca di te stesso per avere pieno controllo sul tuo denaro"
+      - 
+        benefit: "Sii la banca di te stesso per avere pieno controllo sul tuo denaro"
         descrip:
           - |
             Il sequestro del capitale dei titolari di conti ("bail-in"), avvenuto a Cipro e quasi in Grecia, dimostra che i depositi bancari sono in balia delle decisioni politiche. Tuttavia, anche nelle migliori condizioni politiche, le banche posso commettere errori, trattenere fondi, congelare conti o in qualsiasi modo accedere al tuo denaro.
           - |
             Le banche possono anche decidere di bloccare le tue transazioni, addebitarti commissioni o chiudere il tuo conto senza alcun preavviso. Bitcoin Cash ti da il pieno controllo dei tuoi fondi, ai quali puoi accedere ovunque e in ogni momento.
-      - benefit: "Una Valuta Digitale di Quantità Totale Nota e Fissa"
+      - 
+        benefit: "Una Valuta Digitale di Quantità Totale Nota e Fissa"
         descrip:
           - |
             Il protocollo Bitcoin Cash assicura che non ci saranno mai più di 21 milioni di fondi in circolazione. Mentre i governi stampano in continuazione denaro dal nulla, creando inflazione e svalutando i risparmi di tutti, Bitcoin Cash ha una quantità totale fissa e perciò rappresenta denaro vero.
-      - benefit: "Aumenta la Tua Privacy e Opera Anonimamente"
+      - 
+        benefit: "Aumenta la Tua Privacy e Opera Anonimamente"
         descrip:
           - |
             Bitcoin Cash offre più privacy e anonimato rispetto ai sistemi di pagamento tradizionali come i bonifici bancari e i pagamenti con carta di credito. Solitamente è impossibile conoscere chi possiede un indirizzo Bitcoin.
           - |
             Bitcoin Cash offre vari livelli di privacy a seconda di come viene utilizzato. È importante impararlo bene in merito prima di usarlo per finalità di privacy.
-      - benefit: "Scopri Sconti Esclusivi"
+      - 
+        benefit: "Scopri Sconti Esclusivi"
         descrip:
           - |
             Molti commercianti offrono sconti per farsi pagare in Bitcoin Cash dato che vengono eliminate le commissioni della carta di credito. Accettare Bitcoin Cash, inoltre, aiuta a farne crescere l'adozione.
-      - benefit: "Ecosistema Token"
+      - 
+        benefit: "Ecosistema Token"
         descrip:
           - |
             Salvare e gestire dei token su blockchain offre maggior trasparenza e integrità rispetto ai sistemi tradizionali di gestione degli asset. Bitcoin Cash supporta protocolli di token che alimentano una grande varietà di progetti. È molto semplice creare e gestire il tuo progetto basato sul tuo token.
-      - benefit: "Sostieni la Libertà in Tutto il Mondo"
+      - 
+        benefit: "Sostieni la Libertà in Tutto il Mondo"
         descrip:
           - |
             Bitcoin Cash è una rete aperta che funziona senza permessi di terze parti. Ti permette di operare con altre persone senza intrusioni. È decentralizzata, su base volontaria e non aggressiva. Al crescere del suo utilizzo, le antiche strutture del potere vengono erose dal fiorire di nuove idee. Questa potrebbe essere la più grande e pacifica rivoluzione mondiale mai avvenuta.
+      - 
+        benefit: "Applicazioni Defi &amp; NFT"
+        descrip:
+          - |
+            SmartBCH è una sidechain altamente performante compatibile con EVM &amp; Web3 per supportare applicazioni DeFi. Questo include un numero in costante crescita di exchange decentralizzati e progetti NFT!
     benefits:
-      - benefit: "Commissioni Bassissime"
+      - 
+        benefit: "Commissioni Bassissime"
         descrip:
           - |
             La commissione di rete per una normale transazione Bitcoin Cash è inferiore a un centesimo. Se vuoi convertire i tuoi BCH in moneta a corso legale, come il dollaro, puoi farlo tramite i commercianti che integrano questo sistema di pagamento. Il tutto a un costo molto inferiore rispetto alla carta di credito.
-      - benefit: "Nessun Chargeback"
+      - 
+        benefit: "Nessun Chargeback"
         descrip:
           - |
             A differenza delle carte di credito non ci saranno mai: annullamenti automatici, rimborsi, chargeback o altre commissioni inaspettate. La protezione contro le frondi è innata nel protocollo e senza alcun costo per il commerciante.
-      - benefit: "Nuovi Clienti"
+      - 
+        benefit: "Nuovi Clienti"
         descrip:
           - |
             Sempre più sostenitori scelgono Bitcoin Cash come metodo di pagamento preferito. Essi favoriscono i commercianti che lo accettano e si impegnano attivamente per trovarli.
-      - benefit: "Marketing senza vincoli e stampa"
+      - 
+        benefit: "Marketing senza vincoli e stampa"
         descrip:
           - |
             Accettando Bitcoin Cash, i commercianti possono ottenere visibilità gratuita sul sito web e nelle categorie delle app, guadagnando ancora più clienti. Possono anche approfittare di questa nuova tendenza e guadagnare attenzione mediatica per le loro attività.

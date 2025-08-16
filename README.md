@@ -32,7 +32,28 @@ Note: Image files for projects will not load if against a transparent background
 
 ## Adding Translations
 
-To add translations to the project, use `translations/en.yml` as a template and create a new file for your locale. Then translate all the content inside of the yaml file and send us a pull request.
+### Collaborative Translations via CrowdIn
+
+We now use [CrowdIn](https://crowdin.com/project/bitcoin-cash) for collaborative translation management! This platform makes it easier for the community to contribute translations and ensures better coordination between translators.
+
+**To contribute translations:**
+
+1. Visit our [Bitcoin Cash CrowdIn project](https://crowdin.com/project/bitcoin-cash)
+2. Create a free CrowdIn account if you don't have one
+3. Select your language and start translating
+4. Your contributions will be reviewed by language coordinators and integrated into the project
+
+### Manual Translation Process
+
+Alternatively, you can still contribute translations manually by using `translations/en.yml` as a template and create a new file for your locale. Then translate all the content inside of the yaml file and send us a pull request.
+
+**Benefits of using CrowdIn:**
+
+- Real-time collaboration with other translators
+- Translation memory and consistency checks
+- Progress tracking and statistics
+- Professional translation management tools
+- Community-driven translation reviews
 
 ## Optimizing Images
 

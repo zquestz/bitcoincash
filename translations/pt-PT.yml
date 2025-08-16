@@ -1,4 +1,4 @@
-pt-PT:
+pt:
   language: Português Portugal
   title:
     index: "Bitcoin Cash - Moeda Eletrónica de Pessoa para Pessoa"
@@ -95,17 +95,23 @@ pt-PT:
     lead: "Moeda Eletrónica de Pessoa para Pessoa"
     loading: "A carregar..."
   features:
-    - title: "Rápido"
+    - 
+      title: "Rápido"
       description: "Faz transações em segundos. Obtém confirmação em minutos."
-    - title: "De confiança"
+    - 
+      title: "De confiança"
       description: "Uma rede que funciona sem congestão."
-    - title: "Taxas baixas"
+    - 
+      title: "Taxas baixas"
       description: "Envia dinheiro para todo o mundo por cêntimos."
-    - title: "Simples"
+    - 
+      title: "Simples"
       description: "Fácil de usar. Sem aborrecimentos."
-    - title: "Estável"
+    - 
+      title: "Estável"
       description: "Um sistema de pagamento que é uma reserva de valor comprovada."
-    - title: "Seguro"
+    - 
+      title: "Seguro"
       description: "A tecnologia <em>blockchain</em> mais robusta do mundo."
   headings:
     history: "A história do Bitcoin Cash"
@@ -122,7 +128,7 @@ pt-PT:
   content:
     history:
       - |
-        Em outubro de 2008, Satoshi Nakamoto publicou o famoso whitepaper entitulado <a target="_blank" href="https://bitcoincash.org/bitcoin.pdf"><strong><q>Bitcoin: sistema de dinheiro electronico ponto-a-ponto</q></strong></a>. Em 2009, ele ele lançou o primeiro software que iria potenciar a rede e potenciar que transações pudessem ser operadas por anos e tivessem taxas baixas, fossem seguras e num sistema suave e seguro.
+        Em outubro 2008, Satoshi Nakamoto publicou o famoso 'whitepaper' chamado <a target="_blank" href="https://bitcoincash.org/bitcoin.pdf"><strong><q>Bitcoin: sistema de dinheiro eletrónico Ponto-a-Ponto</q></strong></a>. Em 2009, Satoshi lançou o primeiro 'software' de Bitcoin que lançou a rede, e funcionou facilmente por vários anos, com taxas baixas e rápidas, mais transações resilentes.
       - |
         Infelizmente, de 2016 a 2017, o Bitcoin tornou-se cada vez mais impreciso e extremamente caro. Isto foi porque a comunidade não chegou á um consenso para aumentar a capacidade da rede. Alguns desenvolvedores não entenderam ou mesmo concordaram com o plano de Satoshi. Em vez disso, eles preferiram que o Bitcoin tivesse uma camada de assentamento".".
       - |
@@ -142,56 +148,68 @@ pt-PT:
       - |
         Todos os detentores de Bitcoin também são detentores de Bitcoin Cash a partir do bloco 478558. São todos bem-vindos a se juntarem à comunidade Bitcoin Cash enquanto prosseguimos na criação de dinheiro forte e acessível para o mundo inteiro.
     why:
-      - benefit: "Envie dinheiro para qualquer parte do mundo, quase que de borla"
+      - 
+        benefit: "Envie dinheiro para qualquer parte do mundo, quase que de borla"
         descrip:
           - |
             Com o Bitcoin Cash, você pôde enviar dinheiro para qualquer um, em qualquer parte do mundo, 24 horas por dia, 365 dias do ano. Como a internet, a rede Bitcoin Cash está sempre online. Nenhuma transação é grande ou pequena. E tú não precisas de permissão ou aprovação de ninguém.
-      - benefit: "Seja o teu próprio banco e tenha total controle do teu dinheiro"
+      - 
+        benefit: "Seja o teu próprio banco e tenha total controle do teu dinheiro"
         descrip:
           - |
             A apreensão de dinheiro de detentores de contas bancárias ("bail-ins") que ocorreram no Chipre e na Grécia, demonstraram que os depósitos bancários somente são seguros quando os líderes políticos assim o decidem. Mesmo com as melhores das intenções, bancos cometem erros, seguram no dinheiro de clientes, congelam contas, ou mesmo proíbem que o cliente detentor da conta tenha acesso ao dinheiro.
           - |
             Bancos também podem decidir bloquear transações, cobrar taxas ou mesmo fechar a conta sem prévio aviso. Bitcoin Cash dá lhe total controlo absoluto dos fundos, que podem ser acessados apartir de qualquer parte do mundo.
-      - benefit: "Uma moeda digital descentralizada escassa bem conhecida, e, com um fornecimento fixo"
+      - 
+        benefit: "Uma moeda digital descentralizada escassa bem conhecida, e, com um fornecimento fixo"
         descrip:
           - |
             O protocolo do Bitcoin Cash garante que não haverá mais do que 21 milhões de moedas em existência. Governos constantemente imprimem dinheiro apartir do nada, acabando por inflacionar o fornecimento e desvalorizando as poupança das pessoas. Bitcoin Cash tem um fornecimento fixo, e representa dinheiro que todo mundo quer ouvir.
-      - benefit: "Aumenta a sua privacidade e opera no anonimato"
+      - 
+        benefit: "Aumenta a sua privacidade e opera no anonimato"
         descrip:
           - |
             Bitcoin Cash oferece mais privacidade e anonimato do que os sistemas de pagamentos tradicionais, como transferências bancárias e cartões de crédito, porque é quase impossível saber quem controla um endereço Bitcoin.
           - |
             Bitcoin Cash oferece vários níveis de privacidade dependendo como ele é usado. É importante educar-se quando for a usar o Bitcoin Cash em modo privado.
-      - benefit: "Aproveite descontos exclusivos"
+      - 
+        benefit: "Aproveite descontos exclusivos"
         descrip:
           - |
             Muitos comerciantes oferecem descontos para quem paga usando o Bitcoin Cash, porque este elimina as taxas cobradas por cartões de crédito e também ajuda na adoção desta nova forma de pagamento.
-      - benefit: "Ecossistema do token"
+      - 
+        benefit: "Ecossistema do token"
         descrip:
           - |
             Armazenar e gerenciar tokens na rede blockchain concede transparência e integridade do que a maioria das formas tradicionais de manuseio de activos e contas de negociação. Bitcoin Cash tem suporte para protocolos de token que podem maximizar uma grande variedade de projetos, e é fácil criar tokens por cima da blockchain do Bitcoin Cash que podem ajudar projetos.
-      - benefit: "Apoie a liberdade mundial"
+      - 
+        benefit: "Apoie a liberdade mundial"
         descrip:
           - |
             Bitcoin Cash é dinheiro que não precisa de emissão em rede aberta. Ele dá poder as pessoas de engajarem entre si sem intrusão. É descentralizado, voluntário, e não é agressivo. Enquanto o uso vai crescendo as antigas estruturas vão sendo erradicadas proporcionando ideias novas para florescerem. Ele pode ajudar a abrir novos caminhos na revolução pacífica que o mundo jamais conhecera no passado.
-      - benefit: "Aplicativos em Finanças descentralizadas &amp; de tokens não fungíveis"
+      - 
+        benefit: "Aplicativos em Finanças descentralizadas &amp; de tokens não fungíveis"
         descrip:
           - |
             SmartBCH é uma máquina virtual do Ethereum de alta calibragem na cadeia lateral do Bitcoin Cash compatível com &amp; Web3 que suporta aplicativos de finanças descentralizadas. Este inclui um crescente e constante crescimento de projetos de tokens não fungíveis e também de plataformas de negociação de ativos descentralizados!
     benefits:
-      - benefit: "Taxas extremamente baixas"
+      - 
+        benefit: "Taxas extremamente baixas"
         descrip:
           - |
             A taxa para uma transação regular do Bitcoin Cash é de menos de um centavo do dólar. Se quiser converter o teu BCH, por exemplo, para dinheiro fiduciário, como o dólar americano, você pode fazê-lo usando um comerciante para processar a transferência por um preço que continuará a ser muito mais barato que o processamento de um cartão de crédito.
-      - benefit: "Sem estornos"
+      - 
+        benefit: "Sem estornos"
         descrip:
           - |
             Diferente de cartões de débito, nunca existe devolução, estornos ou outro tipo semelhante às taxas inesperadas. Proteção contra fraudes já vem acompanhado no sistema e sem custo para o comerciante.
-      - benefit: "Novos Clientes"
+      - 
+        benefit: "Novos Clientes"
         descrip:
           - |
             Um número crescente de patrões esta escolhendo o Bitcoin Cash como moeda preferencial de pagamento. Eles favorecem comerciantes que aceitam esta categoria de pagamento e estão ativamente seguindo quem disponibiliza o mesmo.
-      - benefit: "“Marketing” e imprensa Gratuita"
+      - 
+        benefit: "“Marketing” e imprensa Gratuita"
         descrip:
           - |
             Ao aceitar o Bitcoin Cash, comerciantes podem ganhar listagens grátis em sítios ‘web’ e em diretório de aplicações, que vão possibilitar que ele ganhe mais clientes. Eles também podem tirar vantagens dista nova onda e gerar propaganda escrita para o negócio deles.

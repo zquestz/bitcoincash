@@ -7,6 +7,7 @@ map $http_accept_language $lang {
     ~^de de;
     ~^el el;
     ~^en en;
+    ~^eo eo;
     ~^es es;
     ~^fa fa;
     -^fil fil;
@@ -52,7 +53,7 @@ server {
     }
 
     rewrite ^/letter-from-the-ceo.pdf$ https://falkvinge.net/wp-content/uploads/2017/11/letter-from-the-ceo.pdf permanent;
-    
+
     root   /usr/share/nginx/html;
 
     location / {

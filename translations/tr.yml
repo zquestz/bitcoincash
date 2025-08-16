@@ -75,7 +75,7 @@ tr:
       pantone: "Pantone"
   misc:
     logo: "logo"
-    dropdown_md_width: 3
+    dropdown_md_width: 2
     dropdown_sm_width: 3
   sections:
     about: "Hakkında"
@@ -89,22 +89,29 @@ tr:
     graphics: "Logolar / Grafikler"
     benefits: "Avantajları"
     faq: "SSS"
+    smartbch: "SmartBCH"
   layout:
     bitcoin_cash: "Bitcoin Cash"
     lead: "Kişiden Kişiye Elektronik Nakit"
     loading: "Yükleniyor..."
   features:
-    - title: "Hızlı"
+    - 
+      title: "Hızlı"
       description: "Saniyeler içinde gönderin. Dakikalar içinde onaylansın."
-    - title: "Güvenilir Ve Sorunsuz"
+    - 
+      title: "Güvenilir Ve Sorunsuz"
       description: "Tıkanıklık olmadan çalışan bir ağ sistemi."
-    - title: "Düşük Gönderim Ücreti"
+    - 
+      title: "Düşük Gönderim Ücreti"
       description: "Dünyanın herhangi bir yerine birkaç kuruşa para gönderin."
-    - title: "Basit"
+    - 
+      title: "Basit"
       description: "Kullanımı kolay. Uğraştırmaz."
-    - title: "Stabil"
+    - 
+      title: "Stabil"
       description: "Değerini koruduğu kanıtlanmış bir ödeme sistemi."
-    - title: "Güvenli"
+    - 
+      title: "Güvenli"
       description: "Dünyanın en dayanıklı blokzinciri teknolojisi."
   headings:
     history: "Bitcoin Cash'in Tarihi"
@@ -117,6 +124,7 @@ tr:
     why: "Neden Bitcoin Cash?"
     benefits: "Mağazalara Sağladığı Yararlar"
     development: "Merkeziyetsiz Geliştirme"
+    smartbch: "SmartBCH"
   content:
     history:
       - |
@@ -132,58 +140,76 @@ tr:
         Birbirinden bağımsız, birçok yazılım geliştiren takımıyla gelecek güvende. Bitcoin Cash, protokol gelişimine yönelik politik ve sosyal saldırılara dayanıklı. Hiçbir grup veya proje tek başına söz sahibi değil. Birden fazla yazılım gerçeklemesi, ayrıca, tek bir uygulamada olabilecek hatalara karşı ağın daimi ayakta kalmasını güvence altına alıyor.
       - |
         <a href="https://lists.linuxfoundation.org/mailman/listinfo/bitcoin-ml" target="_blank">bitcoin-ml mail listesi</a> yazılım geliştiren takımlar arasında koordinasyon gerektirecek degişiklik önerilerini yapmak için uygun bir ortam. Bitcoin Cash protokolünde degişiklik yapmak isteyenler diğer yazılımcıların gözden geçirmesini için erkenden iletişim kurması ve işbirliği içinde olması önerilir.
+      - |
+        Çevirilere yardımcı olmakla ilgileniyorsanız, lütfen <a href="https://crowdin.com/project/bitcoin-cash" target="_blank">CrowdIn projemizi</a> kontrol edin. Unutmayın, sadece insan çevirilerini kabul ediyoruz, otomatik çeviriler reddedilecektir.
     about:
       - |
         Bitcoin Cash, Bitcoin'in esas amacı olan "Kişiler Arası Elektronik Nakit" niteliğini koruyarak dünyaya sağlam parayı sunuyor. Düşük işlem ücretleri ve güvenilir onaylama sayesinde satıcıların ve alıcıların gücünü arttırıyor. Sınırsız büyüme, küresel benimseme, yetki gerektirmeyen yenilikler, ve merkezi olmayan gelişimle daha parlak bir gelecek sunuyor.
       - |
         Bitcoin Cash topluluğu olarak tüm dünyaya açık, sağlam bir para birimi geliştirirken herkesi bize katılamaya davet ediyoruz.
     why:
-      - benefit: "Dünyanın herhangi bir yerine, neredeyse bedavaya para gönderin"
+      - 
+        benefit: "Dünyanın herhangi bir yerine, neredeyse bedavaya para gönderin"
         descrip:
           - |
             Bitcoin Cash ile dünyanın herhangi bir yerinde, herhangi bir kişiye, günün 24 saati, yılın 365 günü para gönderebilirsiniz.
-      - benefit: "Kendi Kendinin Bankası Ol Ve Paranı Kendi Kontrolüne Al"
+      - 
+        benefit: "Kendi Kendinin Bankası Ol Ve Paranı Kendi Kontrolüne Al"
         descrip:
           - |
             Banka hesaplarındaki paralara Kıbrıs'da ve neredeyse Yunanistan'da el koyulması gösteriyor ki, bankalardaki paranın guvenliği politikacıların kararına bağlı. En iyi koşullarda bile, bankalar hata yapabilir, fonları durdurabilir, hesapları dondurabilir veya farklı bir şekilde senin kendi parana erişmene engel olabilir.
           - |
             Bankalar sana gelen para transferlerini durdurmaya karar verebilir, ücret kesebilir veya habersiz olarak hesabını kapatabilir. Bitcoin Cash kendi parana hakim olmanı ve dunyanın herhangi bir yerinde ulaşmanı sağlıyor.
-      - benefit: "Bilinen, Sabit Arza Sahip Bir Dijital Para"
+      - 
+        benefit: "Bilinen, Sabit Arza Sahip Bir Dijital Para"
         descrip:
           - |
             Bitcoin Cash protokolü 21 milyondan daha fazla koinin var olmadığını garanti ediyor. Devletler sürekli piyasadaki para miktarını arttırdığından, herkesin birikiminin zamanla erimesine yol açar. Bitcoin Cash sınırlı sayıda olduğundan sağlam bir parayı temsil ediyor.
-      - benefit: "Gizliliğinizi Artırın ve Anonim Çalışın"
+      - 
+        benefit: "Gizliliğinizi Artırın ve Anonim Çalışın"
         descrip:
           - |
             Bitcoin Cash adresini normalde kimin kontrol ettiğini bilmek imkansız olduğu için kredi kartı ödemleri ve banka transferleri gibi geleneksel ödeme yöntemlerine göre Bitcoin Cash daha fazla gizlilik ve anonimlik sunar.
           - |
             Bitcoin Cash, nasıl kullanıldığına bağlı olarak çeşitli gizlilik seviyeleri sunar. BCH' in gizlilik amaçları için kullanılmasından önce kişinin kendisini iyice eğitmesi önemlidir.
-      - benefit: "Özel İndirimlerden Yararlanın"
+      - 
+        benefit: "Özel İndirimlerden Yararlanın"
         descrip:
           - |
             Birçok esnaf Bitcoin Cash ile ödemelerde indirim sunar bunun nedeni kredi kartı ücretlerini saf dışı bırakmasıyla birlikte bu yeni ödeme sisteminin benimsenmesinde yardımcı olmasıdır.
-      - benefit: "Token Ekosistemi"
+      - 
+        benefit: "Token Ekosistemi"
         descrip:
           - |
             Bir blok zincirinde jeton depolamak ve yönetmek, geleneksel varlık muhasebesi ve ticareti biçimlerinden daha fazla şeffaflık ve bütünlük sağlar. Bitcoin Cash, çeşitli projelere güç veren jeton protokollerini destekler ve kendi proje destekli jetonunu oluşturmak çok kolaydır.
-      - benefit: "Dünya Çapında Bağımsızlığı Destekle"
+      - 
+        benefit: "Dünya Çapında Bağımsızlığı Destekle"
         descrip:
           - |
             Bitcoin Cash izinsiz, açık ağdır. İhlal olmadan diğer insanlarla iletişim kurmanız için sizi güçlendirir. Merkezi olmayan,  gönüllü ve agresif değildir. Kullanımı arttıkça, eski güç yapıları aşınırken taze fikirler çiçek açacaktır. Dünyanın şimdiye kadar gördüğü en büyük barışçıl devrimi başlatmaya yardımcı olabilir.
+      - 
+        benefit: "DeFi Uygulamaları ve NFT'ler"
+        descrip:
+          - |
+            SmartBCH, DeFi uygulamalarını desteklemek için yüksek performanslı bir EVM ve Web3 uyumlu yan zincirdir. Bu, sürekli artan sayıda merkeziyetsiz borsa ve NFT projelerini içerir!
     benefits:
-      - benefit: "Gönderim Ücreti Yok Denecek Kadar Az"
+      - 
+        benefit: "Gönderim Ücreti Yok Denecek Kadar Az"
         descrip:
           - |
             Tipik bir Bitcoin Cash işlemi için ağ ücreti bir peniden azdır. Eğer BCH'inizi ABD doları gibi bir para birimine dönüştürmek istiyorsanız ticari işlemler aracılığıyla kredi kartı işleminden çok daha düşük maliyete yapabilirsiniz.
-      - benefit: "Geri Ödeme Yok"
+      - 
+        benefit: "Geri Ödeme Yok"
         descrip:
           - |
             Kredi kartlarının aksine, hiçbir zaman otomatik iptal, geri ödeme, ters ibraz veya diğer beklenmedik ücretler yoktur. Dolandırıcılık koruması, esnaf için herhangi bir maliyet olmaksızın sisteme entegre edilmiştir.
-      - benefit: "Yeni Müşteriler"
+      - 
+        benefit: "Yeni Müşteriler"
         descrip:
           - |
             Ödeme metodunu Bitcoin Cash olarak seçen müşterilerin sayısı artmaktadır. Müşteriler bu ödeme metodu sunan esnafları destekler ve aktif olarak ararlar.
-      - benefit: "Ücretsiz Reklam ve Pazarlama"
+      - 
+        benefit: "Ücretsiz Reklam ve Pazarlama"
         descrip:
           - |
             Bitcoin Cash'i kabul etmeleri ile, esnaflar web sitesi ve uygulama dizinlerinde ücretsiz listelemeler edinebilir, daha fazla müşteri kazanırlar. Bu yeni trendin avantajını kullanabilir ve işleri için baskı üretebilirler.

@@ -1,0 +1,215 @@
+eo:
+  language: Esperanto
+  title:
+    index: "Bitcoin Cash - Samtavola bitmono"
+    graphics: "Bitcoin Cash - Emblemoj / Grafikaĵoj"
+  meta:
+    index:
+      description: |
+        Bitcoin Cash alportas solidan monon al la mondo. Malmultekostaj kotizoj kaj fidindaj konfirmoj donas povon al komercistoj kaj uzantoj. La estonteco havos senliman kreskadon, tutmondan adopton, senpermesan novigadon kaj sencentran disvolvadon.
+      twitter:
+        title: "Bitcoin Cash - Samtavola elektra mono"
+        description: |
+          Bitcoin Cash alportas solidan monon al la mondo. Malmultekostaj kotizoj kaj fidindaj konfirmoj donas povon al komercistoj kaj uzantoj. La estonteco havos senliman kreskadon, tutmondan adopton, senpermesan novigadon kaj sencentran disvolvadon.
+      og:
+        title: "Bitcoin Cash - Samtavola elektra mono"
+        description: |
+          Bitcoin Cash alportas solidan monon al la mondo. Malmultekostaj kotizoj kaj fidindaj konfirmoj donas povon al komercistoj kaj uzantoj. La estonteco havos senliman kreskadon, tutmondan adopton, senpermesan novigadon kaj sencentran disvolvadon.
+    graphics:
+      description: |
+        Kolekto da emblemoj kaj grafikaĵoj de Bitcoin Cash.
+      twitter:
+        title: "Bitcoin Cash - Emblemoj / Grafikaĵoj"
+        description: |
+          Kolekto da emblemoj kaj grafikaĵoj de Bitcoin Cash.
+      og:
+        title: "Bitcoin Cash - Emblemoj / Grafikaĵoj"
+        description: |
+          Kolekto da emblemoj kaj grafikaĵoj de Bitcoin Cash.
+  graphics:
+    title: "Reklamaj grafikaĵoj"
+    description: "Ĉi tiuj emblemoj de Bitcoin Cash kaj markaj aĵoj povas esti montrataj en Interretaj servoj, etaj vendejoj, gazetaraj aŭ aliaj reklamaj celoj"
+    logos: "Emblemoj"
+    download_png_svg: "Elŝuti emblemoj de Bitcoin Cash kiel PNG kaj SVG"
+    download_all: "Elŝuti ĉion"
+    small: "Eta (WEBP)"
+    medium: "Meza (WEBP)"
+    large: "Granda (WEBP)"
+    full: "Plena (WEBP)"
+    vector: "Vektora (SVG)"
+    sections:
+      home: "Ĉefpaĝo"
+      logos: "Emblemoj"
+      merchant: "Komercisto"
+      donations: "Donacoj"
+      identity: "Identeco"
+    types:
+      primary: "Ĉefa BCH-emblemo"
+      white: "BCH-emblemo kun blanka teksto"
+      mark: "Marka BCH-emblemo"
+      horizontal_primary: "Ĉefa horizontala BCH-emblemo"
+      horizontal_white: "Blanka horizontala BCH-emblemo"
+      wallets_exchanges: "BCH-emblemo por monujoj / Ŝanĝejoj"
+    merchant:
+      title: "Komercistaj butonoj"
+      description: "Montri al viaj klientojn, ke vi akceptas Bitcoin Cash"
+      primary: "Bitcoin Cash akceptata ĉi tie (ĉefa)"
+      orange: "Bitcoin Cash akceptata ĉi tie (oranĝa)"
+    donation:
+      title: "Donac-butonoj"
+      description: "Propagandu la akceptadon de Bitcoin Cash kiel donaca metodo."
+      primary: "Bitcoin Cash donacoj akceptitaj (ĉefa)"
+      orange: "Bitcoin Cash donacoj akceptitaj (oranĝa)"
+    identity:
+      title: "Vida identeco"
+      description: "Bitcoin Cash tiparoj, koloroj kaj pli."
+      font: "Ubuntu Grasa"
+      font_italic: "Ubuntu Grasa Kursiva"
+      download: "Elŝuti tiparon"
+      orange: "Bitcoin Cash (oranĝa)"
+      grey: "Bitcoin Cash (griza)"
+      white: "Bitcoin Cash (blanka)"
+      hex: "Deksesuma"
+      rgb: "RGB"
+      cmyk: "CMYK"
+      pantone: "Pantone"
+  misc:
+    logo: "emblemo"
+    dropdown_md_width: 3
+    dropdown_sm_width: 3
+  sections:
+    about: "Pri"
+    features: "Trajtoj"
+    nodes: "Nodoj"
+    wallets: "Monujoj"
+    community: "Komunumo"
+    services: "Servoj"
+    projects: "Projektoj"
+    exchanges: "Ŝanĝejoj"
+    graphics: "Emblemoj / Grafikaĵoj"
+    benefits: "Avantaĝoj"
+    faq: "Oftaj demandoj"
+    smartbch: "SmartBCH"
+  layout:
+    bitcoin_cash: "Bitcoin Cash"
+    lead: "Samtavola elektra mono"
+    loading: "Ŝarĝante..."
+  features:
+    - 
+      title: "Rapida"
+      description: "Transakciu en sekundoj. Iĝu konfirmita en minutoj."
+    - 
+      title: "Fidinda"
+      description: "Reto, kiu funkcias sen obstrukco."
+    - 
+      title: "Malmultekostaj kotizoj"
+      description: "Tutmonde sendu monon tre malmultekoste."
+    - 
+      title: "Simpla"
+      description: "Facile uzebla. Sen ĝenoj."
+    - 
+      title: "Stabila"
+      description: "Pagsistemo, kiu estas provita konservilo de valoro."
+    - 
+      title: "Sekura"
+      description: "La tutmonde plej fortika blokĉena teknologio"
+  headings:
+    history: "La historio de Bitcoin Cash"
+    about: "La plej bona mono en la mondo"
+    nodes: "Nodoj"
+    wallets: "Monujoj"
+    services: "Servoj"
+    projects: "Projektoj"
+    exchanges: "Ŝanĝejoj"
+    why: "Kial uzi Bitcoin Cash?"
+    benefits: "Avantaĝoj por komercistoj"
+    development: "Sencentra disvolvado"
+    smartbch: "SmartBCH"
+  content:
+    history:
+      - |
+        En Oktobro de 2008 Satoshi Nakamoto publikigis la faman teknikan dokumenton <a target="_blank" href="https://bitcoincash.org/bitcoin.pdf"><strong><q>Bitcoin: A Peer to Peer Electronic Cash System</q></strong></a>. En 2009 li eldonis la unuan Bitcoin-programon, kiu funkciigis la reton, kaj ĝi glate funkciis dum pluraj jaroj havante malmultekostajn kotizojn kaj transakciojn rapidajn kaj fidindajn.
+      - |
+        Bedaŭrinde, inter 2016 kaj 2017, Bitcoin iĝis pli kaj pli nefidinda kaj multekosta. Tio okazis pro tio, ke la komunumo ne povis atingi konsenton pri la pliigo de la retkapacito. Iuj programistoj ne komprenis kaj ne konsentis kun la plano de Satoshi. Anstataŭe ili preferis, ke Bitcoin iĝu librotenada tavolo.
+      - |
+        En 2017 la populareco de Bitcoin malkreskis el 95 % al 40 % kiel rekta rezulto de la uzeblecaj problemoj. Bonŝance granda parto de la Bitcoin-komunumo, inkluzive de programistoj, investantoj, uzantoj kaj firmaoj, ankoraŭ kredis je la origina ideo de Bitcoin: elektra samtavola mona sistemo kun malmultekostaj kozitoj, kiu povus esti uzata de ĉiuj homoj en la mondo.
+      - |
+        Je la 1-a de Aŭgusto de 2017, we took the logical step of increasing the maximum block size, and Bitcoin Cash was born.  Anyone who held Bitcoin at that time (block 478558) became an owner of Bitcoin Cash (BCH).  The network now supports up to 32MB blocks with ongoing research to allow massive future increases.
+    development:
+      - |
+        Danke al pluraj sendependaj teamoj de programistoj, kiuj disvolvas programojn, la estonteco estas sekura. Bitcoin Cash povas rezisti politikajn kaj sociajn atakoj al la programado de la protokolo. Neniu sola grupo aŭ projekto povas kontroli ĝin. Multaj versioj ankaŭ provizas redundon por certigi, ke la reto ĉiutempe funkciu.
+      - |
+        La retejo <a href="https://bitcoincashresearch.org" target="_blank">bitcoincashresearch.org</a> estas bona ejo por proponi ŝanĝojn, kiuj bezonas kunordigadon inter programistaj teamoj. Oni rekomendas al tiuj, kiuj deziras realigi ŝanĝojn al la protokolo de Bitcoin Cash, serĉi fruan kolegan revizion kaj kunlabori kun aliaj programistoj.
+      - |
+        Se vi havas intereson helpi tradukante, vidu nian <a href="https://crowdin.com/project/bitcoin-cash" target="_blank">CrowdIn-projekton</a>. Memoru, ke ni nur akceptas homajn tradukojn, ĉiuj maŝinaj tradukoj estos malakceptitaj.
+    about:
+      - |
+        Bitcoin Cash alportas solidan monon al la mondo, plenumante la originan promeson de Bitcoin kiel «elektra samtavola mono». Malmultekostaj kotizoj kaj fidindaj konfirmoj donas povon al komercistoj kaj uzantoj. La estonteco havos senliman kreskadon, tutmondan adopton, senpermesan novigadon kaj sencentran disvolvadon.
+      - |
+        Ĉiuj estas bonvenaj aliĝi al la komunumo de Bitcoin Cash dum ni antaŭeniras kreante solidan monon alireblan por la tuta mondo.
+    why:
+      - 
+        benefit: "Sendu monon ĉie ajn en la mondo, preskaŭ senkoste"
+        descrip:
+          - |
+            Per Bitcoin Cash vi povas sendi monon al iu ajn, ie ajn en la mondo, 24 horojn tage, 365 tagojn jare. Kiel la Interreto mem, la reto ĉiam estas ŝaltita. Neniu transakcio estas tro granda aŭ tro malgranda. Kaj vi neniam bezonas ies permeson aŭ aprobon.
+      - 
+        benefit: "Estu via propra banko kaj havu plenan kontrolon pri via mono"
+        descrip:
+          - |
+            La konfisko de kapitalo de kontohavantoj, kiu okazis en Kipro kaj preskaŭ okazis en Grekio, montris ke bankaj deponejoj estas nur tiel sekuraj kiel la politikistoj decidas. Eĉ en la plej bonaj kondiĉoj, bankoj povas erari, reteni monon, frostigi kontojn kaj alie malhelpi vin aliri vian propran monon.
+          - |
+            Bankoj povas ankaŭ decidi bloki viajn transakciojn, pagigi al vi kotizojn aŭ senaverte malfermi vian konton. Bitcoin Cash donas al vi plenan suverenan kontrolon pri via mono, al kiu vi povas aliri ĉie en la mondo.
+      - 
+        benefit: "Malabunda cifereca valuto kun konata fiksa kvanto"
+        descrip:
+          - |
+            La protokolo de Bitcoin Cash certigas, ke neniam ekzistos pli ol 21 milionoj da moneroj. Registaroj senĉese presas monon, senfine ŝveligante la oferton kaj malvalorigante ĉies ŝparaĵojn. Bitcoin Cash havas fiksan kvanton kaj tial ĝi reprezentas solidan monon.
+      - 
+        benefit: "Pligrandigu vian privatecon kaj anonime operaciu"
+        descrip:
+          - |
+            Bitcoin Cash ofertas pli da privateco kaj anonimeco ol tradiciaj pagsistemoj kiel ĝiroj kaj kreditkartaj pagoj, ĉar kutime estas maleble scii kiu kontrolas Bitcoin-adreson.
+          - |
+            Bitcoin Cash ofertas diversajn nivelojn de privateco depende de kiel ĝi estas uzata. Estas grave plene eduki vin antaŭ uzi BCH por privatecaj celoj.
+      - 
+        benefit: "Ĝuu ekskluzivajn rabatojn"
+        descrip:
+          - |
+            Multaj komercistoj ofertas rabatojn por pagoj en Bitcoin Cash, ĉar ili forigas kreditkartajn kotizojn kaj helpas kreskigi la adopton de ĉi tiu nova pagsistemo.
+      - 
+        benefit: "Ĵetona ekosistemo"
+        descrip:
+          - |
+            Stoki kaj administri ĵetonojn en blokĉeno provizas pli grandan travideblecon kaj integrecon ol tradiciaj manieroj de aktivo-kontado kaj komerco. Bitcoin Cash subtenas ĵetonajn protokolojn, kiuj funkciigas diversajn projektojn, kaj estas facile krei viajn proprajn ĵetone apogitajn projektojn.
+      - 
+        benefit: "Subtenu liberecon tutmonde"
+        descrip:
+          - |
+            Bitcoin Cash estas senpermesa, malferma reto. Ĝi donas al vi povon engaĝiĝi kun aliaj homoj sen entrudiĝo. Ĝi estas sencentra, libervola kaj ne-agresema. Dum ĝia uzado kreskas, malnovaj povstrukturoj erozios dum freŝaj ideoj floros. Ĝi eble helpos enkonduki la plej grandan pacan revolucion, kiun la mondo iam konis.
+      - 
+        benefit: "Defi-Aplikaĵoj kaj NFT-oj"
+        descrip:
+          - |
+            SmartBCH estas tre produktiva EVM kaj Web3 kongrua flankĉeno por subteni DeFi-aplikojn. Tio inkluzivas konstante kreskantajn nombrojn de malcentralizitaj interŝanĝoj kaj NFT-projektoj!
+    benefits:
+      - 
+        benefit: "Tre tre malaltaj kotizoj"
+        descrip:
+          - |
+            La retkotizo por tipa Bitcoin Cash transakcio estas tre tre malaltaj. Se vi volas konverti vian BCH al fiat-valuto, kiel eŭroj, vi povas fari tion per komercistaj periloj kontraŭ kosto, kiu estas ankoraŭ multe pli malalta ol kreditkartaj kutimaj kotizoj.
+      - 
+        benefit: "Sen pagoj returnitaj"
+        descrip:
+          - |
+            Malkiel kreditkartoj, neniam estos ia aŭtomataj nuligoj, repagoj aŭ returnitaj pagoj, aŭ aliaj reatenditaj kotizoj. Oni estigis protekton kontraŭ fraŭdo en la sistemo sen kosto por la komercisto.
+      - 
+        benefit: "Novaj klientoj"
+        descrip:
+          - |
+            Kreskanta nombro da klientoj elektas Bitcoin Cash kiel sian preferatan pagmetodon. Ili favoras komercistojn, kiuj proponas ĉi tiun pagan opcion kaj aktive serĉas ilin.
+      - 
+        benefit: "Senpaga merkatado kaj gazetaro"
+        descrip:
+          - |
+            Akceptante Bitcoin Cash, komercistoj povas aliĝi al senpagaj listoj en retejoj kaj apoj, akirante eĉ pli da klientoj. Ili ankaŭ povas utiligi ĉi tiun novan tendencon kaj altiri la gazetaron por siaj firmaoj.

@@ -89,22 +89,29 @@ nl:
     graphics: "Logo's / Afbeeldingen"
     benefits: "Voordelen"
     faq: "FAQ"
+    smartbch: "SmartBCH"
   layout:
     bitcoin_cash: "Bitcoin Cash"
     lead: "Peer-to-Peer Digitaal Geld"
     loading: "Laden..."
   features:
-    - title: "Snel"
+    - 
+      title: "Snel"
       description: "Koop of verkoop in seconden. Binnen enkele minuten bevestigd."
-    - title: "Betrouwbaar"
+    - 
+      title: "Betrouwbaar"
       description: "Een netwerk dat draait zonder data opstoppingen."
-    - title: "Lage transactiekosten"
+    - 
+      title: "Lage transactiekosten"
       description: "Wereldwijd geld versturen voor een klein bedrag."
-    - title: "Simpel"
+    - 
+      title: "Simpel"
       description: "Makkelijk in gebruik. Geen gedoe."
-    - title: "Stabiel"
+    - 
+      title: "Stabiel"
       description: "Een betaalsysteem dat een bewezen oppotmiddel is."
-    - title: "Veilig"
+    - 
+      title: "Veilig"
       description: "'s Werelds meest robuuste blockchain-technologie."
   headings:
     history: "De Geschiedenis van Bitcoin Cash"
@@ -117,6 +124,7 @@ nl:
     why: "Waarom Bitcoin Cash Gebruiken?"
     benefits: "Voordelen voor Handelaren"
     development: "Gedecentraliseerde Ontwikkeling"
+    smartbch: "SmartBCH"
   content:
     history:
       - |
@@ -132,58 +140,76 @@ nl:
         Met meerdere onafhankelijke teams van ontwikkelaars die software-implementaties opleveren, is de toekomst veilig. Bitcoin Cash is bestand tegen politieke en sociale aanvallen op protocol ontwikkeling. Geen enkele groep of project kan het controleren. Meerdere implementaties bieden ook redundantie om ervoor te zorgen dat het netwerk 100% uptime behoudt.
       - |
         De <a href="https://bitcoincashresearch.org" target="_blank"> bitcoincashresearch.org </a> website is een goede plek om voorstellen te doen voor veranderingen die coördinatie tussen ontwikkel teams vereisen. Voor degenen die wijzigingen in het Bitcoin Cash-protocol willen doorvoeren, wordt aangeraden om vroegtijdige peer review te zoeken en samen te werken met andere ontwikkelaars.
+      - |
+        Ben je geïnteresseerd bent om te helpen met vertalen, kijk dan a.u.b. op ons <a href="https://crowdin.com/project/bitcoin-cash" target="_blank">CrowdIn project</a>. Onthoud, we accepteren enkel menselijke vertalingen, alle vormen van automatische vertalingen worden afgewezen.
     about:
       - |
         Bitcoin Cash brengt betrouwbaar geld naar de wereld en vervult de oorspronkelijke belofte van Bitcoin als "Peer-to-Peer Digitaal Geld". Verkopers en gebruikers zijn verzekerd van lage transactiekosten en betrouwbare bevestigingen. De toekomst ziet er veelbelovend uit door onbeperkte groei, wereldwijde adoptie, vrije innovatie en decentrale ontwikkeling.
       - |
         Iedereen is welkom om lid te worden van de Bitcoin Cash-gemeenschap terwijl we verder gaan met het creëren van gezond geld dat voor de hele wereld toegankelijk is.
     why:
-      - benefit: "Stuur Geld Overal In De Wereld, Voor Bijna Gratis"
+      - 
+        benefit: "Stuur Geld Overal In De Wereld, Voor Bijna Gratis"
         descrip:
           - |
             Met Bitcoin Cash kan je 24 uur per dag, 365 dagen per jaar geld sturen naar iedereen, waar ook ter wereld. Net als internet zelf staat het netwerk altijd aan. Geen enkele transactie is te groot of te klein. En je hebt nooit de toestemming of goedkeuring van iemand nodig.
-      - benefit: "Wees je eigen bank en heb volledige controle over jouw geld"
+      - 
+        benefit: "Wees je eigen bank en heb volledige controle over jouw geld"
         descrip:
           - |
             De inbeslagname van kapitaal van rekeninghouders ("bail-ins") die plaatsvonden in Cyprus en bijna in Griekenland, toont aan dat bank deposito's slechts zo veilig zijn als politieke leiders besluiten. Zelfs onder de beste omstandigheden kunnen banken fouten maken, geld aanhouden, rekeningen blokkeren en anderszins verhinderen dat u toegang krijgt tot uw eigen geld.
           - |
             Banken kunnen ook besluiten om uw transacties te blokkeren, kosten in rekening te brengen of uw rekening zonder waarschuwing te sluiten. Bitcoin Cash geeft u volledige, hoogste controle over uw geld, waartoe u overal ter wereld toegang heeft.
-      - benefit: "Een schaarse digitale valuta met een bekend, vast aanbod in omloop"
+      - 
+        benefit: "Een schaarse digitale valuta met een bekend, vast aanbod in omloop"
         descrip:
           - |
             Het Bitcoin Cash-protocol zorgt ervoor dat er nooit meer dan 21 miljoen munten zullen bestaan. Overheden drukken constant geld uit het niets, blazen het aanbod eindeloos op en devalueren ieders spaargeld. Bitcoin Cash heeft een vaste voorraad en vertegenwoordigt dus gezond geld.
-      - benefit: "Verhoog je privacy en werk anoniem"
+      - 
+        benefit: "Verhoog je privacy en werk anoniem"
         descrip:
           - |
             Bitcoin Cash biedt meer privacy en anonimiteit dan een traditionele betalingssystemen zoals bankoverschrijvingen en creditcard betalingen, aangezien het normaal gesproken onmogelijk is om te weten wie een Bitcoin-adres beheert.
           - |
             Bitcoin Cash biedt verschillende privacy niveaus, afhankelijk van hoe het wordt gebruikt. Het is belangrijk om uzelf grondig te verdiepen voordat u BCH gebruikt voor privacy doeleinden.
-      - benefit: "Geniet van exclusieve kortingen"
+      - 
+        benefit: "Geniet van exclusieve kortingen"
         descrip:
           - |
             Veel handelaren bieden kortingen voor betalen met Bitcoin Cash, omdat het creditcard kosten elimineert en de acceptatie van dit nieuwe betalings systeem helpt groeien.
-      - benefit: "Token Ecosysteem"
+      - 
+        benefit: "Token Ecosysteem"
         descrip:
           - |
             Het opslaan en beheren van tokens op een blockchain biedt meer transparantie en integriteit dan traditionele vormen van activa boekhouding en -handel. Bitcoin Cash ondersteunt token-protocollen die een verscheidenheid aan projecten mogelijk maken, en het is gemakkelijk om uw eigen door tokens ondersteunde projecten aan te maken.
-      - benefit: "Steun Vrijheid Wereldwijd"
+      - 
+        benefit: "Steun Vrijheid Wereldwijd"
         descrip:
           - |
             Bitcoin Cash is een open netwerk zonder toestemming. Het stelt je in staat om zonder inbreuk met je medemensen om te gaan. Het is gedecentraliseerd, vrijwillig en niet-agressief.  Naarmate het gebruik toeneemt, zullen oude machtsstructuren verdwijnen terwijl nieuwe ideeën bloeien. Het kan helpen de grootste vreedzame revolutie in te luiden die de wereld ooit heeft gekend.
+      - 
+        benefit: "DeFi Applicaties &amp; NFTs"
+        descrip:
+          - |
+            SmartBCH is een zeer goed presenteerde EVM &amp; Web3-compatibele sidechain om DeFi applicaties te ondersteunen. In omvat een constant groeiende aantal decentrale exchanges en NFT projecten!
     benefits:
-      - benefit: "Ultra Lage Tarieven"
+      - 
+        benefit: "Ultra Lage Tarieven"
         descrip:
           - |
             De netwerk kosten voor een typische Bitcoin Cash-transactie zijn minder dan één cent. Als u uw BCH wilt omrekenen naar fiat-valuta, zoals Amerikaanse dollars, kunt u dat doen via handelaren die tegen een kostprijs die nog steeds veel lager is dan bij creditcard verwerking.
-      - benefit: "Geen Terugboekingen"
+      - 
+        benefit: "Geen Terugboekingen"
         descrip:
           - |
             In tegenstelling tot creditcards zijn er nooit automatische annuleringen, terugbetalingen, terugboekingen of andere onverwachte kosten. Fraudebescherming is in het systeem ingebouwd zonder extra kosten voor de handelaar.
-      - benefit: "Nieuwe Klanten"
+      - 
+        benefit: "Nieuwe Klanten"
         descrip:
           - |
             Een groeiend aantal klanten kiest Bitcoin Cash als voorkeurs betaalmethode. Ze geven de voorkeur aan handelaren die deze betalings optie aanbieden en zoeken ze actief op.
-      - benefit: "Gratis Marketing en Pers materiaal"
+      - 
+        benefit: "Gratis Marketing en Pers materiaal"
         descrip:
           - |
             Door Bitcoin Cash te accepteren, kunnen verkopers gratis vermeldingen krijgen in website- en app-directories, waardoor ze nog meer klanten werven. Ze kunnen ook profiteren van deze nieuwe trend en reklamen genereren voor hun eigen bedrijf.

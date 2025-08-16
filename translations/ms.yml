@@ -30,7 +30,7 @@ ms:
     title: "Grafik Promosi"
     description: "Logo dan aset jenama Bitcoin Cash boleh digunakan untuk dipapar di khidmat dalam talian, sektor runcit, pihak akhbar dan untuk tujuan promosi yang lain-lain."
     logos: "Logo"
-    download_png_svg: 'Muat Turunkan Logo "Bitcoin Cash" dalam format PNG dan SVG'
+    download_png_svg: "Muat Turunkan Logo \"Bitcoin Cash\" dalam format PNG dan SVG"
     download_all: "Muat Turun Semua"
     small: "Kecil (WEBP)"
     medium: "Sederhana (WEBP)"
@@ -89,22 +89,29 @@ ms:
     graphics: "Logo/ Grafik"
     benefits: "Manfaat"
     faq: "Soalan Lazim"
+    smartbch: "SmartBCH"
   layout:
     bitcoin_cash: "Bitcoin Cash"
     lead: "P2P Tunai Elektronik"
     loading: "Tengah Muat Turun..."
   features:
-    - title: "Cepat"
+    - 
+      title: "Cepat"
       description: "Hantar wang dalam sesaat. Disahkan dalam beberapa minit."
-    - title: "Boleh dipercayai"
+    - 
+      title: "Boleh dipercayai"
       description: "Rangkaian wang yang berjalan tanpa kesesakan."
-    - title: "Yuran rendah"
+    - 
+      title: "Yuran rendah"
       description: "Hantar wang di mana sahaja dengan hanya satu sen."
-    - title: "Ringkas"
+    - 
+      title: "Ringkas"
       description: "Senang digunakan. Tiada kerumitan."
-    - title: "Mantap"
+    - 
+      title: "Mantap"
       description: "Sistem pembayaran yang boleh dipercayai."
-    - title: "Selamat"
+    - 
+      title: "Selamat"
       description: "Teknologi blockchain yang terkukuh di dunia."
   headings:
     history: "Sejarah Bitcoin Cash"
@@ -117,6 +124,7 @@ ms:
     why: "Kenapa Guna Bitcoin Cash?"
     benefits: "Faedah bagi Peniaga"
     development: "Pembangunan yang desentralisasi"
+    smartbch: "SmartBCH"
   content:
     history:
       - |
@@ -132,58 +140,76 @@ ms:
         Masa depan adalah selamat dengan penglibatan dari pelbagai pemaju bebas yang menyediakan pelaksanaan perisian. Bitcoin Cash boleh tahan terhadap ancaman politik dan sosial untuk perkembangan protokol. Tiada kumpulan atau projek individu yang mampu mengawal dengan sepenuhnya. Pelbagai pelaksanaan memberikan kelebihan untuk memastikan bahawa rangkaian mengekalkan 100% masa operasi.
       - |
         <a href="https://lists.linuxfoundation.org/mailman/listinfo/bitcoin-ml" target="_blank"> merupakan senarai mel</a> yang membolehkan cadangan perubahan yang memerlukan penyelarasan antara pasukan pemaju. Tinjauan awal dari rakan sebaya dan penglibatan pemaju lain secara kerjasama adalah disyorkan bagi mereka yang ingin melaksanakan sebarangan perubahan kepada protokol Bitcoin Cash.
+      - |
+        Sekiranya anda berminat untuk membantu dengan terjemahan, sila semak <a href="https://crowdin.com/project/bitcoin-cash" target="_blank">projek CrowdIn</a> kami. Perlu diingat, kami hanya menerima terjemahan manusia, sebarang terjemahan automatik akan ditolak.
     about:
       - |
         Bitcoin Cash memperkenalkan wang yang kukuh ke dunia ini, memenuhi janji asal Bitcoin iaitu: "Wang Electronik P2P". Peniaga dan juga pembeli boleh berurus niaga dengan caj yang amat rendah dan juga pengesahan yang dipercayai. Masa depan sangat bersinar dengan pertumbuhan tanpa batasan, penggunaan antarabangsa, inovasi tanpa had, dan pembangunan terdesentralisasi.
       - |
         Semua yang mempunyai Bitcoin sejak blok 478558 juga mempunyai Bitcoin Cash. Kamu semua dialu-alukan untuk menyertai masyarakat Bitcoin Cash dan bergerak langsung untuk mencipta wang yang kukuh yang mudah didatangi setiap manusia di dunia ini.
     why:
-      - benefit: "Hantar Wang di serata Dunia, hampir Percuma"
+      - 
+        benefit: "Hantar Wang di serata Dunia, hampir Percuma"
         descrip:
           - |
             Dengan Wang elektronik langsung P2P, anda boleh menghantar wang kepada sesiapa sahaja, di serata dunia, 24 jam sehari, 365 hari setahun. Seperti Internet, rangkaian sentiasa hidup. Tiada transaksi terlalu besar atau terlalu kecil dan anda tidak memerlukan kebenaran atau kelulusan sesiapa.
-      - benefit: "Jadilah Bank Anda Sendiri dan Kendalikan sepenuhnya Wang Anda"
+      - 
+        benefit: "Jadilah Bank Anda Sendiri dan Kendalikan sepenuhnya Wang Anda"
         descrip:
           - |
             Penyitaan modal dari pemegang akaun ("wang-jaminan") yang berlaku di Cyprus dan hampirnya terjadi di Greece, menunjukkan deposit di bank adalah selamat tapi ditentukan oleh pihak politik. Bank boleh melakukan kesalahan, menahan dana anda, membekukan akaun dan menghalang anda mengakses wang anda sendiri walaupun dalam apa jua keadaan.
           - |
             Bank juga boleh menyekat transaksi anda, ataupun mengenakan yuran atau menutup akaun anda tanpa amaran. Bitcoin Cash memberikan anda kawalan penuh terhadap dana anda, di mana anda boleh mengakses di mana sahaja di dunia ini.
-      - benefit: "Suatu mata wang digital yang terhad dengan bekalan tetap yang diketahui"
+      - 
+        benefit: "Suatu mata wang digital yang terhad dengan bekalan tetap yang diketahui"
         descrip:
           - |
             Protokol Bitcoin Cash memastikan bekalan yang wujud tidak akan melebihi 21 juta. Kerajaan sentiasa mencetak wang berterusan, melambungkan inflasi bekalan dan menurunkan nilai simpanan kita. Bitcoin Cash mempunyai bekalan yang tetap dan oleh sedemikian mewakili wang yang baik.
-      - benefit: "Tingkatkan Privasi Anda dan Kendalikan Tanpa Nama"
+      - 
+        benefit: "Tingkatkan Privasi Anda dan Kendalikan Tanpa Nama"
         descrip:
           - |
             Bitcoin Cash menawarkan lebih selamat dan tanpa nama berbanding dengan sistem pembayaran tradisi seperti pindahan wang melalui bank dan pembayaran melalui kad kredit, disebabkan biasanya mustahil kita mengetahui siapa yang mengawal alamat Bitcoin ini.
           - |
             Bitcoin Cash menawarkan pelbagai tahap keselamatan bergantung pada cara penggunaannya. Ini adalah amat penting untuk mendidik diri secara sepenuhnya sebelum menggunakan BCH bagi tujuan keselamatan.
-      - benefit: "Menikmati Diskaun Eksklusif"
+      - 
+        benefit: "Menikmati Diskaun Eksklusif"
         descrip:
           - |
             Ramai peniaga menawarkan diskaun untuk bayaran dalam Bitcoin Cash, sebab ia menghapuskan yuran kad kredit dan menolong untuk pengamalan serta perkembangan sistem pembayaran yang baru ini.
-      - benefit: "Ekosistem Token"
+      - 
+        benefit: "Ekosistem Token"
         descrip:
           - |
             Penyimpanan dan pengurusan token pada blockchain memberikan ketulusan dan integriti yang lebih mendalam berbanding dengan bentuk perakaunan dan perdagangan aset tradisional. Bitcoin Cash menyokong protokol token yang menguruskan pelbagai projek, dan ini membolehkan inisiatif projek yang mempunyai token sendiri.
-      - benefit: "Menyokong Kebebasan Seluruh Dunia"
+      - 
+        benefit: "Menyokong Kebebasan Seluruh Dunia"
         descrip:
           - |
             Bitcoin Cash merupakan suatu rangkaian terbuka, tanpa izin. Ia membolehkan kita berinteraksi sesama manusia tanpa pencerobohan. Ia adalah desentralisasi, sukarela dan tidak agresif. Struktur kuasa lama akan makin merosot sementara idea baru akan terus berkembang apabila penggunaan semakin meningkat. Ia akan membantu membawa revolusi aman yang terbesar di dunia ini.
+      - 
+        benefit: "Aplikasi Defi &amp; NFT"
+        descrip:
+          - |
+            SmartBCH adalah rantaian sisi yang serasi dengan EVM &amp; Web3 berprestasi tinggi untuk menyokong aplikasi DeFi. Ini termasuk jumlah pertukaran terdesentralisasi dan projek NFT yang sentiasa berkembang!
     benefits:
-      - benefit: "Yuran Yang Amat Rendah"
+      - 
+        benefit: "Yuran Yang Amat Rendah"
         descrip:
           - |
             Bayaran rangkaian bagi suatu transaksi bitcoin cash biasanya kurang dari satu sen. Jika anda ingin menukarkan BCH anda kepada mata wang fiat, seperti US Dollars, anda boleh membuat sedemikian melalui pemproses peniaga dengan kos yang lebih rendah dari pemprosesan kad kredit.
-      - benefit: "Tidak ada caj balik"
+      - 
+        benefit: "Tidak ada caj balik"
         descrip:
           - |
             Tidak serupa kad kredit, transaksi tidak akan dibatalkan automatik, tiada bayaran balik, caj balik atau bayaran lain yang tidak dijangka.
-      - benefit: "Pelanggan Baru"
+      - 
+        benefit: "Pelanggan Baru"
         descrip:
           - |
             Pilihan Bitcoin Cash sebagai kaedah pembayaran di antara ramai semakin meningkat. Peniaga yang menawarkan kaedah pembayaran ini akan digemari dan dicarikan secara aktif.
-      - benefit: "Pemasaran dan Pengiklanan Yang Percuma"
+      - 
+        benefit: "Pemasaran dan Pengiklanan Yang Percuma"
         descrip:
           - |
             Peniaga akan disenaraikan di laman web dan direktori aplikasi secara percuma jika menerima Bitcoin Cash. Mereka akan mendapat manfaat dari trend baru ini dan menjana liputan akhbar untuk perniagaan mereka.

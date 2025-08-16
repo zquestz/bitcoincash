@@ -89,22 +89,29 @@ fil:
     graphics: "MgaTatak/Grapiko"
     benefits: "Mga Benepisyo"
     faq: "FAQ"
+    smartbch: "SmartBCH"
   layout:
     bitcoin_cash: "Bitcoin Cash"
     lead: "Elektronikong Pera para sa Kapwa-sa-Kapwa"
     loading: "Hintayin..."
   features:
-    - title: "Mabilis"
+    - 
+      title: "Mabilis"
       description: "Segundong transaksyon. Kumpirmasyon sa iilang minuto."
-    - title: "Maasahan"
+    - 
+      title: "Maasahan"
       description: "Ang network na tumatakbo ng walang kasikipan."
-    - title: "Mababang Bayarin"
+    - 
+      title: "Mababang Bayarin"
       description: "Magpadala ng pera sa buong mundo na barya lang ang binabayaran."
-    - title: "Simple"
+    - 
+      title: "Simple"
       description: "Madaling gamitin at walang hassles."
-    - title: "Matatag"
+    - 
+      title: "Matatag"
       description: "Ang sistema ng pagbayad na may napatunayang halaga."
-    - title: "Seguridad"
+    - 
+      title: "Seguridad"
       description: "Pinakabatibot na teknolohiya ng Blockchain sa buong mundo."
   headings:
     history: "Ang Kasaysayan ng Bitcoin Cash"
@@ -117,10 +124,11 @@ fil:
     why: "Bakit Kailangan Gamitin ang Bitcoin Cash?"
     benefits: "Mga Benepisyo para sa mga Negosyante"
     development: "Desentralisadong Pagbabago"
+    smartbch: "SmartBCH"
   content:
     history:
       - |
-        Sa taong 2008 ng Oktubre, inilathala ni Satoshi Nakamoto ang sikat na "white paper" na pinamagatang <strong>“Bitcoin: A Peer to Peer Electronic Cash System”</strong>.  Sa taong 2009, pinakawalan niya ang pinakaunang software na nagpalakas sa network, at napakagaan na operasyon sa mga ilang taon dahil sa mababang bayarin, mabilis at maasahang transaksyon.
+        Noong Oktubre 2008, inilathala ni Satoshi Nakamoto ang tanyag na whitepaper na pinamagatang <a target="_blank" href="https://bitcoincash.org/bitcoin.pdf"><strong><q>Bitcoin: Isang Peer to Peer na Electronic Cash System</q></strong></a>. Noong 2009, inilabas niya ang unang bitcoin software na nagpagana sa network, at ito ay gumana nang maayos sa loob ng ilang taon na may mababang bayarin, at mabilis, maaasahang transaksyon.
       - |
         Sa kasamaang palad, noong 2016 hanggang 2017, naging mahirap at mahal ang pagtransaksyon sa Bitcoin. Ito ay dahil hindi maabot ng komunidad ang konsensus sa kapasidad ng pagtaas ng network. Ilan sa mga developers nito ay hindi ito naiintindihan gayundin ang layunin ni Satoshi. Sapagkat mas ginusto nilang maging settlement layer lamang ang Bitcoin.
       - |
@@ -132,58 +140,76 @@ fil:
         Kasama ang iilang grupo ng mga independenteng developers na nagbibigay ng mga implementasyon sa software, ang ating kinabukasan ay segurado. Ang mga plano ng Bitcoin Cash para umunlad ay malayo sa mga atakeng pangpulitikal at pangsosyal. Walang sinumang grupo o proyekto ang kayang kontrolin ito. Ang pagpapanatili sa 100% uptime ng network ay bunga ng paulit-ulit na maraming implementasyon.
       - |
         Ang <a href="https://bitcoincashresearch.org" target="_blank">bitcoincashresearch.org</a> ay isang magandang lugar sa pagsasagawa ng mga panukala para sa mga pagbabago na nangangailangan din ng koordinasyon sa mga grupo ng developers. Ang sinumang nagnanais magsagawa ng pagbabago sa protokol ng Bitcoin Cash ay mas mabuting maghanap muna ng rekomendasyon sa lipunan at makipag-ugnayan sa ibang developers.
+      - |
+        Kung interesado kang tumulong sa mga pagsasalin, mangyaring tingnan ang aming <a href="https://crowdin.com/project/bitcoin-cash" target="_blank">proyekto sa CrowdIn</a>. Tandaan, tanging mga pagsasalin ng tao lamang ang aming tinatanggap, anumang awtomatikong pagsasalin ay tatanggihan.
     about:
       - |
         Ang Bitcoin Cash ay nagdadala ng napakainam na pera para sa buong mundo, angkop sa orihinal na pamantayan ng Bitcoin bilang "Elektronikong Pera para sa Kapwa-sa-Kapwa". Ang mga negosyante at gumagamit nito ay nabibigyan ng pagkakataong magpadala ng may maliit na bayarin at maasahang kumpirmasyon sa bawat transaksyon. Ang kinabukasan ay nagniningning kasama ang hindi pinipigilang paglaki, pandaigdigang adapsyon, malayang pagbabago, at desentralisadong pagpapa-unlad.
       - |
         Ang lahat ay malayang sumali sa komunidad ng Bitcoin Cash at tayo ay susulong habang nagsasagawa ng mainam na pera para sa lahat ng nakatira sa buong mundo.
     why:
-      - benefit: "Magpadala ng Pera Saang Sulok man ng Mundo, Halos Wala ka ng Babayaran"
+      - 
+        benefit: "Magpadala ng Pera Saang Sulok man ng Mundo, Halos Wala ka ng Babayaran"
         descrip:
           - |
             Gamit ang Bitcoin Cash, kaya munang magpadala ng pera kanino man, saan man sa mundo, 24 na oras kada araw, 365 na araw kada taon. Kagaya ng internet mismo, ang network ay palaging nandiyan. Walang malaki o maliit na transaksyon. At hinding-hindi muna kakailanganin ang permiso o pahintulot ng iba.
-      - benefit: "Ikaw na ang Bangko at Kontrolin mu ng Malaya ang Iyong Pera"
+      - 
+        benefit: "Ikaw na ang Bangko at Kontrolin mu ng Malaya ang Iyong Pera"
         descrip:
           - |
             Ang nangyaring paghawak ng Cyprus at di kalayuan sa Greece ng puhunan ng mga tao ("paglagak") ay katunayan lamang na ang seguridad sa pagdeposito ng pera sa banko ay di maihahalintulad sa desisyon ng mga lider sa pulitika. Kahit pa man maganda ang mga kondisyon, ang posibilidad na magkamali ang banko, paglagak ng pera, pagfreeze ng ari-arian, at ang malala pa ay pagpigil sa inyo na makuha ang inyong pera.
           - |
             Ang mga banko ay maari ring magdesisyon na pigilan ang mga transaksyon mo, mag-isyu ng mga bayarin, o isara ang iyong ari-arian ng walang pahintulot. Ang Bitcoin Cash ay nagbibigay ng buo, malayang pagkontrol sa iyong ari-arian, na kaya mong gamitin saan man sa mundo.
-      - benefit: "Isang Madalang na Salaping Digital na may Kilalang, Natatakdang Tutos"
+      - 
+        benefit: "Isang Madalang na Salaping Digital na may Kilalang, Natatakdang Tutos"
         descrip:
           - |
             Sinisigurado ng protokol ng Bitcoin Cash na ang tutos nito ay hindi susobra sa 21 milyon. Ang gobyerno ay patuloy na gumagawa ng pera ng hindi natin alam, dahil dito walang katapusan ang paglobo ng ating tutos at siya ring dahilan kung bakit bumababa ang halaga ng ating naipon. Ang Bitcoin Cash ay mayroong natatakdang tutos kung kayat ito ay isang mainam na pera.
-      - benefit: "Dagdagan ang Iyong Pagiging Pribado at Gumalaw ng Walang Nakakakilala"
+      - 
+        benefit: "Dagdagan ang Iyong Pagiging Pribado at Gumalaw ng Walang Nakakakilala"
         descrip:
           - |
             Ang Bitcoin Cash ay mas nagbibigay sayo ng pagiging pribado at nakatagong pagkakakilanlan kung ikukumpara sa mga nakasanayang sistema ng pagbayad, gaya ng pagtransak sa banko at mga kredit kards, ito ay dahil napakaimposibleng alamin ang may kontrol ng naturang Bitcoin address.
           - |
             Ang Bitcoin Cash ay nagbibigay sa iyo ng ibat-ibang antas ng proteksyon sa pagiging pribado na inaayon din sa klase ng paggagamitan mu. Ang paggamit ng BCH para sa proteksyon sa pagiging pribado ay nangangahulugan din na kailangang pag-aralan ito ng mabuti.
-      - benefit: "Magpakasaya sa mga Eksklusibong Deskuwento"
+      - 
+        benefit: "Magpakasaya sa mga Eksklusibong Deskuwento"
         descrip:
           - |
             Marami sa ating mga negosyante ang nagbibigay diskuwento o tawad dahil naiiwasan nila ang magbayad ng mga kredit kard na bayarin, yan ay kung magbabayad ka gamit ang Bitcoin Cash at ito din ay tumutulong sa pagtaas ng mga gagamit ng bagong sistema ng pagbayad.
-      - benefit: "Ekosistema ng Token"
+      - 
+        benefit: "Ekosistema ng Token"
         descrip:
           - |
             Ang pagtago at pamamahala ng mga token sa blockchain ay nagbibigay ng mas magandang panganganinag at integridad kung ikukumpara sa mga tradisyunal o kinagawian na pagpalitan ng mga ari-arian. Ang Bitcoin Cash ay sumusuporta ng protokol sa tokens na siyang nagbibigay kapangyarihan sa mga proyekto at madali lamang gumawa nito para sa iyong proyekto.
-      - benefit: "Pandaigdigang Suporta para sa Kalayaan"
+      - 
+        benefit: "Pandaigdigang Suporta para sa Kalayaan"
         descrip:
           - |
             Ang Bitcoin Cash ay hindi nangangailangan ng pahintulot, ito ay isang malayang network. Naghahatid ito sa inyo ng kakayahang makipaginterak kaninu man ng walang nakikialam. Ito ay desentralisado, boluntaryo, at hindi agresibo. Habang ito ay lumalaki, ang mga istruktura noon ay mawawala at uusbong ang mga bagong ideya. Ito rin ay maaring magdala ng pinakamapayapang rebolusyon na nakilala ng buong mundo.
+      - 
+        benefit: "Mga Defi Applications at NFTs"
+        descrip:
+          - |
+            Ang SmartBCH ay isang mataas na pagganap na EVM at Web3 compatible na sidechain para suportahan ang mga aplikasyon ng DeFi. Kabilang dito ang patuloy na lumalaking bilang ng mga decentralized exchanges at mga proyektong NFT!
     benefits:
-      - benefit: "Napakaliit na mga Bayarin"
+      - 
+        benefit: "Napakaliit na mga Bayarin"
         descrip:
           - |
             Ang karaniwang transaksyon sa Bitcoin Cash ay maaring magbayad sa network ng halos mababa pa sa sentimo. Kung nais mo din namang palitan ang iyong BCH sa salapi, gaya ng dolyar ng US, maaring gawin ay magbayad sa mga negosyante para makatipid kaysa sa mga proseso ng kredit kards.
-      - benefit: "Walang Chargebacks"
+      - 
+        benefit: "Walang Chargebacks"
         descrip:
           - |
             Di gaya ng mga kredit kards, hinding-hindi mu makikita ang mga awtomatikong pagkawala, isinauli, chargebacks, o anumang mga di-inaasahang bayarin. Ang sistema ay ginawa upang maprotektahan mula sa pandaraya ang mga negosyante ng libre.
-      - benefit: "Mga Bagong Mamimili"
+      - 
+        benefit: "Mga Bagong Mamimili"
         descrip:
           - |
             Dumadami na ang numero ng mga mamimiling gustong magbayad gamit ang Bitcoin Cash. Mas ginugusto nilang maghanap ng mga negosyante na tumatanggap nito.
-      - benefit: "Malayang Pagpapahayag at Limbagan"
+      - 
+        benefit: "Malayang Pagpapahayag at Limbagan"
         descrip:
           - |
             Sa pamamagitan ng pagtanggap ng mga negosyante ng Bitcoin Cash, maari silang makatanggap ng libreng limbag sa mga website at app, mas makakakuha pa sila ng madaming mamimili. Maari din nilang gamitin ang bagong trend na ito at gumawa ng pahayagan patungkol sa kanilang negosyo.
