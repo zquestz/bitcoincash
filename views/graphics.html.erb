@@ -12,15 +12,15 @@
     <meta property="og:title" content="<%= I18n.t(:'meta.graphics.og.title').strip %>">
     <meta property="og:description" content="<%= I18n.t(:'meta.graphics.og.description').strip %>">
     <meta property="og:image" content="https://www.bitcoincash.org/img/bitcoincash-twitter.webp">
-    <%- if ['ar', 'fa'].include?(I18n.locale.to_s.split('-').first) -%>
+    <%- if ['ar', 'fa'].include?(I18n.locale.to_s.split('-').first) %>
       <style>
         section { direction: rtl; }
       </style>
-    <%- end -%>
-    <link rel="preconnect" href="https://fonts.gstatic.com" />
-    <link href="/css/deps.min.css?v=<%= Digest::SHA256.file 'html/css/deps.min.css' %>" rel="stylesheet" type="text/css" media="all" />
-    <link href="/css/custom.min.css?v=<%= Digest::SHA256.file 'html/css/custom.min.css' %>" rel="stylesheet" type="text/css" media="all" />
-    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet" type="text/css" media="all" />
+    <%- end %>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="/css/deps.min.css?v=<%= Digest::SHA256.file 'html/css/deps.min.css' %>" rel="stylesheet" type="text/css" media="all">
+    <link href="/css/custom.min.css?v=<%= Digest::SHA256.file 'html/css/custom.min.css' %>" rel="stylesheet" type="text/css" media="all">
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet" type="text/css" media="all">
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-17656782-2"></script>
     <script>
       window.dataLayer = window.dataLayer || [];
@@ -30,7 +30,7 @@
       gtag('config', 'UA-17656782-2');
     </script>
   </head>
-  <body class=" ">
+  <body>
     <a href="#" id="start"></a>
     <header id="fh5co-header">
       <div class="container">
