@@ -123,6 +123,7 @@ p.question {
 .nodes div a:hover,
 .wallets div a:hover,
 .services div a:hover,
+.explorers div a:hover,
 .exchanges div a:hover,
 .smartbch div a:hover {
   border-bottom: 3px solid #0ac18e;
@@ -131,6 +132,7 @@ p.question {
 .nodes div a,
 .wallets div a,
 .services div a,
+.explorers div a,
 .exchanges div a,
 .smartbch div a {
   padding: 2em;
