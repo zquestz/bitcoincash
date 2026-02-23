@@ -6,6 +6,7 @@ require 'fileutils'
 require 'i18n'
 require "i18n/backend/fallbacks"
 require 'digest'
+require 'time'
 
 namespace :docker do
   desc "build docker images"
@@ -45,10 +46,15 @@ namespace :translations do
     nginx_renderer = ERB.new(nginx_template)
     File.write(File.join('.', 'nginx.conf'), nginx_renderer.result())
     graphics_template = File.read('views/graphics.html.erb')
-    graphics_renderer = ERB.new(graphics_template, nil, '-')
+    graphics_renderer = ERB.new(graphics_template, trim_mode: '-')
     FileUtils.mkdir_p(File.join('.', 'html', 'graphics'))
+    build_time = Time.now.utc.strftime('%Y-%m-%dT%H:%M:%S+00:00')
+    sitemap_template = File.read('views/sitemap.xml.erb')
+    sitemap_renderer = ERB.new(sitemap_template, trim_mode: '-')
+    File.write(File.join('.', 'html', 'sitemap.xml'), sitemap_renderer.result(binding))
+    puts "Generated sitemap.xml"
     template = File.read('views/index.html.erb')
-    renderer = ERB.new(template, nil, '-')
+    renderer = ERB.new(template, trim_mode: '-')
     I18n.available_locales.sort.each do |locale|
       puts "Building #{locale}"
       I18n.locale = locale
@@ -57,7 +63,7 @@ namespace :translations do
       FileUtils.mkdir_p(File.join('.', 'html', 'graphics'))
       FileUtils.mkdir_p(File.join('.', 'html', locale.to_s.downcase, 'graphics'))
       File.write(File.join('.', 'html', 'graphics', "index.#{locale}.html"), graphics_renderer.result())
-      File.write(File.join('.', 'html', 'graphics', 'index.html'), renderer.result()) if locale == :en
+      File.write(File.join('.', 'html', 'graphics', 'index.html'), graphics_renderer.result()) if locale == :en
       File.write(File.join('.', 'html', locale.to_s.downcase, 'index.html'), renderer.result())
       File.write(File.join('.', 'html', locale.to_s.downcase, 'graphics', 'index.html'), graphics_renderer.result())
     end

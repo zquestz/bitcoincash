@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+
+<url>
+  <loc>https://bitcoincash.org/</loc>
+  <lastmod><%= build_time %></lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://bitcoincash.org/graphics/</loc>
+  <lastmod><%= build_time %></lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://bitcoincash.org/bitcoin.pdf</loc>
+  <lastmod><%= build_time %></lastmod>
+  <priority>0.64</priority>
+</url>
+<% I18n.available_locales.sort.each do |locale| -%>
+<url>
+  <loc>https://bitcoincash.org/<%= locale.to_s.downcase %>/</loc>
+  <lastmod><%= build_time %></lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://bitcoincash.org/<%= locale.to_s.downcase %>/graphics/</loc>
+  <lastmod><%= build_time %></lastmod>
+  <priority>0.64</priority>
+</url>
+<% end -%>
+
+</urlset>

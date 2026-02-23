@@ -1,6 +1,6 @@
 map $http_accept_language $lang {
     default en;
-    -^ar ar;
+    ~^ar ar;
     ~^cs cs;
     ~^de-ch de-CH;
     ~^de-CH de-CH;
@@ -10,7 +10,7 @@ map $http_accept_language $lang {
     ~^eo eo;
     ~^es es;
     ~^fa fa;
-    -^fil fil;
+    ~^fil fil;
     ~^fr fr;
     ~^hi hi;
     ~^hu hu;
@@ -26,12 +26,12 @@ map $http_accept_language $lang {
     ~^pt-pt pt-PT;
     ~^pt-PT pt-PT;
     ~^pt pt-BR;
-    -^ru ru;
-    -^sk sk;
-    -^th th;
+    ~^ru ru;
+    ~^sk sk;
+    ~^th th;
     ~^tl tl;
     ~^tr tr;
-    -^uk uk;
+    ~^uk uk;
     ~^vi vi;
     ~^zh-cn zh-CN;
     ~^zh-CN zh-CN;

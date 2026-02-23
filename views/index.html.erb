@@ -13,6 +13,10 @@
     <meta property="og:title" content="<%= I18n.t(:'meta.index.og.title').strip %>">
     <meta property="og:description" content="<%= I18n.t(:'meta.index.og.description').strip %>">
     <meta property="og:image" content="https://www.bitcoincash.org/img/bitcoincash-twitter.webp">
+    <%- I18n.available_locales.sort.each do |locale| -%>
+    <link rel="alternate" hreflang="<%= locale.to_s.downcase %>" href="https://bitcoincash.org/<%= locale.to_s.downcase %>/">
+    <%- end -%>
+    <link rel="alternate" hreflang="x-default" href="https://bitcoincash.org/">
     <%- if ['ar', 'fa'].include?(I18n.locale.to_s.split('-').first) %>
       <style>
         section { direction: rtl; }
@@ -226,76 +230,76 @@
         </div>
         <div class="row">
           <div class="col-sm-6 col-md-3 vertical-align">
-            <a href="https://electroncash.org/" target="_blank"><img loading="lazy" alt="Electron Cash" src="/img/wallets/electroncash.webp"></a>
+            <a href="https://electroncash.org/" target="_blank" rel="noopener"><img loading="lazy" alt="Electron Cash" src="/img/wallets/electroncash.webp"></a>
           </div>
           <div class="col-sm-6 col-md-3 vertical-align">
-            <a href="https://cashonize.com/" target="_blank"><img loading="lazy" alt="Cashonize" src="/img/wallets/cashonize.webp"></a>
+            <a href="https://cashonize.com/" target="_blank" rel="noopener"><img loading="lazy" alt="Cashonize" src="/img/wallets/cashonize.webp"></a>
           </div>
           <div class="col-sm-6 col-md-3 vertical-align">
-            <a href="https://www.paytaca.com/" target="_blank"><img loading="lazy" alt="Paytaca" src="/img/wallets/paytaca.svg"></a>
+            <a href="https://www.paytaca.com/" target="_blank" rel="noopener"><img loading="lazy" alt="Paytaca" src="/img/wallets/paytaca.svg"></a>
           </div>
           <div class="col-sm-6 col-md-3 vertical-align">
-            <a href="https://zapit.io/" target="_blank"><img loading="lazy" alt="Zapit" src="/img/wallets/zapit.webp"></a>
+            <a href="https://zapit.io/" target="_blank" rel="noopener"><img loading="lazy" alt="Zapit" src="/img/wallets/zapit.webp"></a>
           </div>
           <div class="col-sm-6 col-md-3 vertical-align">
-            <a href="https://wallet.bitcoin.com/" target="_blank"><img loading="lazy" alt="Bitcoin.com" src="/img/wallets/bitcoindotcom.webp"></a>
+            <a href="https://wallet.bitcoin.com/" target="_blank" rel="noopener"><img loading="lazy" alt="Bitcoin.com" src="/img/wallets/bitcoindotcom.webp"></a>
           </div>
           <div class="col-sm-6 col-md-3 vertical-align">
-            <a href="https://selene.cash/" target="_blank"><img loading="lazy" alt="Selene" src="/img/wallets/selene.webp"></a>
+            <a href="https://selene.cash/" target="_blank" rel="noopener"><img loading="lazy" alt="Selene" src="/img/wallets/selene.webp"></a>
           </div>
           <div class="col-sm-6 col-md-3 vertical-align">
-            <a href="https://edgesecure.co/" target="_blank"><img loading="lazy" alt="Edge" src="/img/wallets/edge.webp"></a>
+            <a href="https://edgesecure.co/" target="_blank" rel="noopener"><img loading="lazy" alt="Edge" src="/img/wallets/edge.webp"></a>
           </div>
           <div class="col-sm-6 col-md-3 vertical-align">
-            <a href="https://stackwallet.com/" target="_blank"><img loading="lazy" alt="Stack Wallet" src="/img/wallets/stack.webp"></a>
+            <a href="https://stackwallet.com/" target="_blank" rel="noopener"><img loading="lazy" alt="Stack Wallet" src="/img/wallets/stack.webp"></a>
           </div>
           <div class="col-sm-6 col-md-3 vertical-align">
-            <a href="https://cakewallet.com/" target="_blank"><img loading="lazy" alt="Cake Wallet" src="/img/wallets/cake.webp"></a>
+            <a href="https://cakewallet.com/" target="_blank" rel="noopener"><img loading="lazy" alt="Cake Wallet" src="/img/wallets/cake.webp"></a>
           </div>
           <div class="col-sm-6 col-md-3 vertical-align">
-            <a href="https://flowee.org/products/pay/" target="_blank"><img loading="lazy" alt="Flowee Pay" src="/img/wallets/floweepay.webp"></a>
+            <a href="https://flowee.org/products/pay/" target="_blank" rel="noopener"><img loading="lazy" alt="Flowee Pay" src="/img/wallets/floweepay.webp"></a>
           </div>
           <div class="col-sm-6 col-md-3 vertical-align">
-            <a href="https://bitpay.com/wallet" target="_blank"><img loading="lazy" alt="Bitpay Wallet" src="/img/wallets/bitpay.webp"></a>
+            <a href="https://bitpay.com/wallet" target="_blank" rel="noopener"><img loading="lazy" alt="Bitpay Wallet" src="/img/wallets/bitpay.webp"></a>
           </div>
           <div class="col-sm-6 col-md-3 vertical-align">
-            <a href="https://oxapay.com/wallet" target="_blank"><img loading="lazy" alt="OxaPay Wallet" src="/img/wallets/oxapay_wallet.webp"></a>
+            <a href="https://oxapay.com/wallet" target="_blank" rel="noopener"><img loading="lazy" alt="OxaPay Wallet" src="/img/wallets/oxapay_wallet.webp"></a>
           </div>
           <div class="col-sm-6 col-md-3 vertical-align">
-            <a href="http://www.ledgerwallet.com/" target="_blank"><img loading="lazy" alt="Ledger" src="/img/wallets/ledger.webp"></a>
+            <a href="https://www.ledgerwallet.com/" target="_blank" rel="noopener"><img loading="lazy" alt="Ledger" src="/img/wallets/ledger.webp"></a>
           </div>
           <div class="col-sm-6 col-md-3 vertical-align">
-            <a href="https://wallet.trezor.io/" target="_blank"><img loading="lazy" alt="Trezor" src="/img/wallets/trezor.webp"></a>
+            <a href="https://wallet.trezor.io/" target="_blank" rel="noopener"><img loading="lazy" alt="Trezor" src="/img/wallets/trezor.webp"></a>
           </div>
           <div class="col-sm-6 col-md-3 vertical-align">
-            <a href="https://keepkey.com/" target="_blank"><img loading="lazy" alt="KeepKey" src="/img/wallets/keepkey.webp"></a>
+            <a href="https://keepkey.com/" target="_blank" rel="noopener"><img loading="lazy" alt="KeepKey" src="/img/wallets/keepkey.webp"></a>
           </div>
           <div class="col-sm-6 col-md-3 vertical-align">
-            <a href="https://satochip.io/" target="_blank"><img loading="lazy" alt="KeepKey" src="/img/wallets/satochip.webp"></a>
+            <a href="https://satochip.io/" target="_blank" rel="noopener"><img loading="lazy" alt="Satochip" src="/img/wallets/satochip.webp"></a>
           </div>
           <div class="col-sm-6 col-md-3 vertical-align">
-            <a href="https://xdefi.io" target="_blank"><img loading="lazy" alt="XDEFI Wallet" src="/img/wallets/xdefi.webp"></a>
+            <a href="https://xdefi.io" target="_blank" rel="noopener"><img loading="lazy" alt="XDEFI Wallet" src="/img/wallets/xdefi.webp"></a>
           </div>
           <div class="col-sm-6 col-md-3 vertical-align">
-            <a href="https://www.exodus.io/" target="_blank"><img loading="lazy" alt="Exodus" src="/img/wallets/exodus.webp"></a>
+            <a href="https://www.exodus.io/" target="_blank" rel="noopener"><img loading="lazy" alt="Exodus" src="/img/wallets/exodus.webp"></a>
           </div>
           <div class="col-sm-6 col-md-3 vertical-align">
-            <a href="https://wallet.coinex.com/" target="_blank"><img loading="lazy" alt="CoinEx Wallet" src="/img/wallets/coinexwallet.webp"></a>
+            <a href="https://wallet.coinex.com/" target="_blank" rel="noopener"><img loading="lazy" alt="CoinEx Wallet" src="/img/wallets/coinexwallet.webp"></a>
           </div>
           <div class="col-sm-6 col-md-3 vertical-align">
-            <a href="https://coin.space/" target="_blank"><img loading="lazy" alt="Coin Space" src="/img/wallets/coinspace.webp"></a>
+            <a href="https://coin.space/" target="_blank" rel="noopener"><img loading="lazy" alt="Coin Space" src="/img/wallets/coinspace.webp"></a>
           </div>
           <div class="col-sm-6 col-md-3 vertical-align">
-            <a href="https://guarda.com/" target="_blank"><img loading="lazy" alt="Guarda Wallet" src="/img/wallets/guarda.webp"></a>
+            <a href="https://guarda.com/" target="_blank" rel="noopener"><img loading="lazy" alt="Guarda Wallet" src="/img/wallets/guarda.webp"></a>
           </div>
           <div class="col-sm-6 col-md-3 vertical-align">
-            <a href="https://coinomi.com/" target="_blank"><img loading="lazy" alt="Coinomi" src="/img/wallets/coinomi.webp"></a>
+            <a href="https://coinomi.com/" target="_blank" rel="noopener"><img loading="lazy" alt="Coinomi" src="/img/wallets/coinomi.webp"></a>
           </div>
           <div class="col-sm-6 col-md-3 vertical-align">
-            <a href="https://gemwallet.com/" target="_blank"><img loading="lazy" alt="Gem Wallet" src="/img/wallets/gemwallet.webp"></a>
+            <a href="https://gemwallet.com/" target="_blank" rel="noopener"><img loading="lazy" alt="Gem Wallet" src="/img/wallets/gemwallet.webp"></a>
           </div>
           <div class="col-sm-6 col-md-3 vertical-align">
-            <a href="https://cashaddress.org/" target="_blank"><img loading="lazy" alt="Cash Address" src="/img/wallets/cashaddress.webp"></a>
+            <a href="https://cashaddress.org/" target="_blank" rel="noopener"><img loading="lazy" alt="Cash Address" src="/img/wallets/cashaddress.webp"></a>
           </div>
         </div>
       </div>
@@ -401,22 +405,22 @@
       </div>
       <div class="row">
         <div class="col-sm-6 col-md-6 vertical-align">
-          <a href="https://bitcoincashnode.org" target="_blank"><img loading="lazy" alt="Bitcoin Cash Node" src="/img/wallets/bitcoincashnode.webp"></a>
+          <a href="https://bitcoincashnode.org" target="_blank" rel="noopener"><img loading="lazy" alt="Bitcoin Cash Node" src="/img/wallets/bitcoincashnode.webp"></a>
         </div>
         <div class="col-sm-6 col-md-6 vertical-align">
-          <a href="https://www.bitcoinunlimited.info" target="_blank"><img loading="lazy" alt="Bitcoin Unlimited" src="/img/wallets/bitcoinunlimited.webp"></a>
+          <a href="https://www.bitcoinunlimited.info" target="_blank" rel="noopener"><img loading="lazy" alt="Bitcoin Unlimited" src="/img/wallets/bitcoinunlimited.webp"></a>
         </div>
         <div class="col-sm-6 col-md-6 vertical-align">
-          <a href="https://bchd.cash" target="_blank"><img loading="lazy" alt="BCHD" src="/img/wallets/bchd.webp"></a>
+          <a href="https://bchd.cash" target="_blank" rel="noopener"><img loading="lazy" alt="BCHD" src="/img/wallets/bchd.webp"></a>
         </div>
         <div class="col-sm-6 col-md-6 vertical-align">
-          <a href="https://bitcoinverde.org" target="_blank"><img loading="lazy" alt="Bitcoin Verde" src="/img/wallets/bitcoinverde.webp"></a>
+          <a href="https://bitcoinverde.org" target="_blank" rel="noopener"><img loading="lazy" alt="Bitcoin Verde" src="/img/wallets/bitcoinverde.webp"></a>
         </div>
         <div class="col-sm-6 col-md-6 vertical-align">
-          <a href="https://kth.cash" target="_blank"><img loading="lazy" alt="Knuth" src="/img/wallets/knuth.webp"></a>
+          <a href="https://kth.cash" target="_blank" rel="noopener"><img loading="lazy" alt="Knuth" src="/img/wallets/knuth.webp"></a>
         </div>
         <div class="col-sm-6 col-md-6 vertical-align">
-          <a href="https://github.com/PayButton/bchc" target="_blank"><img loading="lazy" alt="BCHC" src="/img/wallets/bchc.webp"></a>
+          <a href="https://github.com/PayButton/bchc" target="_blank" rel="noopener"><img loading="lazy" alt="BCHC" src="/img/wallets/bchc.webp"></a>
         </div>
       </div>
     </div>
@@ -431,124 +435,124 @@
       </div>
       <div class="row">
         <div class="col-sm-4 col-md-3 vertical-align">
-          <a href="https://bchbull.com" target="_blank"><img loading="lazy" alt="BCH Bull" src="/img/services/bchbull.webp"></a>
+          <a href="https://bchbull.com" target="_blank" rel="noopener"><img loading="lazy" alt="BCH Bull" src="/img/services/bchbull.webp"></a>
         </div>
         <div class="col-sm-4 col-md-3 vertical-align">
-          <a href="https://bitpay.com" target="_blank"><img loading="lazy" alt="Bitpay" src="/img/wallets/bitpay.webp"></a>
+          <a href="https://bitpay.com" target="_blank" rel="noopener"><img loading="lazy" alt="Bitpay" src="/img/wallets/bitpay.webp"></a>
         </div>
         <div class="col-sm-4 col-md-3 vertical-align">
-          <a href="https://apirone.com/" target="_blank"><img loading="lazy" alt="Apirone" src="/img/services/apirone.webp"></a>
+          <a href="https://apirone.com/" target="_blank" rel="noopener"><img loading="lazy" alt="Apirone" src="/img/services/apirone.webp"></a>
         </div>
         <div class="col-sm-4 col-md-3 vertical-align">
-          <a href="https://gocrypto.com/" target="_blank"><img loading="lazy" alt="GoCrypto" src="/img/services/gocrypto.webp"></a>
+          <a href="https://gocrypto.com/" target="_blank" rel="noopener"><img loading="lazy" alt="GoCrypto" src="/img/services/gocrypto.webp"></a>
         </div>
         <div class="col-sm-4 col-md-3 vertical-align">
-          <a href="https://map.bitcoin.com" target="_blank"><img loading="lazy" alt="Bitcoin.com Maps" src="/img/services/bitcoincommaps.webp"></a>
+          <a href="https://map.bitcoin.com" target="_blank" rel="noopener"><img loading="lazy" alt="Bitcoin.com Maps" src="/img/services/bitcoincommaps.webp"></a>
         </div>
         <div class="col-sm-4 col-md-3 vertical-align">
-          <a href="https://www.bitgree.com/" target="_blank"><img loading="lazy" alt="Bitgree" src="/img/services/bitgree.webp"></a>
+          <a href="https://www.bitgree.com/" target="_blank" rel="noopener"><img loading="lazy" alt="Bitgree" src="/img/services/bitgree.webp"></a>
         </div>
         <div class="col-sm-4 col-md-3 vertical-align">
-          <a href="https://read.cash/" target="_blank"><img loading="lazy" alt="read.cash" src="/img/services/readcash.webp"></a>
+          <a href="https://read.cash/" target="_blank" rel="noopener"><img loading="lazy" alt="read.cash" src="/img/services/readcash.webp"></a>
         </div>
         <div class="col-sm-4 col-md-3 vertical-align">
-          <a href="https://noise.app/" target="_blank"><img loading="lazy" alt="noise.app" src="/img/services/noisecash.webp"></a>
+          <a href="https://noise.app/" target="_blank" rel="noopener"><img loading="lazy" alt="noise.app" src="/img/services/noisecash.webp"></a>
         </div>
         <div class="col-sm-4 col-md-3 vertical-align">
-          <a href="https://memo.cash/" target="_blank"><img loading="lazy" alt="memo.cash" src="/img/services/memocash.webp"></a>
+          <a href="https://memo.cash/" target="_blank" rel="noopener"><img loading="lazy" alt="memo.cash" src="/img/services/memocash.webp"></a>
         </div>
         <div class="col-sm-4 col-md-3 vertical-align">
-          <a href="https://bch.games/" target="_blank"><img loading="lazy" alt="BCH.games" src="/img/services/bchgames.webp"></a>
+          <a href="https://bch.games/" target="_blank" rel="noopener"><img loading="lazy" alt="BCH.games" src="/img/services/bchgames.webp"></a>
         </div>
         <div class="col-sm-4 col-md-3 vertical-align">
-          <a href="https://blockchain.poker/" target="_blank"><img loading="lazy" alt="Blockchain Poker" src="/img/services/blockchainpoker.webp"></a>
+          <a href="https://blockchain.poker/" target="_blank" rel="noopener"><img loading="lazy" alt="Blockchain Poker" src="/img/services/blockchainpoker.webp"></a>
         </div>
         <div class="col-sm-4 col-md-3 vertical-align">
-          <a href="https://basepoker.com" target="_blank"><img loading="lazy" alt="BASEPOKER" src="/img/services/basepoker.webp"></a>
+          <a href="https://basepoker.com" target="_blank" rel="noopener"><img loading="lazy" alt="BASEPOKER" src="/img/services/basepoker.webp"></a>
         </div>
         <div class="col-sm-4 col-md-3 vertical-align">
-          <a href="https://cheapair.com/" target="_blank"><img loading="lazy" alt="CheapAir" src="/img/services/cheapair.webp"></a>
+          <a href="https://cheapair.com/" target="_blank" rel="noopener"><img loading="lazy" alt="CheapAir" src="/img/services/cheapair.webp"></a>
         </div>
         <div class="col-sm-4 col-md-3 vertical-align">
-          <a href="https://namecheap.com/" target="_blank"><img loading="lazy" alt="Namecheap" src="/img/services/namecheap.webp"></a>
+          <a href="https://namecheap.com/" target="_blank" rel="noopener"><img loading="lazy" alt="Namecheap" src="/img/services/namecheap.webp"></a>
         </div>
         <div class="col-sm-4 col-md-3 vertical-align">
-          <a href="https://cash.coin.dance/" target="_blank"><img loading="lazy" alt="Coin Dance" src="/img/services/coindance.webp"></a>
+          <a href="https://cash.coin.dance/" target="_blank" rel="noopener"><img loading="lazy" alt="Coin Dance" src="/img/services/coindance.webp"></a>
         </div>
         <div class="col-sm-4 col-md-3 vertical-align">
-          <a href="https://fork.lol" target="_blank"><img loading="lazy" alt="Fork.lol" src="/img/services/forklol.webp"></a>
+          <a href="https://fork.lol" target="_blank" rel="noopener"><img loading="lazy" alt="Fork.lol" src="/img/services/forklol.webp"></a>
         </div>
         <div class="col-sm-4 col-md-3 vertical-align">
-          <a href="https://www.alfatop.me" target="_blank"><img loading="lazy" alt="ALFAtop" src="/img/services/alfatopme.webp"></a>
+          <a href="https://www.alfatop.me" target="_blank" rel="noopener"><img loading="lazy" alt="ALFAtop" src="/img/services/alfatopme.webp"></a>
         </div>
         <div class="col-sm-4 col-md-3 vertical-align">
-          <a href="https://satoshidice.com/" target="_blank"><img loading="lazy" alt="Satoshi Dice" src="/img/services/satoshidice.webp"></a>
+          <a href="https://satoshidice.com/" target="_blank" rel="noopener"><img loading="lazy" alt="Satoshi Dice" src="/img/services/satoshidice.webp"></a>
         </div>
         <div class="col-sm-4 col-md-3 vertical-align">
-          <a href="https://rocketr.net/" target="_blank"><img loading="lazy" alt="Rocketr" src="/img/services/rocketr.webp"></a>
+          <a href="https://rocketr.net/" target="_blank" rel="noopener"><img loading="lazy" alt="Rocketr" src="/img/services/rocketr.webp"></a>
         </div>
         <div class="col-sm-4 col-md-3 vertical-align">
-          <a href="https://www.coinpayments.net/" target="_blank"><img loading="lazy" alt="CoinPayments" src="/img/services/coinpayments.webp"></a>
+          <a href="https://www.coinpayments.net/" target="_blank" rel="noopener"><img loading="lazy" alt="CoinPayments" src="/img/services/coinpayments.webp"></a>
         </div>
         <div class="col-sm-4 col-md-3 vertical-align">
-          <a href="https://coingate.com/" target="_blank"><img loading="lazy" alt="CoinGate" src="/img/services/coingate.webp"></a>
+          <a href="https://coingate.com/" target="_blank" rel="noopener"><img loading="lazy" alt="CoinGate" src="/img/services/coingate.webp"></a>
         </div>
         <div class="col-sm-4 col-md-3 vertical-align">
-          <a href="https://www.oxapay.com" target="_blank"><img loading="lazy" alt="OxaPay" src="/img/services/oxapay.webp"></a>
+          <a href="https://www.oxapay.com" target="_blank" rel="noopener"><img loading="lazy" alt="OxaPay" src="/img/services/oxapay.webp"></a>
         </div>
         <div class="col-sm-4 col-md-3 vertical-align">
-          <a href="https://gourl.io/" target="_blank"><img loading="lazy" alt="GoUrl" src="/img/services/gourl.webp"></a>
+          <a href="https://gourl.io/" target="_blank" rel="noopener"><img loading="lazy" alt="GoUrl" src="/img/services/gourl.webp"></a>
         </div>
         <div class="col-sm-4 col-md-3 vertical-align">
-          <a href="https://www.alfacoins.com" target="_blank"><img loading="lazy" alt="ALFAcoins" src="/img/services/alfacoins.webp"></a>
+          <a href="https://www.alfacoins.com" target="_blank" rel="noopener"><img loading="lazy" alt="ALFAcoins" src="/img/services/alfacoins.webp"></a>
         </div>
         <div class="col-sm-4 col-md-3 vertical-align">
-          <a href="https://www.livingroomofsatoshi.com/?sc=bch" target="_blank"><img loading="lazy" alt="Living Room Of Satoshi" src="/img/services/livingroomofsatoshi.webp"></a>
+          <a href="https://www.livingroomofsatoshi.com/?sc=bch" target="_blank" rel="noopener"><img loading="lazy" alt="Living Room Of Satoshi" src="/img/services/livingroomofsatoshi.webp"></a>
         </div>
         <div class="col-sm-4 col-md-3 vertical-align">
-          <a href="https://www.viabtc.com/" target="_blank"><img loading="lazy" alt="ViaBTC" src="/img/services/viabtc.webp"></a>
+          <a href="https://www.viabtc.com/" target="_blank" rel="noopener"><img loading="lazy" alt="ViaBTC" src="/img/services/viabtc.webp"></a>
         </div>
         <div class="col-sm-4 col-md-3 vertical-align">
-          <a href="https://simpleledger.info/" target="_blank"><img loading="lazy" alt="SLP Explorer" src="/img/services/slpexplorer.webp"></a>
+          <a href="https://simpleledger.info/" target="_blank" rel="noopener"><img loading="lazy" alt="SLP Explorer" src="/img/services/slpexplorer.webp"></a>
         </div>
         <div class="col-sm-4 col-md-3 vertical-align">
-          <a href="https://www.wmtransfer.com/" target="_blank"><img loading="lazy" alt="Web Money" src="/img/services/webmoney.webp"></a>
+          <a href="https://www.wmtransfer.com/" target="_blank" rel="noopener"><img loading="lazy" alt="Web Money" src="/img/services/webmoney.webp"></a>
         </div>
         <div class="col-sm-4 col-md-3 vertical-align">
-          <a href="https://bitcoin-india.org/" target="_blank"><img loading="lazy" alt="Bitcoin India" src="/img/services/bitcoinindia.webp"></a>
+          <a href="https://bitcoin-india.org/" target="_blank" rel="noopener"><img loading="lazy" alt="Bitcoin India" src="/img/services/bitcoinindia.webp"></a>
         </div>
         <div class="col-sm-4 col-md-3 vertical-align">
-          <a href="https://www.menufy.com/" target="_blank"><img loading="lazy" alt="Menufy" src="/img/services/menufy.webp"></a>
+          <a href="https://www.menufy.com/" target="_blank" rel="noopener"><img loading="lazy" alt="Menufy" src="/img/services/menufy.webp"></a>
         </div>
         <div class="col-sm-4 col-md-3 vertical-align">
-          <a href="https://card.coinbase.com/" target="_blank"><img loading="lazy" alt="Coinbase Card" src="/img/services/coinbasecard.webp"></a>
+          <a href="https://card.coinbase.com/" target="_blank" rel="noopener"><img loading="lazy" alt="Coinbase Card" src="/img/services/coinbasecard.webp"></a>
         </div>
         <div class="col-sm-4 col-md-3 vertical-align">
-          <a href="https://commerce.coinbase.com" target="_blank"><img loading="lazy" alt="Coinbase Commerce" src="/img/services/coinbasecommerce.webp"></a>
+          <a href="https://commerce.coinbase.com" target="_blank" rel="noopener"><img loading="lazy" alt="Coinbase Commerce" src="/img/services/coinbasecommerce.webp"></a>
         </div>
         <div class="col-sm-4 col-md-3 vertical-align">
-          <a href="https://nexo.io/" target="_blank"><img loading="lazy" alt="Nexo" src="/img/services/nexo.webp"></a>
+          <a href="https://nexo.io/" target="_blank" rel="noopener"><img loading="lazy" alt="Nexo" src="/img/services/nexo.webp"></a>
         </div>
         <div class="col-sm-4 col-md-3 vertical-align">
-          <a href="https://www.egifter.com/" target="_blank"><img loading="lazy" alt="eGifter" src="/img/services/egifter.webp"></a>
+          <a href="https://www.egifter.com/" target="_blank" rel="noopener"><img loading="lazy" alt="eGifter" src="/img/services/egifter.webp"></a>
         </div>
         <div class="col-sm-4 col-md-3 vertical-align">
-          <a href="https://prompt.cash/" target="_blank"><img loading="lazy" alt="Prompt.Cash" src="/img/services/promptcash.webp"></a>
+          <a href="https://prompt.cash/" target="_blank" rel="noopener"><img loading="lazy" alt="Prompt.Cash" src="/img/services/promptcash.webp"></a>
         </div>
         <div class="col-sm-4 col-md-3 vertical-align">
-          <a href="https://coinrabbit.io/" target="_blank"><img loading="lazy" alt="Coin Rabbit" src="/img/services/coinrabbit.svg"></a>
+          <a href="https://coinrabbit.io/" target="_blank" rel="noopener"><img loading="lazy" alt="Coin Rabbit" src="/img/services/coinrabbit.svg"></a>
         </div>
         <div class="col-sm-4 col-md-3 vertical-align">
-          <a href="https://nowpayments.io/" target="_blank"><img loading="lazy" alt="NOWPayments" src="/img/services/nowpayments.svg"></a>
+          <a href="https://nowpayments.io/" target="_blank" rel="noopener"><img loading="lazy" alt="NOWPayments" src="/img/services/nowpayments.svg"></a>
         </div>
         <div class="col-sm-4 col-md-3 vertical-align">
-          <a href="https://coinremitter.com/" target="_blank"><img loading="lazy" alt="Coinremitter" src="/img/services/coinremitter.webp"></a>
+          <a href="https://coinremitter.com/" target="_blank" rel="noopener"><img loading="lazy" alt="Coinremitter" src="/img/services/coinremitter.webp"></a>
         </div>
         <div class="col-sm-4 col-md-3 vertical-align">
-          <a href="https://alchemypay.org/" target="_blank"><img loading="lazy" alt="Alchemy Pay" src="/img/services/alchemypay.webp"></a>
+          <a href="https://alchemypay.org/" target="_blank" rel="noopener"><img loading="lazy" alt="Alchemy Pay" src="/img/services/alchemypay.webp"></a>
         </div>
         <div class="col-sm-4 col-md-3 vertical-align">
-          <a href="https://aeon.xyz/" target="_blank"><img loading="lazy" alt="AEON" src="/img/services/aeon.webp"></a>
+          <a href="https://aeon.xyz/" target="_blank" rel="noopener"><img loading="lazy" alt="AEON" src="/img/services/aeon.webp"></a>
         </div>
       </div>
     </div>
@@ -563,13 +567,13 @@
       </div>
       <div class="row">
         <div class="col-sm-4 col-md-4 vertical-align">
-          <a href="https://blockchair.com/bitcoin-cash" target="_blank"><img loading="lazy" alt="Blockchair" src="/img/explorers/blockchair.webp"></a>
+          <a href="https://blockchair.com/bitcoin-cash" target="_blank" rel="noopener"><img loading="lazy" alt="Blockchair" src="/img/explorers/blockchair.webp"></a>
         </div>
         <div class="col-sm-4 col-md-4 vertical-align">
-          <a href="https://txstreet.com/v/bch-btc" target="_blank"><img loading="lazy" alt="TxStreet" src="/img/explorers/txstreet.webp"></a>
+          <a href="https://txstreet.com/v/bch-btc" target="_blank" rel="noopener"><img loading="lazy" alt="TxStreet" src="/img/explorers/txstreet.webp"></a>
         </div>
         <div class="col-sm-4 col-md-4 vertical-align">
-          <a href="https://bchexplorer.cash" target="_blank"><img loading="lazy" alt="BCH Explorer" src="/img/explorers/bchexplorer.webp"></a>
+          <a href="https://bchexplorer.cash" target="_blank" rel="noopener"><img loading="lazy" alt="BCH Explorer" src="/img/explorers/bchexplorer.webp"></a>
         </div>
       </div>
     </div>
@@ -584,73 +588,73 @@
       </div>
       <div class="row">
         <div class="col-sm-4 col-md-3 vertical-align">
-          <a href="https://cashfusion.org/" target="_blank"><img loading="lazy" alt="CashFusion" src="/img/projects/cashfusion.webp"></a>
+          <a href="https://cashfusion.org/" target="_blank" rel="noopener"><img loading="lazy" alt="CashFusion" src="/img/projects/cashfusion.webp"></a>
         </div>
         <div class="col-sm-4 col-md-3 vertical-align">
-          <a href="https://cashtokens.org/" target="_blank"><img loading="lazy" alt="CashTokens" src="/img/projects/cashtokens.webp"></a>
+          <a href="https://cashtokens.org/" target="_blank" rel="noopener"><img loading="lazy" alt="CashTokens" src="/img/projects/cashtokens.webp"></a>
         </div>
         <div class="col-sm-4 col-md-3 vertical-align">
-          <a href="https://fulcrumserver.org/" target="_blank"><img loading="lazy" alt="Fulcrum" src="/img/projects/fulcrum.webp"></a>
+          <a href="https://fulcrumserver.org/" target="_blank" rel="noopener"><img loading="lazy" alt="Fulcrum" src="/img/projects/fulcrum.webp"></a>
         </div>
         <div class="col-sm-4 col-md-3 vertical-align">
-          <a href="https://flipstarter.cash/" target="_blank"><img loading="lazy" alt="Flipstarter" src="/img/projects/flipstarter.webp"></a>
+          <a href="https://flipstarter.cash/" target="_blank" rel="noopener"><img loading="lazy" alt="Flipstarter" src="/img/projects/flipstarter.webp"></a>
         </div>
         <div class="col-sm-4 col-md-3 vertical-align">
-          <a href="https://cashscript.org/" target="_blank"><img loading="lazy" alt="CashScript" src="/img/projects/cashscript.webp"></a>
+          <a href="https://cashscript.org/" target="_blank" rel="noopener"><img loading="lazy" alt="CashScript" src="/img/projects/cashscript.webp"></a>
         </div>
         <div class="col-sm-4 col-md-3 vertical-align">
-          <a href="https://anyhedge.com/" target="_blank"><img loading="lazy" alt="AnyHedge" src="/img/projects/anyhedge.webp"></a>
+          <a href="https://anyhedge.com/" target="_blank" rel="noopener"><img loading="lazy" alt="AnyHedge" src="/img/projects/anyhedge.webp"></a>
         </div>
         <div class="col-sm-4 col-md-3 vertical-align">
-          <a href="https://chaingraph.cash/" target="_blank"><img loading="lazy" alt="Chaingraph" src="/img/projects/chaingraph.webp"></a>
+          <a href="https://chaingraph.cash/" target="_blank" rel="noopener"><img loading="lazy" alt="Chaingraph" src="/img/projects/chaingraph.webp"></a>
         </div>
         <div class="col-sm-4 col-md-3 vertical-align">
-          <a href="https://libauth.org/" target="_blank"><img loading="lazy" alt="Libauth" src="/img/projects/libauth.webp"></a>
+          <a href="https://libauth.org/" target="_blank" rel="noopener"><img loading="lazy" alt="Libauth" src="/img/projects/libauth.webp"></a>
         </div>
         <div class="col-sm-4 col-md-3 vertical-align">
-          <a href="https://ide.bitauth.com/" target="_blank"><img loading="lazy" alt="Bitauth IDE" src="/img/projects/bitauth-ide.webp"></a>
+          <a href="https://ide.bitauth.com/" target="_blank" rel="noopener"><img loading="lazy" alt="Bitauth IDE" src="/img/projects/bitauth-ide.webp"></a>
         </div>
         <div class="col-sm-4 col-md-3 vertical-align">
-          <a href="https://eatbch.org/" target="_blank"><img loading="lazy" alt="EatBCH" src="/img/projects/eatbch.webp"></a>
+          <a href="https://eatbch.org/" target="_blank" rel="noopener"><img loading="lazy" alt="EatBCH" src="/img/projects/eatbch.webp"></a>
         </div>
         <div class="col-sm-4 col-md-3 vertical-align">
-          <a href="https://slp.dev/" target="_blank"><img loading="lazy" alt="SLP Dev" src="/img/projects/slpdev.webp"></a>
+          <a href="https://slp.dev/" target="_blank" rel="noopener"><img loading="lazy" alt="SLP Dev" src="/img/projects/slpdev.webp"></a>
         </div>
         <div class="col-sm-4 col-md-3 vertical-align">
-          <a href="https://givecrypto.org/" target="_blank"><img loading="lazy" alt="GiveCrypto" src="/img/projects/givecrypto.webp"></a>
+          <a href="https://givecrypto.org/" target="_blank" rel="noopener"><img loading="lazy" alt="GiveCrypto" src="/img/projects/givecrypto.webp"></a>
         </div>
         <div class="col-sm-4 col-md-3 vertical-align">
-          <a href="https://bitcoincashresearch.org/" target="_blank"><img loading="lazy" alt="Bitcoin Cash Research" src="/img/projects/bitcoincashresearch.webp"></a>
+          <a href="https://bitcoincashresearch.org/" target="_blank" rel="noopener"><img loading="lazy" alt="Bitcoin Cash Research" src="/img/projects/bitcoincashresearch.webp"></a>
         </div>
         <div class="col-sm-4 col-md-3 vertical-align">
-          <a href="https://minisatoshi.cash" target="_blank"><img loading="lazy" alt="minisatoshi" src="/img/projects/minisatoshi.svg"></a>
+          <a href="https://minisatoshi.cash" target="_blank" rel="noopener"><img loading="lazy" alt="minisatoshi" src="/img/projects/minisatoshi.svg"></a>
         </div>
         <div class="col-sm-4 col-md-3 vertical-align">
-          <a href="https://awesomebitcoin.cash/" target="_blank"><img loading="lazy" alt="Awesome Bitcoin Cash" src="/img/projects/awesomebitcoincash.webp"></a>
+          <a href="https://awesomebitcoin.cash/" target="_blank" rel="noopener"><img loading="lazy" alt="Awesome Bitcoin Cash" src="/img/projects/awesomebitcoincash.webp"></a>
         </div>
         <div class="col-sm-4 col-md-3 vertical-align">
-          <a href="https://fountainhead.cash/" target="_blank"><img loading="lazy" alt="Fountainhead" src="/img/projects/fountainhead.webp"></a>
+          <a href="https://fountainhead.cash/" target="_blank" rel="noopener"><img loading="lazy" alt="Fountainhead" src="/img/projects/fountainhead.webp"></a>
         </div>
         <div class="col-sm-4 col-md-3 vertical-align">
-          <a href="https://one.surgery/" target="_blank"><img loading="lazy" alt="One Surgery" src="/img/projects/onesurgery.webp"></a>
+          <a href="https://one.surgery/" target="_blank" rel="noopener"><img loading="lazy" alt="One Surgery" src="/img/projects/onesurgery.webp"></a>
         </div>
         <div class="col-sm-4 col-md-3 vertical-align">
-          <a href="https://spedn.pl/" target="_blank"><img loading="lazy" alt="Spedn" src="/img/projects/spedn.webp"></a>
+          <a href="https://spedn.pl/" target="_blank" rel="noopener"><img loading="lazy" alt="Spedn" src="/img/projects/spedn.webp"></a>
         </div>
         <div class="col-sm-4 col-md-3 vertical-align">
-          <a href="https://tapswap.cash/" target="_blank"><img loading="lazy" alt="TapSwap" src="/img/projects/tapswap.webp"></a>
+          <a href="https://tapswap.cash/" target="_blank" rel="noopener"><img loading="lazy" alt="TapSwap" src="/img/projects/tapswap.webp"></a>
         </div>
         <div class="col-sm-4 col-md-3 vertical-align">
-          <a href="https://tokenaut.cash/" target="_blank"><img loading="lazy" alt="Tokenaut" src="/img/projects/tokenaut.webp"></a>
+          <a href="https://tokenaut.cash/" target="_blank" rel="noopener"><img loading="lazy" alt="Tokenaut" src="/img/projects/tokenaut.webp"></a>
         </div>
         <div class="col-sm-4 col-md-3 vertical-align">
-          <a href="https://nfts.bch.guru/" target="_blank"><img loading="lazy" alt="BCH.Guru" src="/img/projects/guru.webp"></a>
+          <a href="https://nfts.bch.guru/" target="_blank" rel="noopener"><img loading="lazy" alt="BCH.Guru" src="/img/projects/guru.webp"></a>
         </div>
         <div class="col-sm-4 col-md-3 vertical-align">
-          <a href="https://ninjas.cash/" target="_blank"><img loading="lazy" alt="Cash-Ninjas" src="/img/projects/cashninjas.webp"></a>
+          <a href="https://ninjas.cash/" target="_blank" rel="noopener"><img loading="lazy" alt="Cash-Ninjas" src="/img/projects/cashninjas.webp"></a>
         </div>
         <div class="col-sm-4 col-md-3 vertical-align">
-          <a href="https://reapers.cash/" target="_blank"><img loading="lazy" alt="Reapers" src="/img/projects/reapers.webp"></a>
+          <a href="https://reapers.cash/" target="_blank" rel="noopener"><img loading="lazy" alt="Reapers" src="/img/projects/reapers.webp"></a>
         </div>
       </div>
     </div>
@@ -665,136 +669,136 @@
       </div>
       <div class="row">
         <div class="col-sm-4 col-md-3 vertical-align">
-          <a href="https://thorswap.finance/" target="_blank"><img loading="lazy" alt="THORSwap" src="/img/exchanges/thorswap.webp"></a>
+          <a href="https://thorswap.finance/" target="_blank" rel="noopener"><img loading="lazy" alt="THORSwap" src="/img/exchanges/thorswap.webp"></a>
         </div>
         <div class="col-sm-4 col-md-3 vertical-align">
-          <a href="https://www.okx.com/" target="_blank"><img loading="lazy" alt="OKX" src="/img/exchanges/okx.webp"></a>
+          <a href="https://www.okx.com/" target="_blank" rel="noopener"><img loading="lazy" alt="OKX" src="/img/exchanges/okx.webp"></a>
         </div>
         <div class="col-sm-4 col-md-3 vertical-align">
-          <a href="https://www.coinbase.com/" target="_blank"><img loading="lazy" alt="Coinbase" src="/img/exchanges/coinbase.webp"></a>
+          <a href="https://www.coinbase.com/" target="_blank" rel="noopener"><img loading="lazy" alt="Coinbase" src="/img/exchanges/coinbase.webp"></a>
         </div>
         <div class="col-sm-4 col-md-3 vertical-align">
-          <a href="https://pro.coinbase.com/" target="_blank"><img loading="lazy" alt="Coinbase Pro" src="/img/exchanges/coinbasepro.webp"></a>
+          <a href="https://pro.coinbase.com/" target="_blank" rel="noopener"><img loading="lazy" alt="Coinbase Pro" src="/img/exchanges/coinbasepro.webp"></a>
         </div>
         <div class="col-sm-4 col-md-3 vertical-align">
-          <a href="https://www.binance.com/" target="_blank"><img loading="lazy" alt="Binance" src="/img/exchanges/binance.webp"></a>
+          <a href="https://www.binance.com/" target="_blank" rel="noopener"><img loading="lazy" alt="Binance" src="/img/exchanges/binance.webp"></a>
         </div>
         <div class="col-sm-4 col-md-3 vertical-align">
-          <a href="https://bit.com/" target="_blank"><img loading="lazy" alt="Bit" src="/img/exchanges/bit.webp"></a>
+          <a href="https://bit.com/" target="_blank" rel="noopener"><img loading="lazy" alt="Bit" src="/img/exchanges/bit.webp"></a>
         </div>
         <div class="col-sm-4 col-md-3 vertical-align">
-          <a href="https://www.kraken.com/" target="_blank"><img loading="lazy" alt="Kraken" src="/img/exchanges/kraken.webp"></a>
+          <a href="https://www.kraken.com/" target="_blank" rel="noopener"><img loading="lazy" alt="Kraken" src="/img/exchanges/kraken.webp"></a>
         </div>
         <div class="col-sm-4 col-md-3 vertical-align">
-          <a href="https://www.etoro.com/" target="_blank"><img loading="lazy" alt="eToro" src="/img/exchanges/etoro.webp"></a>
+          <a href="https://www.etoro.com/" target="_blank" rel="noopener"><img loading="lazy" alt="eToro" src="/img/exchanges/etoro.webp"></a>
         </div>
         <div class="col-sm-4 col-md-3 vertical-align">
-          <a href="https://buda.com/" target="_blank"><img loading="lazy" alt="Buda" src="/img/exchanges/buda.webp"></a>
+          <a href="https://buda.com/" target="_blank" rel="noopener"><img loading="lazy" alt="Buda" src="/img/exchanges/buda.webp"></a>
         </div>
         <div class="col-sm-4 col-md-3 vertical-align">
-          <a href="https://gemini.com/" target="_blank"><img loading="lazy" alt="Gemini" src="/img/exchanges/gemini.webp"></a>
+          <a href="https://gemini.com/" target="_blank" rel="noopener"><img loading="lazy" alt="Gemini" src="/img/exchanges/gemini.webp"></a>
         </div>
         <div class="col-sm-4 col-md-3 vertical-align">
-          <a href="https://uphold.com/" target="_blank"><img loading="lazy" alt="Uphold" src="/img/exchanges/uphold.webp"></a>
+          <a href="https://uphold.com/" target="_blank" rel="noopener"><img loading="lazy" alt="Uphold" src="/img/exchanges/uphold.webp"></a>
         </div>
         <div class="col-sm-4 col-md-3 vertical-align">
-          <a href="https://sideshift.ai/" target="_blank"><img loading="lazy" alt="Sideshift AI" src="/img/exchanges/sideshiftai.webp"></a>
+          <a href="https://sideshift.ai/" target="_blank" rel="noopener"><img loading="lazy" alt="Sideshift AI" src="/img/exchanges/sideshiftai.webp"></a>
         </div>
         <div class="col-sm-4 col-md-3 vertical-align">
-          <a href="https://shapeshift.com/" target="_blank"><img loading="lazy" alt="ShapeShift" src="/img/exchanges/shapeshift.webp"></a>
+          <a href="https://shapeshift.com/" target="_blank" rel="noopener"><img loading="lazy" alt="ShapeShift" src="/img/exchanges/shapeshift.webp"></a>
         </div>
         <div class="col-sm-4 col-md-3 vertical-align">
-          <a href="https://www.coinex.com/" target="_blank"><img loading="lazy" alt="Coinex" src="/img/exchanges/coinex.webp"></a>
+          <a href="https://www.coinex.com/" target="_blank" rel="noopener"><img loading="lazy" alt="Coinex" src="/img/exchanges/coinex.webp"></a>
         </div>
         <div class="col-sm-4 col-md-3 vertical-align">
-          <a href="https://cex.io/" target="_blank"><img loading="lazy" alt="Cexio" src="/img/exchanges/cexio.webp"></a>
+          <a href="https://cex.io/" target="_blank" rel="noopener"><img loading="lazy" alt="Cexio" src="/img/exchanges/cexio.webp"></a>
         </div>
         <div class="col-sm-4 col-md-3 vertical-align">
-          <a href="https://www.korbit.co.kr/" target="_blank"><img loading="lazy" alt="Korbit" src="/img/exchanges/korbit.webp"></a>
+          <a href="https://www.korbit.co.kr/" target="_blank" rel="noopener"><img loading="lazy" alt="Korbit" src="/img/exchanges/korbit.webp"></a>
         </div>
         <div class="col-sm-4 col-md-3 vertical-align">
-          <a href="https://www.btcbox.co.jp/" target="_blank"><img loading="lazy" alt="BtcBox" src="/img/exchanges/btcbox.webp"></a>
+          <a href="https://www.btcbox.co.jp/" target="_blank" rel="noopener"><img loading="lazy" alt="BtcBox" src="/img/exchanges/btcbox.webp"></a>
         </div>
         <div class="col-sm-4 col-md-3 vertical-align">
-          <a href="https://changelly.com/" target="_blank"><img loading="lazy" alt="Changelly" src="/img/exchanges/changelly.webp"></a>
+          <a href="https://changelly.com/" target="_blank" rel="noopener"><img loading="lazy" alt="Changelly" src="/img/exchanges/changelly.webp"></a>
         </div>
         <div class="col-sm-4 col-md-3 vertical-align">
-          <a href="https://btcpop.co/" target="_blank"><img loading="lazy" alt="BTCPOP" src="/img/exchanges/btcpop.webp"></a>
+          <a href="https://btcpop.co/" target="_blank" rel="noopener"><img loading="lazy" alt="BTCPOP" src="/img/exchanges/btcpop.webp"></a>
         </div>
         <div class="col-sm-4 col-md-3 vertical-align">
-          <a href="https://hitbtc.com/" target="_blank"><img loading="lazy" alt="HitBTC" src="/img/exchanges/hitbtc.webp"></a>
+          <a href="https://hitbtc.com/" target="_blank" rel="noopener"><img loading="lazy" alt="HitBTC" src="/img/exchanges/hitbtc.webp"></a>
         </div>
         <div class="col-sm-4 col-md-3 vertical-align">
-          <a href="https://www.bithumb.com/" target="_blank"><img loading="lazy" alt="Bithumb" src="/img/exchanges/bithumb.webp"></a>
+          <a href="https://www.bithumb.com/" target="_blank" rel="noopener"><img loading="lazy" alt="Bithumb" src="/img/exchanges/bithumb.webp"></a>
         </div>
         <div class="col-sm-4 col-md-3 vertical-align">
-          <a href="https://bitcoinvn.io" target="_blank"><img loading="lazy" alt="BitcoinVN" src="/img/exchanges/bitcoinvietnam.webp"></a>
+          <a href="https://bitcoinvn.io" target="_blank" rel="noopener"><img loading="lazy" alt="BitcoinVN" src="/img/exchanges/bitcoinvietnam.webp"></a>
         </div>
         <div class="col-sm-4 col-md-3 vertical-align">
-          <a href="https://coinone.co.kr/" target="_blank"><img loading="lazy" alt="Coinone" src="/img/exchanges/coinone.webp"></a>
+          <a href="https://coinone.co.kr/" target="_blank" rel="noopener"><img loading="lazy" alt="Coinone" src="/img/exchanges/coinone.webp"></a>
         </div>
         <div class="col-sm-4 col-md-3 vertical-align">
-          <a href="https://simplefx.com/" target="_blank"><img loading="lazy" alt="SimpleFX" src="/img/exchanges/simplefx.webp"></a>
+          <a href="https://simplefx.com/" target="_blank" rel="noopener"><img loading="lazy" alt="SimpleFX" src="/img/exchanges/simplefx.webp"></a>
         </div>
         <div class="col-sm-4 col-md-3 vertical-align">
-          <a href="https://bitflyer.jp/" target="_blank"><img loading="lazy" alt="bitFlyer" src="/img/exchanges/bitflyer.webp"></a>
+          <a href="https://bitflyer.jp/" target="_blank" rel="noopener"><img loading="lazy" alt="bitFlyer" src="/img/exchanges/bitflyer.webp"></a>
         </div>
         <div class="col-sm-4 col-md-3 vertical-align">
-          <a href="https://poloniex.com/" target="_blank"><img loading="lazy" alt="Poloniex" src="/img/exchanges/poloniex.webp"></a>
+          <a href="https://poloniex.com/" target="_blank" rel="noopener"><img loading="lazy" alt="Poloniex" src="/img/exchanges/poloniex.webp"></a>
         </div>
         <div class="col-sm-4 col-md-3 vertical-align">
-          <a href="https://www.bitcoin.de/" target="_blank"><img loading="lazy" alt="Bitcoin.de" src="/img/exchanges/bitcoinde.webp"></a>
+          <a href="https://www.bitcoin.de/" target="_blank" rel="noopener"><img loading="lazy" alt="Bitcoin.de" src="/img/exchanges/bitcoinde.webp"></a>
         </div>
         <div class="col-sm-4 col-md-3 vertical-align">
-          <a href="https://karsha.biz/" target="_blank"><img loading="lazy" alt="Karsha Exchange" src="/img/exchanges/karsha.webp"></a>
+          <a href="https://karsha.biz/" target="_blank" rel="noopener"><img loading="lazy" alt="Karsha Exchange" src="/img/exchanges/karsha.webp"></a>
         </div>
         <div class="col-sm-4 col-md-3 vertical-align">
-          <a href="https://www.independentreserve.com/" target="_blank"><img loading="lazy" alt="Independent Reserve" src="/img/exchanges/independentreserve.webp"></a>
+          <a href="https://www.independentreserve.com/" target="_blank" rel="noopener"><img loading="lazy" alt="Independent Reserve" src="/img/exchanges/independentreserve.webp"></a>
         </div>
         <div class="col-sm-4 col-md-3 vertical-align">
-          <a href="https://changenow.io/" target="_blank"><img loading="lazy" alt="ChangeNOW" src="/img/exchanges/changenow.webp"></a>
+          <a href="https://changenow.io/" target="_blank" rel="noopener"><img loading="lazy" alt="ChangeNOW" src="/img/exchanges/changenow.webp"></a>
         </div>
         <div class="col-sm-4 col-md-3 vertical-align">
-          <a href="https://www.bitstamp.net/" target="_blank"><img loading="lazy" alt="Bitstamp" src="/img/exchanges/bitstamp.webp"></a>
+          <a href="https://www.bitstamp.net/" target="_blank" rel="noopener"><img loading="lazy" alt="Bitstamp" src="/img/exchanges/bitstamp.webp"></a>
         </div>
         <div class="col-sm-4 col-md-3 vertical-align">
-          <a href="https://bestrate.org/" target="_blank"><img loading="lazy" alt="BestRate" src="/img/exchanges/bestrate.webp"></a>
+          <a href="https://bestrate.org/" target="_blank" rel="noopener"><img loading="lazy" alt="BestRate" src="/img/exchanges/bestrate.webp"></a>
         </div>
         <div class="col-sm-4 col-md-3 vertical-align">
-          <a href="https://coinfalcon.com" target="_blank"><img loading="lazy" alt="CoinFalcon" src="/img/exchanges/coinfalcon.webp"></a>
+          <a href="https://coinfalcon.com" target="_blank" rel="noopener"><img loading="lazy" alt="CoinFalcon" src="/img/exchanges/coinfalcon.webp"></a>
         </div>
         <div class="col-sm-4 col-md-3 vertical-align">
-          <a href="https://exmo.com" target="_blank"><img loading="lazy" alt="Exmo" src="/img/exchanges/exmo.webp"></a>
+          <a href="https://exmo.com" target="_blank" rel="noopener"><img loading="lazy" alt="Exmo" src="/img/exchanges/exmo.webp"></a>
         </div>
         <div class="col-sm-4 col-md-3 vertical-align">
-          <a href="https://coincheck.com" target="_blank"><img loading="lazy" alt="Coincheck" src="/img/exchanges/coincheck.webp"></a>
+          <a href="https://coincheck.com" target="_blank" rel="noopener"><img loading="lazy" alt="Coincheck" src="/img/exchanges/coincheck.webp"></a>
         </div>
         <div class="col-sm-4 col-md-3 vertical-align">
-          <a href="https://crypto.com/" target="_blank"><img loading="lazy" alt="Crypto" src="/img/exchanges/crypto.webp"></a>
+          <a href="https://crypto.com/" target="_blank" rel="noopener"><img loading="lazy" alt="Crypto" src="/img/exchanges/crypto.webp"></a>
         </div>
         <div class="col-sm-4 col-md-3 vertical-align">
-          <a href="https://www.matrixport.com/" target="_blank"><img loading="lazy" alt="Matrixport" src="/img/exchanges/matrixport.webp"></a>
+          <a href="https://www.matrixport.com/" target="_blank" rel="noopener"><img loading="lazy" alt="Matrixport" src="/img/exchanges/matrixport.webp"></a>
         </div>
         <div class="col-sm-4 col-md-3 vertical-align">
-          <a href="https://stealthex.io/" target="_blank"><img loading="lazy" alt="StealthEx" src="/img/exchanges/stealthex.webp"></a>
+          <a href="https://stealthex.io/" target="_blank" rel="noopener"><img loading="lazy" alt="StealthEx" src="/img/exchanges/stealthex.webp"></a>
         </div>
         <div class="col-sm-4 col-md-3 vertical-align">
-          <a href="https://bitvavo.com/en/bitcoin-cash" target="_blank"><img loading="lazy" alt="Bitvavo" src="/img/exchanges/bitvavo.webp"></a>
+          <a href="https://bitvavo.com/en/bitcoin-cash" target="_blank" rel="noopener"><img loading="lazy" alt="Bitvavo" src="/img/exchanges/bitvavo.webp"></a>
         </div>
         <div class="col-sm-4 col-md-3 vertical-align">
-          <a href="https://swapzone.io" target="_blank"><img loading="lazy" alt="Swapzone" src="/img/exchanges/swapzone.webp"></a>
+          <a href="https://swapzone.io" target="_blank" rel="noopener"><img loading="lazy" alt="Swapzone" src="/img/exchanges/swapzone.webp"></a>
         </div>
         <div class="col-sm-6 col-md-3 vertical-align">
-          <a href="https://www.whalesheaven.com/" target="_blank"><img loading="lazy" alt="WhalesHeaven" src="/img/exchanges/whalesheaven.webp"></a>
+          <a href="https://www.whalesheaven.com/" target="_blank" rel="noopener"><img loading="lazy" alt="WhalesHeaven" src="/img/exchanges/whalesheaven.webp"></a>
         </div>
         <div class="col-sm-6 col-md-3 vertical-align">
-          <a href="https://simpleswap.io" target="_blank"><img loading="lazy" alt="SimpleSwap" src="/img/exchanges/simpleswap_blue.svg"></a>
+          <a href="https://simpleswap.io" target="_blank" rel="noopener"><img loading="lazy" alt="SimpleSwap" src="/img/exchanges/simpleswap_blue.svg"></a>
         </div>
         <div class="col-sm-6 col-md-3 vertical-align">
-           <a href="https://flashift.app" target="_blank"><img loading="lazy" alt="FLASHIFT" src="/img/exchanges/flashift.webp"></a>
+           <a href="https://flashift.app" target="_blank" rel="noopener"><img loading="lazy" alt="FLASHIFT" src="/img/exchanges/flashift.webp"></a>
          </div>
         <div class="col-sm-6 col-md-3 vertical-align">
-           <a href="https://cyphergoat.com" target="_blank"><img loading="lazy" alt="CypherGoat" src="/img/exchanges/cyphergoat.webp"></a>
+           <a href="https://cyphergoat.com" target="_blank" rel="noopener"><img loading="lazy" alt="CypherGoat" src="/img/exchanges/cyphergoat.webp"></a>
          </div>
       </div>
     </div>
@@ -808,12 +812,12 @@
         <div class="col-sm-6 text-right text-center-xs">
           <ul class="social-list list-inline list--hover">
             <li>
-              <a href="https://www.reddit.com/r/Bitcoincash/" target="_blank">
+              <a href="https://www.reddit.com/r/Bitcoincash/" target="_blank" rel="noopener">
                 <i class="socicon socicon-reddit icon icon--xs"></i>
               </a>
             </li>
             <li>
-              <a href="https://github.com/zquestz/bitcoincash" target="_blank">
+              <a href="https://github.com/zquestz/bitcoincash" target="_blank" rel="noopener">
                 <i class="socicon socicon-github icon icon--xs"></i>
               </a>
             </li>
