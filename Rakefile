@@ -7,6 +7,21 @@ require 'i18n'
 require "i18n/backend/fallbacks"
 require 'digest'
 require 'time'
+require 'terser'
+require 'sass-embedded'
+
+def js_minify(input_files, output_file)
+  input = input_files.map { |f| File.read(f) }.join("\n")
+  File.write(output_file, Terser.compile(input, output: { comments: :none }))
+  puts "Minified #{output_file}"
+end
+
+def css_minify(input_files, output_file)
+  input = input_files.map { |f| File.read(f) }.join("\n")
+  result = Sass.compile_string(input, style: :compressed, syntax: :css)
+  File.write(output_file, result.css)
+  puts "Minified #{output_file}"
+end
 
 namespace :docker do
   desc "build docker images"
@@ -19,18 +34,36 @@ end
 namespace :css do
   desc "minify css files"
   task :minify do
-    puts `juicer merge html/css/deps.css html/css/bootstrap.css html/css/stack-interface.css html/css/socicon.css --force`
-    puts `juicer merge html/css/theme.css html/css/custom.css --force`
-    puts `juicer merge html/css/custom.css --force`
+    css_minify(
+      ['html/css/deps.css', 'html/css/bootstrap.css', 'html/css/stack-interface.css', 'html/css/socicon.css'],
+      'html/css/deps.min.css'
+    )
+    css_minify(
+      ['html/css/theme.css', 'html/css/custom.css'],
+      'html/css/theme.min.css'
+    )
+    css_minify(
+      ['html/css/custom.css'],
+      'html/css/custom.min.css'
+    )
   end
 end
 
 namespace :js do
   desc "minify js files"
   task :minify do
-    puts `juicer merge html/js/jquery.easing.1.3.js --force`
-    puts `juicer merge html/js/scripts.js html/js/main.js --force`
-    puts `juicer merge html/js/ticker.js --force`
+    js_minify(
+      ['html/js/jquery.easing.1.3.js'],
+      'html/js/jquery.easing.1.3.min.js'
+    )
+    js_minify(
+      ['html/js/scripts.js', 'html/js/main.js'],
+      'html/js/scripts.min.js'
+    )
+    js_minify(
+      ['html/js/ticker.js'],
+      'html/js/ticker.min.js'
+    )
   end
 end
 
