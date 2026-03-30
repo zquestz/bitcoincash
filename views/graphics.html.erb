@@ -12,6 +12,10 @@
     <meta property="og:title" content="<%= I18n.t(:'meta.graphics.og.title').strip %>">
     <meta property="og:description" content="<%= I18n.t(:'meta.graphics.og.description').strip %>">
     <meta property="og:image" content="https://www.bitcoincash.org/img/bitcoincash-twitter.webp">
+    <%- I18n.available_locales.sort.each do |locale| -%>
+    <link rel="alternate" hreflang="<%= locale.to_s.downcase %>" href="https://bitcoincash.org/<%= locale.to_s.downcase %>/graphics/">
+    <%- end -%>
+    <link rel="alternate" hreflang="x-default" href="https://bitcoincash.org/graphics/">
     <%- if ['ar', 'fa'].include?(I18n.locale.to_s.split('-').first) %>
       <style>
         section { direction: rtl; }
@@ -21,13 +25,13 @@
     <link href="/css/deps.min.css?v=<%= Digest::SHA256.file 'html/css/deps.min.css' %>" rel="stylesheet" type="text/css" media="all">
     <link href="/css/custom.min.css?v=<%= Digest::SHA256.file 'html/css/custom.min.css' %>" rel="stylesheet" type="text/css" media="all">
     <link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet" type="text/css" media="all">
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-17656782-2"></script>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-4P1RG1J9TQ"></script>
     <script>
       window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments)};
+      function gtag(){dataLayer.push(arguments);}
       gtag('js', new Date());
 
-      gtag('config', 'UA-17656782-2');
+      gtag('config', 'G-4P1RG1J9TQ');
     </script>
   </head>
   <body>
@@ -73,7 +77,7 @@
               <div class="row">
                 <div class="col-md-8 col-md-offset-2 subtext">
                   <h3><%= I18n.t(:'graphics.download_png_svg').strip %></h3>
-                  <h4><a href="/img/Bitcoin-Cash-Logos.zip" target="_blank"><%= I18n.t(:'graphics.download_all').strip %></a></h4>
+                  <h4><a href="/img/Bitcoin-Cash-Logos.zip" target="_blank" rel="noopener"><%= I18n.t(:'graphics.download_all').strip %></a></h4>
                 </div>
               </div>
             </div>
@@ -168,12 +172,12 @@
               <div class="font">
                 <h3><%= I18n.t(:'graphics.identity.font').strip %></h3>
                 <h4 class="font-color-sample" style="font-weight:bold">ABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890?!%</h4>
-                <a href="https://fonts.google.com/specimen/Ubuntu?selection.family=Ubuntu:700" class="btn btn-primary" target="_blank"><%= I18n.t(:'graphics.identity.download').strip %></a>
+                <a href="https://fonts.google.com/specimen/Ubuntu?selection.family=Ubuntu:700" class="btn btn-primary" target="_blank" rel="noopener"><%= I18n.t(:'graphics.identity.download').strip %></a>
               </div>
               <div class="font">
                 <h3><%= I18n.t(:'graphics.identity.font_italic').strip %></h3>
                 <h4 class="font-color-sample" style="font-style:italic">ABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890?!%</h4>
-                <a href="https://fonts.google.com/specimen/Ubuntu?selection.family=Ubuntu:700i" class="btn btn-primary" target="_blank"><%= I18n.t(:'graphics.identity.download').strip %></a>
+                <a href="https://fonts.google.com/specimen/Ubuntu?selection.family=Ubuntu:700i" class="btn btn-primary" target="_blank" rel="noopener"><%= I18n.t(:'graphics.identity.download').strip %></a>
               </div>
             </div>
             <div class="col-md-6">
@@ -217,12 +221,12 @@
             <div class="col-sm-6 text-right text-center-xs">
               <ul class="social-list list-inline list--hover">
                 <li>
-                  <a href="https://www.reddit.com/r/Bitcoincash/" target="_blank">
+                  <a href="https://www.reddit.com/r/Bitcoincash/" target="_blank" rel="noopener">
                     <i class="socicon socicon-reddit icon icon--xs"></i>
                   </a>
                 </li>
                 <li>
-                  <a href="https://github.com/zquestz/bitcoincash" target="_blank">
+                  <a href="https://github.com/zquestz/bitcoincash" target="_blank" rel="noopener">
                     <i class="socicon socicon-github icon icon--xs"></i>
                   </a>
                 </li>
