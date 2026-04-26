@@ -95,6 +95,7 @@ eo:
     bitcoin_cash: "Bitcoin Cash"
     lead: "Samtavola elektra mono"
     loading: "Ŝarĝante..."
+    join_chat: "Aliĝu al la babilado"
   features:
     - 
       title: "Rapida"

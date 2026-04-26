@@ -95,6 +95,7 @@ hi:
     bitcoin_cash: "बिटकॉइन कैश"
     lead: "पीयर-टू-पीयर इलेक्ट्रॉनिक कैश"
     loading: "लोड हो रहा है..."
+    join_chat: "चैट में शामिल हों"
   features:
     - 
       title: "तेज"

@@ -95,6 +95,7 @@ el:
     bitcoin_cash: "Bitcoin Cash"
     lead: "Ψηφιακό νόμισμα απο άτομο σε άτομο (P2P)"
     loading: "Φόρτωση..."
+    join_chat: "Συμμετέχετε στη συζήτηση"
   features:
     - 
       title: "Γρήγορα"

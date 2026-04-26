@@ -95,6 +95,7 @@ fr:
     bitcoin_cash: "Bitcoin Cash"
     lead: "Argent liquide électronique pair-à-pair"
     loading: "Chargement..."
+    join_chat: "Rejoindre le chat"
   features:
     - 
       title: "Rapide"

@@ -34,6 +34,7 @@ de-CH:
     bitcoin_cash: "Bitcoin Cash"
     lead: "Die elektronischi Peer-to-Peer Währig"
     loading: "Am ladä..."
+    join_chat: "Chat beiträtte"
   features:
     - title: "Schnäll"
       description: "Mach Gschäft innert Sekundä. Bechum d Bestätigung innert Minutä."

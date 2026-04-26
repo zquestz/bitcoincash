@@ -95,6 +95,7 @@ ru:
     bitcoin_cash: "Bitcoin Cash"
     lead: "Bitcoin Cash - Пиринговая Цифровая Валюта"
     loading: "Загрузка..."
+    join_chat: "Присоединиться к чату"
   features:
     - 
       title: "Быстро"

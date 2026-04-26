@@ -95,6 +95,7 @@ it:
     bitcoin_cash: "Bitcoin Cash"
     lead: "Denaro Digitale Peer-to-Peer"
     loading: "Caricamento..."
+    join_chat: "Unisciti alla chat"
   features:
     - 
       title: "Veloce"

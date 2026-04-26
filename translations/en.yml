@@ -96,6 +96,7 @@ en:
     bitcoin_cash: "Bitcoin Cash"
     lead: "Peer-to-Peer Electronic Cash"
     loading: "Loading..."
+    join_chat: "Join the chat"
   features:
     - title: "Fast"
       description: "Transact in seconds. Get confirmed in minutes."

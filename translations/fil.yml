@@ -95,6 +95,7 @@ fil:
     bitcoin_cash: "Bitcoin Cash"
     lead: "Elektronikong Pera para sa Kapwa-sa-Kapwa"
     loading: "Hintayin..."
+    join_chat: "Sumali sa chat"
   features:
     - 
       title: "Mabilis"

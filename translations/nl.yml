@@ -95,6 +95,7 @@ nl:
     bitcoin_cash: "Bitcoin Cash"
     lead: "Peer-to-Peer Digitaal Geld"
     loading: "Laden..."
+    join_chat: "Neem deel aan de chat"
   features:
     - 
       title: "Snel"

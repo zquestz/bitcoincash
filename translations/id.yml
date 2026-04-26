@@ -95,6 +95,7 @@ id:
     bitcoin_cash: "Bitcoin Cash"
     lead: "Mata Uang P2P Elektronik"
     loading: "Memuat..."
+    join_chat: "Bergabung dalam obrolan"
   features:
     - 
       title: "Cepat"

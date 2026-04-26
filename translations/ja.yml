@@ -95,6 +95,7 @@ ja:
     bitcoin_cash: "ビットコインキャッシュ"
     lead: "ピアツーピアの電子通貨"
     loading: "読み込み中..."
+    join_chat: "チャットに参加"
   features:
     - 
       title: "速い"

@@ -95,6 +95,7 @@ pl:
     bitcoin_cash: "Bitcoin Cash"
     lead: "Elektroniczny pieniądz Peer-to-Peer"
     loading: "Wczytywanie..."
+    join_chat: "Dołącz do czatu"
   features:
     - 
       title: "Szybki"

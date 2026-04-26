@@ -95,6 +95,7 @@ ms:
     bitcoin_cash: "Bitcoin Cash"
     lead: "P2P Tunai Elektronik"
     loading: "Tengah Muat Turun..."
+    join_chat: " sertai sembang"
   features:
     - 
       title: "Cepat"

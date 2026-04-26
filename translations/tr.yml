@@ -95,6 +95,7 @@ tr:
     bitcoin_cash: "Bitcoin Cash"
     lead: "Kişiden Kişiye Elektronik Nakit"
     loading: "Yükleniyor..."
+    join_chat: "Sohbete katıl"
   features:
     - 
       title: "Hızlı"

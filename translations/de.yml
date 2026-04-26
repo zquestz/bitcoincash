@@ -95,6 +95,7 @@ de:
     bitcoin_cash: "Bitcoin Cash"
     lead: "Eine elektronische Peer-to-Peer Währung"
     loading: "Lädt..."
+    join_chat: "Chat beitreten"
   features:
     - 
       title: "Schnell"

@@ -95,6 +95,7 @@ pt:
     bitcoin_cash: "Bitcoin Cash"
     lead: "Dinheiro eletrônico de pessoa para pessoa"
     loading: "Carregando..."
+    join_chat: "Entre no chat"
   features:
     - 
       title: "Rápido"

@@ -95,6 +95,7 @@ fa:
     bitcoin_cash: "بیت کوین کش"
     lead: "پول الکترونیکی همتا به همتا"
     loading: "در حال بارگذاری..."
+    join_chat: "به گپ بپیوندید"
   features:
     - 
       title: "سریع"

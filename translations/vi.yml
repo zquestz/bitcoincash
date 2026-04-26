@@ -95,6 +95,7 @@ vi:
     bitcoin_cash: "Bitcoin Cash"
     lead: "Tiền Điện Tử Trực Tiếp Peer-to- Peer"
     loading: "Đang tải..."
+    join_chat: "Tham gia trò chuyện"
   features:
     - 
       title: "Nhanh chóng"

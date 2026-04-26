@@ -95,6 +95,7 @@ uk:
     bitcoin_cash: "Bitcoin Cash"
     lead: "Пірінгова цифрова валюта"
     loading: "Завантаження..."
+    join_chat: "Приєднатися до чату"
   features:
     - 
       title: "Швидко"

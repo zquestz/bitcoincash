@@ -95,6 +95,7 @@ hu:
     bitcoin_cash: "Bitcoin Cash"
     lead: "Ponttól-pontig elektronikus fizetőeszköz"
     loading: "Betöltés..."
+    join_chat: "Csatlakozz a csevegéshez"
   features:
     - 
       title: "Gyors"

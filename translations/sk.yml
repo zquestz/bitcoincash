@@ -34,6 +34,7 @@ sk:
     bitcoin_cash: "Bitcoin Cash"
     lead: "Peer-to-Peer Digitálna Mena"
     loading: "Nahrávanie..."
+    join_chat: "Pripojiť sa k chatu"
   features:
     - title: "Rýchla"
       description: "Odosielajte v sekunde. Buďte potvrdení v minútach."

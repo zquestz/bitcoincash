@@ -95,6 +95,7 @@ zh-TW:
     bitcoin_cash: "比特幣現金"
     lead: "點對點數位現金"
     loading: "載入中..."
+    join_chat: "加入聊天"
   features:
     - 
       title: "快速"
