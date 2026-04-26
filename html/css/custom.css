@@ -1772,7 +1772,7 @@ h6 {
 .btn.btn-primary:active,
 .btn.btn-primary:focus {
   box-shadow: none;
-  background: #0ac18e;
+  background: #4fd1a0 !important;
 }
 .btn:hover,
 .btn:active,
