@@ -26,6 +26,7 @@ de-CH:
     wallets: "Wallets"
     community: "Community"
     services: "Diänscht"
+    explorers: "Upptäcktsresande"
     projects: "Projäkt"
     exchanges: "Börsä"
     faq: "FAQ"
@@ -33,6 +34,7 @@ de-CH:
     bitcoin_cash: "Bitcoin Cash"
     lead: "Die elektronischi Peer-to-Peer Währig"
     loading: "Am ladä..."
+    join_chat: "Chat beiträtte"
   features:
     - title: "Schnäll"
       description: "Mach Gschäft innert Sekundä. Bechum d Bestätigung innert Minutä."
@@ -52,6 +54,7 @@ de-CH:
     nodes: "Nodes"
     wallets: "Wallets"
     services: "Diänscht"
+    explorers: "Upptäcktsresande"
     projects: "Projäkt"
     exchanges: "Börsä"
     faq: "Hüüfig gstellti Frage"

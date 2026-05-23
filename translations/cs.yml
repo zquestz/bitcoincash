@@ -26,6 +26,7 @@ cs:
     wallets: "Peněženky"
     community: "Komunita"
     services: "Služby"
+    explorers: "Průzkumníci"
     projects: "Projekty"
     exchanges: "Burzy"
     faq: "FAQ"
@@ -33,6 +34,7 @@ cs:
     bitcoin_cash: "Bitcoin Cash"
     lead: "Peer-to-Peer Digitální Měna"
     loading: "Nahrávání..."
+    join_chat: "Připojit se k chatu"
   features:
     - title: "Rychlá"
       description: "Odesílejte ve vteřině, získejte potvrzení v minutách."
@@ -52,6 +54,7 @@ cs:
     nodes: "Uzly"
     wallets: "Peněženky"
     services: "Služby"
+    explorers: "Průzkumníci"
     projects: "Projekty"
     exchanges: "Burzy a Směnárny"
     faq: "Často kladené otázky"
