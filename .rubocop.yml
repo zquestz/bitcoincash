@@ -1,0 +1,14 @@
+plugins:
+  - rubocop-rake
+
+AllCops:
+  TargetRubyVersion: 3.4
+  NewCops: enable
+
+Metrics/BlockLength:
+  # Rake DSL blocks are declarative and legitimately long — treat them like
+  # the built-in `refine` exemption rather than ordinary blocks.
+  AllowedMethods:
+    - refine      # keep RuboCop's default exemption
+    - namespace
+    - task
