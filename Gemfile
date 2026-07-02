@@ -7,3 +7,4 @@ gem 'mini_racer'
 gem 'sass-embedded'
 gem "nokogiri"
 gem 'htmlbeautifier'
+gem 'herb'

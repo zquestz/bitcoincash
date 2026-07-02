@@ -4,9 +4,6 @@ GEM
     bigdecimal (4.1.2)
     concurrent-ruby (1.3.7)
     execjs (2.10.1)
-    google-protobuf (4.35.1)
-      bigdecimal
-      rake (~> 13.3)
     google-protobuf (4.35.1-arm64-darwin)
       bigdecimal
       rake (~> 13.3)
@@ -16,19 +13,17 @@ GEM
     google-protobuf (4.35.1-x86_64-linux-gnu)
       bigdecimal
       rake (~> 13.3)
+    herb (0.10.1-arm64-darwin)
+    herb (0.10.1-x86_64-darwin)
+    herb (0.10.1-x86_64-linux-gnu)
     htmlbeautifier (1.4.3)
     i18n (1.15.2)
       concurrent-ruby (~> 1.0)
-    libv8-node (24.12.0.1)
     libv8-node (24.12.0.1-arm64-darwin)
     libv8-node (24.12.0.1-x86_64-darwin)
     libv8-node (24.12.0.1-x86_64-linux)
-    mini_portile2 (2.8.9)
     mini_racer (0.21.4)
       libv8-node (~> 24.12.0.1)
-    nokogiri (1.19.4)
-      mini_portile2 (~> 2.8.2)
-      racc (~> 1.4)
     nokogiri (1.19.4-arm64-darwin)
       racc (~> 1.4)
     nokogiri (1.19.4-x86_64-darwin)
@@ -37,9 +32,6 @@ GEM
       racc (~> 1.4)
     racc (1.8.1)
     rake (13.4.2)
-    sass-embedded (1.101.0)
-      google-protobuf (~> 4.31)
-      rake (>= 13)
     sass-embedded (1.101.0-arm64-darwin)
       google-protobuf (~> 4.31)
     sass-embedded (1.101.0-x86_64-darwin)
@@ -50,12 +42,11 @@ GEM
       execjs (>= 0.3.0, < 3)
 
 PLATFORMS
-  ruby
   universal-darwin-20
-  x86_64-darwin-18
   x86_64-linux
 
 DEPENDENCIES
+  herb
   htmlbeautifier
   i18n
   mini_racer

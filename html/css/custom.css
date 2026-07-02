@@ -287,6 +287,7 @@ h6 {
   right: 0;
   z-index: -1;
   -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
 }
 .edge--bottom:after {
   bottom: 0;
@@ -308,6 +309,7 @@ h6 {
   right: 0;
   z-index: -1;
   -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
 }
 .edge--bottom--reverse:after {
   bottom: 0;
@@ -329,6 +331,7 @@ h6 {
   right: 0;
   z-index: -1;
   -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
 }
 .edge--top:before {
   top: 0;
@@ -350,6 +353,7 @@ h6 {
   right: 0;
   z-index: -1;
   -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
 }
 .edge--top--reverse:before {
   top: 0;
@@ -372,6 +376,7 @@ h6 {
   right: 0;
   z-index: -1;
   -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
 }
 .edge--both:before {
   top: 0;
@@ -399,6 +404,7 @@ h6 {
   right: 0;
   z-index: -1;
   -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
 }
 .edge--both--reverse:before {
   top: 0;
@@ -616,6 +622,7 @@ h6 {
   z-index: 2;
   opacity: 0.9;
   -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
   background-color: #0ac18e;
   /* IE9, iOS 3.2+ */
   background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIHZpZXdCb3g9IjAgMCAxIDEiIHByZXNlcnZlQXNwZWN0UmF0aW89Im5vbmUiPjxsaW5lYXJHcmFkaWVudCBpZD0idnNnZyIgZ3JhZGllbnRVbml0cz0idXNlclNwYWNlT25Vc2UiIHgxPSIwJSIgeTE9IjAlIiB4Mj0iMTAwJSIgeTI9IjEwMCUiPjxzdG9wIHN0b3AtY29sb3I9IiMzZjk1ZWEiIHN0b3Atb3BhY2l0eT0iMSIgb2Zmc2V0PSIwIi8+PHN0b3Agc3RvcC1jb2xvcj0iIzUyZDNhYSIgc3RvcC1vcGFjaXR5PSIxIiBvZmZzZXQ9IjEiLz48L2xpbmVhckdyYWRpZW50PjxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxIiBoZWlnaHQ9IjEiIGZpbGw9InVybCgjdnNnZykiIC8+PC9zdmc+);
@@ -827,7 +834,7 @@ h6 {
   flex-grow: 1;
   background-size: cover;
   position: relative;
-  backgroun-repeat: no-repeat;
+  background-repeat: no-repeat;
 }
 @media screen and (max-width: 768px) {
   #fh5co-intro .fh5co-block {
@@ -1089,7 +1096,6 @@ h6 {
   display: -moz-inline-stack;
   display: inline-block;
   zoom: scale(1);
-  *display: inline;
 }
 #fh5co-services .icon:before {
   color: #fff;
@@ -1613,7 +1619,6 @@ h6 {
   display: -moz-inline-stack;
   display: inline-block;
   zoom: scale(1);
-  *display: inline;
   width: 25px;
   height: 3px;
   color: #0ac18e;
@@ -1642,14 +1647,6 @@ h6 {
 
 .fh5co-nav-toggle i::after {
   bottom: -7px;
-}
-
-.fh5co-nav-toggle:hover i::before {
-  top: -10px;
-}
-
-.fh5co-nav-toggle:hover i::after {
-  bottom: -10px;
 }
 
 .fh5co-nav-toggle.active i {
@@ -1681,10 +1678,8 @@ h6 {
 
 .fh5co-nav-toggle {
   position: absolute;
-  top: 2px;
   right: 0px;
   z-index: 21;
-  padding: 6px 0 0 0;
   display: block;
   margin: 0 auto;
   display: none;
@@ -1873,6 +1868,7 @@ h6 {
 .mfp-with-zoom.mfp-bg {
   opacity: 0;
   -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
   /* ideally, transition speed should match zoom duration */
   -webkit-transition: all 0.3s ease-out;
   -moz-transition: all 0.3s ease-out;
@@ -1954,7 +1950,9 @@ h6 {
   right: 1.85714286em;
   bottom: 3.71428571em;
   padding-top: 12px;
-  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  box-shadow:
+    0 1px 3px rgba(0, 0, 0, 0.12),
+    0 1px 2px rgba(0, 0, 0, 0.24);
   box-shadow: 0px 0px 25px 0px rgba(0, 0, 0, 0.04);
   z-index: 99;
   border: 1px solid #ececec;
@@ -2256,4 +2254,12 @@ footer.footer-7 {
     margin-left: auto;
     margin-right: auto;
   }
+}
+
+/* Nav toggle is a <button> — strip native button chrome so the hamburger renders cleanly */
+.fh5co-nav-toggle {
+  background: none;
+  border: 0;
+  -webkit-appearance: none;
+  appearance: none;
 }

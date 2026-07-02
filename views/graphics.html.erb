@@ -35,12 +35,12 @@
     </script>
   </head>
   <body>
-    <a href="#" id="start"></a>
+    <span id="start"></span>
     <header id="fh5co-header">
       <div class="container">
         <nav class="navbar navbar-default">
           <div class="navbar-header">
-            <a href="#" class="js-fh5co-nav-toggle fh5co-nav-toggle" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar"><i></i></a>
+            <button type="button" class="js-fh5co-nav-toggle fh5co-nav-toggle" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar"><i></i></button>
             <a class="navbar-brand" href="../">
               <img loading="lazy" src="/img/bitcoin-cash-logo-horizontal.svg" alt="Bitcoin Cash" class="darkit">
               <img loading="lazy" src="/img/bitcoin-cash-logo-horizontal-wt.svg" alt="Bitcoin Cash" class="lightit">
@@ -49,9 +49,9 @@
           <div id="navbar" class="navbar-collapse collapse">
             <ul class="nav navbar-nav navbar-right">
               <li class="active"><a href="../" class="external" data-nav-section="home"><span><%= I18n.t(:'graphics.sections.home').strip %></span></a></li>
-              <li><a href="#" data-nav-section="logos"><span><%= I18n.t(:'graphics.sections.logos').strip %></span></a></li>
-              <li><a href="#" data-nav-section="merchant"><span><%= I18n.t(:'graphics.sections.merchant').strip %></span></a></li>
-              <li><a href="#" data-nav-section="identity"><span><%= I18n.t(:'graphics.sections.identity').strip %></span></a></li>
+              <li><a href="#fh5co-logos" data-nav-section="logos"><span><%= I18n.t(:'graphics.sections.logos').strip %></span></a></li>
+              <li><a href="#fh5co-merchant" data-nav-section="merchant"><span><%= I18n.t(:'graphics.sections.merchant').strip %></span></a></li>
+              <li><a href="#fh5co-identity" data-nav-section="identity"><span><%= I18n.t(:'graphics.sections.identity').strip %></span></a></li>
             </ul>
           </div>
         </nav>
