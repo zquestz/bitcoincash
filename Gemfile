@@ -8,3 +8,5 @@ gem 'sass-embedded'
 gem "nokogiri"
 gem 'htmlbeautifier'
 gem 'herb'
+gem 'ruby-lsp'
+gem 'solargraph'

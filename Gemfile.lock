@@ -1,8 +1,16 @@
 GEM
   remote: https://rubygems.org/
   specs:
+    ast (2.4.3)
+    backport (1.2.0)
+    benchmark (0.5.0)
     bigdecimal (4.1.2)
+    commander (5.0.0)
+      highline (~> 3.0.0)
     concurrent-ruby (1.3.7)
+    date (3.5.1)
+    diff-lcs (1.6.2)
+    erb (6.0.4)
     execjs (2.10.1)
     google-protobuf (4.35.1-arm64-darwin)
       bigdecimal
@@ -16,12 +24,22 @@ GEM
     herb (0.10.1-arm64-darwin)
     herb (0.10.1-x86_64-darwin)
     herb (0.10.1-x86_64-linux-gnu)
+    highline (3.0.1)
     htmlbeautifier (1.4.3)
     i18n (1.15.2)
       concurrent-ruby (~> 1.0)
+    jaro_winkler (1.7.0)
+    json (2.20.0)
+    kramdown (2.5.2)
+      rexml (>= 3.4.4)
+    kramdown-parser-gfm (1.1.0)
+      kramdown (~> 2.0)
+    language_server-protocol (3.17.0.5)
     libv8-node (24.12.0.1-arm64-darwin)
     libv8-node (24.12.0.1-x86_64-darwin)
     libv8-node (24.12.0.1-x86_64-linux)
+    lint_roller (1.1.0)
+    logger (1.7.0)
     mini_racer (0.21.4)
       libv8-node (~> 24.12.0.1)
     nokogiri (1.19.4-arm64-darwin)
@@ -30,16 +48,109 @@ GEM
       racc (~> 1.4)
     nokogiri (1.19.4-x86_64-linux-gnu)
       racc (~> 1.4)
+    observer (0.1.2)
+    open3 (0.2.1)
+    ostruct (0.6.3)
+    parallel (2.1.0)
+    parlour (9.1.2)
+      commander (~> 5.0)
+      parser
+      rainbow (~> 3.0)
+      sorbet-runtime (>= 0.5)
+    parser (3.3.11.1)
+      ast (~> 2.4.1)
+      racc
+    prism (1.9.0)
+    psych (5.4.0)
+      date
+      stringio
     racc (1.8.1)
+    rainbow (3.1.1)
     rake (13.4.2)
+    rbs (4.0.3)
+      logger
+      prism (>= 1.6.0)
+      tsort
+    rdoc (7.2.0)
+      erb
+      psych (>= 4.0.0)
+      tsort
+    regexp_parser (2.12.0)
+    reverse_markdown (3.0.2)
+      nokogiri
+    rexml (3.4.4)
+    rubocop (1.88.1)
+      json (~> 2.3)
+      language_server-protocol (~> 3.17.0.2)
+      lint_roller (~> 1.1.0)
+      parallel (>= 1.10)
+      parser (>= 3.3.0.2)
+      rainbow (>= 2.2.2, < 4.0)
+      regexp_parser (>= 2.9.3, < 3.0)
+      rubocop-ast (>= 1.49.0, < 2.0)
+      ruby-progressbar (~> 1.7)
+      unicode-display_width (>= 2.4.0, < 4.0)
+    rubocop-ast (1.49.1)
+      parser (>= 3.3.7.2)
+      prism (~> 1.7)
+    ruby-lsp (0.26.9)
+      language_server-protocol (~> 3.17.0)
+      prism (>= 1.2, < 2.0)
+      rbs (>= 3, < 5)
+    ruby-progressbar (1.13.0)
     sass-embedded (1.101.0-arm64-darwin)
       google-protobuf (~> 4.31)
     sass-embedded (1.101.0-x86_64-darwin)
       google-protobuf (~> 4.31)
     sass-embedded (1.101.0-x86_64-linux-gnu)
       google-protobuf (~> 4.31)
+    solargraph (0.60.2)
+      ast (~> 2.4.3)
+      backport (~> 1.2)
+      benchmark (~> 0.4)
+      bundler (>= 2.0)
+      diff-lcs (~> 1.4)
+      jaro_winkler (~> 1.6, >= 1.6.1)
+      kramdown (~> 2.3)
+      kramdown-parser-gfm (~> 1.1)
+      logger (~> 1.6)
+      observer (~> 0.1)
+      open3 (~> 0.2.1)
+      ostruct (~> 0.6)
+      parser (~> 3.0)
+      prism (~> 1.4)
+      rbs (>= 3.10.0)
+      rdoc (~> 7.0)
+      reverse_markdown (~> 3.0)
+      rubocop (~> 1.76)
+      sord (~> 7.0)
+      thor (~> 1.0)
+      tilt (~> 2.0)
+      yard (~> 0.9, >= 0.9.24)
+      yard-activesupport-concern (~> 0.0)
+      yard-solargraph (~> 0.1)
+    sorbet-runtime (0.6.13322)
+    sord (7.1.0)
+      commander (~> 5.0)
+      parlour (~> 9.1)
+      parser
+      rbs (>= 3.0, < 5)
+      sorbet-runtime
+      yard
+    stringio (3.2.0)
     terser (1.2.7)
       execjs (>= 0.3.0, < 3)
+    thor (1.5.0)
+    tilt (2.7.0)
+    tsort (0.2.0)
+    unicode-display_width (3.2.0)
+      unicode-emoji (~> 4.1)
+    unicode-emoji (4.2.0)
+    yard (0.9.44)
+    yard-activesupport-concern (0.0.1)
+      yard (>= 0.8)
+    yard-solargraph (0.1.0)
+      yard (~> 0.9)
 
 PLATFORMS
   universal-darwin-20
@@ -52,7 +163,9 @@ DEPENDENCIES
   mini_racer
   nokogiri
   rake
+  ruby-lsp
   sass-embedded
+  solargraph
   terser
 
 BUNDLED WITH
