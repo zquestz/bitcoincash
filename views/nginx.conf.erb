@@ -72,6 +72,10 @@ server {
         index index.html;
     }
 <% end %>
+    location /pt/ {
+        rewrite ^/pt/(.*)$ /pt-br/$1 permanent;
+    }
+
     location ~*  \.(jpg|jpeg|png|gif|ico|svg|ttf|webp)$ {
         expires 1y;
     }

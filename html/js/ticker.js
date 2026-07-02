@@ -17,8 +17,8 @@ function ticker(currencies) {
     $.ajax({
         type: "GET",
         url:
-            "https://min-api.cryptocompare.com/data/price?fsym=BCH&tsyms=" +
-            currencies,
+            "https://api.coingecko.com/api/v3/simple/price?ids=bitcoin-cash&vs_currencies=" +
+            currencies.toLowerCase(),
         contentType: "application/json; charset=utf-8",
         timeout: 6000,
         error: function (x, t, m) {
@@ -26,17 +26,20 @@ function ticker(currencies) {
                 $("#ticker_value").html("N/A");
             }
         },
-        success: function (currencyRates) {
+        success: function (response) {
             var output = [];
+            var currencyRates = response["bitcoin-cash"] || {};
 
             $.each(currencyRates, function (currency, price) {
-                var sym = symbols[currency];
+                var sym = symbols[currency.toUpperCase()];
 
                 if (sym === undefined) {
                     return;
                 }
 
-                output.push("BCH/" + currency + "&nbsp;" + sym + price);
+                output.push(
+                    "BCH/" + currency.toUpperCase() + "&nbsp;" + sym + price
+                );
             });
 
             if (output.length > 0) {
