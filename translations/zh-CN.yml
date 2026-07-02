@@ -75,8 +75,8 @@ zh-CN:
       pantone: "Pantone"
   misc:
     logo: "标志"
-    dropdown_md_width: 3
-    dropdown_sm_width: 3
+    dropdown_md_class: col-md-3
+    dropdown_sm_class: col-sm-3
   sections:
     about: "关于"
     features: "功能"

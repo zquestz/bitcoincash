@@ -75,8 +75,8 @@ fa:
       pantone: "پانتون"
   misc:
     logo: "نماد تجاری"
-    dropdown_md_width: 3
-    dropdown_sm_width: 3
+    dropdown_md_class: col-md-3
+    dropdown_sm_class: col-sm-3
   sections:
     about: "درباره"
     features: "ویژگی‌ها"

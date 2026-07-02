@@ -59,19 +59,17 @@
                   <span><%= I18n.t(:'sections.wallets').strip %></span>
                 </a>
               </li>
-              <%- if !I18n.t(:'content.why').is_a?(String) %>
-                <li>
+              <li>
+                <%- if !I18n.t(:'content.why').is_a?(String) %>
                   <a href="#why" data-nav-section="why" class="inner-link">
                     <span><%= I18n.t(:'sections.benefits').strip %></span>
                   </a>
-                </li>
-              <%- else %>
-                <li>
+                <%- else %>
                   <a href="#why" data-nav-section="faq" class="inner-link">
                     <span><%= I18n.t(:'sections.faq').strip %></span>
                   </a>
-                </li>
-              <%- end %>
+                <%- end %>
+              </li>
               <li>
                 <a href="#nodes" data-nav-section="nodes" class="inner-link">
                   <span><%= I18n.t(:'sections.nodes').strip %></span>
@@ -82,7 +80,7 @@
                 <div class="dropdown__container">
                   <div class="container">
                     <div class="row">
-                      <div class="dropdown__content col-md-<%= I18n.t(:'misc.dropdown_md_width') %> col-sm-<%= I18n.t(:'misc.dropdown_sm_width') %>">
+                      <div class="dropdown__content <%= I18n.t(:'misc.dropdown_md_class') %> <%= I18n.t(:'misc.dropdown_sm_class') %>">
                         <ul class="menu-vertical">
                           <li>
                             <a href="#services" data-nav-section="services" class="inner-link">
@@ -489,9 +487,6 @@
           <a href="https://www.coinpayments.net/" target="_blank" rel="noopener"><img loading="lazy" alt="CoinPayments" src="/img/services/coinpayments.webp"></a>
         </div>
         <div class="col-sm-4 col-md-3 vertical-align">
-          <a href="https://coingate.com/" target="_blank" rel="noopener"><img loading="lazy" alt="CoinGate" src="/img/services/coingate.webp"></a>
-        </div>
-        <div class="col-sm-4 col-md-3 vertical-align">
           <a href="https://www.oxapay.com" target="_blank" rel="noopener"><img loading="lazy" alt="OxaPay" src="/img/services/oxapay.webp"></a>
         </div>
         <div class="col-sm-4 col-md-3 vertical-align">
@@ -825,7 +820,7 @@
             </li>
             <li>
               <a href="https://matrix.to/#/#bitcoincashtalk:matrix.org" title="Matrix" target="_blank" rel="noopener">
-                <img loading="lazy" alt="Matrix" src="/img/socials/matrix.svg" width="28" height="32" style="display:inline-block;vertical-align:center;" />
+                <img loading="lazy" alt="Matrix" src="/img/socials/matrix.svg" width="28" height="32" style="display:inline-block;vertical-align:center;">
               </a>
             </li>
           </ul>

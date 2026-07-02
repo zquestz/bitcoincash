@@ -75,8 +75,8 @@ pt-PT:
       pantone: "Pantone"
   misc:
     logo: "logotipo"
-    dropdown_md_width: 3
-    dropdown_sm_width: 3
+    dropdown_md_class: col-md-3
+    dropdown_sm_class: col-sm-3
   sections:
     about: "Sobre"
     features: "Funcionalidades"

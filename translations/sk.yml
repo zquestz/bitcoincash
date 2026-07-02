@@ -17,8 +17,8 @@ sk:
           Bitcoin Cash prináša svetu skvelú menu. Obchodníkom a uživateľom Bitcoin Cash ponúka nízke transakčné poplatky a spolahlivé overenie transakcií. Čaká nás žiarivá budúcnosť neobmedzeného rastu, globálnej adopcie, neobmedzenej inovácie a decentralizovaného vývoja.
   misc:
     logo: "logo"
-    dropdown_md_width: 2
-    dropdown_sm_width: 3
+    dropdown_md_class: col-md-2
+    dropdown_sm_class: col-sm-3
   sections:
     about: "Informácie"
     features: "Vlastnosti"

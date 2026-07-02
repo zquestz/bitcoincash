@@ -75,8 +75,8 @@ tr:
       pantone: "Pantone"
   misc:
     logo: "logo"
-    dropdown_md_width: 2
-    dropdown_sm_width: 3
+    dropdown_md_class: col-md-2
+    dropdown_sm_class: col-sm-3
   sections:
     about: "Hakkında"
     features: "Özellikler"
