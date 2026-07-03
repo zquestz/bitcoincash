@@ -1,6 +1,3 @@
-# Herb linter configuration.
-# Version is pinned so upgrading Herb won't silently enable newly-introduced
-# rules (they'd be gated until this version is bumped intentionally).
 version: "0.10.1"
 
 linter:

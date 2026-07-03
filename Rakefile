@@ -8,7 +8,6 @@ require 'fileutils'
 require 'i18n'
 require 'i18n/backend/fallbacks'
 require 'digest'
-require 'time'
 require 'terser'
 require 'sass-embedded'
 

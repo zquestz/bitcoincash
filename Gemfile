@@ -4,6 +4,8 @@ ruby '~> 3.4'
 
 source 'https://rubygems.org'
 
+gem 'digest'
+gem 'fileutils'
 gem 'herb'
 gem 'htmlbeautifier'
 gem 'i18n'
