@@ -305,7 +305,7 @@
         </div>
       </div>
     </section>
-    <%- if !I18n.t(:'content.faq').is_a?(String) %>
+    <%- if !I18n.t(:'content.faq').is_a?(String) -%>
       <span id="faq"></span>
       <section class="space--xxs" id="faq-section" data-section="faq">
         <div class="container">
@@ -316,17 +316,17 @@
           </div>
           <div class="row">
             <div class="col-xs-12">
-              <% I18n.t(:'content.faq').each do |qa| %><%= ' ' * 16 %>
+              <%- I18n.t(:'content.faq').each do |qa| -%>
                 <p class="question"><%= qa[:question].strip %></p>
                 <%= qa[:answer].map { |a| "<p>#{a.strip}</p>" }.join("\n#{' ' * 14}") %>
-              <%- end %>
+              <%- end -%>
             </div>
           </div>
         </div>
     </section>
-  <%- end %>
-  <span id="why"></span>
-  <%- if !I18n.t(:'content.why').is_a?(String) %>
+  <%- end -%>
+  <%- if !I18n.t(:'content.why').is_a?(String) -%>
+    <span id="why"></span>
     <section class="space--xxs" id="why-section" data-section="why">
       <div class="container">
         <div class="row text-center">
@@ -336,16 +336,16 @@
         </div>
         <div class="row">
           <div class="col-xs-12">
-            <%- I18n.t(:'content.why').each do |qa| %>
+            <%- I18n.t(:'content.why').each do |qa| -%>
               <p class="question"><%= qa[:benefit].strip %></p>
               <%= qa[:descrip].map { |a| "<p>#{a.strip}</p>" }.join("\n#{' ' * 14}") %>
-            <%- end %>
+            <%- end -%>
           </div>
         </div>
       </div>
     </section>
-  <%- end %>
-  <%- if !I18n.t(:'content.benefits').is_a?(String) %>
+  <%- end -%>
+  <%- if !I18n.t(:'content.benefits').is_a?(String) -%>
     <section class="space--xxs" id="merchant-benefits-section" data-section="benefits">
       <div class="container">
         <div class="row text-center">
@@ -355,16 +355,16 @@
         </div>
         <div class="row">
           <div class="col-xs-12">
-            <%- I18n.t(:'content.benefits').each do |qa| %>
+            <%- I18n.t(:'content.benefits').each do |qa| -%>
               <p class="question"><%= qa[:benefit].strip %></p>
               <%= qa[:descrip].map { |a| "<p>#{a.strip}</p>" }.join("\n#{' ' * 14}") %>
-            <%- end %>
+            <%- end -%>
           </div>
         </div>
       </div>
     </section>
-  <%- end %>
-  <%- if !I18n.t(:'content.history').is_a?(String) %>
+  <%- end -%>
+  <%- if !I18n.t(:'content.history').is_a?(String) -%>
     <section class="space--xxs" id="history-section"  data-section="history">
       <div class="container">
         <div class="row text-center">
@@ -379,8 +379,8 @@
         </div>
       </div>
     </section>
-  <%- end %>
-  <%- if !I18n.t(:'content.development').is_a?(String) %>
+  <%- end -%>
+  <%- if !I18n.t(:'content.development').is_a?(String) -%>
     <section class="space--xxs" id="development-section"  data-section="development">
       <div class="container">
         <div class="row text-center">
@@ -395,7 +395,7 @@
         </div>
       </div>
     </section>
-  <%- end %>
+  <%- end -%>
   <span id="nodes"></span>
   <section class="space--xxs text-center gray border-bottom" id="nodes-section"  data-section="nodes">
     <div class="container nodes">
