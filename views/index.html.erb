@@ -318,7 +318,7 @@
             <div class="col-xs-12">
               <%- I18n.t(:'content.faq').each do |qa| -%>
                 <p class="question"><%= qa[:question].strip %></p>
-                <%= qa[:answer].map { |a| "<p>#{a.strip}</p>" }.join("\n#{' ' * 14}") %>
+                <%= qa[:answer].map { |a| "<p>#{a.strip}</p>" }.join("\n#{' ' * 16}") %>
               <%- end -%>
             </div>
           </div>
@@ -338,7 +338,7 @@
           <div class="col-xs-12">
             <%- I18n.t(:'content.why').each do |qa| -%>
               <p class="question"><%= qa[:benefit].strip %></p>
-              <%= qa[:descrip].map { |a| "<p>#{a.strip}</p>" }.join("\n#{' ' * 14}") %>
+              <%= qa[:descrip].map { |a| "<p>#{a.strip}</p>" }.join("\n#{' ' * 16}") %>
             <%- end -%>
           </div>
         </div>
@@ -357,7 +357,7 @@
           <div class="col-xs-12">
             <%- I18n.t(:'content.benefits').each do |qa| -%>
               <p class="question"><%= qa[:benefit].strip %></p>
-              <%= qa[:descrip].map { |a| "<p>#{a.strip}</p>" }.join("\n#{' ' * 14}") %>
+              <%= qa[:descrip].map { |a| "<p>#{a.strip}</p>" }.join("\n#{' ' * 16}") %>
             <%- end -%>
           </div>
         </div>
